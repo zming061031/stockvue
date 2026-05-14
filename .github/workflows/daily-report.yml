@@ -25,7 +25,7 @@ jobs:
       - name: Run StockVue daily report
         run: python daily_runner.py
 
-      - name: Verify dashboard exists
+- name: Verify dashboard exists
         run: |
           if [ ! -f dashboard.html ]; then
             echo "ERROR: dashboard.html was not created"
@@ -33,13 +33,13 @@ jobs:
           fi
           echo "dashboard.html exists: $(ls -la dashboard.html)"
 
-      - name: Setup Pages
+      - name: Prepare artifact directory
         uses: actions/configure-pages@v4
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dashboard.html
+          path: ./dist
 
       - name: Deploy to GitHub Pages
         id: deployment
