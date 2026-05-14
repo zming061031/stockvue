@@ -461,6 +461,7 @@ def fetch_hk_stocks(cfg: dict):
             info = yf.Ticker(ticker).info
             price = info.get('currentPrice') or info.get('regularMarketPrice')
             change = info.get('regularMarketChangePercent', 0)
+            logger.info(f"  {ticker}: price={price}, change={change}%, min_change={min_change}%")
             if price and change is not None and change >= min_change:
                 indicators = compute_indicators_for_stock(ticker, lookback=25)
                 record = {
@@ -474,7 +475,7 @@ def fetch_hk_stocks(cfg: dict):
                                                     require_ma5=tf.get("ma5_required", False),
                                                     require_ma20=tf.get("ma20_required", True),
                                                     confluence_min=confluence_min):
-                        logger.debug(f"  {ticker}: filtered out by tech indicators rsi={indicators.get('rsi')} vol={indicators.get('vol_ratio')} confluence={indicators.get('confluence', 0)}")
+                        logger.info(f"  {ticker}: FILTERED rsi={indicators.get('rsi'):.1f} vol={indicators.get('vol_ratio'):.2f} confluence={indicators.get('confluence', 0)}")
                         continue
                 ict_data = analyze_with_ict(ticker, lookback=50)
                 if ict_data:
@@ -488,8 +489,9 @@ def fetch_hk_stocks(cfg: dict):
                     record['ob_count'] = ict_data.get('order_blocks', 0)
                     record['liquidity_sweeps'] = ict_data.get('liquidity_sweeps', 0)
                 results.append(record)
+                logger.info(f"  {ticker}: ADDED change={change:.2f}%")
         except Exception as e:
-            logger.debug(f"  {ticker}: {e}")
+            logger.warning(f"  {ticker}: ERROR {e}")
     results.sort(key=lambda x: x['change_pct'], reverse=True)
     result = results[:sc["max_results"]]
     logger.info(f"  HK: {len(result)} stocks passed screening")
@@ -514,6 +516,7 @@ def fetch_us_stocks(cfg: dict):
             info = yf.Ticker(ticker).info
             price = info.get('currentPrice') or info.get('regularMarketPrice')
             change = info.get('regularMarketChangePercent', 0)
+            logger.info(f"  {ticker}: price={price}, change={change}%, min_change={min_change}%")
             if price and change is not None and change >= min_change:
                 indicators = compute_indicators_for_stock(ticker, lookback=25)
                 record = {
@@ -527,7 +530,7 @@ def fetch_us_stocks(cfg: dict):
                                                     require_ma5=tf.get("ma5_required", False),
                                                     require_ma20=tf.get("ma20_required", True),
                                                     confluence_min=confluence_min):
-                        logger.debug(f"  {ticker}: filtered out by tech indicators rsi={indicators.get('rsi')} vol={indicators.get('vol_ratio')} confluence={indicators.get('confluence', 0)}")
+                        logger.info(f"  {ticker}: FILTERED rsi={indicators.get('rsi'):.1f} vol={indicators.get('vol_ratio'):.2f} confluence={indicators.get('confluence', 0)}")
                         continue
                 ict_data = analyze_with_ict(ticker, lookback=50)
                 if ict_data:
@@ -541,8 +544,9 @@ def fetch_us_stocks(cfg: dict):
                     record['ob_count'] = ict_data.get('order_blocks', 0)
                     record['liquidity_sweeps'] = ict_data.get('liquidity_sweeps', 0)
                 results.append(record)
+                logger.info(f"  {ticker}: ADDED change={change:.2f}%")
         except Exception as e:
-            logger.debug(f"  {ticker}: {e}")
+            logger.warning(f"  {ticker}: ERROR {e}")
     results.sort(key=lambda x: x['change_pct'], reverse=True)
     result = results[:sc["max_results"]]
     logger.info(f"  US: {len(result)} stocks passed screening")
