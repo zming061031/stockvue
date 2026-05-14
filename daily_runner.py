@@ -13,19 +13,14 @@ StockVue - Unified Daily Runner v2.0
 import sys
 import io
 import os
-import re
-import logging
-import yaml
-import requests
-import akshare as ak
-import yfinance as yf
-from datetime import datetime
-from tenacity import retry, stop_after_attempt, wait_exponential
-from report_formatter import generate_rich_report, generate_html_dashboard
-from ict_smc_analyzer import ICTSMCAnalyzer, Candle, analyze_stock_ict
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
-sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+# Only wrap on Windows (where sys.stdout.buffer may cause issues with TextIOWrapper)
+try:
+    if platform.system() == 'Windows' and hasattr(sys.stdout, 'buffer'):
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+except Exception:
+    pass
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(BASE_DIR, "config.yaml")
