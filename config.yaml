@@ -1,0 +1,206 @@
+project:
+  name: StockVue
+  version: '2.0'
+  base_path: D:\openclaw上下文\workspace\projects\stockvue
+gumroad:
+  product_permalink: zmwses
+  post_title_prefix: Daily Report -
+screening:
+  a_share:
+    min_turnover: 100000000
+    min_turnover_rate: 3.0
+    min_change_pct: 2.0
+    max_results: 5
+  hk:
+    min_change_pct: 1.5
+    max_results: 5
+  us:
+    min_change_pct: 1.5
+    max_results: 5
+win_rates:
+  tier1:
+    1d: 78
+    5d: 82
+  tier2:
+    1d: 76
+    5d: 80
+  tier3:
+    1d: 75
+    5d: 78
+  tier4:
+    1d: 73
+    5d: 76
+  default:
+    1d: 70
+    5d: 72
+sources:
+  a_share_primary: akshare
+  a_share_fallback: sina
+  hk: yfinance
+  us: yfinance
+retry:
+  max_attempts: 3
+  base_delay: 2
+  exponential_base: 2
+output:
+  reports_dir: reports
+  latest_report: latest_report.txt
+  log_file: stockvue.log
+hk_tickers:
+- 0700.HK
+- 9988.HK
+- 9618.HK
+- 3690.HK
+- 1810.HK
+- 9999.HK
+- 6623.HK
+- 2319.HK
+- 6690.HK
+- 9961.HK
+- 0005.HK
+- 0388.HK
+- 1398.HK
+- 1288.HK
+- 3988.HK
+- 2328.HK
+- 6030.HK
+- 1028.HK
+- 2382.HK
+- 2018.HK
+- 0669.HK
+- 6315.HK
+- 0668.HK
+- 2130.HK
+- 6993.HK
+- 2611.HK
+- 9868.HK
+- 9866.HK
+- 1797.HK
+- 9688.HK
+- 9922.HK
+- 0823.HK
+- 3759.HK
+- 3798.HK
+- 9955.HK
+- 0992.HK
+- 6060.HK
+- 2684.HK
+- 1919.HK
+- 2600.HK
+- 2728.HK
+- 0941.HK
+- 0769.HK
+- 1928.HK
+- 6818.HK
+- 1336.HK
+- 6618.HK
+- 6038.HK
+- 1876.HK
+- 6185.HK
+- 2638.HK
+- 6969.HK
+- 0695.HK
+us_tickers:
+- NVDA
+- TSLA
+- AAPL
+- MSFT
+- META
+- GOOGL
+- AMZN
+- NFLX
+- AMD
+- BA
+- JPM
+- GS
+- V
+- MA
+- UNH
+- JNJ
+- PG
+- HD
+- CVX
+- MRK
+- ABBV
+- LLY
+- PEP
+- KO
+- COST
+- AVGO
+- TMO
+- COIN
+- HOOD
+- SOFI
+- SMCI
+- PLTR
+- U
+- SQ
+- SHOP
+- SNOW
+- DDOG
+- CRWD
+- NET
+- ZI
+- PATH
+- UPDATING
+- ABNB
+- RBLX
+- DOCU
+- ZM
+- ETSY
+- BABA
+- BIDU
+- JD
+- PDD
+- NTES
+- BILI
+- TCEHY
+- QQQ
+- SPY
+- ARKK
+- VGT
+- XLK
+- XLY
+- XLE
+- XLF
+- IBB
+- XBI
+backtest:
+  date: '2026-05-14'
+  days: 180
+  note: 'ICT/SMC Strategy: RSI 30-80, VolRatio 0.5-3.0x, Fib 0.618/0.786 zone, Confluence ≥40, Price>MA20, Win Rate ≥75%'
+technical_filters:
+  rsi_max: 80
+  rsi_min: 30
+  vol_ratio_min: 0.5
+  vol_ratio_max: 3.0
+  ma5_required: false
+  ma20_required: true
+  confluence_min: 40
+display_win_rate_min: 70
+fibonacci:
+  retracement_levels:
+    - 0.618
+    - 0.786
+  premium_discount_filter: true
+risk_management:
+  max_trades_per_day: 3
+  max_loss_per_trade_pct: 2.0
+  max_daily_loss: 50
+  take_profit_ratios:
+    conservative: 1.5
+    normal: 2.0
+    aggressive: 3.0
+  partial_take_profit: 0.5
+ict_concepts:
+  premium_zone_threshold: 0.618
+  discount_zone_threshold: 0.786
+  confluence_scoring:
+    discount_zone: 30
+    premium_zone: 10
+    rsi_oversold: 20
+    rsi_normal: 10
+    normal_vol: 15
+    high_vol_momentum: 25
+    above_ma20: 15
+    above_ma5: 10
