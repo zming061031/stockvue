@@ -25,15 +25,10 @@ jobs:
       - name: Run StockVue daily report
         run: python daily_runner.py
 
-- name: Verify dashboard exists
-        run: |
-          if [ ! -f dashboard.html ]; then
-            echo "ERROR: dashboard.html was not created"
-            exit 1
-          fi
-          echo "dashboard.html exists: $(ls -la dashboard.html)"
-
       - name: Prepare artifact directory
+        run: mkdir -p dist && cp dashboard.html dist/
+
+      - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload Pages artifact
