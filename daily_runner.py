@@ -13,6 +13,8 @@ StockVue - Unified Daily Runner v2.0
 import sys
 import io
 import os
+import logging
+import platform
 
 # Only wrap on Windows (where sys.stdout.buffer may cause issues with TextIOWrapper)
 try:
