@@ -452,8 +452,8 @@ def fetch_hk_stocks(cfg: dict):
     tf = cfg.get("technical_filters", {})
     rsi_max = tf.get("rsi_max", 70)
     rsi_min = tf.get("rsi_min", 0)
-    vol_min = tf.get("vol_ratio_min", 0.8)
-    vol_max = tf.get("vol_ratio_max", 1.2)
+    vol_min = tf.get("vol_ratio_min", 0.5)
+    vol_max = tf.get("vol_ratio_max", 3.0)
     confluence_min = tf.get("confluence_min", 40)
     results = []
     for ticker in tickers:
@@ -505,8 +505,8 @@ def fetch_us_stocks(cfg: dict):
     tf = cfg.get("technical_filters", {})
     rsi_max = tf.get("rsi_max", 70)
     rsi_min = tf.get("rsi_min", 0)
-    vol_min = tf.get("vol_ratio_min", 0.8)
-    vol_max = tf.get("vol_ratio_max", 1.2)
+    vol_min = tf.get("vol_ratio_min", 0.5)
+    vol_max = tf.get("vol_ratio_max", 3.0)
     confluence_min = tf.get("confluence_min", 40)
     results = []
     for ticker in tickers:
