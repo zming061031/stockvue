@@ -2,13 +2,11 @@ name: Daily Stock Report
 
 on:
   schedule:
-    # Run every hour at :40 (e.g., 01:40, 02:40, etc.)
     - cron: '40 * * * *'
   workflow_dispatch:
-    # Allow manual trigger
 
 jobs:
-  report:
+  build-and-deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -22,30 +20,10 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install akshare yfinance requests pyyaml tenacity rich
+        run: pip install akshare yfinance requests pyyaml tenacity rich
 
       - name: Run StockVue daily report
         run: python daily_runner.py
-
-      - name: Deploy HTML to Pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dashboard.html
-
-  pages:
-    needs: report
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
 
       - name: Upload HTML artifact
         uses: actions/upload-pages-artifact@v3
