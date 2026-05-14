@@ -27,9 +27,6 @@ jobs:
 
       - name: Run StockVue daily report
         run: python daily_runner.py
-        env:
-          # Optional: set Gumroad token if you want auto-posting
-          # GUMROAD_TOKEN: ${{ secrets.GUMROAD_TOKEN }}
 
       - name: Deploy HTML to Pages
         uses: actions/upload-pages-artifact@v3
