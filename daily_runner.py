@@ -22,6 +22,7 @@ import yfinance
 from datetime import datetime
 from tenacity import retry, stop_after_attempt, wait_exponential
 from report_formatter import generate_rich_report, generate_html_dashboard
+from ict_smc_analyzer import ICTSMCAnalyzer, Candle, analyze_stock_ict
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(BASE_DIR, "config.yaml")
 
@@ -197,7 +198,6 @@ def analyze_with_ict(ticker: str, lookback: int = 50) -> dict:
 def analyze_a_share_with_ict(symbol: str, lookback: int = 50) -> dict:
     """Run full ICT/SMC analysis on an A-share ticker via Sina Finance."""
     try:
-        from ict_smc_analyzer import ICTSMCAnalyzer, Candle
         url = "https://money.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_MarketData.getKLineData"
         params = {"symbol": symbol, "scale": 240, "ma": "no", "datalen": lookback}
         headers = {"User-Agent": "Mozilla/5.0", "Referer": "https://finance.sina.com.cn"}
