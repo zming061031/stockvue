@@ -295,6 +295,34 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
     def a_color(pct):
         return "#22c55e" if pct >= 3 else ("#eab308" if pct >= 1.5 else "#ef4444")
 
+    def next_close_hk(hk_dt):
+        dt = hk_dt.replace(hour=16, minute=0, second=0, microsecond=0)
+        if dt <= hk_dt or dt.weekday() >= 5:
+            dt += timedelta(days=1)
+        while dt.weekday() >= 5:
+            dt += timedelta(days=1)
+        return dt.strftime("明天%H:%M")
+
+    def next_close_us(hk_dt):
+        dt = hk_dt.replace(hour=4, minute=0, second=0, microsecond=0)
+        if dt <= hk_dt or dt.weekday() >= 5:
+            dt += timedelta(days=1)
+        while dt.weekday() >= 5:
+            dt += timedelta(days=1)
+        return dt.strftime("明天%H:%M")
+
+    def next_close_a(hk_dt):
+        dt = hk_dt.replace(hour=15, minute=0, second=0, microsecond=0)
+        if dt <= hk_dt or dt.weekday() >= 5:
+            dt += timedelta(days=1)
+        while dt.weekday() >= 5:
+            dt += timedelta(days=1)
+        return dt.strftime("明天%H:%M")
+
+    sell_hk = next_close_hk(hk_dt)
+    sell_us = next_close_us(hk_dt)
+    sell_a = next_close_a(hk_dt)
+
     hk_rows = ""
     for s in [s for s in hk_stocks if passes_threshold(s)]:
         wr_1d = format_win_rate(s['change_pct'], wr_cfg, "1d")
@@ -312,6 +340,19 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         fvg = s.get('fvg_count', 0)
         sig = "BUY" if (s.get('mss_active') and s.get('mss_direction') == 'bullish') or confluence >= 60 else "WATCH"
         sig_color = "#22c55e" if sig == "BUY" else "#eab308"
+        ict = s.get('ict', {})
+        long_sig = ict.get('long_signal') if ict else None
+        if long_sig:
+            entry = f"{float(long_sig.entry_price):.2f}"
+            sl = f"{float(long_sig.stop_loss):.2f}"
+            tp1 = f"{float(long_sig.take_profit_1):.2f}"
+            tp2 = f"{float(long_sig.take_profit_2):.2f}"
+            tp3 = f"{float(long_sig.take_profit_3):.2f}"
+            entry_txt = f"<span style='color:#22c55e;font-weight:600'>{entry}</span>"
+            sl_txt = f"<span style='color:#ef4444'>{sl}</span>"
+            tp_txt = f"<span style='color:#22c55e'>{tp1} / {tp2} / {tp3}</span>"
+        else:
+            entry_txt = sl_txt = tp_txt = "—"
         hk_rows += f"""<tr>
             <td><span class="ticker-badge">{s['ticker']}</span></td>
             <td><strong>{s['name']}</strong></td>
@@ -323,6 +364,9 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
             <td><span class="winrate5d">{wr_5d}%</span></td>
             <td><span style="color:{mss_color};font-weight:600;font-size:0.75rem">{mss_txt}</span></td>
             <td>{bos}</td><td>{fvg}</td>
+            <td>{entry_txt}</td>
+            <td>{sl_txt}</td>
+            <td>{tp_txt}</td>
             <td><span class="signal-buy" style="background:{sig_color}">{sig}</span></td>
         </tr>"""
 
@@ -343,17 +387,33 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         fvg = s.get('fvg_count', 0)
         sig = "BUY" if (s.get('mss_active') and s.get('mss_direction') == 'bullish') or confluence >= 60 else "WATCH"
         sig_color = "#22c55e" if sig == "BUY" else "#eab308"
+        ict = s.get('ict', {})
+        long_sig = ict.get('long_signal') if ict else None
+        if long_sig:
+            entry = f"{float(long_sig.entry_price):.2f}"
+            sl = f"{float(long_sig.stop_loss):.2f}"
+            tp1 = f"{float(long_sig.take_profit_1):.2f}"
+            tp2 = f"{float(long_sig.take_profit_2):.2f}"
+            tp3 = f"{float(long_sig.take_profit_3):.2f}"
+            entry_txt = f"<span style='color:#22c55e;font-weight:600'>{entry}</span>"
+            sl_txt = f"<span style='color:#ef4444'>{sl}</span>"
+            tp_txt = f"<span style='color:#22c55e'>{tp1} / {tp2} / {tp3}</span>"
+        else:
+            entry_txt = sl_txt = tp_txt = "—"
         us_rows += f"""<tr>
             <td><span class="ticker-badge">{s['ticker']}</span></td>
             <td><strong>{s['name']}</strong></td>
             <td>USD {s['price']:.2f}</td>
             <td><span class="change-badge" style="color:{us_color(s['change_pct'])}">+{s['change_pct']}%</span></td>
             <td><span style="color:{zone_color};font-weight:600;font-size:0.8rem">{zone}</span></td>
-            <td><span style="color:{conf_color};font-weight:700">{confluence}</span></td>
+            <td><span style="color:{conf_color};font-weight:700">{confluence}</td>
             <td><span class="winrate">{wr_1d}%</span></td>
             <td><span class="winrate5d">{wr_5d}%</span></td>
             <td><span style="color:{mss_color};font-weight:600;font-size:0.75rem">{mss_txt}</span></td>
             <td>{bos}</td><td>{fvg}</td>
+            <td>{entry_txt}</td>
+            <td>{sl_txt}</td>
+            <td>{tp_txt}</td>
             <td><span class="signal-buy" style="background:{sig_color}">{sig}</span></td>
         </tr>"""
 
@@ -374,6 +434,19 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         fvg = s.get('fvg_count', 0)
         sig = "BUY" if (s.get('mss_active') and s.get('mss_direction') == 'bullish') or confluence >= 60 else "WATCH"
         sig_color = "#22c55e" if sig == "BUY" else "#eab308"
+        ict = s.get('ict', {})
+        long_sig = ict.get('long_signal') if ict else None
+        if long_sig:
+            entry = f"{float(long_sig.entry_price):.2f}"
+            sl = f"{float(long_sig.stop_loss):.2f}"
+            tp1 = f"{float(long_sig.take_profit_1):.2f}"
+            tp2 = f"{float(long_sig.take_profit_2):.2f}"
+            tp3 = f"{float(long_sig.take_profit_3):.2f}"
+            entry_txt = f"<span style='color:#22c55e;font-weight:600'>{entry}</span>"
+            sl_txt = f"<span style='color:#ef4444'>{sl}</span>"
+            tp_txt = f"<span style='color:#22c55e'>{tp1} / {tp2} / {tp3}</span>"
+        else:
+            entry_txt = sl_txt = tp_txt = "—"
         a_rows += f"""<tr>
             <td><span class="ticker-badge">{s['code']}</span></td>
             <td><strong>{s['name']}</strong></td>
@@ -386,6 +459,9 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
             <td><span class="winrate5d">{wr_5d}%</span></td>
             <td><span style="color:{mss_color};font-weight:600;font-size:0.75rem">{mss_txt}</span></td>
             <td>{bos}</td><td>{fvg}</td>
+            <td>{entry_txt}</td>
+            <td>{sl_txt}</td>
+            <td>{tp_txt}</td>
             <td><span class="signal-buy" style="background:{sig_color}">{sig}</span></td>
         </tr>"""
 
@@ -471,11 +547,11 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         <div class="market-header">
             <span class="market-flag">🇭🇰</span>
             <span class="market-title">Hong Kong Market</span>
-            <span class="market-subtitle">Top Movers</span>
+            <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: {sell_hk} HK</span>
         </div>
         <table>
-            <thead><tr><th>#</th><th>Ticker</th><th>Name</th><th>Price</th><th>Change</th><th>Zone</th><th>Conf</th><th>1D Win</th><th>5D Win</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Signal</th></tr></thead>
-            <tbody>{hk_rows if hk_rows else '<tr><td colspan="13" style="text-align:center;color:#64748b;">No stocks met screening criteria today</td></tr>'}</tbody>
+            <thead><tr><th>#</th><th>Ticker</th><th>Name</th><th>Price</th><th>Chg%</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Signal</th></tr></thead>
+            <tbody>{hk_rows if hk_rows else '<tr><td colspan="16" style="text-align:center;color:#64748b;">No stocks met screening criteria today</td></tr>'}</tbody>
         </table>
     </div>
 
@@ -483,11 +559,11 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         <div class="market-header">
             <span class="market-flag">🇺🇸</span>
             <span class="market-title">US Market</span>
-            <span class="market-subtitle">Top Movers</span>
+            <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: {sell_us} HK</span>
         </div>
         <table>
-            <thead><tr><th>#</th><th>Ticker</th><th>Name</th><th>Price</th><th>Change</th><th>Zone</th><th>Conf</th><th>1D Win</th><th>5D Win</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Signal</th></tr></thead>
-            <tbody>{us_rows if us_rows else '<tr><td colspan="13" style="text-align:center;color:#64748b;">No stocks met screening criteria today</td></tr>'}</tbody>
+            <thead><tr><th>#</th><th>Ticker</th><th>Name</th><th>Price</th><th>Chg%</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Signal</th></tr></thead>
+            <tbody>{us_rows if us_rows else '<tr><td colspan="16" style="text-align:center;color:#64748b;">No stocks met screening criteria today</td></tr>'}</tbody>
         </table>
     </div>
 
@@ -495,11 +571,11 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         <div class="market-header">
             <span class="market-flag">🇨🇳</span>
             <span class="market-title">A-Share Market (China)</span>
-            <span class="market-subtitle">Top Movers</span>
+            <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: {sell_a} HK</span>
         </div>
         <table>
-            <thead><tr><th>#</th><th>Code</th><th>Name</th><th>Price</th><th>Change</th><th>Turnover</th><th>Zone</th><th>Conf</th><th>1D Win</th><th>5D Win</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Signal</th></tr></thead>
-            <tbody>{a_rows if a_rows else '<tr><td colspan="14" style="text-align:center;color:#64748b;">No stocks met screening criteria today</td></tr>'}</tbody>
+            <thead><tr><th>#</th><th>Code</th><th>Name</th><th>Price</th><th>Chg%</th><th>Turnover</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Signal</th></tr></thead>
+            <tbody>{a_rows if a_rows else '<tr><td colspan="16" style="text-align:center;color:#64748b;">No stocks met screening criteria today</td></tr>'}</tbody>
         </table>
     </div>
 
