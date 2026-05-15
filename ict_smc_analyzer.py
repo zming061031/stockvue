@@ -450,9 +450,9 @@ class ICTSMCAnalyzer:
         triggers = []
         confluence_score = 0
         entry_type = 'market'
-
         relevant_ob = None
         conf_cfg = self.config.get('confluence_scoring', {}) if self.config else {}
+
         if direction == 'long':
             bullish_obs = [ob for ob in self.order_blocks if ob.direction == 'bullish']
             if bullish_obs:
@@ -461,7 +461,6 @@ class ICTSMCAnalyzer:
                             conf_cfg.get('order_block_normal', 15) if relevant_ob.quality == 'normal' else 5
                 confluence_score += obs_score
                 triggers.append(f'Bullish OB at {relevant_ob.high:.2f}')
-
         else:
             bearish_obs = [ob for ob in self.order_blocks if ob.direction == 'bearish']
             if bearish_obs:
@@ -548,19 +547,13 @@ class ICTSMCAnalyzer:
             take_profit_3 = entry_price - risk * 5.0
 
         confidence = min(100, confluence_score)
-
         if confidence < 40:
             return None
 
-        rr1 = 2.0
-        rr2 = 3.0
-        rr3 = 5.0
-
+        rr1, rr2, rr3 = 2.0, 3.0, 5.0
         ob_ref = f"Bullish OB at {relevant_ob.high:.2f}" if (direction == 'long' and relevant_ob) else \
                  f"Bearish OB at {relevant_ob.low:.2f}" if (direction == 'short' and relevant_ob) else None
-
         fvg_ref = f"FVG at {relevant_fvg.mid:.2f}" if relevant_fvg else None
-
         notes = f"{direction.upper()} | R:R 1:{rr1}/1:{rr2}/1:{rr3} | "
         notes += f"IFVG " if ifvg_active else ""
         notes += f"Confluence {confluence_score}"
@@ -585,6 +578,45 @@ class ICTSMCAnalyzer:
             entry_type=entry_type,
             notes=notes
         )
+
+    def get_summary(self) -> Dict[str, Any]:
+        return {
+            'swing_points': len(self.swing_points),
+            'bos_count': len(self.bos_list),
+            'bullish_bos': len([b for b in self.bos_list if b.direction == 'bullish']),
+            'bearish_bos': len([b for b in self.bos_list if b.direction == 'bearish']),
+            'choch_count': len(self.choch_list),
+            'mss_active': self.mss_active,
+            'mss_direction': self.mss_direction,
+            'fvg_count': len(self.fvg_list),
+            'bullish_fvg': len([f for f in self.fvg_list if f.direction == 'bullish']),
+            'bearish_fvg': len([f for f in self.fvg_list if f.direction == 'bearish']),
+            'order_blocks': len(self.order_blocks),
+            'bullish_ob': len([ob for ob in self.order_blocks if ob.direction == 'bullish']),
+            'bearish_ob': len([ob for ob in self.order_blocks if ob.direction == 'bearish']),
+            'liquidity_sweeps': len(self.liquidity_sweeps),
+            'long_signal': self.generate_trade_signal('long'),
+            'short_signal': self.generate_trade_signal('short'),
+        }
+
+
+def analyze_stock_ict(ticker: str, lookback: int = 50, config: Optional[Dict] = None) -> Dict[str, Any]:
+    try:
+        import yfinance as yf
+        stock = yf.Ticker(ticker)
+        hist = stock.history(period=f"{lookback}d", auto_adjust=True)
+
+        if len(hist) < 20:
+            return {'error': 'Insufficient data'}
+
+        candles = [
+            Candle(
+                open=row['Open'],
+                high=row['High'],
+                low=row['Low'],
+                close=row['Close'],
+                volume=row['Volume']
+            )
             for _, row in hist.iterrows()
         ]
 

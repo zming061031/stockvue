@@ -2,20 +2,275 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>StockVue Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StockVue — Daily Market Report 2026-05-16</title>
 <style>
-body { font-family: sans-serif; background: #0f1117; color: #e2e8f0; padding: 2rem; }
-h1 { color: #22c55e; }
-p { color: #94a3b8; }
-.note { background: #1e293b; padding: 1rem; border-radius: 8px; margin-top: 1rem; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #0f1117; color: #e2e8f0; min-height: 100vh; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+    .header { text-align: center; margin-bottom: 2.5rem; }
+    .logo { font-size: 2.2rem; font-weight: 800; background: linear-gradient(135deg, #22c55e, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: -0.5px; }
+    .logo span { font-size: 1rem; display: block; color: #64748b; font-weight: 400; -webkit-text-fill-color: #64748b; }
+    .meta { margin-top: 0.75rem; color: #94a3b8; font-size: 0.9rem; }
+
+    .sentiment-bar { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2.5rem; }
+    .sentiment-card { background: #1e293b; border-radius: 12px; padding: 1.25rem; text-align: center; border: 1px solid #334155; }
+    .sentiment-card .market { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: #64748b; margin-bottom: 0.5rem; }
+    .sentiment-card .sentiment { font-size: 1.4rem; font-weight: 700; }
+    .sentiment-card .bullish { color: #22c55e; }
+    .sentiment-card .bearish { color: #ef4444; }
+    .sentiment-card .neutral { color: #eab308; }
+
+    .market-section { background: #1e293b; border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; border: 1px solid #334155; }
+    .market-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid #334155; }
+    .market-flag { font-size: 1.5rem; }
+    .market-title { font-size: 1.1rem; font-weight: 700; color: #f8fafc; }
+    .market-subtitle { font-size: 0.8rem; color: #64748b; margin-left: auto; }
+
+    table { width: 100%; border-collapse: collapse; }
+    thead tr { border-bottom: 1px solid #334155; }
+    th { padding: 0.65rem 0.75rem; text-align: left; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; color: #64748b; font-weight: 600; }
+    th:last-child, th:nth-last-child(2) { text-align: center; }
+    td { padding: 0.85rem 0.75rem; font-size: 0.9rem; border-bottom: 1px solid #1e293b; }
+    td:nth-child(4) { text-align: center; }
+    td:last-child, td:nth-last-child(2) { text-align: center; }
+    tbody tr:hover { background: #263548; }
+    tbody tr:last-child td { border-bottom: none; }
+
+    .ticker-badge { background: #334155; color: #22c55e; padding: 0.2rem 0.5rem; border-radius: 6px; font-family: 'Courier New', monospace; font-size: 0.8rem; font-weight: 600; }
+    .change-badge { font-weight: 700; font-size: 0.95rem; }
+    .winrate { background: #1e3a5f; color: #60a5fa; padding: 0.2rem 0.6rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+    .winrate5d { background: #3b1f5f; color: #a78bfa; padding: 0.2rem 0.6rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+    .signal-buy { background: #22c55e; color: #052e16; padding: 0.2rem 0.7rem; border-radius: 20px; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.5px; }
+
+    .disclaimer { text-align: center; color: #475569; font-size: 0.78rem; padding: 1.5rem; line-height: 1.6; }
+    .disclaimer span { color: #f59e0b; }
+
+    @media (max-width: 640px) {
+        .sentiment-bar { grid-template-columns: 1fr; }
+        .market-section { padding: 1rem; }
+    }
 </style>
 </head>
 <body>
-<h1>📈 StockVue</h1>
-<p>Dashboard is being generated. Please wait for the next workflow run (~1 hour) or trigger manually.</p>
-<div class="note">
-<strong>Next update:</strong> Every hour at :40 past the hour<br>
-<strong>Status:</strong> GitHub Actions workflow running daily
+<div class="container">
+
+    <div class="header">
+        <div class="logo">StockVue<span>Daily Market Analysis</span></div>
+        <div class="meta">📅 2026-05-16 &nbsp;|&nbsp; ⏰ 07:43 HK Time</div>
+    </div>
+
+    <div class="sentiment-bar">
+        <div class="sentiment-card">
+            <div class="market">🇭🇰 Hong Kong</div>
+            <div class="sentiment bearish">BEARISH</div>
+        </div>
+        <div class="sentiment-card">
+            <div class="market">🇺🇸 US Markets</div>
+            <div class="sentiment bearish">BEARISH</div>
+        </div>
+        <div class="sentiment-card">
+            <div class="market">🇨🇳 A-Share China</div>
+            <div class="sentiment neutral">NEUTRAL</div>
+        </div>
+    </div>
+
+    <div class="market-section">
+        <div class="market-header">
+            <span class="market-flag">🇭🇰</span>
+            <span class="market-title">Hong Kong Market</span>
+            <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: 明天16:00 HK</span>
+        </div>
+        <table>
+            <thead><tr><th>#</th><th>Ticker</th><th>Name</th><th>Price</th><th>Chg%</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Signal</th></tr></thead>
+            <tbody><tr>
+            <td><span class="ticker-badge">9688.HK</span></td>
+            <td><strong>ZAI LAB</strong></td>
+            <td>HKD 16.09</td>
+            <td><span class="change-badge" style="color:#22c55e">+4.82%</span></td>
+            <td><span style="color:#3b82f6;font-weight:600;font-size:0.8rem">DISCOUNT</span></td>
+            <td><span style="color:#22c55e;font-weight:700">65</span></td>
+            <td><span class="winrate">65%</span></td>
+            <td><span class="winrate5d">70%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>3</td><td>6</td>
+            <td><span style='color:#22c55e;font-weight:600'>16.09</span></td>
+            <td><span style='color:#ef4444'>15.25</span></td>
+            <td><span style='color:#22c55e'>17.77 / 18.61 / 20.29</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td><span class="ticker-badge">6993.HK</span></td>
+            <td><strong>BLUE MOON GROUP</strong></td>
+            <td>HKD 3.10</td>
+            <td><span class="change-badge" style="color:#eab308">+2.99%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">60</span></td>
+            <td><span class="winrate">55%</span></td>
+            <td><span class="winrate5d">60%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.75rem">BEARISH</span></td>
+            <td>3</td><td>4</td>
+            <td><span style='color:#22c55e;font-weight:600'>3.10</span></td>
+            <td><span style='color:#ef4444'>2.53</span></td>
+            <td><span style='color:#22c55e'>4.23 / 4.80 / 5.93</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td><span class="ticker-badge">6038.HK</span></td>
+            <td><strong>G & M HLDGS</strong></td>
+            <td>HKD 0.40</td>
+            <td><span class="change-badge" style="color:#eab308">+2.6%</span></td>
+            <td><span style="color:#3b82f6;font-weight:600;font-size:0.8rem">DISCOUNT</span></td>
+            <td><span style="color:#22c55e;font-weight:700">65</span></td>
+            <td><span class="winrate">55%</span></td>
+            <td><span class="winrate5d">60%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>4</td><td>4</td>
+            <td><span style='color:#22c55e;font-weight:600'>0.40</span></td>
+            <td><span style='color:#ef4444'>0.38</span></td>
+            <td><span style='color:#22c55e'>0.43 / 0.44 / 0.47</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr></tbody>
+        </table>
+    </div>
+
+    <div class="market-section">
+        <div class="market-header">
+            <span class="market-flag">🇺🇸</span>
+            <span class="market-title">US Market</span>
+            <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: 明天04:00 HK</span>
+        </div>
+        <table>
+            <thead><tr><th>#</th><th>Ticker</th><th>Name</th><th>Price</th><th>Chg%</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Signal</th></tr></thead>
+            <tbody><tr>
+            <td><span class="ticker-badge">SNOW</span></td>
+            <td><strong>Snowflake Inc.</strong></td>
+            <td>USD 157.07</td>
+            <td><span class="change-badge" style="color:#22c55e">+4.19%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#eab308;font-weight:700">45</td>
+            <td><span class="winrate">65%</span></td>
+            <td><span class="winrate5d">70%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>5</td><td>7</td>
+            <td><span style='color:#22c55e;font-weight:600'>157.07</span></td>
+            <td><span style='color:#ef4444'>135.93</span></td>
+            <td><span style='color:#22c55e'>199.35 / 220.50 / 262.78</span></td>
+            <td><span class="signal-buy" style="background:#eab308">WATCH</span></td>
+        </tr><tr>
+            <td><span class="ticker-badge">MSFT</span></td>
+            <td><strong>Microsoft Corporation</strong></td>
+            <td>USD 421.48</td>
+            <td><span class="change-badge" style="color:#eab308">+2.94%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#eab308;font-weight:700">45</td>
+            <td><span class="winrate">55%</span></td>
+            <td><span class="winrate5d">60%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>6</td><td>6</td>
+            <td><span style='color:#22c55e;font-weight:600'>421.48</span></td>
+            <td><span style='color:#ef4444'>404.30</span></td>
+            <td><span style='color:#22c55e'>455.84 / 473.02 / 507.38</span></td>
+            <td><span class="signal-buy" style="background:#eab308">WATCH</span></td>
+        </tr></tbody>
+        </table>
+    </div>
+
+    <div class="market-section">
+        <div class="market-header">
+            <span class="market-flag">🇨🇳</span>
+            <span class="market-title">A-Share Market (China)</span>
+            <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: 明天15:00 HK</span>
+        </div>
+        <table>
+            <thead><tr><th>#</th><th>Code</th><th>Name</th><th>Price</th><th>Chg%</th><th>Turnover</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Signal</th></tr></thead>
+            <tbody><tr>
+            <td><span class="ticker-badge">sz300274</span></td>
+            <td><strong>阳光电源</strong></td>
+            <td>CNY 152.95</td>
+            <td><span class="change-badge" style="color:#22c55e">+13.27%</span></td>
+            <td>10.9%</td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">60</span></td>
+            <td><span class="winrate">75%</span></td>
+            <td><span class="winrate5d">80%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>0</td><td>0</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td><span class="ticker-badge">sh688012</span></td>
+            <td><strong>中微公司</strong></td>
+            <td>CNY 432.90</td>
+            <td><span class="change-badge" style="color:#22c55e">+11.81%</span></td>
+            <td>6.1%</td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#eab308;font-weight:700">50</span></td>
+            <td><span class="winrate">75%</span></td>
+            <td><span class="winrate5d">80%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>0</td><td>0</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td><span class="signal-buy" style="background:#eab308">WATCH</span></td>
+        </tr><tr>
+            <td><span class="ticker-badge">sh688820</span></td>
+            <td><strong>盛合晶微</strong></td>
+            <td>CNY 183.84</td>
+            <td><span class="change-badge" style="color:#22c55e">+18.76%</span></td>
+            <td>32.7%</td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.8rem">N/A</span></td>
+            <td><span style="color:#ef4444;font-weight:700">0</span></td>
+            <td><span class="winrate">75%</span></td>
+            <td><span class="winrate5d">80%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>0</td><td>0</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td><span class="signal-buy" style="background:#eab308">WATCH</span></td>
+        </tr><tr>
+            <td><span class="ticker-badge">sh603667</span></td>
+            <td><strong>五洲新春</strong></td>
+            <td>CNY 84.43</td>
+            <td><span class="change-badge" style="color:#22c55e">+9.72%</span></td>
+            <td>21.9%</td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">60</span></td>
+            <td><span class="winrate">75%</span></td>
+            <td><span class="winrate5d">80%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>0</td><td>0</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td><span class="ticker-badge">sh688017</span></td>
+            <td><strong>绿的谐波</strong></td>
+            <td>CNY 305.50</td>
+            <td><span class="change-badge" style="color:#22c55e">+15.28%</span></td>
+            <td>11.0%</td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#eab308;font-weight:700">50</span></td>
+            <td><span class="winrate">75%</span></td>
+            <td><span class="winrate5d">80%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>0</td><td>0</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td><span class="signal-buy" style="background:#eab308">WATCH</span></td>
+        </tr></tbody>
+        </table>
+    </div>
+
+    <div class="disclaimer">
+        ⚠️ <span>Not financial advice.</span> StockVue is an algorithmic screening tool.
+        Always do your own due diligence before investing.
+    </div>
 </div>
 </body>
 </html>
