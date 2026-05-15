@@ -12,6 +12,7 @@ StockVue - Unified Daily Runner v2.0
 
 import sys
 import io
+import json
 import os
 import re
 import logging
@@ -203,7 +204,7 @@ def analyze_a_share_with_ict(symbol: str, lookback: int = 50) -> dict:
         params = {"symbol": symbol, "scale": 240, "ma": "no", "datalen": lookback}
         headers = {"User-Agent": "Mozilla/5.0", "Referer": "https://finance.sina.com.cn"}
         r = requests.get(url, params=params, headers=headers, timeout=10)
-        raw = r.json()
+        raw = json.loads(r.content.decode('gbk'))
         if not raw or len(raw) < 20:
             return {}
 
@@ -251,7 +252,7 @@ def fetch_a_share_indicators(symbol, lookback=25):
         params = {"symbol": symbol, "scale": 240, "ma": "no", "datalen": lookback}
         headers = {"User-Agent": "Mozilla/5.0", "Referer": "https://finance.sina.com.cn"}
         r = requests.get(url, params=params, headers=headers, timeout=10)
-        raw = r.json()
+        raw = json.loads(r.content.decode('gbk'))
         if not raw or len(raw) < 20:
             return None
         closes = [float(item['close']) for item in raw]
@@ -387,7 +388,7 @@ def fetch_a_share_fallback(cfg: dict):
         }
         headers = {"User-Agent": "Mozilla/5.0", "Referer": "https://finance.sina.com.cn"}
         r = requests.get(url, params=params, headers=headers, timeout=15)
-        data = r.json()
+        data = json.loads(r.content.decode('gbk'))
         stocks = []
         for item in data:
             try:
