@@ -151,7 +151,7 @@ def calc_confluence_score(record, fib_data, rsi):
 def compute_indicators_for_stock(ticker, lookback=25):
     """Fetch recent history and compute RSI, MA5, MA20, VolRatio, Fib, Confluence."""
     try:
-        stock = yf.Ticker(ticker)
+        stock = yfinance.Ticker(ticker)
         hist = stock.history(period=f"{lookback}d", auto_adjust=True)
         if len(hist) < 25:
             return None
@@ -447,7 +447,7 @@ def fetch_hk_stocks(cfg: dict):
     results = []
     for ticker in tickers:
         try:
-            info = yf.Ticker(ticker).info
+            info = yfinance.Ticker(ticker).info
             price = info.get('currentPrice') or info.get('regularMarketPrice')
             change = info.get('regularMarketChangePercent', 0)
             logger.info(f"  {ticker}: price={price}, change={change}%, min_change={min_change}%")
@@ -502,7 +502,7 @@ def fetch_us_stocks(cfg: dict):
     results = []
     for ticker in tickers:
         try:
-            info = yf.Ticker(ticker).info
+            info = yfinance.Ticker(ticker).info
             price = info.get('currentPrice') or info.get('regularMarketPrice')
             change = info.get('regularMarketChangePercent', 0)
             logger.info(f"  {ticker}: price={price}, change={change}%, min_change={min_change}%")
@@ -546,13 +546,13 @@ def get_market_sentiment(cfg: dict) -> dict:
     logger.info("Fetching market sentiment...")
     sentiment = {"hk": "NEUTRAL", "us": "NEUTRAL", "a": "NEUTRAL"}
     try:
-        hk_idx = yf.Ticker("^HSI").info
+        hk_idx = yfinance.Ticker("^HSI").info
         hk_change = hk_idx.get('regularMarketChangePercent', 0)
         sentiment["hk"] = "BULLISH" if hk_change > 1 else ("BEARISH" if hk_change < -1 else "NEUTRAL")
     except:
         pass
     try:
-        us_idx = yf.Ticker("^IXIC").info
+        us_idx = yfinance.Ticker("^IXIC").info
         us_change = us_idx.get('regularMarketChangePercent', 0)
         sentiment["us"] = "BULLISH" if us_change > 1 else ("BEARISH" if us_change < -1 else "NEUTRAL")
     except:
