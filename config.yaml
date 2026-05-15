@@ -175,8 +175,8 @@ technical_filters:
   vol_ratio_min: 0.5
   vol_ratio_max: 3.0
   ma5_required: false
-  ma20_required: true
-  confluence_min: 40
+  ma20_required: false
+  confluence_min: 30
 display_win_rate_min: 70
 fibonacci:
   retracement_levels:
