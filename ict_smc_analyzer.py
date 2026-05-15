@@ -452,76 +452,118 @@ class ICTSMCAnalyzer:
         entry_type = 'market'
 
         relevant_ob = None
+        conf_cfg = self.config.get('confluence_scoring', {}) if self.config else {}
         if direction == 'long':
             bullish_obs = [ob for ob in self.order_blocks if ob.direction == 'bullish']
             if bullish_obs:
                 relevant_ob = max(bullish_obs, key=lambda x: x.high)
-                confluence_score += 20 if relevant_ob.quality == 'high' else 10 if relevant_ob.quality == 'normal' else 5
+                obs_score = conf_cfg.get('order_block_high', 25) if relevant_ob.quality == 'high' else \
+                            conf_cfg.get('order_block_normal', 15) if relevant_ob.quality == 'normal' else 5
+                confluence_score += obs_score
                 triggers.append(f'Bullish OB at {relevant_ob.high:.2f}')
 
         else:
             bearish_obs = [ob for ob in self.order_blocks if ob.direction == 'bearish']
             if bearish_obs:
                 relevant_ob = min(bearish_obs, key=lambda x: x.low)
-                confluence_score += 20 if relevant_ob.quality == 'high' else 10 if relevant_ob.quality == 'normal' else 5
+                obs_score = conf_cfg.get('order_block_high', 25) if relevant_ob.quality == 'high' else \
+                            conf_cfg.get('order_block_normal', 15) if relevant_ob.quality == 'normal' else 5
+                confluence_score += obs_score
                 triggers.append(f'Bearish OB at {relevant_ob.low:.2f}')
 
         relevant_fvg = None
+        ifvg_active = False
         if direction == 'long':
             bullish_fvgs = [f for f in self.fvg_list if f.direction == 'bullish']
             if bullish_fvgs:
                 relevant_fvg = bullish_fvgs[-1]
-                confluence_score += 15
+                confluence_score += conf_cfg.get('bullish_fvg', 20)
                 triggers.append(f'Bullish FVG at {relevant_fvg.mid:.2f}')
+                if relevant_fvg.filled:
+                    ifvg_active = True
+                    confluence_score += conf_cfg.get('ifvg', 30)
+                    triggers.append('IFVG Confirmed - Strong Entry')
         else:
             bearish_fvgs = [f for f in self.fvg_list if f.direction == 'bearish']
             if bearish_fvgs:
                 relevant_fvg = bearish_fvgs[-1]
-                confluence_score += 15
+                confluence_score += conf_cfg.get('bearish_fvg', 20)
                 triggers.append(f'Bearish FVG at {relevant_fvg.mid:.2f}')
+                if relevant_fvg.filled:
+                    ifvg_active = True
+                    confluence_score += conf_cfg.get('ifvg', 30)
+                    triggers.append('IFVG Confirmed - Strong Entry')
 
         if zone == 'DISCOUNT':
-            confluence_score += 30
-            triggers.append('Discount Zone')
+            confluence_score += conf_cfg.get('discount_zone', 30)
+            triggers.append('Discount Zone - Long Bias')
         elif zone == 'PREMIUM':
-            confluence_score += 10
-            triggers.append('Premium Zone')
+            confluence_score += conf_cfg.get('premium_zone', 10)
+            triggers.append('Premium Zone - Short Bias')
 
         if self.mss_active and self.mss_direction == direction:
-            confluence_score += 25
-            triggers.append('MSS Confirmed')
+            confluence_score += conf_cfg.get('mss', 25)
+            triggers.append('MSS Confirmed - Market Structure Shift')
+
+        if self.choch_list:
+            last_choch = self.choch_list[-1]
+            if last_choch.direction == direction:
+                confluence_score += conf_cfg.get('choch', 25)
+                triggers.append(f'CHoCH {direction.upper()} - Trend Change Confirmed')
+
+        if self.liquidity_sweeps:
+            confluence_score += conf_cfg.get('liquidity_sweep', 25)
+            triggers.append('Liquidity Sweep Detected')
 
         if direction == 'long' and current_price > high_20:
-            confluence_score += 10
+            confluence_score += conf_cfg.get('bos', 20)
             triggers.append('HTF Bullish BOS')
         elif direction == 'short' and current_price < low_20:
-            confluence_score += 10
+            confluence_score += conf_cfg.get('bos', 20)
             triggers.append('HTF Bearish BOS')
 
         if direction == 'long':
             entry_price = last_candle.close
-            stop_loss = low_20 * 0.995
+            if relevant_fvg:
+                stop_loss = relevant_fvg.low * 0.998
+            elif relevant_ob:
+                stop_loss = relevant_ob.low * 0.998
+            else:
+                stop_loss = low_20 * 0.995
             risk = entry_price - stop_loss
             take_profit_1 = entry_price + risk * 2.0
             take_profit_2 = entry_price + risk * 3.0
-            take_profit_3 = high_50
+            take_profit_3 = entry_price + risk * 5.0
         else:
             entry_price = last_candle.close
-            stop_loss = high_20 * 1.005
+            if relevant_fvg:
+                stop_loss = relevant_fvg.high * 1.002
+            elif relevant_ob:
+                stop_loss = relevant_ob.high * 1.002
+            else:
+                stop_loss = high_20 * 1.005
             risk = stop_loss - entry_price
             take_profit_1 = entry_price - risk * 2.0
             take_profit_2 = entry_price - risk * 3.0
-            take_profit_3 = low_50
+            take_profit_3 = entry_price - risk * 5.0
 
         confidence = min(100, confluence_score)
 
         if confidence < 40:
             return None
 
+        rr1 = 2.0
+        rr2 = 3.0
+        rr3 = 5.0
+
         ob_ref = f"Bullish OB at {relevant_ob.high:.2f}" if (direction == 'long' and relevant_ob) else \
                  f"Bearish OB at {relevant_ob.low:.2f}" if (direction == 'short' and relevant_ob) else None
 
         fvg_ref = f"FVG at {relevant_fvg.mid:.2f}" if relevant_fvg else None
+
+        notes = f"{direction.upper()} | R:R 1:{rr1}/1:{rr2}/1:{rr3} | "
+        notes += f"IFVG " if ifvg_active else ""
+        notes += f"Confluence {confluence_score}"
 
         return TradeSignal(
             direction=direction,
@@ -530,65 +572,19 @@ class ICTSMCAnalyzer:
             take_profit_1=take_profit_1,
             take_profit_2=take_profit_2,
             take_profit_3=take_profit_3,
-            risk_reward_1=2.0,
-            risk_reward_2=3.0,
-            risk_reward_3=3.5,
+            risk_reward_1=rr1,
+            risk_reward_2=rr2,
+            risk_reward_3=rr3,
             confidence=confidence,
             triggers=triggers,
             confluence_score=confluence_score,
             zone=zone,
             ob_reference=ob_ref,
             fvg_reference=fvg_ref,
+            liquidity_sweep=str(self.liquidity_sweeps[-1].sweep_type) if self.liquidity_sweeps else None,
             entry_type=entry_type,
-            notes=f"{direction.upper()} signal with {confluence_score} confluence score"
+            notes=notes
         )
-
-    def get_summary(self) -> Dict[str, Any]:
-        return {
-            'swing_points': len(self.swing_points),
-            'bos_count': len(self.bos_list),
-            'bullish_bos': len([b for b in self.bos_list if b.direction == 'bullish']),
-            'bearish_bos': len([b for b in self.bos_list if b.direction == 'bearish']),
-            'choch_count': len(self.choch_list),
-            'mss_active': self.mss_active,
-            'mss_direction': self.mss_direction,
-            'fvg_count': len(self.fvg_list),
-            'bullish_fvg': len([f for f in self.fvg_list if f.direction == 'bullish']),
-            'bearish_fvg': len([f for f in self.fvg_list if f.direction == 'bearish']),
-            'order_blocks': len(self.order_blocks),
-            'bullish_ob': len([ob for ob in self.order_blocks if ob.direction == 'bullish']),
-            'bearish_ob': len([ob for ob in self.order_blocks if ob.direction == 'bearish']),
-            'liquidity_sweeps': len(self.liquidity_sweeps),
-            'long_signal': self.generate_trade_signal('long'),
-            'short_signal': self.generate_trade_signal('short'),
-        }
-
-
-def candles_to_ohlc(candles: List[Candle]) -> Tuple[List, List, List, List]:
-    opens = [c.open for c in candles]
-    highs = [c.high for c in candles]
-    lows = [c.low for c in candles]
-    closes = [c.close for c in candles]
-    return opens, highs, lows, closes
-
-
-def analyze_stock_ict(ticker: str, lookback: int = 50, config: Optional[Dict] = None) -> Dict[str, Any]:
-    try:
-        import yfinance as yf
-        stock = yf.Ticker(ticker)
-        hist = stock.history(period=f"{lookback}d", auto_adjust=True)
-
-        if len(hist) < 20:
-            return {'error': 'Insufficient data'}
-
-        candles = [
-            Candle(
-                open=row['Open'],
-                high=row['High'],
-                low=row['Low'],
-                close=row['Close'],
-                volume=row['Volume']
-            )
             for _, row in hist.iterrows()
         ]
 

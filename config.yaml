@@ -18,21 +18,26 @@ screening:
     min_change_pct: 1.5
     max_results: 5
 win_rates:
+  # 基於課程R:R概率原則：1:2需要≥33%勝率，1:3需要≥25%勝率
+  # Tier 1: 高R:R(≥1:3) + 高confluence(≥70) → 75%
   tier1:
-    1d: 78
-    5d: 82
-  tier2:
-    1d: 76
-    5d: 80
-  tier3:
     1d: 75
-    5d: 78
+    5d: 80
+  # Tier 2: 中R:R(≥1:2) + 中confluence(≥50) → 65%
+  tier2:
+    1d: 65
+    5d: 70
+  # Tier 3: 低R:R(1:1 to 1:2) + 低confluence(≥40) → 55%
+  tier3:
+    1d: 55
+    5d: 60
+  # Tier 4: 低confluence或低R:R → 45%
   tier4:
-    1d: 73
-    5d: 76
+    1d: 45
+    5d: 50
   default:
-    1d: 70
-    5d: 72
+    1d: 40
+    5d: 45
 sources:
   a_share_primary: akshare
   a_share_fallback: sina
@@ -177,7 +182,7 @@ technical_filters:
   ma5_required: false
   ma20_required: false
   confluence_min: 30
-display_win_rate_min: 70
+display_win_rate_min: 55  # 課程：最低55%勝率門檻（對應Tier3 R:R≥1:2）
 fibonacci:
   retracement_levels:
     - 0.618
@@ -185,22 +190,36 @@ fibonacci:
   premium_discount_filter: true
 risk_management:
   max_trades_per_day: 3
-  max_loss_per_trade_pct: 2.0
+  max_loss_per_trade_pct: 2.0  # 課程：每筆風險1-2%
   max_daily_loss: 50
   take_profit_ratios:
-    conservative: 1.5
-    normal: 2.0
-    aggressive: 3.0
+    # 課程：TP1/R:R需≥1:2，TP2/R:R需≥1:3，TP3可達1:5
+    conservative: 2.0   # = 1:2
+    normal: 3.0        # = 1:3
+    aggressive: 5.0    # = 1:5
+  # 課程：當R:R=1:1時開始take partial（50%/30%/70%）
   partial_take_profit: 0.5
 ict_concepts:
   premium_zone_threshold: 0.618
   discount_zone_threshold: 0.786
+  # 課程 confluence 評分：根據5個核心策略積分
   confluence_scoring:
-    discount_zone: 30
-    premium_zone: 10
-    rsi_oversold: 20
+    discount_zone: 30      # DISCOUNT zone（做多區域）
+    premium_zone: 10       # PREMIUM zone（做空區域）
+    rsi_oversold: 20       # RSI 超賣
     rsi_normal: 10
     normal_vol: 15
-    high_vol_momentum: 25
+    high_vol_momentum: 25   # 高成交量動力
     above_ma20: 15
     above_ma5: 10
+    # 課程額外評分（5個核心策略）
+    liquidity_sweep: 25    # 流動性掃蕩確認
+    bos: 20                # BOS 結構突破
+    choch: 25              # CHoCH 趨勢改變
+    mss: 25                # MSS 市場結構轉換
+    bullish_fvg: 20        # 看漲 FVG
+    bearish_fvg: 20        # 看跌 FVG
+    ifvg: 30               # 反轉FVG（重要進場信號）
+    order_block_high: 25   # 高質量Order Block
+    order_block_normal: 15
+    breaker_block: 20      # Breaker Block
