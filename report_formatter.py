@@ -92,8 +92,10 @@ def format_ict_signal_badge(signal: dict) -> str:
 
 
 def generate_rich_report(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict, win_rate_threshold: int = 75) -> str:
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    time_str = datetime.now().strftime("%H:%M")
+    from datetime import timedelta
+    hk_dt = datetime.now() + timedelta(hours=8)
+    date_str = hk_dt.strftime("%Y-%m-%d")
+    time_str = hk_dt.strftime("%H:%M")
     wr_cfg = cfg["win_rates"]
     wr_threshold = cfg.get("display_win_rate_min", win_rate_threshold)
 
@@ -275,8 +277,10 @@ def generate_rich_report(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict, w
 
 
 def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict, win_rate_threshold: int = 75):
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    time_str = datetime.now().strftime("%H:%M")
+    from datetime import timedelta
+    hk_dt = datetime.now() + timedelta(hours=8)
+    date_str = hk_dt.strftime("%Y-%m-%d")
+    hk_time = hk_dt.strftime("%H:%M")
     wr_cfg = cfg["win_rates"]
     wr_threshold = cfg.get("display_win_rate_min", win_rate_threshold)
 
@@ -445,7 +449,7 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
 
     <div class="header">
         <div class="logo">StockVue<span>Daily Market Analysis</span></div>
-        <div class="meta">📅 {date_str} &nbsp;|&nbsp; ⏰ {time_str} HK Time</div>
+        <div class="meta">📅 {date_str} &nbsp;|&nbsp; ⏰ {hk_time} HK Time</div>
     </div>
 
     <div class="sentiment-bar">
