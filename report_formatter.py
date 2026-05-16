@@ -517,6 +517,12 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
     @media (max-width: 640px) {{
         .sentiment-bar {{ grid-template-columns: 1fr; }}
         .market-section {{ padding: 1rem; }}
+        .market-header {{ flex-wrap: wrap; }}
+        .market-subtitle {{ margin-left: 0; margin-top: 0.25rem; width: 100%; }}
+        table {{ display: block; overflow-x: auto; white-space: nowrap; }}
+        th, td {{ white-space: nowrap; padding: 0.5rem 0.4rem; font-size: 0.75rem; }}
+        .winrate, .winrate5d, .signal-buy {{ padding: 0.15rem 0.4rem; font-size: 0.7rem; }}
+        .ticker-badge {{ padding: 0.15rem 0.3rem; font-size: 0.7rem; }}
     }}
 </style>
 </head>
