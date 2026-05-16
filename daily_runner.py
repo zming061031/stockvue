@@ -412,6 +412,26 @@ def fetch_a_share_fallback(cfg: dict):
                                                         confluence_min=confluence_min):
                             logger.debug(f"  {symbol}: filtered out rsi={indicators.get('rsi')} vol={indicators.get('vol_ratio')} confluence={indicators.get('confluence', 0)}")
                             continue
+                    ict_data = analyze_a_share_with_ict(symbol, lookback=50)
+                    if ict_data:
+                        record['ict'] = ict_data
+                        record['long_signal'] = ict_data.get('long_signal')
+                        record['short_signal'] = ict_data.get('short_signal')
+                        record['mss_active'] = ict_data.get('mss_active', False)
+                        record['mss_direction'] = ict_data.get('mss_direction')
+                        record['bos_count'] = ict_data.get('bos_count', 0)
+                        record['fvg_count'] = ict_data.get('fvg_count', 0)
+                        record['ob_count'] = ict_data.get('order_blocks', 0)
+                        record['liquidity_sweeps'] = ict_data.get('liquidity_sweeps', 0)
+                        # Update confluence with ICT signals
+                        ict_conf = record.get('confluence', 0)
+                        if ict_data.get('mss_active'):
+                            ict_conf += 25
+                        if ict_data.get('bos_count', 0) > 0:
+                            ict_conf += 20
+                        if ict_data.get('fvg_count', 0) > 0:
+                            ict_conf += 20
+                        record['confluence'] = min(ict_conf, 100)
                     stocks.append(record)
             except:
                 pass
