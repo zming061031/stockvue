@@ -528,25 +528,31 @@ class ICTSMCAnalyzer:
 
         if direction == 'long':
             entry_price = last_candle.close
-            if relevant_fvg:
+            if relevant_fvg and relevant_fvg.low < entry_price:
                 stop_loss = relevant_fvg.low * 0.998
-            elif relevant_ob:
+            elif relevant_ob and relevant_ob.low < entry_price:
                 stop_loss = relevant_ob.low * 0.998
             else:
                 stop_loss = low_20 * 0.995
             risk = entry_price - stop_loss
+            if risk <= 0:
+                stop_loss = low_20 * 0.995
+                risk = entry_price - stop_loss
             take_profit_1 = entry_price + risk * 2.0
             take_profit_2 = entry_price + risk * 3.0
             take_profit_3 = entry_price + risk * 5.0
         else:
             entry_price = last_candle.close
-            if relevant_fvg:
+            if relevant_fvg and relevant_fvg.high > entry_price:
                 stop_loss = relevant_fvg.high * 1.002
-            elif relevant_ob:
+            elif relevant_ob and relevant_ob.high > entry_price:
                 stop_loss = relevant_ob.high * 1.002
             else:
                 stop_loss = high_20 * 1.005
             risk = stop_loss - entry_price
+            if risk <= 0:
+                stop_loss = high_20 * 1.005
+                risk = stop_loss - entry_price
             take_profit_1 = entry_price - risk * 2.0
             take_profit_2 = entry_price - risk * 3.0
             take_profit_3 = entry_price - risk * 5.0
