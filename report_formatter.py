@@ -287,12 +287,6 @@ def generate_rich_report(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict, w
     report += "---\n\n"
     report += "📊 **StockVue Daily Analysis** | Generated automatically by algorithm\n"
     report += f"🕐 Report generated at {time_str} HK Time on {date_str}\n\n"
-    report += "---\n\n"
-    report += "## 🔐 Member Access\n\n"
-    report += "**Access your private dashboard:**\n"
-    report += "🌐 **https://bargains-journalists-columbus-polls.trycloudflare.com**\n"
-    report += "🔑 **Password:** `stockvue2026`\n\n"
-    report += "*Auto-refreshes every hour. Bookmark this URL for easy access.*\n"
 
     return report
 

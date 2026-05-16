@@ -664,10 +664,16 @@ def main():
 
     logger.info("Updating Gumroad product...")
     date_str = datetime.now().strftime("%Y-%m-%d")
+
+    top_hk = hk_stocks[0]['ticker'] if hk_stocks else "—"
+    top_us = us_stocks[0]['ticker'] if us_stocks else "—"
+    top_a = a_stocks[0].get('code', a_stocks[0].get('ticker', '—')) if a_stocks else "—"
+    summary = f"{date_str} | HK: {top_hk} (+{hk_stocks[0]['change_pct'] if hk_stocks else 0}%) | US: {top_us} (+{us_stocks[0]['change_pct'] if us_stocks else 0}%) | A: {top_a} (+{a_stocks[0]['change_pct'] if a_stocks else 0}%)"
+
     success = update_gumroad_product(
-        name=f"StockVue | Daily Report {date_str} | ICT/SMC Signals",
+        name=f"StockVue | {date_str} | ICT/SMC Daily Analysis",
         description=report,
-        summary=f"Daily HK+US+A-Share analysis with ICT/SMC entry/SL/TP, confluence scoring & win-rate tiers. {date_str}",
+        summary=summary,
         cfg=cfg
     )
 
