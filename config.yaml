@@ -200,8 +200,9 @@ risk_management:
   # 課程：當R:R=1:1時開始take partial（50%/30%/70%）
   partial_take_profit: 0.5
 ict_concepts:
-  premium_zone_threshold: 0.618
-  discount_zone_threshold: 0.786
+  # 課程：50% equilibrium 是 Premium/Discount 分界線
+  premium_zone_threshold: 0.5
+  discount_zone_threshold: 0.5
   # 課程 confluence 評分：根據5個核心策略積分
   confluence_scoring:
     discount_zone: 30      # DISCOUNT zone（做多區域）

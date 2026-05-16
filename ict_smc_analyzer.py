@@ -215,23 +215,29 @@ class ICTSMCAnalyzer:
 
         for i in range(1, len(highs)):
             if highs[i].price > highs[i - 1].price and highs[i].strength >= 1.5:
-                self.bos_list.append(BOS(
-                    direction='bullish',
-                    break_price=highs[i].price,
-                    prev_swing=highs[i - 1],
-                    current_swing=highs[i],
-                    strength=highs[i].strength
-                ))
+                candle_at_break = self.candles[highs[i].index]
+                body_top = max(candle_at_break.open, candle_at_break.close)
+                if body_top > highs[i - 1].price:
+                    self.bos_list.append(BOS(
+                        direction='bullish',
+                        break_price=highs[i].price,
+                        prev_swing=highs[i - 1],
+                        current_swing=highs[i],
+                        strength=highs[i].strength
+                    ))
 
         for i in range(1, len(lows)):
             if lows[i].price < lows[i - 1].price and lows[i].strength >= 1.5:
-                self.bos_list.append(BOS(
-                    direction='bearish',
-                    break_price=lows[i].price,
-                    prev_swing=lows[i - 1],
-                    current_swing=lows[i],
-                    strength=lows[i].strength
-                ))
+                candle_at_break = self.candles[lows[i].index]
+                body_bottom = min(candle_at_break.open, candle_at_break.close)
+                if body_bottom < lows[i - 1].price:
+                    self.bos_list.append(BOS(
+                        direction='bearish',
+                        break_price=lows[i].price,
+                        prev_swing=lows[i - 1],
+                        current_swing=lows[i],
+                        strength=lows[i].strength
+                    ))
 
     def _detect_choch(self):
         if len(self.bos_list) < 2:
@@ -419,12 +425,11 @@ class ICTSMCAnalyzer:
         if range_val <= 0:
             return 'NEUTRAL'
 
-        level_618 = low + range_val * 0.618
-        level_786 = low + range_val * 0.786
+        equilibrium = low + range_val * 0.5
 
-        if price > level_618:
+        if price > equilibrium:
             return 'PREMIUM'
-        elif price < level_786:
+        elif price < equilibrium:
             return 'DISCOUNT'
         else:
             return 'NEUTRAL'

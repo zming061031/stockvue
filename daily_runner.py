@@ -96,10 +96,12 @@ def calc_fib_retracement(high, low, current):
     range_val = high - low
     if range_val <= 0:
         return None
+    level_50 = low + range_val * 0.5
     level_618 = low + range_val * 0.618
     level_786 = low + range_val * 0.786
-    zone = "PREMIUM" if current > level_618 else ("DISCOUNT" if current < level_786 else "NEUTRAL")
+    zone = "PREMIUM" if current > level_50 else ("DISCOUNT" if current < level_50 else "NEUTRAL")
     return {
+        'level_50': level_50,
         'level_618': level_618,
         'level_786': level_786,
         'zone': zone,
