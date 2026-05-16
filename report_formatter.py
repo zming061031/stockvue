@@ -8,26 +8,47 @@ Emoji-enhanced, well-structured daily reports
 from datetime import datetime
 
 
-def format_win_rate(pct: float, cfg: dict, horizon: str = "1d") -> str:
+def format_win_rate(pct: float, cfg: dict, horizon: str = "1d", confluence: int = 0) -> str:
+    return str(get_win_rate(pct, cfg, horizon, confluence))
+
+
+def get_win_rate(pct: float, cfg: dict, horizon: str = "1d", confluence: int = 0) -> int:
     if pct >= 5: tier = cfg["tier1"]
     elif pct >= 3: tier = cfg["tier2"]
     elif pct >= 2: tier = cfg["tier3"]
     elif pct >= 1.5: tier = cfg["tier4"]
     else: tier = cfg["default"]
     if isinstance(tier, dict):
-        return str(tier.get(horizon, tier.get("1d", "N/A")))
-    return str(tier)
+        base = int(tier.get(horizon, tier.get("1d", 50)))
+    else:
+        base = int(tier)
+    # Confluence modifier: ±5% range based on confluence score
+    if confluence > 0:
+        modifier = round((confluence - 50) * 0.1)
+        base = max(30, min(95, base + modifier))
+    return base
 
 
-def get_win_rate(pct: float, cfg: dict, horizon: str = "1d") -> int:
-    if pct >= 5: tier = cfg["tier1"]
-    elif pct >= 3: tier = cfg["tier2"]
-    elif pct >= 2: tier = cfg["tier3"]
-    elif pct >= 1.5: tier = cfg["tier4"]
-    else: tier = cfg["default"]
-    if isinstance(tier, dict):
-        return int(tier.get(horizon, tier.get("1d", 50)))
-    return int(tier)
+def compute_basic_confluence(s):
+    """Compute basic confluence for stocks without ICT analysis (A-shares)."""
+    score = 0
+    pct = abs(s.get('change_pct', 0))
+    if pct >= 7: score += 30
+    elif pct >= 5: score += 25
+    elif pct >= 3: score += 15
+    elif pct >= 2: score += 10
+
+    turnover = s.get('turnover_rate', 0)
+    if turnover >= 20: score += 30
+    elif turnover >= 10: score += 20
+    elif turnover >= 5: score += 15
+    elif turnover >= 3: score += 10
+
+    # Momentum: high change + high turnover = strong signal
+    if pct >= 3 and turnover >= 10: score += 15
+    if pct >= 5 and turnover >= 15: score += 10
+
+    return min(score, 100)
 
 
 def sentiment_emoji(market: str, sentiment: str) -> str:
@@ -324,13 +345,13 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
     sell_a = next_close_a(hk_dt)
 
     hk_rows = ""
-    for s in [s for s in hk_stocks if passes_threshold(s)]:
-        wr_1d = format_win_rate(s['change_pct'], wr_cfg, "1d")
-        wr_5d = format_win_rate(s['change_pct'], wr_cfg, "5d")
+    for idx, s in enumerate([s for s in hk_stocks if passes_threshold(s)], 1):
+        confluence = s.get('confluence', 0)
+        wr_1d = format_win_rate(s['change_pct'], wr_cfg, "1d", confluence)
+        wr_5d = format_win_rate(s['change_pct'], wr_cfg, "5d", confluence)
         fib = s.get('fib', {})
         zone = fib.get('zone', 'N/A') if fib else 'N/A'
         zone_color = "#3b82f6" if zone == 'DISCOUNT' else ("#ef4444" if zone == 'PREMIUM' else "#64748b")
-        confluence = s.get('confluence', 0)
         conf_color = "#22c55e" if confluence >= 60 else ("#eab308" if confluence >= 40 else "#ef4444")
         mss = s.get('mss_active', False)
         mss_dir = s.get('mss_direction', '')
@@ -354,6 +375,7 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         else:
             entry_txt = sl_txt = tp_txt = "—"
         hk_rows += f"""<tr>
+            <td>{idx}</td>
             <td><span class="ticker-badge">{s['ticker']}</span></td>
             <td><strong>{s['name']}</strong></td>
             <td>HKD {s['price']:.2f}</td>
@@ -371,13 +393,13 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         </tr>"""
 
     us_rows = ""
-    for s in [s for s in us_stocks if passes_threshold(s)]:
-        wr_1d = format_win_rate(s['change_pct'], wr_cfg, "1d")
-        wr_5d = format_win_rate(s['change_pct'], wr_cfg, "5d")
+    for idx, s in enumerate([s for s in us_stocks if passes_threshold(s)], 1):
+        confluence = s.get('confluence', 0)
+        wr_1d = format_win_rate(s['change_pct'], wr_cfg, "1d", confluence)
+        wr_5d = format_win_rate(s['change_pct'], wr_cfg, "5d", confluence)
         fib = s.get('fib', {})
         zone = fib.get('zone', 'N/A') if fib else 'N/A'
         zone_color = "#3b82f6" if zone == 'DISCOUNT' else ("#ef4444" if zone == 'PREMIUM' else "#64748b")
-        confluence = s.get('confluence', 0)
         conf_color = "#22c55e" if confluence >= 60 else ("#eab308" if confluence >= 40 else "#ef4444")
         mss = s.get('mss_active', False)
         mss_dir = s.get('mss_direction', '')
@@ -401,12 +423,13 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         else:
             entry_txt = sl_txt = tp_txt = "—"
         us_rows += f"""<tr>
+            <td>{idx}</td>
             <td><span class="ticker-badge">{s['ticker']}</span></td>
             <td><strong>{s['name']}</strong></td>
             <td>USD {s['price']:.2f}</td>
             <td><span class="change-badge" style="color:{us_color(s['change_pct'])}">+{s['change_pct']}%</span></td>
             <td><span style="color:{zone_color};font-weight:600;font-size:0.8rem">{zone}</span></td>
-            <td><span style="color:{conf_color};font-weight:700">{confluence}</td>
+            <td><span style="color:{conf_color};font-weight:700">{confluence}</span></td>
             <td><span class="winrate">{wr_1d}%</span></td>
             <td><span class="winrate5d">{wr_5d}%</span></td>
             <td><span style="color:{mss_color};font-weight:600;font-size:0.75rem">{mss_txt}</span></td>
@@ -418,13 +441,15 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         </tr>"""
 
     a_rows = ""
-    for s in [s for s in a_stocks if passes_threshold(s)]:
-        wr_1d = format_win_rate(s['change_pct'], wr_cfg, "1d")
-        wr_5d = format_win_rate(s['change_pct'], wr_cfg, "5d")
+    for idx, s in enumerate([s for s in a_stocks if passes_threshold(s)], 1):
+        confluence = s.get('confluence', 0)
+        if confluence == 0:
+            confluence = compute_basic_confluence(s)
+        wr_1d = format_win_rate(s['change_pct'], wr_cfg, "1d", confluence)
+        wr_5d = format_win_rate(s['change_pct'], wr_cfg, "5d", confluence)
         fib = s.get('fib', {})
         zone = fib.get('zone', 'N/A') if fib else 'N/A'
         zone_color = "#3b82f6" if zone == 'DISCOUNT' else ("#ef4444" if zone == 'PREMIUM' else "#64748b")
-        confluence = s.get('confluence', 0)
         conf_color = "#22c55e" if confluence >= 60 else ("#eab308" if confluence >= 40 else "#ef4444")
         mss = s.get('mss_active', False)
         mss_dir = s.get('mss_direction', '')
@@ -448,6 +473,7 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         else:
             entry_txt = sl_txt = tp_txt = "—"
         a_rows += f"""<tr>
+            <td>{idx}</td>
             <td><span class="ticker-badge">{s['code']}</span></td>
             <td><strong>{s['name']}</strong></td>
             <td>CNY {s['price']:.2f}</td>
@@ -521,7 +547,8 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         .market-subtitle {{ margin-left: 0; margin-top: 0.25rem; width: 100%; }}
         table {{ display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }}
         thead {{ position: sticky; top: 0; z-index: 10; }}
-        th, td {{ white-space: nowrap; padding: 0.5rem 0.4rem; font-size: 0.7rem; min-width: 60px; }}
+        th {{ white-space: normal; padding: 0.4rem 0.3rem; font-size: 0.6rem; min-width: 50px; line-height: 1.2; }}
+        td {{ white-space: nowrap; padding: 0.5rem 0.3rem; font-size: 0.7rem; min-width: 50px; }}
         th:first-child, td:first-child {{ position: sticky; left: 0; z-index: 5; background: #1e293b; }}
         th:nth-child(2) {{ position: sticky; left: 60px; z-index: 5; }}
         td:nth-child(2) {{ position: sticky; left: 60px; z-index: 5; background: #1e293b; }}
@@ -563,8 +590,8 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
             <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: {sell_hk} HK</span>
         </div>
         <table>
-            <thead><tr><th>#</th><th>股票</th><th>Name</th><th>Price</th><th>Chg%</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Sig</th></tr></thead>
-            <tbody>{hk_rows if hk_rows else '<tr><td colspan="16" style="text-align:center;color:#64748b;">No stocks met screening criteria today</td></tr>'}</tbody>
+            <thead><tr><th>#</th><th>股票<br>Ticker</th><th>名稱<br>Name</th><th>價格<br>Price</th><th>漲幅<br>Chg%</th><th>區域<br>Zone</th><th>信心<br>Conf</th><th>1日勝率<br>1D%</th><th>5日勝率<br>5D%</th><th>結構<br>MSS</th><th>突破<br>BOS</th><th>缺口<br>FVG</th><th>入場<br>Entry</th><th>止損<br>SL</th><th>目標價<br>TP1/2/3</th><th>訊號<br>Sig</th></tr></thead>
+            <tbody>{hk_rows if hk_rows else '<tr><td colspan="16" style="text-align:center;color:#64748b;">今日無符合條件的股票</td></tr>'}</tbody>
         </table>
     </div>
 
@@ -575,8 +602,8 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
             <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: {sell_us} HK</span>
         </div>
         <table>
-            <thead><tr><th>#</th><th>股票</th><th>Name</th><th>Price</th><th>Chg%</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Sig</th></tr></thead>
-            <tbody>{us_rows if us_rows else '<tr><td colspan="16" style="text-align:center;color:#64748b;">No stocks met screening criteria today</td></tr>'}</tbody>
+            <thead><tr><th>#</th><th>股票<br>Ticker</th><th>名稱<br>Name</th><th>價格<br>Price</th><th>漲幅<br>Chg%</th><th>區域<br>Zone</th><th>信心<br>Conf</th><th>1日勝率<br>1D%</th><th>5日勝率<br>5D%</th><th>結構<br>MSS</th><th>突破<br>BOS</th><th>缺口<br>FVG</th><th>入場<br>Entry</th><th>止損<br>SL</th><th>目標價<br>TP1/2/3</th><th>訊號<br>Sig</th></tr></thead>
+            <tbody>{us_rows if us_rows else '<tr><td colspan="16" style="text-align:center;color:#64748b;">今日無符合條件的股票</td></tr>'}</tbody>
         </table>
     </div>
 
@@ -587,8 +614,8 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
             <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: {sell_a} HK</span>
         </div>
         <table>
-            <thead><tr><th>#</th><th>代碼</th><th>Name</th><th>Price</th><th>Chg%</th><th>換手</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Sig</th></tr></thead>
-            <tbody>{a_rows if a_rows else '<tr><td colspan="16" style="text-align:center;color:#64748b;">No stocks met screening criteria today</td></tr>'}</tbody>
+            <thead><tr><th>#</th><th>代碼<br>Code</th><th>名稱<br>Name</th><th>價格<br>Price</th><th>漲幅<br>Chg%</th><th>換手率<br>Turn%</th><th>區域<br>Zone</th><th>信心<br>Conf</th><th>1日勝率<br>1D%</th><th>5日勝率<br>5D%</th><th>結構<br>MSS</th><th>突破<br>BOS</th><th>缺口<br>FVG</th><th>入場<br>Entry</th><th>止損<br>SL</th><th>目標價<br>TP1/2/3</th><th>訊號<br>Sig</th></tr></thead>
+            <tbody>{a_rows if a_rows else '<tr><td colspan="17" style="text-align:center;color:#64748b;">今日無符合條件的股票</td></tr>'}</tbody>
         </table>
     </div>
 
