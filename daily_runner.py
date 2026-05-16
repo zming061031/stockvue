@@ -619,7 +619,7 @@ def get_gumroad_product_id(permalink: str, access_token: str):
     page = 1
     while True:
         r = requests.get("https://api.gumroad.com/v2/products",
-            params={"access_token": access_token, "page": page}, timeout=15)
+            params={"access_token": access_token, "page": page}, timeout=30)
         data = r.json()
         if not data.get("success"):
             return None
@@ -686,17 +686,19 @@ def main():
     top_a = a_stocks[0].get('code', a_stocks[0].get('ticker', '—')) if a_stocks else "—"
     summary = f"{date_str} | HK: {top_hk} (+{hk_stocks[0]['change_pct'] if hk_stocks else 0}%) | US: {top_us} (+{us_stocks[0]['change_pct'] if us_stocks else 0}%) | A: {top_a} (+{a_stocks[0]['change_pct'] if a_stocks else 0}%)"
 
-    success = update_gumroad_product(
-        name=f"StockVue | {date_str} | ICT/SMC Daily Analysis",
-        description=report,
-        summary=summary,
-        cfg=cfg
-    )
-
-    if success:
-        logger.info("DONE - All steps completed successfully")
-    else:
-        logger.warning("DONE - Report saved but Gumroad update failed (check GUMROAD_ACCESS_TOKEN)")
+    try:
+        success = update_gumroad_product(
+            name=f"StockVue | {date_str} | ICT/SMC Daily Analysis",
+            description=report,
+            summary=summary,
+            cfg=cfg
+        )
+        if success:
+            logger.info("DONE - All steps completed successfully")
+        else:
+            logger.warning("DONE - Report saved but Gumroad update failed")
+    except Exception as e:
+        logger.warning(f"DONE - Report saved but Gumroad update failed: {e}")
 
     logger.info("=" * 50)
 
