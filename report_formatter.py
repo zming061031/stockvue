@@ -519,10 +519,17 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         .market-section {{ padding: 1rem; }}
         .market-header {{ flex-wrap: wrap; }}
         .market-subtitle {{ margin-left: 0; margin-top: 0.25rem; width: 100%; }}
-        table {{ display: block; overflow-x: auto; white-space: nowrap; }}
-        th, td {{ white-space: nowrap; padding: 0.5rem 0.4rem; font-size: 0.75rem; }}
-        .winrate, .winrate5d, .signal-buy {{ padding: 0.15rem 0.4rem; font-size: 0.7rem; }}
-        .ticker-badge {{ padding: 0.15rem 0.3rem; font-size: 0.7rem; }}
+        table {{ display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }}
+        thead {{ position: sticky; top: 0; z-index: 10; }}
+        th, td {{ white-space: nowrap; padding: 0.5rem 0.4rem; font-size: 0.7rem; min-width: 60px; }}
+        th:first-child, td:first-child {{ position: sticky; left: 0; z-index: 5; background: #1e293b; }}
+        th:nth-child(2) {{ position: sticky; left: 60px; z-index: 5; }}
+        td:nth-child(2) {{ position: sticky; left: 60px; z-index: 5; background: #1e293b; }}
+        td:first-child, td:nth-child(2) {{ background: #1e293b; }}
+        tbody tr:last-child td {{ border-bottom: none; }}
+        .winrate, .winrate5d, .signal-buy {{ padding: 0.1rem 0.3rem; font-size: 0.65rem; }}
+        .ticker-badge {{ padding: 0.1rem 0.25rem; font-size: 0.65rem; }}
+        .change-badge {{ font-size: 0.8rem; }}
     }}
 </style>
 </head>
@@ -556,7 +563,7 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
             <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: {sell_hk} HK</span>
         </div>
         <table>
-            <thead><tr><th>#</th><th>Ticker</th><th>Name</th><th>Price</th><th>Chg%</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Signal</th></tr></thead>
+            <thead><tr><th>#</th><th>股票</th><th>Name</th><th>Price</th><th>Chg%</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Sig</th></tr></thead>
             <tbody>{hk_rows if hk_rows else '<tr><td colspan="16" style="text-align:center;color:#64748b;">No stocks met screening criteria today</td></tr>'}</tbody>
         </table>
     </div>
@@ -568,7 +575,7 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
             <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: {sell_us} HK</span>
         </div>
         <table>
-            <thead><tr><th>#</th><th>Ticker</th><th>Name</th><th>Price</th><th>Chg%</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Signal</th></tr></thead>
+            <thead><tr><th>#</th><th>股票</th><th>Name</th><th>Price</th><th>Chg%</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Sig</th></tr></thead>
             <tbody>{us_rows if us_rows else '<tr><td colspan="16" style="text-align:center;color:#64748b;">No stocks met screening criteria today</td></tr>'}</tbody>
         </table>
     </div>
@@ -580,7 +587,7 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
             <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: {sell_a} HK</span>
         </div>
         <table>
-            <thead><tr><th>#</th><th>Code</th><th>Name</th><th>Price</th><th>Chg%</th><th>Turnover</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Signal</th></tr></thead>
+            <thead><tr><th>#</th><th>代碼</th><th>Name</th><th>Price</th><th>Chg%</th><th>換手</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Sig</th></tr></thead>
             <tbody>{a_rows if a_rows else '<tr><td colspan="16" style="text-align:center;color:#64748b;">No stocks met screening criteria today</td></tr>'}</tbody>
         </table>
     </div>
