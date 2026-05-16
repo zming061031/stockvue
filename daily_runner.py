@@ -599,40 +599,43 @@ def save_report(report: str, cfg: dict):
     return md_path
 
 
-def get_gumroad_tokens(permalink: str):
-    s = requests.Session()
-    r = s.get(f'https://gumroad.com/products/{permalink}/edit', timeout=10)
-    m = re.search(r'csrf-token["\s]+content=["\']([^"\']+)["\']', r.text)
-    csrf = m.group(1) if m else None
-    cookies = {c.name: c.value for c in s.cookies if c.name in ['_gumroad_app_session', '_gumroad_guid']}
-    return csrf, cookies
+def get_gumroad_product_id(permalink: str, access_token: str):
+    page = 1
+    while True:
+        r = requests.get("https://api.gumroad.com/v2/products",
+            params={"access_token": access_token, "page": page}, timeout=15)
+        data = r.json()
+        if not data.get("success"):
+            return None
+        for p in data.get("products", []):
+            if p.get("short_url", "").endswith(f"/{permalink}"):
+                return p["id"]
+        if not data.get("next_page_key"):
+            return None
+        page += 1
 
 
-def post_to_gumroad(content: str, title: str, cfg: dict) -> bool:
-    permalink = cfg["gumroad"]["product_permalink"]
-    csrf, cookies = get_gumroad_tokens(permalink)
-    if not csrf:
-        logger.error("CSRF token not found")
+def update_gumroad_product(name: str, description: str, summary: str, cfg: dict) -> bool:
+    access_token = os.environ.get("GUMROAD_ACCESS_TOKEN")
+    if not access_token:
+        logger.warning("GUMROAD_ACCESS_TOKEN not set, skipping Gumroad update")
         return False
-    session = requests.Session()
-    session.cookies.update(cookies)
-    session.headers.update({
-        'User-Agent': 'Mozilla/5.0',
-        'Accept': 'text/html',
-        'Referer': f'https://gumroad.com/products/{permalink}/edit'
-    })
-    data = {
-        'authenticity_token': csrf,
-        'post[title]': title,
-        'post[content]': content
-    }
-    try:
-        r = session.post(f"https://gumroad.com/products/{permalink}/posts", data=data, timeout=15)
-        status = r.status_code
-        logger.info(f"Gumroad post status: {status}")
-        return status in [200, 201, 302]
-    except Exception as e:
-        logger.error(f"Post error: {e}")
+    permalink = cfg["gumroad"]["product_permalink"]
+    product_id = get_gumroad_product_id(permalink, access_token)
+    if not product_id:
+        logger.error(f"Gumroad product '{permalink}' not found")
+        return False
+    r = requests.put(f"https://api.gumroad.com/v2/products/{product_id}",
+        params={"access_token": access_token},
+        json={"name": name, "description": description, "custom_summary": summary, "published": "true"},
+        headers={"Content-Type": "application/json"},
+        timeout=15)
+    data = r.json()
+    if data.get("success"):
+        logger.info(f"Gumroad product updated: {name}")
+        return True
+    else:
+        logger.error(f"Gumroad update failed: {data}")
         return False
 
 
@@ -659,15 +662,19 @@ def main():
         f.write(html_dashboard)
     logger.info(f"HTML dashboard saved: {html_path}")
 
-    logger.info("Posting to Gumroad...")
+    logger.info("Updating Gumroad product...")
     date_str = datetime.now().strftime("%Y-%m-%d")
-    title = f"{cfg['gumroad']['post_title_prefix']} {date_str}"
-    success = post_to_gumroad(report, title, cfg)
+    success = update_gumroad_product(
+        name=f"StockVue | Daily Report {date_str} | ICT/SMC Signals",
+        description=report,
+        summary=f"Daily HK+US+A-Share analysis with ICT/SMC entry/SL/TP, confluence scoring & win-rate tiers. {date_str}",
+        cfg=cfg
+    )
 
     if success:
         logger.info("DONE - All steps completed successfully")
     else:
-        logger.warning("DONE - Report saved but Gumroad posting failed (check logs)")
+        logger.warning("DONE - Report saved but Gumroad update failed (check GUMROAD_ACCESS_TOKEN)")
 
     logger.info("=" * 50)
 
