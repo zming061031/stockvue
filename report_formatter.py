@@ -33,20 +33,21 @@ def compute_basic_confluence(s):
     """Compute basic confluence for stocks without ICT analysis (A-shares)."""
     score = 0
     pct = abs(s.get('change_pct', 0))
-    if pct >= 7: score += 30
-    elif pct >= 5: score += 25
-    elif pct >= 3: score += 15
-    elif pct >= 2: score += 10
+    if pct >= 10: score += 35
+    elif pct >= 7: score += 30
+    elif pct >= 5: score += 20
+    elif pct >= 3: score += 10
+    elif pct >= 2: score += 5
 
     turnover = s.get('turnover_rate', 0)
-    if turnover >= 20: score += 30
-    elif turnover >= 10: score += 20
-    elif turnover >= 5: score += 15
-    elif turnover >= 3: score += 10
+    if turnover >= 30: score += 35
+    elif turnover >= 20: score += 25
+    elif turnover >= 10: score += 15
+    elif turnover >= 5: score += 10
+    elif turnover >= 3: score += 5
 
-    # Momentum: high change + high turnover = strong signal
-    if pct >= 3 and turnover >= 10: score += 15
-    if pct >= 5 and turnover >= 15: score += 10
+    if pct >= 5 and turnover >= 15: score += 15
+    if pct >= 7 and turnover >= 20: score += 10
 
     return min(score, 100)
 
@@ -225,9 +226,9 @@ def generate_rich_report(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict, w
     report += "| ✅ BUY | Our algorithm suggests a buy signal based on momentum screening |\n"
     report += "| 🟢 Green | Strong mover ≥ 3% today |\n"
     report += "| 🟡 Yellow | Moderate mover 1.5% – 3% |\n"
-    report += "| 🔵 Discount | Price near Fibonacci 0.786 (buy zone - ICT Premium/Discount concept) |\n"
-    report += "| 🔴 Premium | Price above Fibonacci 0.618 (sell zone) |\n"
-    report += "| ⚪ Neutral | Price between 0.618-0.786 |\n"
+    report += "| 🔵 Discount | Price below 50% equilibrium (buy zone - ICT Premium/Discount concept) |\n"
+    report += "| 🔴 Premium | Price above 50% equilibrium (sell zone) |\n"
+    report += "| ⚪ Neutral | Price at or near 50% equilibrium |\n"
     report += "| 🟢 High Confluence | Score ≥60: Multiple confirmations (strong signal) |\n"
     report += "| 🟡 Medium Confluence | Score 40-59: Moderate confirmations |\n"
     report += "| 🔴 Low Confluence | Score <40: Weak signal, less reliable |\n"
@@ -251,8 +252,8 @@ def generate_rich_report(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict, w
     report += "| **OB** | Order Block - Last candle before major move (institutional footprint) |\n"
     report += "| **BB** | Breaker Block - Broken OB that now acts as resistance/support |\n"
     report += "| **SSS** | Short Squeeze Squeeze - Liquidity sweep taking out lows |\n"
-    report += "| **DISCOUNT** | Price below 0.786 Fib - Buy zone (high probability long) |\n"
-    report += "| **PREMIUM** | Price above 0.618 Fib - Sell zone (high probability short) |\n"
+    report += "| **DISCOUNT** | Price below 50% equilibrium - Buy zone (institutional long entry) |\n"
+    report += "| **PREMIUM** | Price above 50% equilibrium - Sell zone (institutional short entry) |\n"
     report += "| **Confluence** | Multiple confirmations combined (BOS + OB + Zone + MSS) |\n"
     report += "\n---\n\n"
 

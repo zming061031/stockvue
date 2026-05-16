@@ -223,6 +223,12 @@ def analyze_a_share_with_ict(symbol: str, lookback: int = 50) -> dict:
         summary['current_price'] = candles[-1].close if candles else 0
         summary['ticker'] = symbol
         summary['candle_count'] = len(candles)
+
+        long_sig = analyzer.generate_trade_signal('long')
+        if long_sig:
+            summary['long_signal'] = long_sig
+            summary['zone'] = long_sig.zone
+
         return summary
     except Exception as e:
         logger.debug(f"  ICT analysis failed for {symbol}: {e}")
@@ -360,6 +366,14 @@ def fetch_a_share_primary(cfg: dict):
             record['fvg_count'] = ict_data.get('fvg_count', 0)
             record['ob_count'] = ict_data.get('order_blocks', 0)
             record['liquidity_sweeps'] = ict_data.get('liquidity_sweeps', 0)
+            ict_conf = record.get('confluence', 0)
+            if ict_data.get('mss_active'):
+                ict_conf += 25
+            if ict_data.get('bos_count', 0) > 0:
+                ict_conf += 20
+            if ict_data.get('fvg_count', 0) > 0:
+                ict_conf += 20
+            record['confluence'] = min(ict_conf, 100)
         results.append(record)
     logger.info(f"  A-share: {len(results)} stocks passed screening")
     return results
