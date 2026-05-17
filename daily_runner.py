@@ -481,6 +481,7 @@ def fetch_hk_stocks(cfg: dict):
     vol_max = tf.get("vol_ratio_max", 3.0)
     confluence_min = tf.get("confluence_min", 40)
     results = []
+
     for ticker in tickers:
         try:
             info = yfinance.Ticker(ticker).info
