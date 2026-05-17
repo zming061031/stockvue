@@ -115,7 +115,9 @@ def format_ict_signal_badge(signal: dict) -> str:
 
 def generate_rich_report(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict, win_rate_threshold: int = 75) -> str:
     from datetime import timedelta
-    hk_dt = datetime.now() + timedelta(hours=8)
+    from datetime import timedelta, timezone
+    hk_tz = timezone(timedelta(hours=8))
+    hk_dt = datetime.now(hk_tz)
     date_str = hk_dt.strftime("%Y-%m-%d")
     time_str = hk_dt.strftime("%H:%M")
     wr_cfg = cfg["win_rates"]
@@ -294,7 +296,9 @@ def generate_rich_report(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict, w
 
 def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict, win_rate_threshold: int = 75):
     from datetime import timedelta
-    hk_dt = datetime.now() + timedelta(hours=8)
+    from datetime import timedelta, timezone
+    hk_tz = timezone(timedelta(hours=8))
+    hk_dt = datetime.now(hk_tz)
     date_str = hk_dt.strftime("%Y-%m-%d")
     hk_time = hk_dt.strftime("%H:%M")
     wr_cfg = cfg["win_rates"]
