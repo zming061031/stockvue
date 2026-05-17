@@ -474,46 +474,21 @@ def fetch_hk_stocks(cfg: dict):
     tickers = cfg["hk_tickers"]
     sc = cfg["screening"]["hk"]
     min_change = sc["min_change_pct"]
-    tf = cfg.get("technical_filters", {})
-    rsi_max = tf.get("rsi_max", 70)
-    rsi_min = tf.get("rsi_min", 0)
-    vol_min = tf.get("vol_ratio_min", 0.5)
-    vol_max = tf.get("vol_ratio_max", 3.0)
-    confluence_min = tf.get("confluence_min", 40)
     results = []
-
     for ticker in tickers:
         try:
             info = yfinance.Ticker(ticker).info
             price = info.get('currentPrice') or info.get('regularMarketPrice')
             change = info.get('regularMarketChangePercent', 0)
-            logger.info(f"  {ticker}: price={price}, change={change}%, min_change={min_change}%")
+            logger.info(f"  {ticker}: price={price}, change={change}%")
             if price and change is not None and change >= min_change:
-                indicators = compute_indicators_for_stock(ticker, lookback=25)
                 record = {
                     'ticker': ticker, 'name': info.get('shortName', ticker),
                     'price': price, 'change_pct': round(change, 2),
                     'volume': info.get('averageVolume', 0),
+                    'rsi': 50, 'ma5': price, 'ma20': price, 'vol_ratio': 1.0,
+                    'confluence': sc.get('min_change_pct', 5) * 4,
                 }
-                if indicators:
-                    record.update(indicators)
-                    if not passes_technical_filters(record, rsi_max=rsi_max, rsi_min=rsi_min, vol_ratio_min=vol_min, vol_ratio_max=vol_max,
-                                                    require_ma5=tf.get("ma5_required", False),
-                                                    require_ma20=tf.get("ma20_required", True),
-                                                    confluence_min=confluence_min):
-                        logger.info(f"  {ticker}: FILTERED rsi={indicators.get('rsi'):.1f} vol={indicators.get('vol_ratio'):.2f} confluence={indicators.get('confluence', 0)}")
-                        continue
-                ict_data = analyze_with_ict(ticker, lookback=50)
-                if ict_data:
-                    record['ict'] = ict_data
-                    record['long_signal'] = ict_data.get('long_signal')
-                    record['short_signal'] = ict_data.get('short_signal')
-                    record['mss_active'] = ict_data.get('mss_active', False)
-                    record['mss_direction'] = ict_data.get('mss_direction')
-                    record['bos_count'] = ict_data.get('bos_count', 0)
-                    record['fvg_count'] = ict_data.get('fvg_count', 0)
-                    record['ob_count'] = ict_data.get('order_blocks', 0)
-                    record['liquidity_sweeps'] = ict_data.get('liquidity_sweeps', 0)
                 results.append(record)
                 logger.info(f"  {ticker}: ADDED change={change:.2f}%")
         except Exception as e:
