@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>StockVue — Daily Market Report 2026-05-16</title>
+<title>StockVue — Daily Market Report 2026-05-18</title>
 <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #0f1117; color: #e2e8f0; min-height: 100vh; }
@@ -50,6 +50,20 @@
     @media (max-width: 640px) {
         .sentiment-bar { grid-template-columns: 1fr; }
         .market-section { padding: 1rem; }
+        .market-header { flex-wrap: wrap; }
+        .market-subtitle { margin-left: 0; margin-top: 0.25rem; width: 100%; }
+        table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+        thead { position: sticky; top: 0; z-index: 10; }
+        th { white-space: normal; padding: 0.4rem 0.3rem; font-size: 0.6rem; min-width: 50px; line-height: 1.2; }
+        td { white-space: nowrap; padding: 0.5rem 0.3rem; font-size: 0.7rem; min-width: 50px; }
+        th:first-child, td:first-child { position: sticky; left: 0; z-index: 5; background: #1e293b; }
+        th:nth-child(2) { position: sticky; left: 60px; z-index: 5; }
+        td:nth-child(2) { position: sticky; left: 60px; z-index: 5; background: #1e293b; }
+        td:first-child, td:nth-child(2) { background: #1e293b; }
+        tbody tr:last-child td { border-bottom: none; }
+        .winrate, .winrate5d, .signal-buy { padding: 0.1rem 0.3rem; font-size: 0.65rem; }
+        .ticker-badge { padding: 0.1rem 0.25rem; font-size: 0.65rem; }
+        .change-badge { font-size: 0.8rem; }
     }
 </style>
 </head>
@@ -58,7 +72,8 @@
 
     <div class="header">
         <div class="logo">StockVue<span>Daily Market Analysis</span></div>
-        <div class="meta">📅 2026-05-16 &nbsp;|&nbsp; ⏰ 07:43 HK Time</div>
+        <div class="meta">📅 2026-05-18 &nbsp;|&nbsp; ⏰ <span id="live-clock">16:52</span> HKT</div>
+        <div class="meta" style="font-size:0.75rem;color:#64748b;margin-top:0.3rem">Data updated: 16:52 HKT &nbsp;|&nbsp; Auto-refresh every hour at :40</div>
     </div>
 
     <div class="sentiment-bar">
@@ -83,51 +98,54 @@
             <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: 明天16:00 HK</span>
         </div>
         <table>
-            <thead><tr><th>#</th><th>Ticker</th><th>Name</th><th>Price</th><th>Chg%</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Signal</th></tr></thead>
+            <thead><tr><th>#</th><th>股票<br>Ticker</th><th>名稱<br>Name</th><th>價格<br>Price</th><th>漲幅<br>Chg%</th><th>區域<br>Zone</th><th>信心<br>Conf</th><th>1日勝率<br>1D%</th><th>5日勝率<br>5D%</th><th>結構<br>MSS</th><th>突破<br>BOS</th><th>缺口<br>FVG</th><th>入場<br>Entry</th><th>止損<br>SL</th><th>目標價<br>TP1/2/3</th><th>訊號<br>Sig</th></tr></thead>
             <tbody><tr>
-            <td><span class="ticker-badge">9688.HK</span></td>
-            <td><strong>ZAI LAB</strong></td>
-            <td>HKD 16.09</td>
-            <td><span class="change-badge" style="color:#22c55e">+4.82%</span></td>
+            <td>1</td>
+            <td><span class="ticker-badge">3798.HK</span></td>
+            <td><strong>HOMELAND ITL</strong></td>
+            <td>HKD 1.24</td>
+            <td><span class="change-badge" style="color:#22c55e">+5.98%</span></td>
             <td><span style="color:#3b82f6;font-weight:600;font-size:0.8rem">DISCOUNT</span></td>
-            <td><span style="color:#22c55e;font-weight:700">65</span></td>
-            <td><span class="winrate">65%</span></td>
-            <td><span class="winrate5d">70%</span></td>
-            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
-            <td>3</td><td>6</td>
-            <td><span style='color:#22c55e;font-weight:600'>16.09</span></td>
-            <td><span style='color:#ef4444'>15.25</span></td>
-            <td><span style='color:#22c55e'>17.77 / 18.61 / 20.29</span></td>
-            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
-        </tr><tr>
-            <td><span class="ticker-badge">6993.HK</span></td>
-            <td><strong>BLUE MOON GROUP</strong></td>
-            <td>HKD 3.10</td>
-            <td><span class="change-badge" style="color:#eab308">+2.99%</span></td>
-            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
-            <td><span style="color:#22c55e;font-weight:700">60</span></td>
-            <td><span class="winrate">55%</span></td>
-            <td><span class="winrate5d">60%</span></td>
+            <td><span style="color:#22c55e;font-weight:700">100</span></td>
+            <td><span class="winrate">80%</span></td>
+            <td><span class="winrate5d">85%</span></td>
             <td><span style="color:#ef4444;font-weight:600;font-size:0.75rem">BEARISH</span></td>
-            <td>3</td><td>4</td>
-            <td><span style='color:#22c55e;font-weight:600'>3.10</span></td>
-            <td><span style='color:#ef4444'>2.53</span></td>
-            <td><span style='color:#22c55e'>4.23 / 4.80 / 5.93</span></td>
+            <td>2</td><td>4</td>
+            <td><span style='color:#22c55e;font-weight:600'>1.24</span></td>
+            <td><span style='color:#ef4444'>1.17</span></td>
+            <td><span style='color:#22c55e'>1.38 / 1.46 / 1.60</span></td>
             <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
         </tr><tr>
-            <td><span class="ticker-badge">6038.HK</span></td>
-            <td><strong>G & M HLDGS</strong></td>
-            <td>HKD 0.40</td>
-            <td><span class="change-badge" style="color:#eab308">+2.6%</span></td>
+            <td>2</td>
+            <td><span class="ticker-badge">9955.HK</span></td>
+            <td><strong>CLOUDR</strong></td>
+            <td>HKD 0.70</td>
+            <td><span class="change-badge" style="color:#eab308">+2.94%</span></td>
             <td><span style="color:#3b82f6;font-weight:600;font-size:0.8rem">DISCOUNT</span></td>
-            <td><span style="color:#22c55e;font-weight:700">65</span></td>
-            <td><span class="winrate">55%</span></td>
-            <td><span class="winrate5d">60%</span></td>
+            <td><span style="color:#22c55e;font-weight:700">100</span></td>
+            <td><span class="winrate">60%</span></td>
+            <td><span class="winrate5d">65%</span></td>
             <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
-            <td>4</td><td>4</td>
-            <td><span style='color:#22c55e;font-weight:600'>0.40</span></td>
-            <td><span style='color:#ef4444'>0.38</span></td>
-            <td><span style='color:#22c55e'>0.43 / 0.44 / 0.47</span></td>
+            <td>1</td><td>1</td>
+            <td><span style='color:#22c55e;font-weight:600'>0.70</span></td>
+            <td><span style='color:#ef4444'>0.66</span></td>
+            <td><span style='color:#22c55e'>0.78 / 0.82 / 0.91</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>3</td>
+            <td><span class="ticker-badge">1028.HK</span></td>
+            <td><strong>C.BANNER</strong></td>
+            <td>HKD 0.95</td>
+            <td><span class="change-badge" style="color:#eab308">+2.15%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">75</span></td>
+            <td><span class="winrate">57%</span></td>
+            <td><span class="winrate5d">62%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>1</td><td>1</td>
+            <td><span style='color:#22c55e;font-weight:600'>0.95</span></td>
+            <td><span style='color:#ef4444'>0.91</span></td>
+            <td><span style='color:#22c55e'>1.03 / 1.08 / 1.16</span></td>
             <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
         </tr></tbody>
         </table>
@@ -140,37 +158,151 @@
             <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: 明天04:00 HK</span>
         </div>
         <table>
-            <thead><tr><th>#</th><th>Ticker</th><th>Name</th><th>Price</th><th>Chg%</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Signal</th></tr></thead>
+            <thead><tr><th>#</th><th>股票<br>Ticker</th><th>名稱<br>Name</th><th>價格<br>Price</th><th>漲幅<br>Chg%</th><th>區域<br>Zone</th><th>信心<br>Conf</th><th>1日勝率<br>1D%</th><th>5日勝率<br>5D%</th><th>結構<br>MSS</th><th>突破<br>BOS</th><th>缺口<br>FVG</th><th>入場<br>Entry</th><th>止損<br>SL</th><th>目標價<br>TP1/2/3</th><th>訊號<br>Sig</th></tr></thead>
             <tbody><tr>
+            <td>1</td>
+            <td><span class="ticker-badge">PATH</span></td>
+            <td><strong>UiPath, Inc.</strong></td>
+            <td>USD 10.27</td>
+            <td><span class="change-badge" style="color:#22c55e">+6.2%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">85</span></td>
+            <td><span class="winrate">79%</span></td>
+            <td><span class="winrate5d">84%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>3</td><td>7</td>
+            <td><span style='color:#22c55e;font-weight:600'>10.27</span></td>
+            <td><span style='color:#ef4444'>9.18</span></td>
+            <td><span style='color:#22c55e'>12.45 / 13.54 / 15.71</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>2</td>
+            <td><span class="ticker-badge">DOCU</span></td>
+            <td><strong>DocuSign, Inc.</strong></td>
+            <td>USD 47.71</td>
+            <td><span class="change-badge" style="color:#22c55e">+4.86%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">100</span></td>
+            <td><span class="winrate">70%</span></td>
+            <td><span class="winrate5d">75%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>3</td><td>1</td>
+            <td><span style='color:#22c55e;font-weight:600'>47.71</span></td>
+            <td><span style='color:#ef4444'>46.93</span></td>
+            <td><span style='color:#22c55e'>49.28 / 50.06 / 51.63</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>3</td>
             <td><span class="ticker-badge">SNOW</span></td>
             <td><strong>Snowflake Inc.</strong></td>
-            <td>USD 157.07</td>
-            <td><span class="change-badge" style="color:#22c55e">+4.19%</span></td>
+            <td>USD 157.47</td>
+            <td><span class="change-badge" style="color:#22c55e">+4.45%</span></td>
             <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
-            <td><span style="color:#eab308;font-weight:700">45</td>
-            <td><span class="winrate">65%</span></td>
-            <td><span class="winrate5d">70%</span></td>
-            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
-            <td>5</td><td>7</td>
-            <td><span style='color:#22c55e;font-weight:600'>157.07</span></td>
+            <td><span style="color:#22c55e;font-weight:700">100</span></td>
+            <td><span class="winrate">70%</span></td>
+            <td><span class="winrate5d">75%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.75rem">BEARISH</span></td>
+            <td>2</td><td>7</td>
+            <td><span style='color:#22c55e;font-weight:600'>157.47</span></td>
             <td><span style='color:#ef4444'>135.93</span></td>
-            <td><span style='color:#22c55e'>199.35 / 220.50 / 262.78</span></td>
-            <td><span class="signal-buy" style="background:#eab308">WATCH</span></td>
+            <td><span style='color:#22c55e'>200.55 / 222.10 / 265.18</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
         </tr><tr>
+            <td>4</td>
             <td><span class="ticker-badge">MSFT</span></td>
             <td><strong>Microsoft Corporation</strong></td>
-            <td>USD 421.48</td>
-            <td><span class="change-badge" style="color:#eab308">+2.94%</span></td>
+            <td>USD 421.92</td>
+            <td><span class="change-badge" style="color:#22c55e">+3.05%</span></td>
             <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
-            <td><span style="color:#eab308;font-weight:700">45</td>
-            <td><span class="winrate">55%</span></td>
-            <td><span class="winrate5d">60%</span></td>
+            <td><span style="color:#22c55e;font-weight:700">100</span></td>
+            <td><span class="winrate">70%</span></td>
+            <td><span class="winrate5d">75%</span></td>
             <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
-            <td>6</td><td>6</td>
-            <td><span style='color:#22c55e;font-weight:600'>421.48</span></td>
+            <td>5</td><td>6</td>
+            <td><span style='color:#22c55e;font-weight:600'>421.92</span></td>
             <td><span style='color:#ef4444'>404.30</span></td>
-            <td><span style='color:#22c55e'>455.84 / 473.02 / 507.38</span></td>
-            <td><span class="signal-buy" style="background:#eab308">WATCH</span></td>
+            <td><span style='color:#22c55e'>457.16 / 474.78 / 510.02</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>5</td>
+            <td><span class="ticker-badge">SHOP</span></td>
+            <td><strong>Shopify Inc.</strong></td>
+            <td>USD 100.28</td>
+            <td><span class="change-badge" style="color:#eab308">+2.94%</span></td>
+            <td><span style="color:#3b82f6;font-weight:600;font-size:0.8rem">DISCOUNT</span></td>
+            <td><span style="color:#22c55e;font-weight:700">100</span></td>
+            <td><span class="winrate">60%</span></td>
+            <td><span class="winrate5d">65%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>6</td><td>7</td>
+            <td><span style='color:#22c55e;font-weight:600'>100.28</span></td>
+            <td><span style='color:#ef4444'>93.81</span></td>
+            <td><span style='color:#22c55e'>113.22 / 119.68 / 132.62</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>6</td>
+            <td><span class="ticker-badge">DDOG</span></td>
+            <td><strong>Datadog, Inc.</strong></td>
+            <td>USD 207.98</td>
+            <td><span class="change-badge" style="color:#eab308">+2.53%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">75</span></td>
+            <td><span class="winrate">57%</span></td>
+            <td><span class="winrate5d">62%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>4</td><td>5</td>
+            <td><span style='color:#22c55e;font-weight:600'>207.98</span></td>
+            <td><span style='color:#ef4444'>140.43</span></td>
+            <td><span style='color:#22c55e'>343.07 / 410.62 / 545.72</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>7</td>
+            <td><span class="ticker-badge">CRWD</span></td>
+            <td><strong>CrowdStrike Holdings, Inc.</strong></td>
+            <td>USD 594.08</td>
+            <td><span class="change-badge" style="color:#eab308">+2.44%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">100</span></td>
+            <td><span class="winrate">60%</span></td>
+            <td><span class="winrate5d">65%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.75rem">BEARISH</span></td>
+            <td>2</td><td>5</td>
+            <td><span style='color:#22c55e;font-weight:600'>594.08</span></td>
+            <td><span style='color:#ef4444'>456.55</span></td>
+            <td><span style='color:#22c55e'>869.15 / 1006.68 / 1281.75</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>8</td>
+            <td><span class="ticker-badge">CVX</span></td>
+            <td><strong>Chevron Corporation</strong></td>
+            <td>USD 191.10</td>
+            <td><span class="change-badge" style="color:#eab308">+2.39%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">100</span></td>
+            <td><span class="winrate">60%</span></td>
+            <td><span class="winrate5d">65%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>5</td><td>3</td>
+            <td><span style='color:#22c55e;font-weight:600'>191.10</span></td>
+            <td><span style='color:#ef4444'>183.30</span></td>
+            <td><span style='color:#22c55e'>206.69 / 214.49 / 230.09</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>9</td>
+            <td><span class="ticker-badge">XLE</span></td>
+            <td><strong>State Street Energy Select Sect</strong></td>
+            <td>USD 59.44</td>
+            <td><span class="change-badge" style="color:#eab308">+2.36%</span></td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">100</span></td>
+            <td><span class="winrate">60%</span></td>
+            <td><span class="winrate5d">65%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>4</td><td>4</td>
+            <td><span style='color:#22c55e;font-weight:600'>59.44</span></td>
+            <td><span style='color:#ef4444'>56.85</span></td>
+            <td><span style='color:#22c55e'>64.63 / 67.22 / 72.41</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
         </tr></tbody>
         </table>
     </div>
@@ -182,65 +314,69 @@
             <span class="market-subtitle">Top Movers &nbsp;|&nbsp; 平倉: 明天15:00 HK</span>
         </div>
         <table>
-            <thead><tr><th>#</th><th>Code</th><th>Name</th><th>Price</th><th>Chg%</th><th>Turnover</th><th>Zone</th><th>Conf</th><th>1D%</th><th>5D%</th><th>MSS</th><th>BOS</th><th>FVG</th><th>Entry</th><th>SL</th><th>TP1/TP2/TP3</th><th>Signal</th></tr></thead>
+            <thead><tr><th>#</th><th>代碼<br>Code</th><th>名稱<br>Name</th><th>價格<br>Price</th><th>漲幅<br>Chg%</th><th>換手率<br>Turn%</th><th>區域<br>Zone</th><th>信心<br>Conf</th><th>1日勝率<br>1D%</th><th>5日勝率<br>5D%</th><th>結構<br>MSS</th><th>突破<br>BOS</th><th>缺口<br>FVG</th><th>入場<br>Entry</th><th>止損<br>SL</th><th>目標價<br>TP1/2/3</th><th>訊號<br>Sig</th></tr></thead>
             <tbody><tr>
-            <td><span class="ticker-badge">sz300274</span></td>
-            <td><strong>阳光电源</strong></td>
-            <td>CNY 152.95</td>
-            <td><span class="change-badge" style="color:#22c55e">+13.27%</span></td>
-            <td>10.9%</td>
+            <td>1</td>
+            <td><span class="ticker-badge">sz300136</span></td>
+            <td><strong>信维通信</strong></td>
+            <td>CNY 111.75</td>
+            <td><span class="change-badge" style="color:#22c55e">+12.19%</span></td>
+            <td>16.1%</td>
             <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
-            <td><span style="color:#22c55e;font-weight:700">60</span></td>
-            <td><span class="winrate">75%</span></td>
-            <td><span class="winrate5d">80%</span></td>
+            <td><span style="color:#22c55e;font-weight:700">90</span></td>
+            <td><span class="winrate">79%</span></td>
+            <td><span class="winrate5d">84%</span></td>
             <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
-            <td>0</td><td>0</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
+            <td>4</td><td>5</td>
+            <td><span style='color:#22c55e;font-weight:600'>69.00</span></td>
+            <td><span style='color:#ef4444'>63.75</span></td>
+            <td><span style='color:#22c55e'>79.50 / 84.74 / 95.24</span></td>
             <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
         </tr><tr>
-            <td><span class="ticker-badge">sh688012</span></td>
-            <td><strong>中微公司</strong></td>
-            <td>CNY 432.90</td>
-            <td><span class="change-badge" style="color:#22c55e">+11.81%</span></td>
-            <td>6.1%</td>
+            <td>2</td>
+            <td><span class="ticker-badge">sz300433</span></td>
+            <td><strong>蓝思科技</strong></td>
+            <td>CNY 38.70</td>
+            <td><span class="change-badge" style="color:#22c55e">+13.12%</span></td>
+            <td>6.5%</td>
             <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
-            <td><span style="color:#eab308;font-weight:700">50</span></td>
-            <td><span class="winrate">75%</span></td>
-            <td><span class="winrate5d">80%</span></td>
+            <td><span style="color:#22c55e;font-weight:700">90</span></td>
+            <td><span class="winrate">79%</span></td>
+            <td><span class="winrate5d">84%</span></td>
             <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
-            <td>0</td><td>0</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td><span class="signal-buy" style="background:#eab308">WATCH</span></td>
+            <td>3</td><td>3</td>
+            <td><span style='color:#22c55e;font-weight:600'>32.06</span></td>
+            <td><span style='color:#ef4444'>31.94</span></td>
+            <td><span style='color:#22c55e'>32.31 / 32.43 / 32.68</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
         </tr><tr>
-            <td><span class="ticker-badge">sh688820</span></td>
-            <td><strong>盛合晶微</strong></td>
-            <td>CNY 183.84</td>
-            <td><span class="change-badge" style="color:#22c55e">+18.76%</span></td>
-            <td>32.7%</td>
+            <td>3</td>
+            <td><span class="ticker-badge">sz000988</span></td>
+            <td><strong>华工科技</strong></td>
+            <td>CNY 147.38</td>
+            <td><span class="change-badge" style="color:#22c55e">+10.0%</span></td>
+            <td>6.7%</td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">85</span></td>
+            <td><span class="winrate">79%</span></td>
+            <td><span class="winrate5d">84%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>6</td><td>1</td>
+            <td><span style='color:#22c55e;font-weight:600'>101.55</span></td>
+            <td><span style='color:#ef4444'>93.38</span></td>
+            <td><span style='color:#22c55e'>117.89 / 126.06 / 142.40</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>4</td>
+            <td><span class="ticker-badge">sh688808</span></td>
+            <td><strong>联讯仪器</strong></td>
+            <td>CNY 1344.99</td>
+            <td><span class="change-badge" style="color:#22c55e">+14.96%</span></td>
+            <td>19.5%</td>
             <td><span style="color:#64748b;font-weight:600;font-size:0.8rem">N/A</span></td>
-            <td><span style="color:#ef4444;font-weight:700">0</span></td>
-            <td><span class="winrate">75%</span></td>
-            <td><span class="winrate5d">80%</span></td>
-            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
-            <td>0</td><td>0</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td><span class="signal-buy" style="background:#eab308">WATCH</span></td>
-        </tr><tr>
-            <td><span class="ticker-badge">sh603667</span></td>
-            <td><strong>五洲新春</strong></td>
-            <td>CNY 84.43</td>
-            <td><span class="change-badge" style="color:#22c55e">+9.72%</span></td>
-            <td>21.9%</td>
-            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
-            <td><span style="color:#22c55e;font-weight:700">60</span></td>
-            <td><span class="winrate">75%</span></td>
-            <td><span class="winrate5d">80%</span></td>
+            <td><span style="color:#22c55e;font-weight:700">65</span></td>
+            <td><span class="winrate">77%</span></td>
+            <td><span class="winrate5d">82%</span></td>
             <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
             <td>0</td><td>0</td>
             <td>—</td>
@@ -248,21 +384,107 @@
             <td>—</td>
             <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
         </tr><tr>
-            <td><span class="ticker-badge">sh688017</span></td>
-            <td><strong>绿的谐波</strong></td>
-            <td>CNY 305.50</td>
-            <td><span class="change-badge" style="color:#22c55e">+15.28%</span></td>
-            <td>11.0%</td>
+            <td>5</td>
+            <td><span class="ticker-badge">sh603601</span></td>
+            <td><strong>再升科技</strong></td>
+            <td>CNY 18.56</td>
+            <td><span class="change-badge" style="color:#22c55e">+10.02%</span></td>
+            <td>18.8%</td>
             <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
-            <td><span style="color:#eab308;font-weight:700">50</span></td>
-            <td><span class="winrate">75%</span></td>
-            <td><span class="winrate5d">80%</span></td>
+            <td><span style="color:#22c55e;font-weight:700">100</span></td>
+            <td><span class="winrate">80%</span></td>
+            <td><span class="winrate5d">85%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>3</td><td>1</td>
+            <td><span style='color:#22c55e;font-weight:600'>11.50</span></td>
+            <td><span style='color:#ef4444'>10.48</span></td>
+            <td><span style='color:#22c55e'>13.55 / 14.57 / 16.61</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>6</td>
+            <td><span class="ticker-badge">sz300042</span></td>
+            <td><strong>朗科科技</strong></td>
+            <td>CNY 72.70</td>
+            <td><span class="change-badge" style="color:#22c55e">+11.93%</span></td>
+            <td>25.0%</td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">100</span></td>
+            <td><span class="winrate">80%</span></td>
+            <td><span class="winrate5d">85%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>5</td><td>4</td>
+            <td><span style='color:#22c55e;font-weight:600'>34.34</span></td>
+            <td><span style='color:#ef4444'>32.86</span></td>
+            <td><span style='color:#22c55e'>37.29 / 38.77 / 41.72</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>7</td>
+            <td><span class="ticker-badge">sz000021</span></td>
+            <td><strong>深科技</strong></td>
+            <td>CNY 37.03</td>
+            <td><span class="change-badge" style="color:#22c55e">+10.01%</span></td>
+            <td>6.0%</td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">75</span></td>
+            <td><span class="winrate">77%</span></td>
+            <td><span class="winrate5d">82%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>3</td><td>4</td>
+            <td><span style='color:#22c55e;font-weight:600'>31.20</span></td>
+            <td><span style='color:#ef4444'>25.57</span></td>
+            <td><span style='color:#22c55e'>42.46 / 48.09 / 59.34</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>8</td>
+            <td><span class="ticker-badge">sz300077</span></td>
+            <td><strong>国民技术</strong></td>
+            <td>CNY 27.64</td>
+            <td><span class="change-badge" style="color:#22c55e">+11.0%</span></td>
+            <td>21.7%</td>
+            <td><span style="color:#ef4444;font-weight:600;font-size:0.8rem">PREMIUM</span></td>
+            <td><span style="color:#22c55e;font-weight:700">100</span></td>
+            <td><span class="winrate">80%</span></td>
+            <td><span class="winrate5d">85%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>4</td><td>5</td>
+            <td><span style='color:#22c55e;font-weight:600'>19.34</span></td>
+            <td><span style='color:#ef4444'>19.20</span></td>
+            <td><span style='color:#22c55e'>19.61 / 19.75 / 20.02</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>9</td>
+            <td><span class="ticker-badge">sz001365</span></td>
+            <td><strong>N天海</strong></td>
+            <td>CNY 67.12</td>
+            <td><span class="change-badge" style="color:#22c55e">+146.85%</span></td>
+            <td>73.2%</td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.8rem">N/A</span></td>
+            <td><span style="color:#22c55e;font-weight:700">95</span></td>
+            <td><span class="winrate">79%</span></td>
+            <td><span class="winrate5d">84%</span></td>
             <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
             <td>0</td><td>0</td>
             <td>—</td>
             <td>—</td>
             <td>—</td>
-            <td><span class="signal-buy" style="background:#eab308">WATCH</span></td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
+        </tr><tr>
+            <td>10</td>
+            <td><span class="ticker-badge">bj920186</span></td>
+            <td><strong>中科仪</strong></td>
+            <td>CNY 126.00</td>
+            <td><span class="change-badge" style="color:#22c55e">+14.0%</span></td>
+            <td>23.0%</td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.8rem">N/A</span></td>
+            <td><span style="color:#22c55e;font-weight:700">85</span></td>
+            <td><span class="winrate">79%</span></td>
+            <td><span class="winrate5d">84%</span></td>
+            <td><span style="color:#64748b;font-weight:600;font-size:0.75rem">—</span></td>
+            <td>0</td><td>0</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td><span class="signal-buy" style="background:#22c55e">BUY</span></td>
         </tr></tbody>
         </table>
     </div>
@@ -272,5 +494,32 @@
         Always do your own due diligence before investing.
     </div>
 </div>
+<script>
+(function() {
+    function hktNow() {
+        var now = new Date();
+        var utc = now.getTime() + now.getTimezoneOffset() * 60000;
+        return new Date(utc + 8 * 3600000);
+    }
+    function pad(n) { return n < 10 ? '0' + n : n; }
+    function tickClock() {
+        var hkt = hktNow();
+        var el = document.getElementById('live-clock');
+        if (el) el.textContent = pad(hkt.getHours()) + ':' + pad(hkt.getMinutes()) + ':' + pad(hkt.getSeconds());
+    }
+    tickClock();
+    setInterval(tickClock, 1000);
+    function nextRefreshMs() {
+        var now = new Date();
+        var target = new Date(now);
+        target.setMinutes(40, 0, 0);
+        if (target <= now) target.setHours(target.getHours() + 1);
+        return target - now;
+    }
+    var ms = nextRefreshMs();
+    setTimeout(function() { location.reload(); }, ms);
+    setTimeout(function() { location.reload(); }, ms + 60000);
+})();
+</script>
 </body>
 </html>
