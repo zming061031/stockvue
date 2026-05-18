@@ -467,25 +467,28 @@ def hk_code_to_yfinance(code: str) -> str:
 
 
 def _apply_ict_to_record(record: dict, ticker: str, lookback: int = 50) -> dict:
-    ict_data = analyze_with_ict(ticker, lookback=lookback)
-    if ict_data:
-        record['ict'] = ict_data
-        record['long_signal'] = ict_data.get('long_signal')
-        record['short_signal'] = ict_data.get('short_signal')
-        record['mss_active'] = ict_data.get('mss_active', False)
-        record['mss_direction'] = ict_data.get('mss_direction')
-        record['bos_count'] = ict_data.get('bos_count', 0)
-        record['fvg_count'] = ict_data.get('fvg_count', 0)
-        record['ob_count'] = ict_data.get('order_blocks', 0)
-        record['liquidity_sweeps'] = ict_data.get('liquidity_sweeps', 0)
-        ict_conf = record.get('confluence', 0)
-        if ict_data.get('mss_active'):
-            ict_conf += 25
-        if ict_data.get('bos_count', 0) > 0:
-            ict_conf += 20
-        if ict_data.get('fvg_count', 0) > 0:
-            ict_conf += 20
-        record['confluence'] = min(ict_conf, 100)
+    try:
+        ict_data = analyze_with_ict(ticker, lookback=lookback)
+        if ict_data:
+            record['ict'] = ict_data
+            record['long_signal'] = ict_data.get('long_signal')
+            record['short_signal'] = ict_data.get('short_signal')
+            record['mss_active'] = ict_data.get('mss_active', False)
+            record['mss_direction'] = ict_data.get('mss_direction')
+            record['bos_count'] = ict_data.get('bos_count', 0)
+            record['fvg_count'] = ict_data.get('fvg_count', 0)
+            record['ob_count'] = ict_data.get('order_blocks', 0)
+            record['liquidity_sweeps'] = ict_data.get('liquidity_sweeps', 0)
+            ict_conf = record.get('confluence', 0)
+            if ict_data.get('mss_active'):
+                ict_conf += 25
+            if ict_data.get('bos_count', 0) > 0:
+                ict_conf += 20
+            if ict_data.get('fvg_count', 0) > 0:
+                ict_conf += 20
+            record['confluence'] = min(ict_conf, 100)
+    except Exception as e:
+        logger.debug(f"  ICT analysis skipped for {ticker}: {e}")
     return record
 
 
@@ -566,7 +569,8 @@ def fetch_hk_stocks_fixed(cfg: dict):
                 indicators = compute_indicators_for_stock(ticker, lookback=25)
                 if indicators:
                     record.update(indicators)
-                _apply_ict_to_record(record, ticker, lookback=50)
+                if len(results) < sc["max_results"]:
+                    _apply_ict_to_record(record, ticker, lookback=50)
                 results.append(record)
                 logger.info(f"  {ticker}: ADDED change={change:.2f}%")
         except Exception as e:
@@ -664,7 +668,8 @@ def fetch_us_stocks_fixed(cfg: dict):
                 indicators = compute_indicators_for_stock(ticker, lookback=25)
                 if indicators:
                     record.update(indicators)
-                _apply_ict_to_record(record, ticker, lookback=50)
+                if len(results) < sc["max_results"]:
+                    _apply_ict_to_record(record, ticker, lookback=50)
                 results.append(record)
                 logger.info(f"  {ticker}: ADDED change={change:.2f}%")
         except Exception as e:
