@@ -624,6 +624,20 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         Always do your own due diligence before investing.
     </div>
 </div>
+<script>
+(function() {{
+    function nextRefreshMs() {{
+        var now = new Date();
+        var target = new Date(now);
+        target.setMinutes(40, 0, 0);
+        if (target <= now) target.setHours(target.getHours() + 1);
+        return target - now;
+    }}
+    var ms = nextRefreshMs();
+    setTimeout(function() {{ location.reload(); }}, ms);
+    setTimeout(function() {{ location.reload(); }}, ms + 60000);
+}})();
+</script>
 </body>
 </html>"""
 

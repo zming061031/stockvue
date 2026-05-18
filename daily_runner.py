@@ -323,7 +323,7 @@ def fetch_a_share_primary(cfg: dict):
         (df['換手率'] >= sc["min_turnover_rate"]) &
         (df['漲跌幅'] >= sc["min_change_pct"])
     ].copy()
-    df_filtered = df_filtered.sort_values('成交額', ascending=False).head(sc["max_results"])
+    df_filtered = df_filtered.sort_values('成交額', ascending=False).head(sc.get("scan_limit", sc["max_results"]))
     tf = cfg.get("technical_filters", {})
     results = []
     for _, row in df_filtered.iterrows():
@@ -459,18 +459,103 @@ def fetch_a_share(cfg: dict):
         return fetch_a_share_fallback(cfg)
 
 
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1.5, min=1, max=10))
-def fetch_hk_stocks(cfg: dict):
-    logger.info("Fetching HK stocks via yfinance...")
-    tickers = cfg["hk_tickers"]
+def hk_code_to_yfinance(code: str) -> str:
+    stripped = str(code).lstrip('0')
+    if not stripped:
+        return f"{code}.HK"
+    return f"{stripped}.HK"
+
+
+def _apply_ict_to_record(record: dict, ticker: str, lookback: int = 50) -> dict:
+    ict_data = analyze_with_ict(ticker, lookback=lookback)
+    if ict_data:
+        record['ict'] = ict_data
+        record['long_signal'] = ict_data.get('long_signal')
+        record['short_signal'] = ict_data.get('short_signal')
+        record['mss_active'] = ict_data.get('mss_active', False)
+        record['mss_direction'] = ict_data.get('mss_direction')
+        record['bos_count'] = ict_data.get('bos_count', 0)
+        record['fvg_count'] = ict_data.get('fvg_count', 0)
+        record['ob_count'] = ict_data.get('order_blocks', 0)
+        record['liquidity_sweeps'] = ict_data.get('liquidity_sweeps', 0)
+        ict_conf = record.get('confluence', 0)
+        if ict_data.get('mss_active'):
+            ict_conf += 25
+        if ict_data.get('bos_count', 0) > 0:
+            ict_conf += 20
+        if ict_data.get('fvg_count', 0) > 0:
+            ict_conf += 20
+        record['confluence'] = min(ict_conf, 100)
+    return record
+
+
+def fetch_hk_stocks_dynamic(cfg: dict):
+    logger.info("Fetching ALL HK stocks via akshare...")
+    sc = cfg["screening"]["hk"]
+    min_change = sc["min_change_pct"]
+    scan_limit = sc.get("scan_limit", 30)
+    tf = cfg.get("technical_filters", {})
+    rsi_max = tf.get("rsi_max", 80)
+    rsi_min = tf.get("rsi_min", 30)
+    vol_min = tf.get("vol_ratio_min", 0.5)
+    vol_max = tf.get("vol_ratio_max", 3.0)
+    confluence_min = tf.get("confluence_min", 30)
+
+    df = ak.stock_hk_spot_em()
+    df_filtered = df[df['涨跌幅'] >= min_change].copy()
+    df_filtered = df_filtered.sort_values('成交额', ascending=False).head(scan_limit)
+    logger.info(f"  HK dynamic: {len(df_filtered)} candidates after basic filter")
+
+    results = []
+    for _, row in df_filtered.iterrows():
+        code = str(row['代码'])
+        yf_ticker = hk_code_to_yfinance(code)
+        try:
+            price = float(row['最新价'])
+            change_pct = round(float(row['涨跌幅']), 2)
+            volume = float(row.get('成交额', 0))
+            name = str(row.get('名称', code))
+
+            record = {
+                'ticker': yf_ticker, 'name': name,
+                'price': price, 'change_pct': change_pct,
+                'volume': volume,
+            }
+
+            indicators = compute_indicators_for_stock(yf_ticker, lookback=25)
+            if indicators:
+                record.update(indicators)
+                if not passes_technical_filters(record, rsi_max=rsi_max, rsi_min=rsi_min,
+                                                 vol_ratio_min=vol_min, vol_ratio_max=vol_max,
+                                                 require_ma5=tf.get("ma5_required", False),
+                                                 require_ma20=tf.get("ma20_required", False),
+                                                 confluence_min=confluence_min):
+                    logger.debug(f"  {yf_ticker}: FILTERED")
+                    continue
+
+            _apply_ict_to_record(record, yf_ticker, lookback=50)
+            results.append(record)
+            logger.info(f"  {yf_ticker} ({name}): ADDED change={change_pct}%")
+        except Exception as e:
+            logger.debug(f"  {yf_ticker}: ERROR {e}")
+
+    results.sort(key=lambda x: x['change_pct'], reverse=True)
+    result = results[:sc["max_results"]]
+    logger.info(f"  HK dynamic: {len(result)} stocks passed screening")
+    return result
+
+
+def fetch_hk_stocks_fixed(cfg: dict):
+    logger.info("Fetching HK stocks via fixed ticker list (fallback)...")
+    tickers = cfg.get("hk_tickers", [])
     sc = cfg["screening"]["hk"]
     min_change = sc["min_change_pct"]
     tf = cfg.get("technical_filters", {})
-    rsi_max = tf.get("rsi_max", 70)
-    rsi_min = tf.get("rsi_min", 0)
+    rsi_max = tf.get("rsi_max", 80)
+    rsi_min = tf.get("rsi_min", 30)
     vol_min = tf.get("vol_ratio_min", 0.5)
     vol_max = tf.get("vol_ratio_max", 3.0)
-    confluence_min = tf.get("confluence_min", 40)
+    confluence_min = tf.get("confluence_min", 30)
     results = []
     for ticker in tickers:
         try:
@@ -479,102 +564,148 @@ def fetch_hk_stocks(cfg: dict):
             change = info.get('regularMarketChangePercent', 0)
             logger.info(f"  {ticker}: price={price}, change={change}%")
             if price and change is not None and change >= min_change:
-                indicators = compute_indicators_for_stock(ticker, lookback=25)
                 record = {
                     'ticker': ticker, 'name': info.get('shortName', ticker),
                     'price': price, 'change_pct': round(change, 2),
                     'volume': info.get('averageVolume', 0),
                 }
+                indicators = compute_indicators_for_stock(ticker, lookback=25)
                 if indicators:
                     record.update(indicators)
-                    if not passes_technical_filters(record, rsi_max=rsi_max, rsi_min=rsi_min, vol_ratio_min=vol_min, vol_ratio_max=vol_max,
-                                                    require_ma5=tf.get("ma5_required", False),
-                                                    require_ma20=tf.get("ma20_required", True),
-                                                    confluence_min=confluence_min):
-                        logger.info(f"  {ticker}: FILTERED rsi={indicators.get('rsi'):.1f} vol={indicators.get('vol_ratio'):.2f} confluence={indicators.get('confluence', 0)}")
+                    if not passes_technical_filters(record, rsi_max=rsi_max, rsi_min=rsi_min,
+                                                     vol_ratio_min=vol_min, vol_ratio_max=vol_max,
+                                                     require_ma5=tf.get("ma5_required", False),
+                                                     require_ma20=tf.get("ma20_required", False),
+                                                     confluence_min=confluence_min):
                         continue
-                ict_data = analyze_with_ict(ticker, lookback=50)
-                if ict_data:
-                    record['ict'] = ict_data
-                    record['long_signal'] = ict_data.get('long_signal')
-                    record['short_signal'] = ict_data.get('short_signal')
-                    record['mss_active'] = ict_data.get('mss_active', False)
-                    record['mss_direction'] = ict_data.get('mss_direction')
-                    record['bos_count'] = ict_data.get('bos_count', 0)
-                    record['fvg_count'] = ict_data.get('fvg_count', 0)
-                    record['ob_count'] = ict_data.get('order_blocks', 0)
-                    record['liquidity_sweeps'] = ict_data.get('liquidity_sweeps', 0)
-                    ict_conf = record.get('confluence', 0)
-                    if ict_data.get('mss_active'):
-                        ict_conf += 25
-                    if ict_data.get('bos_count', 0) > 0:
-                        ict_conf += 20
-                    if ict_data.get('fvg_count', 0) > 0:
-                        ict_conf += 20
-                    record['confluence'] = min(ict_conf, 100)
+                _apply_ict_to_record(record, ticker, lookback=50)
                 results.append(record)
                 logger.info(f"  {ticker}: ADDED change={change:.2f}%")
         except Exception as e:
             logger.warning(f"  {ticker}: ERROR {e}")
     results.sort(key=lambda x: x['change_pct'], reverse=True)
     result = results[:sc["max_results"]]
-    logger.info(f"  HK: {len(result)} stocks passed screening")
+    logger.info(f"  HK fallback: {len(result)} stocks passed screening")
     return result
 
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1.5, min=1, max=10))
-def fetch_us_stocks(cfg: dict):
-    logger.info("Fetching US stocks via yfinance...")
-    tickers = cfg["us_tickers"]
+def fetch_hk_stocks(cfg: dict):
+    try:
+        return fetch_hk_stocks_dynamic(cfg)
+    except Exception as e:
+        logger.warning(f"HK dynamic scan failed: {e}, trying fixed ticker list...")
+        return fetch_hk_stocks_fixed(cfg)
+
+
+def fetch_us_stocks_dynamic(cfg: dict):
+    logger.info("Fetching ALL US stocks via akshare...")
+    sc = cfg["screening"]["us"]
+    min_change = sc["min_change_pct"]
+    scan_limit = sc.get("scan_limit", 30)
+    tf = cfg.get("technical_filters", {})
+    rsi_max = tf.get("rsi_max", 80)
+    rsi_min = tf.get("rsi_min", 30)
+    vol_min = tf.get("vol_ratio_min", 0.5)
+    vol_max = tf.get("vol_ratio_max", 3.0)
+    confluence_min = tf.get("confluence_min", 30)
+
+    df = ak.stock_us_spot_em()
+    df_filtered = df[df['涨跌幅'] >= min_change].copy()
+    df_filtered = df_filtered.sort_values('成交额', ascending=False).head(scan_limit)
+    logger.info(f"  US dynamic: {len(df_filtered)} candidates after basic filter")
+
+    results = []
+    for _, row in df_filtered.iterrows():
+        raw_code = str(row['代码'])
+        parts = raw_code.split('.')
+        ticker = parts[0] if parts else raw_code
+        try:
+            price = float(row['最新价'])
+            change_pct = round(float(row['涨跌幅']), 2)
+            volume = float(row.get('成交额', 0))
+            name = str(row.get('名称', ticker))
+
+            record = {
+                'ticker': ticker, 'name': name,
+                'price': price, 'change_pct': change_pct,
+                'volume': volume,
+            }
+
+            indicators = compute_indicators_for_stock(ticker, lookback=25)
+            if indicators:
+                record.update(indicators)
+                if not passes_technical_filters(record, rsi_max=rsi_max, rsi_min=rsi_min,
+                                                 vol_ratio_min=vol_min, vol_ratio_max=vol_max,
+                                                 require_ma5=tf.get("ma5_required", False),
+                                                 require_ma20=tf.get("ma20_required", False),
+                                                 confluence_min=confluence_min):
+                    logger.debug(f"  {ticker}: FILTERED")
+                    continue
+
+            _apply_ict_to_record(record, ticker, lookback=50)
+            results.append(record)
+            logger.info(f"  {ticker} ({name}): ADDED change={change_pct}%")
+        except Exception as e:
+            logger.debug(f"  {ticker}: ERROR {e}")
+
+    results.sort(key=lambda x: x['change_pct'], reverse=True)
+    result = results[:sc["max_results"]]
+    logger.info(f"  US dynamic: {len(result)} stocks passed screening")
+    return result
+
+
+def fetch_us_stocks_fixed(cfg: dict):
+    logger.info("Fetching US stocks via fixed ticker list (fallback)...")
+    tickers = cfg.get("us_tickers", [])
     sc = cfg["screening"]["us"]
     min_change = sc["min_change_pct"]
     tf = cfg.get("technical_filters", {})
-    rsi_max = tf.get("rsi_max", 70)
-    rsi_min = tf.get("rsi_min", 0)
+    rsi_max = tf.get("rsi_max", 80)
+    rsi_min = tf.get("rsi_min", 30)
     vol_min = tf.get("vol_ratio_min", 0.5)
     vol_max = tf.get("vol_ratio_max", 3.0)
-    confluence_min = tf.get("confluence_min", 40)
+    confluence_min = tf.get("confluence_min", 30)
     results = []
     for ticker in tickers:
         try:
             info = yfinance.Ticker(ticker).info
             price = info.get('currentPrice') or info.get('regularMarketPrice')
             change = info.get('regularMarketChangePercent', 0)
-            logger.info(f"  {ticker}: price={price}, change={change}%, min_change={min_change}%")
+            logger.info(f"  {ticker}: price={price}, change={change}%")
             if price and change is not None and change >= min_change:
-                indicators = compute_indicators_for_stock(ticker, lookback=25)
                 record = {
                     'ticker': ticker, 'name': info.get('shortName', ticker),
                     'price': price, 'change_pct': round(change, 2),
                     'volume': info.get('averageVolume', 0),
                 }
+                indicators = compute_indicators_for_stock(ticker, lookback=25)
                 if indicators:
                     record.update(indicators)
-                    if not passes_technical_filters(record, rsi_max=rsi_max, rsi_min=rsi_min, vol_ratio_min=vol_min, vol_ratio_max=vol_max,
-                                                    require_ma5=tf.get("ma5_required", False),
-                                                    require_ma20=tf.get("ma20_required", True),
-                                                    confluence_min=confluence_min):
-                        logger.info(f"  {ticker}: FILTERED rsi={indicators.get('rsi'):.1f} vol={indicators.get('vol_ratio'):.2f} confluence={indicators.get('confluence', 0)}")
+                    if not passes_technical_filters(record, rsi_max=rsi_max, rsi_min=rsi_min,
+                                                     vol_ratio_min=vol_min, vol_ratio_max=vol_max,
+                                                     require_ma5=tf.get("ma5_required", False),
+                                                     require_ma20=tf.get("ma20_required", False),
+                                                     confluence_min=confluence_min):
                         continue
-                ict_data = analyze_with_ict(ticker, lookback=50)
-                if ict_data:
-                    record['ict'] = ict_data
-                    record['long_signal'] = ict_data.get('long_signal')
-                    record['short_signal'] = ict_data.get('short_signal')
-                    record['mss_active'] = ict_data.get('mss_active', False)
-                    record['mss_direction'] = ict_data.get('mss_direction')
-                    record['bos_count'] = ict_data.get('bos_count', 0)
-                    record['fvg_count'] = ict_data.get('fvg_count', 0)
-                    record['ob_count'] = ict_data.get('order_blocks', 0)
-                    record['liquidity_sweeps'] = ict_data.get('liquidity_sweeps', 0)
+                _apply_ict_to_record(record, ticker, lookback=50)
                 results.append(record)
                 logger.info(f"  {ticker}: ADDED change={change:.2f}%")
         except Exception as e:
             logger.warning(f"  {ticker}: ERROR {e}")
     results.sort(key=lambda x: x['change_pct'], reverse=True)
     result = results[:sc["max_results"]]
-    logger.info(f"  US: {len(result)} stocks passed screening")
+    logger.info(f"  US fallback: {len(result)} stocks passed screening")
     return result
+
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1.5, min=1, max=10))
+def fetch_us_stocks(cfg: dict):
+    try:
+        return fetch_us_stocks_dynamic(cfg)
+    except Exception as e:
+        logger.warning(f"US dynamic scan failed: {e}, trying fixed ticker list...")
+        return fetch_us_stocks_fixed(cfg)
 
 
 def get_market_sentiment(cfg: dict) -> dict:

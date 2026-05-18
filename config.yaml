@@ -9,13 +9,16 @@ screening:
     min_turnover: 100000000
     min_turnover_rate: 3.0
     min_change_pct: 2.0
-    max_results: 5
+    max_results: 10
+    scan_limit: 50
   hk:
     min_change_pct: 1.5
-    max_results: 5
+    max_results: 10
+    scan_limit: 30
   us:
     min_change_pct: 1.5
-    max_results: 5
+    max_results: 10
+    scan_limit: 30
 win_rates:
   # 基於課程R:R概率原則：1:2需要≥33%勝率，1:3需要≥25%勝率
   # Tier 1: 高R:R(≥1:3) + 高confluence(≥70) → 75%
