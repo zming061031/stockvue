@@ -475,19 +475,8 @@
         var el = document.getElementById('live-clock');
         if (el) el.textContent = pad(hkt.getHours()) + ':' + pad(hkt.getMinutes()) + ':' + pad(hkt.getSeconds());
     }
-    tickClock();
+tickClock();
     setInterval(tickClock, 1000);
-    function nextRefreshMs() {
-        var now = new Date();
-        var target = new Date(now);
-        target.setMinutes(40, 0, 0);
-        if (target <= now) target.setHours(target.getHours() + 1);
-        return target - now;
-    }
-    var ms = nextRefreshMs();
-    setTimeout(function() { location.reload(); }, ms);
-    setTimeout(function() { location.reload(); }, ms + 60000);
-})();
 </script>
 </body>
 </html>
