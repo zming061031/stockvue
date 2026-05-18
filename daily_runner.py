@@ -16,7 +16,7 @@ import os
 import logging
 import yaml
 import requests
-import akshare
+import akshare as ak
 import yfinance
 from datetime import datetime
 from tenacity import retry, stop_after_attempt, wait_exponential
