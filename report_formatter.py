@@ -551,8 +551,8 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
 
     <div class="header">
         <div class="logo">StockVue<span>Daily Market Analysis</span></div>
-        <div class="meta">📅 {date_str} &nbsp;|&nbsp; ⏰ <span id="live-clock">{hk_time}</span> HKT</div>
-        <div class="meta" style="font-size:0.75rem;color:#64748b;margin-top:0.3rem">Data updated: {hk_time} HKT &nbsp;|&nbsp; Auto-refresh every hour at :40</div>
+        <div class="meta">📅 {date_str} &nbsp;|&nbsp; ⏰ <span id="live-clock">{hk_time}</span> HKT &nbsp;|&nbsp; <span id="live-status" style="color:#22c55e">● LIVE</span></div>
+        <div class="meta" style="font-size:0.75rem;color:#64748b;margin-top:0.3rem">Prices refresh every 5s (A-share) &amp; real-time via Finnhub (HK/US) &nbsp;|&nbsp; Data updated: {hk_time} HKT</div>
     </div>
 
     <div class="sentiment-bar">

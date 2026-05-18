@@ -72,8 +72,8 @@
 
     <div class="header">
         <div class="logo">StockVue<span>Daily Market Analysis</span></div>
-        <div class="meta">📅 2026-05-19 &nbsp;|&nbsp; ⏰ <span id="live-clock">00:08</span> HKT</div>
-        <div class="meta" style="font-size:0.75rem;color:#64748b;margin-top:0.3rem">Data updated: 00:08 HKT &nbsp;|&nbsp; Auto-refresh every hour at :40</div>
+        <div class="meta">📅 2026-05-19 &nbsp;|&nbsp; ⏰ <span id="live-clock">00:08</span> HKT &nbsp;|&nbsp; <span id="live-status" style="color:#22c55e">● LIVE</span></div>
+        <div class="meta" style="font-size:0.75rem;color:#64748b;margin-top:0.3rem">Prices refresh every 5s (A-share) &amp; real-time via Finnhub (HK/US) &nbsp;|&nbsp; Data updated: 00:08 HKT</div>
     </div>
 
     <div class="sentiment-bar">
@@ -464,6 +464,15 @@
 </div>
 <script>
 (function() {
+    const FINNHUB_KEY = 'd85kqfpr01qitd92gf30';
+    const YAHOO_BASE = 'https://query1.finance.yahoo.com/v7/finance/quote';
+    const FINNHUB_WS = 'wss://ws.finnhub.io?token=' + FINNHUB_KEY;
+    const POLL_INTERVAL = 5000;
+
+    const US_SYMBOLS = ['RBLX','NFLX','DOCU','SNOW','ETSY','CRWD','CVX'];
+    const HK_SYMBOLS = ['3798.HK','9955.HK','1028.HK'];
+    const A_SYMBOLS = ['sz300136','sz300433','sz000988','sh600183','sh688808','sh603601','sh688549','sz300042','sz000021','sz300077'];
+
     function hktNow() {
         var now = new Date();
         var utc = now.getTime() + now.getTimezoneOffset() * 60000;
@@ -475,8 +484,119 @@
         var el = document.getElementById('live-clock');
         if (el) el.textContent = pad(hkt.getHours()) + ':' + pad(hkt.getMinutes()) + ':' + pad(hkt.getSeconds());
     }
-tickClock();
+    tickClock();
     setInterval(tickClock, 1000);
+
+    function setStatus(msg, color) {
+        var el = document.getElementById('live-status');
+        if (el) { el.textContent = msg; el.style.color = color || '#64748b'; }
+    }
+
+    function fmtNum(v, dec) {
+        if (v == null || isNaN(v)) return '—';
+        return v.toFixed(dec !== undefined ? dec : 2);
+    }
+
+    function updateCell(ticker, price, change) {
+        var cells = document.querySelectorAll('td');
+        for (var i = 0; i < cells.length; i++) {
+            var span = cells[i].querySelector('.ticker-badge');
+            if (span && span.textContent.trim() === ticker) {
+                var row = cells[i].parentNode;
+                var tds = row.querySelectorAll('td');
+                if (tds[3] && price != null) {
+                    var cur = tds[3].textContent || '';
+                    var parts = cur.split(' ');
+                    var curPrice = parseFloat(tds[3].textContent.replace(/[^0-9.]/g,''));
+                    if (!isNaN(price) && Math.abs(price - curPrice) > 0.0001) {
+                        var currStr = tds[3].textContent.trim();
+                        var spaceIdx = currStr.indexOf(' ');
+                        var currency = spaceIdx > 0 ? currStr.substring(0, spaceIdx) : '';
+                        tds[3].innerHTML = currency + ' <span style="color:#22c55e;font-weight:700">' + fmtNum(price) + '</span>';
+                    }
+                }
+                if (tds[4] && change != null) {
+                    var chgEl = tds[4].querySelector('.change-badge');
+                    if (chgEl) {
+                        var sign = change >= 0 ? '+' : '';
+                        var color = change >= 3 ? '#22c55e' : (change >= 1.5 ? '#eab308' : '#ef4444');
+                        chgEl.textContent = sign + change.toFixed(2) + '%';
+                        chgEl.style.color = color;
+                    }
+                }
+                break;
+            }
+        }
+    }
+
+    function fetchYahoo(symbols, callback) {
+        var symbolsStr = symbols.join(',');
+        var url = YAHOO_BASE + '?symbols=' + encodeURIComponent(symbolsStr);
+        fetch(url).then(function(r) { return r.json(); })
+        .then(function(data) {
+            var quotes = {};
+            try { quotes = data.quoteResponse.result || []; } catch(e) {}
+            var result = {};
+            for (var i = 0; i < quotes.length; i++) {
+                var q = quotes[i];
+                var sym = q.symbol;
+                result[sym] = { price: q.regularMarketPrice, change: q.regularMarketChangePercent };
+            }
+            callback(result);
+        }).catch(function(e) { callback({}); });
+    }
+
+    function pollAshares() {
+        fetchYahoo(A_SYMBOLS, function(quotes) {
+            for (var sym in quotes) {
+                if (quotes[sym].price) updateCell(sym, quotes[sym].price, quotes[sym].change);
+            }
+        });
+    }
+
+    var fhSocket = null;
+    var fhReconnectTimer = null;
+    var fhReady = false;
+
+    function connectFinnhub() {
+        try {
+            fhSocket = new WebSocket(FINNHUB_WS);
+        } catch(e) { return; }
+
+        fhSocket.onopen = function() {
+            fhReady = true;
+            setStatus('● LIVE', '#22c55e');
+            var allSyms = US_SYMBOLS.concat(HK_SYMBOLS);
+            for (var i = 0; i < allSyms.length; i++) {
+                fhSocket.send(JSON.stringify({type: 'subscribe', symbol: allSyms[i]}));
+            }
+        };
+
+        fhSocket.onmessage = function(evt) {
+            try {
+                var msg = JSON.parse(evt.data);
+                if (msg.type !== 'trade' || !msg.data) return;
+                for (var i = 0; i < msg.data.length; i++) {
+                    var t = msg.data[i];
+                    updateCell(t.s, t.p, null);
+                }
+            } catch(e) {}
+        };
+
+        fhSocket.onerror = function() { fhReady = false; setStatus('○ REST', '#eab308'); };
+
+        fhSocket.onclose = function() {
+            fhReady = false;
+            setStatus('○ REST', '#eab308');
+            clearTimeout(fhReconnectTimer);
+            fhReconnectTimer = setTimeout(connectFinnhub, 5000);
+        };
+    }
+
+    pollAshares();
+    setInterval(pollAshares, POLL_INTERVAL);
+    connectFinnhub();
+})();
 </script>
 </body>
 </html>
