@@ -626,7 +626,7 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
     }}
     tickClock();
     setInterval(tickClock, 1000);
-})();
+}})();
 </script>
 </body>
 </html>"""
