@@ -3,6 +3,9 @@ name: Daily Stock Report
 on:
   schedule:
     - cron: '40 * * * *'
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 permissions:
