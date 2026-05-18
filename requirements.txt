@@ -3,4 +3,3 @@ yfinance>=0.2.36
 requests>=2.31.0
 pyyaml>=6.0
 tenacity>=8.2.0
-streamlit>=1.30.0

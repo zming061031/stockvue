@@ -1,7 +1,6 @@
 project:
   name: StockVue
   version: '2.0'
-  base_path: D:\openclaw上下文\workspace\projects\stockvue
 gumroad:
   product_permalink: zmwses
   post_title_prefix: Daily Report -

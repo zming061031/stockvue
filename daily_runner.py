@@ -13,7 +13,6 @@ StockVue - Unified Daily Runner v2.0
 import sys
 import json
 import os
-import re
 import logging
 import yaml
 import requests
@@ -313,14 +312,6 @@ def passes_technical_filters(record, rsi_max=70, rsi_min=0, vol_ratio_min=0.8, v
     return True
 
 
-def win_rate(pct: float, cfg: dict, horizon: str = "1d") -> str:
-    if pct >= 5: tier = cfg["tier1"]
-    elif pct >= 3: tier = cfg["tier2"]
-    elif pct >= 2: tier = cfg["tier3"]
-    elif pct >= 1.5: tier = cfg["tier4"]
-    else: tier = cfg["default"]
-    return str(tier.get(horizon, tier["1d"] if isinstance(tier, dict) else tier))
-
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=2, min=2, max=30))
 def fetch_a_share_primary(cfg: dict):
@@ -474,6 +465,12 @@ def fetch_hk_stocks(cfg: dict):
     tickers = cfg["hk_tickers"]
     sc = cfg["screening"]["hk"]
     min_change = sc["min_change_pct"]
+    tf = cfg.get("technical_filters", {})
+    rsi_max = tf.get("rsi_max", 70)
+    rsi_min = tf.get("rsi_min", 0)
+    vol_min = tf.get("vol_ratio_min", 0.5)
+    vol_max = tf.get("vol_ratio_max", 3.0)
+    confluence_min = tf.get("confluence_min", 40)
     results = []
     for ticker in tickers:
         try:
@@ -482,13 +479,39 @@ def fetch_hk_stocks(cfg: dict):
             change = info.get('regularMarketChangePercent', 0)
             logger.info(f"  {ticker}: price={price}, change={change}%")
             if price and change is not None and change >= min_change:
+                indicators = compute_indicators_for_stock(ticker, lookback=25)
                 record = {
                     'ticker': ticker, 'name': info.get('shortName', ticker),
                     'price': price, 'change_pct': round(change, 2),
                     'volume': info.get('averageVolume', 0),
-                    'rsi': 50, 'ma5': price, 'ma20': price, 'vol_ratio': 1.0,
-                    'confluence': sc.get('min_change_pct', 5) * 4,
                 }
+                if indicators:
+                    record.update(indicators)
+                    if not passes_technical_filters(record, rsi_max=rsi_max, rsi_min=rsi_min, vol_ratio_min=vol_min, vol_ratio_max=vol_max,
+                                                    require_ma5=tf.get("ma5_required", False),
+                                                    require_ma20=tf.get("ma20_required", True),
+                                                    confluence_min=confluence_min):
+                        logger.info(f"  {ticker}: FILTERED rsi={indicators.get('rsi'):.1f} vol={indicators.get('vol_ratio'):.2f} confluence={indicators.get('confluence', 0)}")
+                        continue
+                ict_data = analyze_with_ict(ticker, lookback=50)
+                if ict_data:
+                    record['ict'] = ict_data
+                    record['long_signal'] = ict_data.get('long_signal')
+                    record['short_signal'] = ict_data.get('short_signal')
+                    record['mss_active'] = ict_data.get('mss_active', False)
+                    record['mss_direction'] = ict_data.get('mss_direction')
+                    record['bos_count'] = ict_data.get('bos_count', 0)
+                    record['fvg_count'] = ict_data.get('fvg_count', 0)
+                    record['ob_count'] = ict_data.get('order_blocks', 0)
+                    record['liquidity_sweeps'] = ict_data.get('liquidity_sweeps', 0)
+                    ict_conf = record.get('confluence', 0)
+                    if ict_data.get('mss_active'):
+                        ict_conf += 25
+                    if ict_data.get('bos_count', 0) > 0:
+                        ict_conf += 20
+                    if ict_data.get('fvg_count', 0) > 0:
+                        ict_conf += 20
+                    record['confluence'] = min(ict_conf, 100)
                 results.append(record)
                 logger.info(f"  {ticker}: ADDED change={change:.2f}%")
         except Exception as e:
@@ -569,6 +592,17 @@ def get_market_sentiment(cfg: dict) -> dict:
         sentiment["us"] = "BULLISH" if us_change > 1 else ("BEARISH" if us_change < -1 else "NEUTRAL")
     except:
         pass
+    try:
+        a_idx = yfinance.Ticker("000300.SS").info
+        a_change = a_idx.get('regularMarketChangePercent', 0)
+        sentiment["a"] = "BULLISH" if a_change > 1 else ("BEARISH" if a_change < -1 else "NEUTRAL")
+    except:
+        try:
+            a_idx2 = yfinance.Ticker("000001.SS").info
+            a_change2 = a_idx2.get('regularMarketChangePercent', 0)
+            sentiment["a"] = "BULLISH" if a_change2 > 1 else ("BEARISH" if a_change2 < -1 else "NEUTRAL")
+        except:
+            pass
     logger.info(f"  Sentiment -> HK: {sentiment['hk']}, US: {sentiment['us']}, A: {sentiment['a']}")
     return sentiment
 
