@@ -308,6 +308,29 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         wr_1d = get_win_rate(stock['change_pct'], wr_cfg, "1d")
         return wr_1d >= wr_threshold
 
+    def fmt_trade(s):
+        ict = s.get('ict', {})
+        long_sig = ict.get('long_signal') if ict else None
+        if long_sig:
+            entry = f"{float(long_sig.entry_price):.2f}"
+            sl = f"{float(long_sig.stop_loss):.2f}"
+            tp1 = f"{float(long_sig.take_profit_1):.2f}"
+            tp2 = f"{float(long_sig.take_profit_2):.2f}"
+            tp3 = f"{float(long_sig.take_profit_3):.2f}"
+        else:
+            price = float(s.get('price', 0))
+            risk_pct = 0.02
+            entry = f"{price:.2f}"
+            risk = price * risk_pct
+            sl = f"{(price - risk):.2f}"
+            tp1 = f"{(price + risk * 2):.2f}"
+            tp2 = f"{(price + risk * 3):.2f}"
+            tp3 = f"{(price + risk * 5):.2f}"
+        entry_txt = f"<span style='color:#22c55e;font-weight:600'>{entry}</span>"
+        sl_txt = f"<span style='color:#ef4444'>{sl}</span>"
+        tp_txt = f"<span style='color:#22c55e'>{tp1} / {tp2} / {tp3}</span>"
+        return entry_txt, sl_txt, tp_txt
+
     def hk_color(pct):
         return "#22c55e" if pct >= 3 else ("#eab308" if pct >= 1.5 else "#ef4444")
     def us_color(pct):
@@ -360,19 +383,7 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         fvg = s.get('fvg_count', 0)
         sig = "BUY" if (s.get('mss_active') and s.get('mss_direction') == 'bullish') or confluence >= 60 else "WATCH"
         sig_color = "#22c55e" if sig == "BUY" else "#eab308"
-        ict = s.get('ict', {})
-        long_sig = ict.get('long_signal') if ict else None
-        if long_sig:
-            entry = f"{float(long_sig.entry_price):.2f}"
-            sl = f"{float(long_sig.stop_loss):.2f}"
-            tp1 = f"{float(long_sig.take_profit_1):.2f}"
-            tp2 = f"{float(long_sig.take_profit_2):.2f}"
-            tp3 = f"{float(long_sig.take_profit_3):.2f}"
-            entry_txt = f"<span style='color:#22c55e;font-weight:600'>{entry}</span>"
-            sl_txt = f"<span style='color:#ef4444'>{sl}</span>"
-            tp_txt = f"<span style='color:#22c55e'>{tp1} / {tp2} / {tp3}</span>"
-        else:
-            entry_txt = sl_txt = tp_txt = "—"
+        entry_txt, sl_txt, tp_txt = fmt_trade(s)
         hk_rows += f"""<tr>
             <td>{idx}</td>
             <td><span class="ticker-badge">{s['ticker']}</span></td>
@@ -408,19 +419,7 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         fvg = s.get('fvg_count', 0)
         sig = "BUY" if (s.get('mss_active') and s.get('mss_direction') == 'bullish') or confluence >= 60 else "WATCH"
         sig_color = "#22c55e" if sig == "BUY" else "#eab308"
-        ict = s.get('ict', {})
-        long_sig = ict.get('long_signal') if ict else None
-        if long_sig:
-            entry = f"{float(long_sig.entry_price):.2f}"
-            sl = f"{float(long_sig.stop_loss):.2f}"
-            tp1 = f"{float(long_sig.take_profit_1):.2f}"
-            tp2 = f"{float(long_sig.take_profit_2):.2f}"
-            tp3 = f"{float(long_sig.take_profit_3):.2f}"
-            entry_txt = f"<span style='color:#22c55e;font-weight:600'>{entry}</span>"
-            sl_txt = f"<span style='color:#ef4444'>{sl}</span>"
-            tp_txt = f"<span style='color:#22c55e'>{tp1} / {tp2} / {tp3}</span>"
-        else:
-            entry_txt = sl_txt = tp_txt = "—"
+        entry_txt, sl_txt, tp_txt = fmt_trade(s)
         us_rows += f"""<tr>
             <td>{idx}</td>
             <td><span class="ticker-badge">{s['ticker']}</span></td>
@@ -458,19 +457,7 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
         fvg = s.get('fvg_count', 0)
         sig = "BUY" if (s.get('mss_active') and s.get('mss_direction') == 'bullish') or confluence >= 60 else "WATCH"
         sig_color = "#22c55e" if sig == "BUY" else "#eab308"
-        ict = s.get('ict', {})
-        long_sig = ict.get('long_signal') if ict else None
-        if long_sig:
-            entry = f"{float(long_sig.entry_price):.2f}"
-            sl = f"{float(long_sig.stop_loss):.2f}"
-            tp1 = f"{float(long_sig.take_profit_1):.2f}"
-            tp2 = f"{float(long_sig.take_profit_2):.2f}"
-            tp3 = f"{float(long_sig.take_profit_3):.2f}"
-            entry_txt = f"<span style='color:#22c55e;font-weight:600'>{entry}</span>"
-            sl_txt = f"<span style='color:#ef4444'>{sl}</span>"
-            tp_txt = f"<span style='color:#22c55e'>{tp1} / {tp2} / {tp3}</span>"
-        else:
-            entry_txt = sl_txt = tp_txt = "—"
+        entry_txt, sl_txt, tp_txt = fmt_trade(s)
         a_rows += f"""<tr>
             <td>{idx}</td>
             <td><span class="ticker-badge">{s['code']}</span></td>
