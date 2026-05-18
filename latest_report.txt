@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-05-19 | ⏰ 03:09 HK Time**
+**📅 2026-05-19 | ⏰ 05:52 HK Time**
 
 ---
 
@@ -28,16 +28,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `RBLX` | **Roblox Corporation** | $47.09 | 🟢 +9.89% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **2** | `SNOW` | **Snowflake Inc.** | $163.88 | 🟢 +4.07% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 7 | ✅ BUY |
-| **3** | `CRWD` | **CrowdStrike Holdings, Inc.** | $614.85 | 🟢 +3.5% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
-| **4** | `DOCU` | **DocuSign, Inc.** | $49.23 | 🟢 +3.2% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **5** | `NFLX` | **Netflix, Inc.** | $89.67 | 🟢 +3.05% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 6 | 3 | ✅ BUY |
-| **6** | `PATH` | **UiPath, Inc.** | $10.56 | 🟡 +2.87% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 7 | ✅ BUY |
-| **7** | `BILI` | **Bilibili Inc.** | $19.57 | 🟡 +2.6% | 🔵 DISCOUNT | 🔴 30 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `COST` | **Costco Wholesale Corporation** | $1073.51 | 🟡 +2.34% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
-| **9** | `SHOP` | **Shopify Inc.** | $102.52 | 🟡 +2.23% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 7 | 7 | ✅ BUY |
-| **10** | `MA` | **Mastercard Incorporated** | $504.43 | 🟡 +2.07% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 7 | 3 | ✅ BUY |
+| **1** | `RBLX` | **Roblox Corporation** | $46.98 | 🟢 +9.64% | 🔵 DISCOUNT | 🟢 75 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `SNOW` | **Snowflake Inc.** | $164.24 | 🟢 +4.3% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 7 | ✅ BUY |
+| **3** | `CRWD` | **CrowdStrike Holdings, Inc.** | $618.83 | 🟢 +4.17% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
+| **4** | `PATH` | **UiPath, Inc.** | $10.64 | 🟢 +3.6% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 7 | ✅ BUY |
+| **5** | `NFLX` | **Netflix, Inc.** | $89.65 | 🟢 +3.02% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 6 | 3 | ✅ BUY |
+| **6** | `BILI` | **Bilibili Inc.** | $19.63 | 🟡 +2.94% | 🔵 DISCOUNT | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `DOCU` | **DocuSign, Inc.** | $49.02 | 🟡 +2.75% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `CVX` | **Chevron Corporation** | $196.12 | 🟡 +2.63% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 3 | ✅ BUY |
+| **9** | `COST` | **Costco Wholesale Corporation** | $1076.47 | 🟡 +2.62% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
+| **10** | `MA` | **Mastercard Incorporated** | $505.79 | 🟡 +2.35% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 7 | 3 | ✅ BUY |
 
 ---
 
@@ -103,8 +103,8 @@
 | **1** | 🇭🇰 | `3798.HK` | HK$1.24 | HK$1.23 | HK$1.26 | HK$1.28 | 🔵 DISCOUNT | 🟢 100 |
 | **2** | 🇭🇰 | `9955.HK` | HK$0.70 | HK$0.69 | HK$0.71 | HK$0.72 | 🔵 DISCOUNT | 🟢 100 |
 | **3** | 🇭🇰 | `1028.HK` | HK$0.95 | HK$0.94 | HK$0.97 | HK$0.98 | 🔴 PREMIUM | 🟢 75 |
-| **4** | 🇺🇸 | `RBLX` | $47.09 | $46.62 | $48.03 | $48.50 | 🔵 DISCOUNT | 🟢 60 |
-| **5** | 🇺🇸 | `SNOW` | $163.88 | $162.24 | $167.15 | $168.79 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇺🇸 | `RBLX` | $46.98 | $46.51 | $47.92 | $48.39 | 🔵 DISCOUNT | 🟢 75 |
+| **5** | 🇺🇸 | `SNOW` | $164.24 | $162.60 | $167.52 | $169.17 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -117,5 +117,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 03:09 HK Time on 2026-05-19
+🕐 Report generated at 05:52 HK Time on 2026-05-19
 
