@@ -564,8 +564,8 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
 
     <div class="header">
         <div class="logo">StockVue<span>Daily Market Analysis</span></div>
-        <div class="meta">📅 {date_str} &nbsp;|&nbsp; ⏰ {hk_time} HKT</div>
-        <div class="meta" style="font-size:0.75rem;color:#64748b;margin-top:0.3rem">Last updated: {hk_time} HKT &nbsp;|&nbsp; Auto-refresh every hour at :40</div>
+        <div class="meta">📅 {date_str} &nbsp;|&nbsp; ⏰ <span id="live-clock">{hk_time}</span> HKT</div>
+        <div class="meta" style="font-size:0.75rem;color:#64748b;margin-top:0.3rem">Data updated: {hk_time} HKT &nbsp;|&nbsp; Auto-refresh every hour at :40</div>
     </div>
 
     <div class="sentiment-bar">
@@ -626,6 +626,19 @@ def generate_html_dashboard(a_stocks, hk_stocks, us_stocks, sentiment, cfg: dict
 </div>
 <script>
 (function() {{
+    function hktNow() {{
+        var now = new Date();
+        var utc = now.getTime() + now.getTimezoneOffset() * 60000;
+        return new Date(utc + 8 * 3600000);
+    }}
+    function pad(n) {{ return n < 10 ? '0' + n : n; }}
+    function tickClock() {{
+        var hkt = hktNow();
+        var el = document.getElementById('live-clock');
+        if (el) el.textContent = pad(hkt.getHours()) + ':' + pad(hkt.getMinutes()) + ':' + pad(hkt.getSeconds());
+    }}
+    tickClock();
+    setInterval(tickClock, 1000);
     function nextRefreshMs() {{
         var now = new Date();
         var target = new Date(now);

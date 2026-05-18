@@ -550,12 +550,6 @@ def fetch_hk_stocks_fixed(cfg: dict):
     tickers = cfg.get("hk_tickers", [])
     sc = cfg["screening"]["hk"]
     min_change = sc["min_change_pct"]
-    tf = cfg.get("technical_filters", {})
-    rsi_max = tf.get("rsi_max", 80)
-    rsi_min = tf.get("rsi_min", 30)
-    vol_min = tf.get("vol_ratio_min", 0.5)
-    vol_max = tf.get("vol_ratio_max", 3.0)
-    confluence_min = tf.get("confluence_min", 30)
     results = []
     for ticker in tickers:
         try:
@@ -572,12 +566,6 @@ def fetch_hk_stocks_fixed(cfg: dict):
                 indicators = compute_indicators_for_stock(ticker, lookback=25)
                 if indicators:
                     record.update(indicators)
-                    if not passes_technical_filters(record, rsi_max=rsi_max, rsi_min=rsi_min,
-                                                     vol_ratio_min=vol_min, vol_ratio_max=vol_max,
-                                                     require_ma5=tf.get("ma5_required", False),
-                                                     require_ma20=tf.get("ma20_required", False),
-                                                     confluence_min=confluence_min):
-                        continue
                 _apply_ict_to_record(record, ticker, lookback=50)
                 results.append(record)
                 logger.info(f"  {ticker}: ADDED change={change:.2f}%")
@@ -660,12 +648,6 @@ def fetch_us_stocks_fixed(cfg: dict):
     tickers = cfg.get("us_tickers", [])
     sc = cfg["screening"]["us"]
     min_change = sc["min_change_pct"]
-    tf = cfg.get("technical_filters", {})
-    rsi_max = tf.get("rsi_max", 80)
-    rsi_min = tf.get("rsi_min", 30)
-    vol_min = tf.get("vol_ratio_min", 0.5)
-    vol_max = tf.get("vol_ratio_max", 3.0)
-    confluence_min = tf.get("confluence_min", 30)
     results = []
     for ticker in tickers:
         try:
@@ -682,12 +664,6 @@ def fetch_us_stocks_fixed(cfg: dict):
                 indicators = compute_indicators_for_stock(ticker, lookback=25)
                 if indicators:
                     record.update(indicators)
-                    if not passes_technical_filters(record, rsi_max=rsi_max, rsi_min=rsi_min,
-                                                     vol_ratio_min=vol_min, vol_ratio_max=vol_max,
-                                                     require_ma5=tf.get("ma5_required", False),
-                                                     require_ma20=tf.get("ma20_required", False),
-                                                     confluence_min=confluence_min):
-                        continue
                 _apply_ict_to_record(record, ticker, lookback=50)
                 results.append(record)
                 logger.info(f"  {ticker}: ADDED change={change:.2f}%")
