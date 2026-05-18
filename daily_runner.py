@@ -319,19 +319,19 @@ def fetch_a_share_primary(cfg: dict):
     df = ak.stock_zh_a_spot_em()
     sc = cfg["screening"]["a_share"]
     df_filtered = df[
-        (df['成交額'] >= sc["min_turnover"]) &
-        (df['換手率'] >= sc["min_turnover_rate"]) &
-        (df['漲跌幅'] >= sc["min_change_pct"])
+        (df['成交额'] >= sc["min_turnover"]) &
+        (df['换手率'] >= sc["min_turnover_rate"]) &
+        (df['涨跌幅'] >= sc["min_change_pct"])
     ].copy()
-    df_filtered = df_filtered.sort_values('成交額', ascending=False).head(sc.get("scan_limit", sc["max_results"]))
+    df_filtered = df_filtered.sort_values('成交额', ascending=False).head(sc.get("scan_limit", sc["max_results"]))
     tf = cfg.get("technical_filters", {})
     results = []
     for _, row in df_filtered.iterrows():
-        symbol = row['代碼']
+        symbol = row['代码']
         record = {
-            'code': symbol, 'name': row['名稱'],
-            'price': row['最新價'], 'change_pct': row['漲跌幅'],
-            'turnover_rate': row['換手率'], 'volume': row['成交額']
+            'code': symbol, 'name': row['名称'],
+            'price': row['最新价'], 'change_pct': row['涨跌幅'],
+            'turnover_rate': row['换手率'], 'volume': row['成交额']
         }
         indicators = fetch_a_share_indicators(symbol, lookback=25)
         if indicators:
@@ -619,7 +619,7 @@ def fetch_us_stocks_dynamic(cfg: dict):
     for _, row in df_filtered.iterrows():
         raw_code = str(row['代码'])
         parts = raw_code.split('.')
-        ticker = parts[0] if parts else raw_code
+        ticker = parts[1] if len(parts) > 1 else parts[0]
         try:
             price = float(row['最新价'])
             change_pct = round(float(row['涨跌幅']), 2)
