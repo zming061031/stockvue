@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-05-20 | ⏰ 04:21 HK Time**
+**📅 2026-05-20 | ⏰ 06:00 HK Time**
 
 ---
 
@@ -36,7 +36,7 @@
 | **5** | `NET` | **Cloudflare, Inc.** | $206.73 | 🟡 +2.47% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
 | **6** | `JD` | **JD.com, Inc.** | $32.38 | 🟡 +2.47% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 4 | 4 | ✅ BUY |
 | **7** | `COIN` | **Coinbase Global, Inc.** | $193.45 | 🟡 +2.12% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 5 | 11 | ✅ BUY |
-| **8** | `ABBV` | **AbbVie Inc.** | $213.76 | 🟡 +2.08% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 2 | 4 | ✅ BUY |
+| **8** | `ABBV` | **AbbVie Inc.** | $213.76 | 🟡 +2.08% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 2 | 4 | ✅ BUY |
 | **9** | `TCEHY` | **Tencent Holding Ltd.** | $58.61 | 🟡 +2.05% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
 
 ---
@@ -117,5 +117,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 04:21 HK Time on 2026-05-20
+🕐 Report generated at 06:00 HK Time on 2026-05-20
 
