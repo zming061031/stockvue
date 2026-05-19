@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-05-20 | ⏰ 02:28 HK Time**
+**📅 2026-05-20 | ⏰ 04:21 HK Time**
 
 ---
 
@@ -29,13 +29,15 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SNOW` | **Snowflake Inc.** | $171.42 | 🟢 +4.37% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 7 | ✅ BUY |
-| **2** | `JD` | **JD.com, Inc.** | $32.58 | 🟢 +3.09% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
-| **3** | `LLY` | **Eli Lilly and Company** | $1015.86 | 🟡 +2.81% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 6 | 6 | ✅ BUY |
-| **4** | `COIN` | **Coinbase Global, Inc.** | $194.00 | 🟡 +2.4% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 5 | 11 | ✅ BUY |
-| **5** | `TMO` | **Thermo Fisher Scientific Inc** | $452.47 | 🟡 +2.37% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 9 | ✅ BUY |
-| **6** | `PDD` | **PDD Holdings Inc.** | $97.17 | 🟡 +2.32% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 7 | 8 | ✅ BUY |
-| **7** | `ABBV` | **AbbVie Inc.** | $213.69 | 🟡 +2.04% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 2 | 4 | ✅ BUY |
+| **1** | `LLY` | **Eli Lilly and Company** | $1021.41 | 🟢 +3.37% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 6 | 7 | ✅ BUY |
+| **2** | `SNOW` | **Snowflake Inc.** | $169.55 | 🟢 +3.23% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 7 | ✅ BUY |
+| **3** | `DDOG` | **Datadog, Inc.** | $215.15 | 🟢 +3.03% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
+| **4** | `PDD` | **PDD Holdings Inc.** | $97.34 | 🟡 +2.5% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 7 | 8 | ✅ BUY |
+| **5** | `NET` | **Cloudflare, Inc.** | $206.73 | 🟡 +2.47% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
+| **6** | `JD` | **JD.com, Inc.** | $32.38 | 🟡 +2.47% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 4 | 4 | ✅ BUY |
+| **7** | `COIN` | **Coinbase Global, Inc.** | $193.45 | 🟡 +2.12% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 5 | 11 | ✅ BUY |
+| **8** | `ABBV` | **AbbVie Inc.** | $213.76 | 🟡 +2.08% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 2 | 4 | ✅ BUY |
+| **9** | `TCEHY` | **Tencent Holding Ltd.** | $58.61 | 🟡 +2.05% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
 
 ---
 
@@ -102,7 +104,7 @@
 | **2** | 🇭🇰 | `6185.HK` | HK$29.28 | HK$28.99 | HK$29.87 | HK$30.16 | 🔵 DISCOUNT | 🟢 100 |
 | **3** | 🇭🇰 | `0700.HK` | HK$460.00 | HK$455.40 | HK$469.20 | HK$473.80 | 🔵 DISCOUNT | 🟢 100 |
 | **4** | 🇭🇰 | `1028.HK` | HK$0.97 | HK$0.96 | HK$0.99 | HK$1.00 | 🔴 PREMIUM | 🟢 75 |
-| **5** | 🇺🇸 | `SNOW` | $171.42 | $169.70 | $174.85 | $176.56 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇺🇸 | `LLY` | $1021.41 | $1011.20 | $1041.84 | $1052.05 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -115,5 +117,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:28 HK Time on 2026-05-20
+🕐 Report generated at 04:21 HK Time on 2026-05-20
 
