@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-05-22 | ⏰ 18:02 HK Time**
+**📅 2026-05-23 | ⏰ 00:07 HK Time**
 
 ---
 
@@ -18,16 +18,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0992.HK` | **LENOVO GROUP** | HK$15.75 | 🟢 +19.77% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 6 | ✅ BUY |
-| **2** | `2382.HK` | **SUNNY OPTICAL** | HK$73.25 | 🟢 +6.78% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **3** | `9999.HK` | **NTES-S** | HK$181.50 | 🟢 +5.71% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 7 | 5 | ✅ BUY |
-| **4** | `6993.HK` | **BLUE MOON GROUP** | HK$3.13 | 🟢 +4.33% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
-| **5** | `2018.HK` | **AAC TECH** | HK$43.32 | 🟢 +4.08% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 9 | ✅ BUY |
-| **6** | `0695.HK` | **DONGWU CEMENT** | HK$7.76 | 🟢 +3.47% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **7** | `2130.HK` | **CN LOGISTICS** | HK$3.36 | 🟢 +3.38% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
-| **8** | `9868.HK` | **XPENG-W** | HK$62.60 | 🟢 +3.3% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 4 | ✅ BUY |
-| **9** | `2600.HK` | **CHALCO** | HK$10.87 | 🟡 +2.45% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **10** | `9688.HK` | **ZAI LAB** | HK$14.69 | 🟡 +2.44% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 8 | ✅ BUY |
+| **1** | `0992.HK` | **LENOVO GROUP** | HK$15.75 | 🟢 +19.77% | ⚪ NEUTRAL | 🟢 90 | **75%** | **80%** | ✅ BEARISH | 4 | 6 | ✅ BUY |
+| **2** | `2382.HK` | **SUNNY OPTICAL** | HK$73.25 | 🟢 +6.78% | ⚪ NEUTRAL | 🟢 80 | **75%** | **80%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
+| **3** | `9999.HK` | **NTES-S** | HK$181.50 | 🟢 +5.71% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 7 | 5 | ⚠️ WATCH |
+| **4** | `6993.HK` | **BLUE MOON GROUP** | HK$3.13 | 🟢 +4.33% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
+| **5** | `2018.HK` | **AAC TECH** | HK$43.32 | 🟢 +4.08% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 4 | 8 | ⚠️ WATCH |
+| **6** | `0695.HK` | **DONGWU CEMENT** | HK$7.76 | 🟢 +3.47% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `2130.HK` | **CN LOGISTICS** | HK$3.36 | 🟢 +3.38% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
+| **8** | `9868.HK` | **XPENG-W** | HK$62.60 | 🟢 +3.3% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 5 | 4 | ⚠️ WATCH |
+| **9** | `2600.HK` | **CHALCO** | HK$10.87 | 🟡 +2.45% | ⚪ NEUTRAL | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `9688.HK` | **ZAI LAB** | HK$14.69 | 🟡 +2.44% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 3 | 7 | ⚠️ WATCH |
 
 ---
 
@@ -35,9 +35,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `DDOG` | **Datadog, Inc.** | $218.04 | 🟡 +2.73% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
-| **2** | `MRK` | **Merck & Company, Inc.** | $115.88 | 🟡 +2.55% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 4 | ✅ BUY |
-| **3** | `LLY` | **Eli Lilly and Company** | $1041.65 | 🟡 +2.24% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
+| **1** | `ZM` | **Zoom Communications, Inc.** | $107.79 | 🟢 +11.41% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `SMCI` | **Super Micro Computer, Inc.** | $35.30 | 🟢 +5.51% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
+| **3** | `MRK` | **Merck & Company, Inc.** | $121.67 | 🟢 +5.0% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 3 | 4 | ✅ BUY |
+| **4** | `AMD` | **Advanced Micro Devices, Inc.** | $470.10 | 🟢 +4.56% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
+| **5** | `SNOW` | **Snowflake Inc.** | $172.44 | 🟢 +4.17% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
+| **6** | `CRWD` | **CrowdStrike Holdings, Inc.** | $673.51 | 🟢 +3.9% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 4 | ✅ BUY |
+| **7** | `PATH` | **UiPath, Inc.** | $10.95 | 🟢 +3.55% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `TSLA` | **Tesla, Inc.** | $429.67 | 🟡 +2.83% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
+| **9** | `RBLX` | **Roblox Corporation** | $47.27 | 🟡 +2.45% | 🔵 DISCOUNT | 🟢 75 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **10** | `NTES` | **NetEase, Inc.** | $116.85 | 🟡 +2.2% | 🔴 PREMIUM | 🟡 55 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -100,11 +107,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0992.HK` | HK$15.75 | HK$15.59 | HK$16.07 | HK$16.22 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇭🇰 | `2382.HK` | HK$73.25 | HK$72.52 | HK$74.72 | HK$75.45 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇭🇰 | `9999.HK` | HK$181.50 | HK$179.69 | HK$185.13 | HK$186.94 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇭🇰 | `6993.HK` | HK$3.13 | HK$3.10 | HK$3.19 | HK$3.22 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇭🇰 | `2018.HK` | HK$43.32 | HK$42.89 | HK$44.19 | HK$44.62 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `0992.HK` | HK$15.75 | HK$15.59 | HK$16.07 | HK$16.22 | ⚪ NEUTRAL | 🟢 90 |
+| **2** | 🇭🇰 | `2382.HK` | HK$73.25 | HK$72.52 | HK$74.72 | HK$75.45 | ⚪ NEUTRAL | 🟢 80 |
+| **3** | 🇭🇰 | `9999.HK` | HK$181.50 | HK$179.69 | HK$185.13 | HK$186.94 | ⚪ NEUTRAL | 🟡 55 |
+| **4** | 🇭🇰 | `6993.HK` | HK$3.13 | HK$3.10 | HK$3.19 | HK$3.22 | ⚪ NEUTRAL | 🟢 80 |
+| **5** | 🇭🇰 | `2018.HK` | HK$43.32 | HK$42.89 | HK$44.19 | HK$44.62 | ⚪ NEUTRAL | 🟡 55 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -117,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 18:02 HK Time on 2026-05-22
+🕐 Report generated at 00:07 HK Time on 2026-05-23
 
