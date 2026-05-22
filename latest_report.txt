@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-05-23 | ⏰ 02:23 HK Time**
+**📅 2026-05-23 | ⏰ 04:27 HK Time**
 
 ---
 
@@ -35,16 +35,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `ZM` | **Zoom Communications, Inc.** | $106.93 | 🟢 +10.52% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **2** | `SMCI` | **Super Micro Computer, Inc.** | $35.54 | 🟢 +6.22% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
-| **3** | `MRK` | **Merck & Company, Inc.** | $122.24 | 🟢 +5.49% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 4 | ✅ BUY |
-| **4** | `AMD` | **Advanced Micro Devices, Inc.** | $472.63 | 🟢 +5.12% | 🔴 PREMIUM | 🟢 75 | **75%** | **80%** | — | 3 | 7 | ✅ BUY |
-| **5** | `RBLX` | **Roblox Corporation** | $48.07 | 🟢 +4.25% | 🔵 DISCOUNT | 🟢 75 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **6** | `SNOW` | **Snowflake Inc.** | $171.97 | 🟢 +3.88% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
-| **7** | `PATH` | **UiPath, Inc.** | $10.94 | 🟢 +3.45% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `LLY` | **Eli Lilly and Company** | $1066.69 | 🟡 +2.4% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
-| **9** | `TSLA` | **Tesla, Inc.** | $427.42 | 🟡 +2.29% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
-| **10** | `ETSY` | **Etsy, Inc.** | $62.10 | 🟡 +2.24% | 🔵 DISCOUNT | 🟢 65 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **1** | `ZM` | **Zoom Communications, Inc.** | $105.64 | 🟢 +9.19% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `SMCI` | **Super Micro Computer, Inc.** | $35.58 | 🟢 +6.34% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
+| **3** | `MRK` | **Merck & Company, Inc.** | $122.41 | 🟢 +5.64% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 4 | ✅ BUY |
+| **4** | `RBLX` | **Roblox Corporation** | $48.16 | 🟢 +4.38% | 🔵 DISCOUNT | 🟢 75 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **5** | `SNOW` | **Snowflake Inc.** | $172.20 | 🟢 +4.02% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
+| **6** | `AMD` | **Advanced Micro Devices, Inc.** | $467.51 | 🟢 +3.99% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
+| **7** | `PATH` | **UiPath, Inc.** | $10.93 | 🟢 +3.41% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **8** | `ETSY` | **Etsy, Inc.** | $62.38 | 🟡 +2.7% | 🔵 DISCOUNT | 🟢 65 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **9** | `CRWD` | **CrowdStrike Holdings, Inc.** | $663.46 | 🟡 +2.35% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 4 | ✅ BUY |
+| **10** | `LLY` | **Eli Lilly and Company** | $1065.00 | 🟡 +2.24% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
 
 ---
 
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:23 HK Time on 2026-05-23
+🕐 Report generated at 04:27 HK Time on 2026-05-23
 
