@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-05-30 | ⏰ 05:28 HK Time**
+**📅 2026-05-30 | ⏰ 06:58 HK Time**
 
 ---
 
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 05:28 HK Time on 2026-05-30
+🕐 Report generated at 06:58 HK Time on 2026-05-30
 
