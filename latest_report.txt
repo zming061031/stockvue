@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-06-09 | ⏰ 03:53 HK Time**
+**📅 2026-06-09 | ⏰ 06:16 HK Time**
 
 ---
 
@@ -28,16 +28,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `COIN` | **Coinbase Global, Inc.** | $162.26 | 🟢 +6.47% | 🔵 DISCOUNT | 🟢 90 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
-| **2** | `SMCI` | **Super Micro Computer, Inc.** | $44.02 | 🟢 +5.7% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
-| **3** | `AMD` | **Advanced Micro Devices, Inc.** | $489.11 | 🟢 +4.87% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 4 | 6 | ✅ BUY |
-| **4** | `TSLA` | **Tesla, Inc.** | $408.56 | 🟢 +4.49% | 🔵 DISCOUNT | 🟢 80 | **65%** | **70%** | — | 2 | 3 | ✅ BUY |
-| **5** | `HOOD` | **Robinhood Markets, Inc.** | $85.24 | 🟢 +3.36% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 6 | 6 | ✅ BUY |
-| **6** | `SOFI` | **SoFi Technologies, Inc.** | $16.51 | 🟡 +2.98% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 6 | ✅ BUY |
-| **7** | `BILI` | **Bilibili Inc.** | $17.95 | 🟡 +2.81% | 🔵 DISCOUNT | 🟡 50 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `AVGO` | **Broadcom Inc.** | $395.40 | 🟡 +2.51% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 4 | 3 | ✅ BUY |
-| **9** | `ETSY` | **Etsy, Inc.** | $68.27 | 🟡 +2.11% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **10** | `XLK` | **State Street Technology Select ** | $184.00 | 🟡 +2.05% | 🔴 PREMIUM | 🔴 35 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `COIN` | **Coinbase Global, Inc.** | $162.11 | 🟢 +6.37% | 🔵 DISCOUNT | 🟢 90 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
+| **2** | `SMCI` | **Super Micro Computer, Inc.** | $43.99 | 🟢 +5.64% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
+| **3** | `AMD` | **Advanced Micro Devices, Inc.** | $490.33 | 🟢 +5.14% | 🔴 PREMIUM | 🟢 75 | **75%** | **80%** | — | 4 | 6 | ✅ BUY |
+| **4** | `TSLA` | **Tesla, Inc.** | $408.95 | 🟢 +4.59% | 🔵 DISCOUNT | 🟢 95 | **65%** | **70%** | — | 2 | 3 | ✅ BUY |
+| **5** | `HOOD` | **Robinhood Markets, Inc.** | $85.04 | 🟢 +3.12% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 6 | 6 | ✅ BUY |
+| **6** | `ETSY` | **Etsy, Inc.** | $68.83 | 🟡 +2.95% | 🔴 PREMIUM | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **7** | `SOFI` | **SoFi Technologies, Inc.** | $16.50 | 🟡 +2.93% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 6 | ✅ BUY |
+| **8** | `BILI` | **Bilibili Inc.** | $17.96 | 🟡 +2.86% | 🔵 DISCOUNT | 🟢 65 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **9** | `AVGO` | **Broadcom Inc.** | $396.60 | 🟡 +2.82% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 4 | 3 | ✅ BUY |
+| **10** | `XLK` | **State Street Technology Select ** | $184.18 | 🟡 +2.15% | 🔴 PREMIUM | 🔴 35 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -103,8 +103,8 @@
 | **1** | 🇭🇰 | `2319.HK` | HK$16.39 | HK$16.23 | HK$16.72 | HK$16.88 | 🔵 DISCOUNT | 🟢 100 |
 | **2** | 🇭🇰 | `2328.HK` | HK$14.70 | HK$14.55 | HK$14.99 | HK$15.14 | 🔵 DISCOUNT | 🟢 100 |
 | **3** | 🇭🇰 | `9688.HK` | HK$12.95 | HK$12.82 | HK$13.21 | HK$13.34 | 🔵 DISCOUNT | 🟢 85 |
-| **4** | 🇺🇸 | `COIN` | $162.26 | $160.64 | $165.51 | $167.13 | 🔵 DISCOUNT | 🟢 90 |
-| **5** | 🇺🇸 | `SMCI` | $44.02 | $43.57 | $44.90 | $45.34 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇺🇸 | `COIN` | $162.11 | $160.49 | $165.35 | $166.97 | 🔵 DISCOUNT | 🟢 90 |
+| **5** | 🇺🇸 | `SMCI` | $43.99 | $43.55 | $44.87 | $45.31 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -117,5 +117,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 03:53 HK Time on 2026-06-09
+🕐 Report generated at 06:16 HK Time on 2026-06-09
 
