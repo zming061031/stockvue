@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-06-09 | ⏰ 23:46 HK Time**
+**📅 2026-06-10 | ⏰ 06:15 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | BULLISH 🟢 | SH/SZ Trend |
 
 ---
@@ -30,18 +30,22 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `HD` | **Home Depot, Inc. (The)** | $319.67 | 🟢 +3.22% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 8 | ✅ BUY |
-| **2** | `TMO` | **Thermo Fisher Scientific Inc** | $483.44 | 🟡 +2.94% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 8 | ✅ BUY |
+| **1** | `TMO` | **Thermo Fisher Scientific Inc** | $494.07 | 🟢 +5.2% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 9 | ✅ BUY |
+| **2** | `HD` | **Home Depot, Inc. (The)** | $321.33 | 🟢 +3.75% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 8 | ✅ BUY |
+| **3** | `PG` | **Procter & Gamble Company (The)** | $148.67 | 🟡 +2.46% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 9 | ✅ BUY |
+| **4** | `XBI` | **State Street SPDR S&P Biotech E** | $131.38 | 🟡 +2.3% | 🔵 DISCOUNT | 🟢 75 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **5** | `KO` | **Coca-Cola Company (The)** | $81.34 | 🟡 +2.26% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 5 | ✅ BUY |
+| **6** | `JNJ` | **Johnson & Johnson** | $237.00 | 🟡 +2.08% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 4 | 2 | ✅ BUY |
 
 ---
 
 | | Code | Name | Price | Change | Turnover | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `sz300408` | **三环集团** | ¥141.02 | 🟢 +14.72% | 4.6% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `sz300285` | **国瓷材料** | ¥66.40 | 🟢 +15.26% | 18.7% | ⚪ N/A | 🟡 40 | **75%** | **80%** | — | 4 | 4 | ⚠️ WATCH |
+| **2** | `sz300285` | **国瓷材料** | ¥66.40 | 🟢 +15.26% | 18.7% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
 | **3** | `sz300570` | **太辰光** | ¥181.71 | 🟢 +18.07% | 20.9% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 2 | ✅ BUY |
 | **4** | `sh688126` | **沪硅产业** | ¥31.73 | 🟢 +20.01% | 8.0% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 2 | ✅ BUY |
-| **5** | `sz301526` | **国际复材** | ¥25.36 | 🟢 +15.38% | 16.9% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **5** | `sz301526` | **国际复材** | ¥25.36 | 🟢 +15.38% | 16.9% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 4 | ✅ BUY |
 | **6** | `sz300548` | **长芯博创** | ¥238.83 | 🟢 +12.13% | 8.8% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **7** | `sz301511` | **德福科技** | ¥136.80 | 🟢 +11.15% | 10.5% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **8** | `sz300666` | **江丰电子** | ¥224.88 | 🟢 +16.18% | 10.4% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 8 | ✅ BUY |
@@ -111,5 +115,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 23:46 HK Time on 2026-06-09
+🕐 Report generated at 06:15 HK Time on 2026-06-10
 
