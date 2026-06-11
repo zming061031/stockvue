@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-06-11 | ⏰ 17:55 HK Time**
+**📅 2026-06-12 | ⏰ 01:57 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
+| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -18,10 +18,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `1028.HK` | **C.BANNER** | HK$1.35 | 🟢 +5.47% | 🔴 PREMIUM | 🟢 75 | **75%** | **80%** | — | 3 | 1 | ✅ BUY |
-| **2** | `2728.HK` | **JINTAI ENERGY H** | HK$0.03 | 🟢 +3.7% | 🔴 PREMIUM | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `9866.HK` | **NIO-SW** | HK$41.78 | 🟢 +3.06% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 4 | 3 | ✅ BUY |
-| **4** | `0005.HK` | **HSBC HOLDINGS** | HK$138.50 | 🟡 +2.37% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 6 | 4 | ✅ BUY |
+| **1** | `1028.HK` | **C.BANNER** | HK$1.35 | 🟢 +5.47% | ⚪ NEUTRAL | 🟡 40 | **75%** | **80%** | — | 3 | 1 | ⚠️ WATCH |
+| **2** | `2728.HK` | **JINTAI ENERGY H** | HK$0.03 | 🟢 +3.7% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `9866.HK` | **NIO-SW** | HK$41.78 | 🟢 +3.06% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 4 | 3 | ⚠️ WATCH |
+| **4** | `0005.HK` | **HSBC HOLDINGS** | HK$138.50 | 🟡 +2.37% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 6 | 4 | ⚠️ WATCH |
 
 ---
 
@@ -29,10 +29,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `NTES` | **NetEase, Inc.** | $125.52 | 🟢 +3.97% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 7 | 4 | ✅ BUY |
-| **2** | `HOOD` | **Robinhood Markets, Inc.** | $86.36 | 🟢 +3.09% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 5 | 6 | ✅ BUY |
-| **3** | `KO` | **Coca-Cola Company (The)** | $83.59 | 🟡 +2.77% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 5 | 5 | ✅ BUY |
-| **4** | `BILI` | **Bilibili Inc.** | $18.08 | 🟡 +2.67% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 8 | ✅ BUY |
+| **1** | `CRWD` | **CrowdStrike Holdings, Inc.** | $691.02 | 🟢 +6.68% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `HOOD` | **Robinhood Markets, Inc.** | $91.14 | 🟢 +5.53% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `AMD` | **Advanced Micro Devices, Inc.** | $473.51 | 🟢 +4.67% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 5 | ✅ BUY |
+| **4** | `BA` | **Boeing Company (The)** | $218.62 | 🟢 +4.61% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 7 | ✅ BUY |
+| **5** | `SMCI` | **Super Micro Computer, Inc.** | $30.36 | 🟢 +3.72% | 🔵 DISCOUNT | 🟢 65 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **6** | `AVGO` | **Broadcom Inc.** | $383.31 | 🟢 +3.01% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
+| **7** | `NET` | **Cloudflare, Inc.** | $226.25 | 🟡 +2.99% | 🔵 DISCOUNT | 🟡 50 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `COIN` | **Coinbase Global, Inc.** | $158.56 | 🟡 +2.98% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 5 | 6 | ✅ BUY |
+| **9** | `XBI` | **State Street SPDR S&P Biotech E** | $132.62 | 🟡 +2.93% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `RBLX` | **Roblox Corporation** | $42.70 | 🟡 +2.9% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
 
 ---
 
@@ -95,11 +101,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `1028.HK` | HK$1.35 | HK$1.34 | HK$1.38 | HK$1.39 | 🔴 PREMIUM | 🟢 75 |
-| **2** | 🇭🇰 | `2728.HK` | HK$0.03 | HK$0.03 | HK$0.03 | HK$0.03 | 🔴 PREMIUM | 🟡 50 |
-| **3** | 🇭🇰 | `9866.HK` | HK$41.78 | HK$41.36 | HK$42.62 | HK$43.03 | 🔵 DISCOUNT | 🟢 90 |
-| **4** | 🇭🇰 | `0005.HK` | HK$138.50 | HK$137.12 | HK$141.27 | HK$142.66 | 🔵 DISCOUNT | 🟢 90 |
-| **5** | 🇺🇸 | `NTES` | $125.52 | $124.26 | $128.03 | $129.29 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `1028.HK` | HK$1.35 | HK$1.34 | HK$1.38 | HK$1.39 | ⚪ NEUTRAL | 🟡 40 |
+| **2** | 🇭🇰 | `2728.HK` | HK$0.03 | HK$0.03 | HK$0.03 | HK$0.03 | ⚪ NEUTRAL | 🔴 15 |
+| **3** | 🇭🇰 | `9866.HK` | HK$41.78 | HK$41.36 | HK$42.62 | HK$43.03 | ⚪ NEUTRAL | 🟡 40 |
+| **4** | 🇭🇰 | `0005.HK` | HK$138.50 | HK$137.12 | HK$141.27 | HK$142.66 | ⚪ NEUTRAL | 🟡 40 |
+| **5** | 🇺🇸 | `CRWD` | $691.02 | $684.11 | $704.84 | $711.75 | 🔴 PREMIUM | 🟡 45 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -112,5 +118,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 17:55 HK Time on 2026-06-11
+🕐 Report generated at 01:57 HK Time on 2026-06-12
 
