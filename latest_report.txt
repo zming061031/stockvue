@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-06-12 | ⏰ 19:31 HK Time**
+**📅 2026-06-13 | ⏰ 03:35 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | BULLISH 🟢 | HSI Trend |
-| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | BULLISH 🟢 | SH/SZ Trend |
 
 ---
@@ -35,16 +35,11 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SMCI` | **Super Micro Computer, Inc.** | $31.97 | 🟢 +9.22% | 🔵 DISCOUNT | 🟢 65 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $488.45 | 🟢 +7.97% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 5 | 5 | ✅ BUY |
-| **3** | `HOOD` | **Robinhood Markets, Inc.** | $92.23 | 🟢 +6.8% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 6 | ✅ BUY |
-| **4** | `CRWD` | **CrowdStrike Holdings, Inc.** | $691.53 | 🟢 +6.76% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **5** | `BA` | **Boeing Company (The)** | $221.63 | 🟢 +6.04% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 5 | 8 | ✅ BUY |
-| **6** | `SOFI` | **SoFi Technologies, Inc.** | $16.67 | 🟢 +5.04% | 🔵 DISCOUNT | 🟢 65 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **7** | `RBLX` | **Roblox Corporation** | $43.49 | 🟢 +4.8% | 🔵 DISCOUNT | 🟢 75 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **8** | `TSLA` | **Tesla, Inc.** | $399.15 | 🟢 +4.6% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 1 | 2 | ✅ BUY |
-| **9** | `COIN` | **Coinbase Global, Inc.** | $160.43 | 🟢 +4.2% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 6 | ✅ BUY |
-| **10** | `XLK` | **State Street Technology Select ** | $183.21 | 🟢 +3.73% | 🔵 DISCOUNT | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `AMD` | **Advanced Micro Devices, Inc.** | $510.84 | 🟢 +4.58% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 5 | ✅ BUY |
+| **2** | `U` | **Unity Software Inc.** | $27.44 | 🟡 +2.73% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 4 | 6 | ✅ BUY |
+| **3** | `GS` | **Goldman Sachs Group, Inc. (The)** | $1062.81 | 🟡 +2.62% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 4 | ✅ BUY |
+| **4** | `JPM` | **JP Morgan Chase & Co.** | $320.25 | 🟡 +2.16% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 4 | ✅ BUY |
+| **5** | `JD` | **JD.com, Inc.** | $28.65 | 🟡 +2.1% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
 
 ---
 
@@ -124,5 +119,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 19:31 HK Time on 2026-06-12
+🕐 Report generated at 03:35 HK Time on 2026-06-13
 
