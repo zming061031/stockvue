@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-06-17 | ⏰ 04:31 HK Time**
+**📅 2026-06-17 | ⏰ 06:36 HK Time**
 
 ---
 
@@ -35,7 +35,7 @@
 | **2** | `JPM` | **JP Morgan Chase & Co.** | $331.14 | 🟢 +3.68% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
 | **3** | `SOFI` | **SoFi Technologies, Inc.** | $17.71 | 🟢 +3.39% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 5 | ✅ BUY |
 | **4** | `V` | **Visa Inc.** | $333.12 | 🟡 +2.87% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 0 | ✅ BUY |
-| **5** | `HD` | **Home Depot, Inc. (The)** | $337.09 | 🟡 +2.2% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 3 | 6 | ✅ BUY |
+| **5** | `HD` | **Home Depot, Inc. (The)** | $337.09 | 🟡 +2.2% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 3 | 6 | ✅ BUY |
 | **6** | `MA` | **Mastercard Incorporated** | $501.33 | 🟡 +2.18% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 3 | ✅ BUY |
 
 ---
@@ -116,5 +116,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 04:31 HK Time on 2026-06-17
+🕐 Report generated at 06:36 HK Time on 2026-06-17
 
