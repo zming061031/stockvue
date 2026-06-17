@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-06-17 | ⏰ 22:13 HK Time**
+**📅 2026-06-18 | ⏰ 03:43 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
+| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -27,12 +27,9 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `AVGO` | **Broadcom Inc.** | $393.25 | 🟢 +4.39% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
-| **2** | `HOOD` | **Robinhood Markets, Inc.** | $100.85 | 🟢 +4.28% | ⚪ N/A | 🟡 40 | **65%** | **70%** | — | 4 | 6 | ⚠️ WATCH |
-| **3** | `SOFI` | **SoFi Technologies, Inc.** | $18.38 | 🟢 +3.78% | ⚪ N/A | 🟡 40 | **65%** | **70%** | — | 3 | 5 | ⚠️ WATCH |
-| **4** | `XBI` | **State Street SPDR S&P Biotech E** | $139.30 | 🟡 +2.93% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **5** | `GS` | **Goldman Sachs Group, Inc. (The)** | $1114.10 | 🟡 +2.15% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
-| **6** | `BILI` | **Bilibili Inc.** | $17.67 | 🟡 +2.14% | ⚪ N/A | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 3 | 9 | ✅ BUY |
+| **1** | `HOOD` | **Robinhood Markets, Inc.** | $105.69 | 🟢 +9.29% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
+| **2** | `AVGO` | **Broadcom Inc.** | $390.23 | 🟢 +3.59% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
+| **3** | `XBI` | **State Street SPDR S&P Biotech E** | $138.47 | 🟡 +2.31% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 1 | 5 | ✅ BUY |
 
 ---
 
@@ -97,9 +94,9 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | 🇭🇰 | `2382.HK` | HK$79.55 | HK$78.75 | HK$81.14 | HK$81.94 | 🔴 PREMIUM | 🟢 100 |
 | **2** | 🇭🇰 | `2018.HK` | HK$48.88 | HK$48.39 | HK$49.86 | HK$50.35 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇺🇸 | `AVGO` | $393.25 | $389.32 | $401.12 | $405.05 | 🔵 DISCOUNT | 🟢 100 |
-| **4** | 🇺🇸 | `HOOD` | $100.85 | $99.84 | $102.87 | $103.88 | ⚪ NEUTRAL | 🟡 40 |
-| **5** | 🇺🇸 | `SOFI` | $18.38 | $18.20 | $18.75 | $18.93 | ⚪ NEUTRAL | 🟡 40 |
+| **3** | 🇺🇸 | `HOOD` | $105.69 | $104.63 | $107.80 | $108.86 | 🔴 PREMIUM | 🟢 90 |
+| **4** | 🇺🇸 | `AVGO` | $390.23 | $386.32 | $398.03 | $401.93 | 🔵 DISCOUNT | 🟢 100 |
+| **5** | 🇺🇸 | `XBI` | $138.47 | $137.09 | $141.24 | $142.62 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -112,5 +109,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 22:13 HK Time on 2026-06-17
+🕐 Report generated at 03:43 HK Time on 2026-06-18
 
