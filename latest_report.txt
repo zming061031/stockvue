@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-06-18 | ⏰ 03:43 HK Time**
+**📅 2026-06-18 | ⏰ 05:37 HK Time**
 
 ---
 
@@ -27,9 +27,9 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `HOOD` | **Robinhood Markets, Inc.** | $105.69 | 🟢 +9.29% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
-| **2** | `AVGO` | **Broadcom Inc.** | $390.23 | 🟢 +3.59% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
-| **3** | `XBI` | **State Street SPDR S&P Biotech E** | $138.47 | 🟡 +2.31% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 1 | 5 | ✅ BUY |
+| **1** | `HOOD` | **Robinhood Markets, Inc.** | $105.20 | 🟢 +8.78% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
+| **2** | `AVGO` | **Broadcom Inc.** | $392.90 | 🟢 +4.3% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
+| **3** | `XBI` | **State Street SPDR S&P Biotech E** | $139.39 | 🟡 +2.99% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 1 | 5 | ✅ BUY |
 
 ---
 
@@ -94,9 +94,9 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | 🇭🇰 | `2382.HK` | HK$79.55 | HK$78.75 | HK$81.14 | HK$81.94 | 🔴 PREMIUM | 🟢 100 |
 | **2** | 🇭🇰 | `2018.HK` | HK$48.88 | HK$48.39 | HK$49.86 | HK$50.35 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇺🇸 | `HOOD` | $105.69 | $104.63 | $107.80 | $108.86 | 🔴 PREMIUM | 🟢 90 |
-| **4** | 🇺🇸 | `AVGO` | $390.23 | $386.32 | $398.03 | $401.93 | 🔵 DISCOUNT | 🟢 100 |
-| **5** | 🇺🇸 | `XBI` | $138.47 | $137.09 | $141.24 | $142.62 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇺🇸 | `HOOD` | $105.20 | $104.15 | $107.30 | $108.36 | 🔴 PREMIUM | 🟢 90 |
+| **4** | 🇺🇸 | `AVGO` | $392.90 | $388.97 | $400.76 | $404.69 | 🔵 DISCOUNT | 🟢 100 |
+| **5** | 🇺🇸 | `XBI` | $139.39 | $138.00 | $142.18 | $143.57 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -109,5 +109,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 03:43 HK Time on 2026-06-18
+🕐 Report generated at 05:37 HK Time on 2026-06-18
 
