@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-06-18 | ⏰ 19:41 HK Time**
+**📅 2026-06-18 | ⏰ 22:36 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | BEARISH 🔴 | HSI Trend |
-| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
+| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -28,9 +28,15 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `HOOD` | **Robinhood Markets, Inc.** | $105.20 | 🟢 +8.78% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
-| **2** | `AVGO` | **Broadcom Inc.** | $392.90 | 🟢 +4.3% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
-| **3** | `XBI` | **State Street SPDR S&P Biotech E** | $139.39 | 🟡 +2.99% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 1 | 5 | ✅ BUY |
+| **1** | `SMCI` | **Super Micro Computer, Inc.** | $30.09 | 🟢 +8.32% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
+| **2** | `RBLX` | **Roblox Corporation** | $51.59 | 🟢 +7.44% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 3 | ✅ BUY |
+| **3** | `AVGO` | **Broadcom Inc.** | $407.80 | 🟢 +3.79% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
+| **4** | `AMD` | **Advanced Micro Devices, Inc.** | $530.39 | 🟢 +3.49% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 6 | 5 | ✅ BUY |
+| **5** | `HD` | **Home Depot, Inc. (The)** | $336.58 | 🟡 +2.78% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 7 | ✅ BUY |
+| **6** | `XLK` | **State Street Technology Select ** | $190.78 | 🟡 +2.68% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `VGT` | **Vanguard Information Tech ETF** | $119.66 | 🟡 +2.33% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `SOFI` | **SoFi Technologies, Inc.** | $17.82 | 🟡 +2.3% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 5 | ✅ BUY |
+| **9** | `NVDA` | **NVIDIA Corporation** | $208.92 | 🟡 +2.09% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 5 | ✅ BUY |
 
 ---
 
@@ -96,8 +102,8 @@
 | **1** | 🇭🇰 | `9688.HK` | HK$14.36 | HK$14.22 | HK$14.65 | HK$14.79 | 🔴 PREMIUM | 🟢 100 |
 | **2** | 🇭🇰 | `9866.HK` | HK$40.82 | HK$40.41 | HK$41.64 | HK$42.04 | 🔵 DISCOUNT | 🟢 100 |
 | **3** | 🇭🇰 | `1028.HK` | HK$1.15 | HK$1.14 | HK$1.17 | HK$1.18 | 🔵 DISCOUNT | 🟢 90 |
-| **4** | 🇺🇸 | `HOOD` | $105.20 | $104.15 | $107.30 | $108.36 | 🔴 PREMIUM | 🟢 90 |
-| **5** | 🇺🇸 | `AVGO` | $392.90 | $388.97 | $400.76 | $404.69 | 🔵 DISCOUNT | 🟢 100 |
+| **4** | 🇺🇸 | `SMCI` | $30.09 | $29.79 | $30.69 | $30.99 | 🔵 DISCOUNT | 🟢 100 |
+| **5** | 🇺🇸 | `RBLX` | $51.59 | $51.08 | $52.63 | $53.14 | 🔴 PREMIUM | 🟢 85 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -110,5 +116,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 19:41 HK Time on 2026-06-18
+🕐 Report generated at 22:36 HK Time on 2026-06-18
 
