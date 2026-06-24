@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-06-24 | ⏰ 20:38 HK Time**
+**📅 2026-06-25 | ⏰ 05:14 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -31,13 +31,13 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `MRK` | **Merck & Company, Inc.** | $119.60 | 🟢 +3.57% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 2 | ✅ BUY |
-| **2** | `JNJ` | **Johnson & Johnson** | $239.08 | 🟢 +3.37% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
-| **3** | `ETSY` | **Etsy, Inc.** | $74.89 | 🟢 +3.24% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
-| **4** | `NET` | **Cloudflare, Inc.** | $224.94 | 🟢 +3.0% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
-| **5** | `ZM` | **Zoom Communications, Inc.** | $86.44 | 🟡 +2.5% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 3 | 1 | ✅ BUY |
-| **6** | `PG` | **Procter & Gamble Company (The)** | $150.86 | 🟡 +2.15% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 6 | 8 | ✅ BUY |
-| **7** | `ABBV` | **AbbVie Inc.** | $234.76 | 🟡 +2.07% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
+| **1** | `SHOP` | **Shopify Inc.** | $114.17 | 🟢 +6.03% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 5 | ✅ BUY |
+| **2** | `HD` | **Home Depot, Inc. (The)** | $342.86 | 🟢 +5.67% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 3 | 8 | ✅ BUY |
+| **3** | `TMO` | **Thermo Fisher Scientific Inc** | $492.20 | 🟢 +4.87% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
+| **4** | `ETSY` | **Etsy, Inc.** | $78.02 | 🟢 +4.18% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
+| **5** | `ABNB` | **Airbnb, Inc.** | $144.40 | 🟢 +4.0% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 3 | ✅ BUY |
+| **6** | `DOCU` | **DocuSign, Inc.** | $44.24 | 🟢 +3.68% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 1 | ✅ BUY |
+| **7** | `BILI` | **Bilibili Inc.** | $16.51 | 🟢 +3.45% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 9 | ✅ BUY |
 
 ---
 
@@ -117,5 +117,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 20:38 HK Time on 2026-06-24
+🕐 Report generated at 05:14 HK Time on 2026-06-25
 
