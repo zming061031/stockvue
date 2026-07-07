@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-08 | ⏰ 02:37 HK Time**
+**📅 2026-07-08 | ⏰ 06:00 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
+| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | BEARISH 🔴 | SH/SZ Trend |
 
 ---
@@ -19,10 +19,10 @@
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `0668.HK` | **ANKER** | HK$106.10 | 🟢 +6.53% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `2728.HK` | **JINTAI ENERGY H** | HK$0.02 | 🟢 +4.55% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `3690.HK` | **MEITUAN-W** | HK$78.35 | 🟢 +4.54% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 4 | 7 | ⚠️ WATCH |
-| **4** | `0992.HK` | **LENOVO GROUP** | HK$20.88 | 🟡 +2.05% | ⚪ NEUTRAL | 🟢 80 | **55%** | **60%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
-| **5** | `0700.HK` | **TENCENT** | HK$461.20 | 🟡 +2.04% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 5 | 5 | ⚠️ WATCH |
+| **2** | `2728.HK` | **JINTAI ENERGY H** | HK$0.02 | 🟢 +4.55% | 🔵 DISCOUNT | 🟢 65 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **3** | `3690.HK` | **MEITUAN-W** | HK$78.35 | 🟢 +4.54% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 7 | ✅ BUY |
+| **4** | `0992.HK` | **LENOVO GROUP** | HK$20.88 | 🟡 +2.05% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
+| **5** | `0700.HK` | **TENCENT** | HK$461.20 | 🟡 +2.04% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 5 | 5 | ✅ BUY |
 
 ---
 
@@ -30,16 +30,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `NET` | **Cloudflare, Inc.** | $271.62 | 🟢 +9.72% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **2** | `DDOG` | **Datadog, Inc.** | $267.65 | 🟢 +4.81% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `PLTR` | **Palantir Technologies Inc.** | $138.51 | 🟢 +4.5% | 🔴 PREMIUM | 🟢 95 | **65%** | **70%** | — | 5 | 6 | ✅ BUY |
-| **4** | `ETSY` | **Etsy, Inc.** | $77.84 | 🟢 +3.7% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **5** | `DOCU` | **DocuSign, Inc.** | $48.62 | 🟢 +3.67% | 🔵 DISCOUNT | 🟢 75 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **6** | `META` | **Meta Platforms, Inc.** | $620.58 | 🟢 +3.38% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 5 | 7 | ✅ BUY |
-| **7** | `SHOP` | **Shopify Inc.** | $123.90 | 🟢 +3.13% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 5 | ✅ BUY |
-| **8** | `JNJ` | **Johnson & Johnson** | $266.64 | 🟡 +2.82% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
-| **9** | `LLY` | **Eli Lilly and Company** | $1233.23 | 🟡 +2.76% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
-| **10** | `SNOW` | **Snowflake Inc.** | $268.64 | 🟡 +2.5% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 5 | ✅ BUY |
+| **1** | `NET` | **Cloudflare, Inc.** | $268.83 | 🟢 +8.6% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
+| **2** | `CVX` | **Chevron Corporation** | $174.01 | 🟢 +3.52% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 6 | ✅ BUY |
+| **3** | `ETSY` | **Etsy, Inc.** | $77.59 | 🟢 +3.37% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
+| **4** | `JNJ` | **Johnson & Johnson** | $267.24 | 🟢 +3.05% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
+| **5** | `LLY` | **Eli Lilly and Company** | $1235.56 | 🟡 +2.96% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
+| **6** | `XLE` | **State Street Energy Select Sect** | $54.64 | 🟡 +2.84% | 🔵 DISCOUNT | 🟢 75 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **7** | `META` | **Meta Platforms, Inc.** | $615.58 | 🟡 +2.55% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
+| **8** | `UNH` | **UnitedHealth Group Incorporated** | $428.19 | 🟡 +2.44% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 4 | 6 | ✅ BUY |
+| **9** | `PG` | **Procter & Gamble Company (The)** | $152.75 | 🟡 +2.3% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 6 | 8 | ✅ BUY |
+| **10** | `TCEHY` | **Tencent Holding Ltd.** | $58.92 | 🟡 +2.15% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 6 | 4 | ✅ BUY |
 
 ---
 
@@ -103,10 +103,10 @@
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | 🇭🇰 | `0668.HK` | HK$106.10 | HK$105.04 | HK$108.22 | HK$109.28 | ⚪ NEUTRAL | 🔴 0 |
-| **2** | 🇭🇰 | `2728.HK` | HK$0.02 | HK$0.02 | HK$0.02 | HK$0.02 | ⚪ NEUTRAL | 🔴 0 |
-| **3** | 🇭🇰 | `3690.HK` | HK$78.35 | HK$77.57 | HK$79.92 | HK$80.70 | ⚪ NEUTRAL | 🟡 55 |
-| **4** | 🇭🇰 | `0992.HK` | HK$20.88 | HK$20.67 | HK$21.30 | HK$21.51 | ⚪ NEUTRAL | 🟢 80 |
-| **5** | 🇭🇰 | `0700.HK` | HK$461.20 | HK$456.59 | HK$470.42 | HK$475.04 | ⚪ NEUTRAL | 🟡 55 |
+| **2** | 🇭🇰 | `2728.HK` | HK$0.02 | HK$0.02 | HK$0.02 | HK$0.02 | 🔵 DISCOUNT | 🟢 65 |
+| **3** | 🇭🇰 | `3690.HK` | HK$78.35 | HK$77.57 | HK$79.92 | HK$80.70 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇭🇰 | `0992.HK` | HK$20.88 | HK$20.67 | HK$21.30 | HK$21.51 | 🔵 DISCOUNT | 🟢 100 |
+| **5** | 🇭🇰 | `0700.HK` | HK$461.20 | HK$456.59 | HK$470.42 | HK$475.04 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -119,5 +119,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:37 HK Time on 2026-07-08
+🕐 Report generated at 06:00 HK Time on 2026-07-08
 
