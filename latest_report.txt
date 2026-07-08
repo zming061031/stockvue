@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-08 | ⏰ 23:03 HK Time**
+**📅 2026-07-09 | ⏰ 01:08 HK Time**
 
 ---
 
@@ -18,16 +18,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `9988.HK` | **BABA-W** | HK$107.50 | 🟢 +12.21% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
-| **2** | `1810.HK` | **XIAOMI-W** | HK$25.30 | 🟢 +9.52% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
-| **3** | `0992.HK` | **LENOVO GROUP** | HK$22.32 | 🟢 +6.9% | 🔵 DISCOUNT | 🟢 75 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **4** | `3988.HK` | **BANK OF CHINA** | HK$5.09 | 🟢 +5.6% | 🔵 DISCOUNT | 🟢 80 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **5** | `1398.HK` | **ICBC** | HK$6.82 | 🟢 +5.08% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 4 | ✅ BUY |
-| **6** | `1288.HK` | **ABC** | HK$5.65 | 🟢 +5.02% | 🔵 DISCOUNT | 🟢 80 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **7** | `6969.HK` | **SMOORE INTL** | HK$7.95 | 🟢 +4.74% | 🔵 DISCOUNT | 🟢 75 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **8** | `2728.HK` | **JINTAI ENERGY H** | HK$0.02 | 🟢 +4.35% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `9999.HK` | **NTES** | HK$213.80 | 🟢 +4.19% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 8 | 7 | ✅ BUY |
-| **10** | `6818.HK` | **CEB BANK** | HK$3.01 | 🟢 +4.15% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **1** | `9988.HK` | **BABA-W** | HK$107.50 | 🟢 +12.21% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 4 | 4 | ⚠️ WATCH |
+| **2** | `1810.HK` | **XIAOMI-W** | HK$25.30 | 🟢 +9.52% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 4 | 6 | ⚠️ WATCH |
+| **3** | `0992.HK` | **LENOVO GROUP** | HK$22.32 | 🟢 +6.9% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `3988.HK` | **BANK OF CHINA** | HK$5.09 | 🟢 +5.6% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **5** | `1398.HK` | **ICBC** | HK$6.82 | 🟢 +5.08% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 3 | 4 | ⚠️ WATCH |
+| **6** | `1288.HK` | **ABC** | HK$5.65 | 🟢 +5.02% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `6969.HK` | **SMOORE INTL** | HK$7.95 | 🟢 +4.74% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `2728.HK` | **JINTAI ENERGY H** | HK$0.02 | 🟢 +4.35% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `9999.HK` | **NTES** | HK$213.80 | 🟢 +4.19% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 8 | 6 | ⚠️ WATCH |
+| **10** | `6818.HK` | **CEB BANK** | HK$3.01 | 🟢 +4.15% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -35,14 +35,15 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `BABA` | **Alibaba Group Holding Limited** | $108.62 | 🟢 +10.68% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 3 | ✅ BUY |
-| **2** | `AVGO` | **Broadcom Inc.** | $387.15 | 🟢 +4.42% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 2 | ✅ BUY |
-| **3** | `BIDU` | **Baidu, Inc.** | $117.00 | 🟢 +4.38% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 5 | ✅ BUY |
-| **4** | `JD` | **JD.com, Inc.** | $27.59 | 🟢 +4.13% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 6 | ✅ BUY |
-| **5** | `TCEHY` | **Tencent Holding Ltd.** | $60.42 | 🟡 +2.55% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 6 | 4 | ✅ BUY |
-| **6** | `BILI` | **Bilibili Inc.** | $18.00 | 🟡 +2.24% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 9 | ✅ BUY |
-| **7** | `SMCI` | **Super Micro Computer, Inc.** | $26.82 | 🟡 +2.19% | 🔵 DISCOUNT | 🟢 70 | **55%** | **60%** | — | 5 | 5 | ✅ BUY |
-| **8** | `CVX` | **Chevron Corporation** | $177.69 | 🟡 +2.12% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 5 | ✅ BUY |
+| **1** | `BABA` | **Alibaba Group Holding Limited** | $109.05 | 🟢 +11.12% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 3 | ✅ BUY |
+| **2** | `AVGO` | **Broadcom Inc.** | $394.20 | 🟢 +6.32% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 5 | 2 | ✅ BUY |
+| **3** | `BIDU` | **Baidu, Inc.** | $117.58 | 🟢 +4.9% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 5 | ✅ BUY |
+| **4** | `JD` | **JD.com, Inc.** | $27.61 | 🟢 +4.23% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 6 | ✅ BUY |
+| **5** | `SMCI` | **Super Micro Computer, Inc.** | $27.12 | 🟢 +3.3% | 🔵 DISCOUNT | 🟢 80 | **65%** | **70%** | — | 5 | 5 | ✅ BUY |
+| **6** | `PDD` | **PDD Holdings Inc.** | $84.95 | 🟡 +2.93% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
+| **7** | `TCEHY` | **Tencent Holding Ltd.** | $60.55 | 🟡 +2.77% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `BILI` | **Bilibili Inc.** | $18.08 | 🟡 +2.72% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 9 | ✅ BUY |
+| **9** | `NTES` | **NetEase, Inc.** | $134.30 | 🟡 +2.66% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 8 | 6 | ✅ BUY |
 
 ---
 
@@ -105,11 +106,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `9988.HK` | HK$107.50 | HK$106.42 | HK$109.65 | HK$110.72 | 🔵 DISCOUNT | 🟢 100 |
-| **2** | 🇭🇰 | `1810.HK` | HK$25.30 | HK$25.05 | HK$25.81 | HK$26.06 | 🔵 DISCOUNT | 🟢 100 |
-| **3** | 🇭🇰 | `0992.HK` | HK$22.32 | HK$22.10 | HK$22.77 | HK$22.99 | 🔵 DISCOUNT | 🟢 75 |
-| **4** | 🇭🇰 | `3988.HK` | HK$5.09 | HK$5.04 | HK$5.19 | HK$5.24 | 🔵 DISCOUNT | 🟢 80 |
-| **5** | 🇭🇰 | `1398.HK` | HK$6.82 | HK$6.75 | HK$6.96 | HK$7.02 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `9988.HK` | HK$107.50 | HK$106.42 | HK$109.65 | HK$110.72 | ⚪ NEUTRAL | 🟡 55 |
+| **2** | 🇭🇰 | `1810.HK` | HK$25.30 | HK$25.05 | HK$25.81 | HK$26.06 | ⚪ NEUTRAL | 🟡 55 |
+| **3** | 🇭🇰 | `0992.HK` | HK$22.32 | HK$22.10 | HK$22.77 | HK$22.99 | ⚪ NEUTRAL | 🔴 15 |
+| **4** | 🇭🇰 | `3988.HK` | HK$5.09 | HK$5.04 | HK$5.19 | HK$5.24 | ⚪ NEUTRAL | 🔴 15 |
+| **5** | 🇭🇰 | `1398.HK` | HK$6.82 | HK$6.75 | HK$6.96 | HK$7.02 | ⚪ NEUTRAL | 🟡 55 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -122,5 +123,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 23:03 HK Time on 2026-07-08
+🕐 Report generated at 01:08 HK Time on 2026-07-09
 
