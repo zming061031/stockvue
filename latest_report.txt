@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-08 | ⏰ 09:07 HK Time**
+**📅 2026-07-08 | ⏰ 12:55 HK Time**
 
 ---
 
@@ -8,9 +8,9 @@
 
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
-| 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
+| 🇭🇰 Hong Kong | BULLISH 🟢 | HSI Trend |
 | 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
-| 🇨🇳 A-Share (China) | BEARISH 🔴 | SH/SZ Trend |
+| 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
 
@@ -18,11 +18,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0668.HK` | **ANKER** | HK$106.10 | 🟢 +6.53% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `2728.HK` | **JINTAI ENERGY H** | HK$0.02 | 🟢 +4.55% | 🔵 DISCOUNT | 🟢 65 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **3** | `3690.HK` | **MEITUAN-W** | HK$78.35 | 🟢 +4.54% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 7 | ✅ BUY |
-| **4** | `0992.HK` | **LENOVO GROUP** | HK$20.88 | 🟡 +2.05% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
-| **5** | `0700.HK` | **TENCENT** | HK$461.20 | 🟡 +2.04% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 5 | 5 | ✅ BUY |
+| **1** | `1028.HK` | **C.BANNER** | HK$0.97 | 🟢 +11.49% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `0992.HK` | **LENOVO GROUP** | HK$22.86 | 🟢 +9.48% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **3** | `9988.HK` | **BABA-W** | HK$103.60 | 🟢 +8.14% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
+| **4** | `1810.HK` | **XIAOMI-W** | HK$24.40 | 🟢 +5.63% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
+| **5** | `1288.HK` | **ABC** | HK$5.60 | 🟢 +4.09% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
+| **6** | `1398.HK` | **ICBC** | HK$6.73 | 🟢 +3.7% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 3 | 4 | ✅ BUY |
+| **7** | `9955.HK` | **CLOUDR** | HK$0.57 | 🟢 +3.64% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **8** | `9999.HK` | **NTES** | HK$212.60 | 🟢 +3.61% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 8 | 7 | ✅ BUY |
+| **9** | `3988.HK` | **BANK OF CHINA** | HK$4.99 | 🟢 +3.53% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **10** | `6969.HK` | **SMOORE INTL** | HK$7.84 | 🟢 +3.29% | 🔵 DISCOUNT | 🟢 75 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
 
 ---
 
@@ -40,6 +45,21 @@
 | **8** | `UNH` | **UnitedHealth Group Incorporated** | $428.19 | 🟡 +2.44% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 4 | 6 | ✅ BUY |
 | **9** | `PG` | **Procter & Gamble Company (The)** | $152.75 | 🟡 +2.3% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 6 | 8 | ✅ BUY |
 | **10** | `TCEHY` | **Tencent Holding Ltd.** | $58.92 | 🟡 +2.15% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 6 | 4 | ✅ BUY |
+
+---
+
+| | Code | Name | Price | Change | Turnover | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
+|:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | `sz000938` | **紫光股份** | ¥34.63 | 🟢 +10.01% | 12.3% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
+| **2** | `sh688347` | **华虹宏力** | ¥367.42 | 🟢 +13.4% | 4.8% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 2 | 2 | ✅ BUY |
+| **3** | `sh603893` | **瑞芯微** | ¥209.78 | 🟢 +10.0% | 7.5% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
+| **4** | `sz300017` | **网宿科技** | ¥14.66 | 🟢 +19.97% | 11.5% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
+| **5** | `sh688702` | **盛科通信** | ¥412.00 | 🟢 +7.85% | 4.7% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
+| **6** | `sh600246` | **万通发展** | ¥20.25 | 🟢 +8.87% | 9.9% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 2 | ✅ BUY |
+| **7** | `sz300821` | **东岳硅材** | ¥26.05 | 🟢 +11.8% | 11.5% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 5 | ✅ BUY |
+| **8** | `sh688385` | **复旦微电** | ¥72.23 | 🟢 +8.62% | 6.6% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
+| **9** | `sh688037` | **芯源微** | ¥420.01 | 🟢 +9.95% | 3.1% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 4 | ✅ BUY |
+| **10** | `sz300567` | **精测电子** | ¥302.00 | 🟢 +12.27% | 3.6% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 6 | ✅ BUY |
 
 ---
 
@@ -87,11 +107,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0668.HK` | HK$106.10 | HK$105.04 | HK$108.22 | HK$109.28 | ⚪ NEUTRAL | 🔴 0 |
-| **2** | 🇭🇰 | `2728.HK` | HK$0.02 | HK$0.02 | HK$0.02 | HK$0.02 | 🔵 DISCOUNT | 🟢 65 |
-| **3** | 🇭🇰 | `3690.HK` | HK$78.35 | HK$77.57 | HK$79.92 | HK$80.70 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇭🇰 | `0992.HK` | HK$20.88 | HK$20.67 | HK$21.30 | HK$21.51 | 🔵 DISCOUNT | 🟢 100 |
-| **5** | 🇭🇰 | `0700.HK` | HK$461.20 | HK$456.59 | HK$470.42 | HK$475.04 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `1028.HK` | HK$0.97 | HK$0.96 | HK$0.99 | HK$1.00 | 🔵 DISCOUNT | 🟢 60 |
+| **2** | 🇭🇰 | `0992.HK` | HK$22.86 | HK$22.63 | HK$23.32 | HK$23.55 | 🔵 DISCOUNT | 🟢 60 |
+| **3** | 🇭🇰 | `9988.HK` | HK$103.60 | HK$102.56 | HK$105.67 | HK$106.71 | 🔵 DISCOUNT | 🟢 100 |
+| **4** | 🇭🇰 | `1810.HK` | HK$24.40 | HK$24.16 | HK$24.89 | HK$25.13 | 🔵 DISCOUNT | 🟢 100 |
+| **5** | 🇭🇰 | `1288.HK` | HK$5.60 | HK$5.54 | HK$5.71 | HK$5.77 | 🔵 DISCOUNT | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -104,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 09:07 HK Time on 2026-07-08
+🕐 Report generated at 12:55 HK Time on 2026-07-08
 
