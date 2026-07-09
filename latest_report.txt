@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-09 | ⏰ 16:13 HK Time**
+**📅 2026-07-09 | ⏰ 22:15 HK Time**
 
 ---
 
@@ -18,9 +18,8 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0992.HK` | **LENOVO GROUP** | HK$24.08 | 🟢 +7.89% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 6 | ✅ BUY |
+| **1** | `0992.HK` | **LENOVO GROUP** | HK$24.04 | 🟢 +7.71% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 6 | ✅ BUY |
 | **2** | `2728.HK` | **JINTAI ENERGY H** | HK$0.03 | 🟢 +4.17% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **3** | `1797.HK` | **EAST BUY** | HK$23.42 | 🟡 +2.09% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
 
 ---
 
@@ -28,16 +27,14 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `BABA` | **Alibaba Group Holding Limited** | $108.98 | 🟢 +11.05% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 3 | ✅ BUY |
-| **2** | `SMCI` | **Super Micro Computer, Inc.** | $28.17 | 🟢 +7.31% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 5 | 6 | ✅ BUY |
-| **3** | `BIDU` | **Baidu, Inc.** | $117.62 | 🟢 +4.93% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 5 | ✅ BUY |
-| **4** | `AVGO` | **Broadcom Inc.** | $388.69 | 🟢 +4.83% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 2 | ✅ BUY |
-| **5** | `JD` | **JD.com, Inc.** | $27.63 | 🟢 +4.3% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 6 | ✅ BUY |
-| **6** | `NVDA` | **NVIDIA Corporation** | $204.12 | 🟢 +3.65% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 4 | ✅ BUY |
-| **7** | `TCEHY` | **Tencent Holding Ltd.** | $60.93 | 🟢 +3.45% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **8** | `PDD` | **PDD Holdings Inc.** | $84.74 | 🟡 +2.68% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
-| **9** | `BILI` | **Bilibili Inc.** | $18.03 | 🟡 +2.44% | 🔴 PREMIUM | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **10** | `ZM` | **Zoom Communications, Inc.** | $87.40 | 🟡 +2.01% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 2 | ✅ BUY |
+| **1** | `AMD` | **Advanced Micro Devices, Inc.** | $553.67 | 🟢 +7.09% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 6 | 4 | ✅ BUY |
+| **2** | `GS` | **Goldman Sachs Group, Inc. (The)** | $1059.91 | 🟡 +2.94% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
+| **3** | `DDOG` | **Datadog, Inc.** | $268.20 | 🟡 +2.72% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 1 | 1 | ✅ BUY |
+| **4** | `U` | **Unity Software Inc.** | $30.23 | 🟡 +2.63% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 3 | ✅ BUY |
+| **5** | `CRWD` | **CrowdStrike Holdings, Inc.** | $195.66 | 🟡 +2.28% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 1 | 4 | ✅ BUY |
+| **6** | `HOOD` | **Robinhood Markets, Inc.** | $116.08 | 🟡 +2.27% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 7 | ✅ BUY |
+| **7** | `SOFI` | **SoFi Technologies, Inc.** | $18.12 | 🟡 +2.2% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
+| **8** | `BABA` | **Alibaba Group Holding Limited** | $111.20 | 🟡 +2.04% | 🔴 PREMIUM | 🟢 95 | **55%** | **60%** | — | 4 | 3 | ✅ BUY |
 
 ---
 
@@ -100,11 +97,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0992.HK` | HK$24.08 | HK$23.84 | HK$24.56 | HK$24.80 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `0992.HK` | HK$24.04 | HK$23.80 | HK$24.52 | HK$24.76 | 🔴 PREMIUM | 🟢 100 |
 | **2** | 🇭🇰 | `2728.HK` | HK$0.03 | HK$0.02 | HK$0.03 | HK$0.03 | 🔴 PREMIUM | 🟢 60 |
-| **3** | 🇭🇰 | `1797.HK` | HK$23.42 | HK$23.19 | HK$23.89 | HK$24.12 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇺🇸 | `BABA` | $108.98 | $107.89 | $111.16 | $112.25 | 🔵 DISCOUNT | 🟢 100 |
-| **5** | 🇺🇸 | `SMCI` | $28.17 | $27.89 | $28.73 | $29.02 | 🔵 DISCOUNT | 🟢 100 |
+| **3** | 🇺🇸 | `AMD` | $553.67 | $548.13 | $564.74 | $570.28 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇺🇸 | `GS` | $1059.91 | $1049.32 | $1081.11 | $1091.71 | 🔴 PREMIUM | 🟢 85 |
+| **5** | 🇺🇸 | `DDOG` | $268.20 | $265.52 | $273.56 | $276.25 | 🔴 PREMIUM | 🟢 85 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -117,5 +114,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 16:13 HK Time on 2026-07-09
+🕐 Report generated at 22:15 HK Time on 2026-07-09
 
