@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-10 | ⏰ 05:08 HK Time**
+**📅 2026-07-10 | ⏰ 06:56 HK Time**
 
 ---
 
@@ -18,8 +18,8 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0992.HK` | **LENOVO GROUP** | HK$24.04 | 🟢 +7.71% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 3 | 6 | ⚠️ WATCH |
-| **2** | `2728.HK` | **JINTAI ENERGY H** | HK$0.03 | 🟢 +4.17% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `0992.HK` | **LENOVO GROUP** | HK$24.04 | 🟢 +7.71% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 6 | ✅ BUY |
+| **2** | `2728.HK` | **JINTAI ENERGY H** | HK$0.03 | 🟢 +4.17% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
 
 ---
 
@@ -99,8 +99,8 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0992.HK` | HK$24.04 | HK$23.80 | HK$24.52 | HK$24.76 | ⚪ NEUTRAL | 🟡 55 |
-| **2** | 🇭🇰 | `2728.HK` | HK$0.03 | HK$0.02 | HK$0.03 | HK$0.03 | ⚪ NEUTRAL | 🔴 15 |
+| **1** | 🇭🇰 | `0992.HK` | HK$24.04 | HK$23.80 | HK$24.52 | HK$24.76 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇭🇰 | `2728.HK` | HK$0.03 | HK$0.02 | HK$0.03 | HK$0.03 | 🔴 PREMIUM | 🟢 60 |
 | **3** | 🇺🇸 | `AMD` | $546.72 | $541.25 | $557.65 | $563.12 | 🔴 PREMIUM | 🟢 100 |
 | **4** | 🇺🇸 | `SOFI` | $18.62 | $18.43 | $18.99 | $19.18 | 🔴 PREMIUM | 🟢 100 |
 | **5** | 🇺🇸 | `META` | $631.48 | $625.17 | $644.11 | $650.42 | 🔴 PREMIUM | 🟢 100 |
@@ -116,5 +116,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 05:08 HK Time on 2026-07-10
+🕐 Report generated at 06:56 HK Time on 2026-07-10
 
