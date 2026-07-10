@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-11 | ⏰ 00:04 HK Time**
+**📅 2026-07-11 | ⏰ 04:06 HK Time**
 
 ---
 
@@ -35,8 +35,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `META` | **Meta Platforms, Inc.** | $668.02 | 🟢 +5.78% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 8 | ✅ BUY |
-| **2** | `NVDA` | **NVIDIA Corporation** | $209.26 | 🟢 +3.2% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 4 | ✅ BUY |
+| **1** | `META` | **Meta Platforms, Inc.** | $669.21 | 🟢 +5.97% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 8 | ✅ BUY |
+| **2** | `ETSY` | **Etsy, Inc.** | $81.01 | 🟢 +4.23% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
+| **3** | `NVDA` | **NVIDIA Corporation** | $210.96 | 🟢 +4.03% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 4 | ✅ BUY |
+| **4** | `AMD` | **Advanced Micro Devices, Inc.** | $557.89 | 🟡 +2.04% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 6 | 4 | ✅ BUY |
 
 ---
 
@@ -116,5 +118,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 00:04 HK Time on 2026-07-11
+🕐 Report generated at 04:06 HK Time on 2026-07-11
 
