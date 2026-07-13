@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-13 | ⏰ 19:44 HK Time**
+**📅 2026-07-14 | ⏰ 03:04 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
+| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | BEARISH 🔴 | SH/SZ Trend |
 
 ---
@@ -18,9 +18,9 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `9618.HK` | **JD-SW** | HK$113.20 | 🟡 +2.72% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 5 | 1 | ✅ BUY |
-| **2** | `1398.HK` | **ICBC** | HK$6.83 | 🟡 +2.55% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 3 | 3 | ✅ BUY |
-| **3** | `0695.HK` | **DONGWU CEMENT** | HK$8.09 | 🟡 +2.15% | 🔴 PREMIUM | 🟢 95 | **55%** | **60%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
+| **1** | `9618.HK` | **JD-SW** | HK$113.20 | 🟡 +2.72% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 5 | 1 | ⚠️ WATCH |
+| **2** | `1398.HK` | **ICBC** | HK$6.83 | 🟡 +2.55% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 3 | 3 | ⚠️ WATCH |
+| **3** | `0695.HK` | **DONGWU CEMENT** | HK$8.09 | 🟡 +2.15% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
 
 ---
 
@@ -28,10 +28,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `META` | **Meta Platforms, Inc.** | $669.21 | 🟢 +5.97% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 8 | ✅ BUY |
-| **2** | `ETSY` | **Etsy, Inc.** | $81.05 | 🟢 +4.28% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
-| **3** | `NVDA` | **NVIDIA Corporation** | $210.96 | 🟢 +4.03% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 4 | ✅ BUY |
-| **4** | `AMD` | **Advanced Micro Devices, Inc.** | $557.89 | 🟡 +2.04% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 6 | 4 | ✅ BUY |
+| **1** | `XLE` | **State Street Energy Select Sect** | $56.90 | 🟢 +3.3% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **2** | `CVX` | **Chevron Corporation** | $182.07 | 🟢 +3.21% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 2 | 5 | ✅ BUY |
+| **3** | `SNOW` | **Snowflake Inc.** | $269.80 | 🟢 +3.19% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
+| **4** | `JD` | **JD.com, Inc.** | $28.95 | 🟡 +2.66% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 6 | ✅ BUY |
+| **5** | `V` | **Visa Inc.** | $357.94 | 🟡 +2.57% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | ✅ BEARISH | 5 | 0 | ✅ BUY |
+| **6** | `NTES` | **NetEase, Inc.** | $131.32 | 🟡 +2.57% | 🔴 PREMIUM | 🔴 35 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `ZM` | **Zoom Communications, Inc.** | $91.89 | 🟡 +2.37% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 2 | ✅ BUY |
+| **8** | `PLTR` | **Palantir Technologies Inc.** | $129.78 | 🟡 +2.35% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 6 | ✅ BUY |
+| **9** | `SHOP` | **Shopify Inc.** | $125.19 | 🟡 +2.17% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 4 | ✅ BUY |
+| **10** | `MA` | **Mastercard Incorporated** | $538.04 | 🟡 +2.14% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 1 | ✅ BUY |
 
 ---
 
@@ -94,11 +100,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `9618.HK` | HK$113.20 | HK$112.07 | HK$115.46 | HK$116.60 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇭🇰 | `1398.HK` | HK$6.83 | HK$6.76 | HK$6.97 | HK$7.03 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇭🇰 | `0695.HK` | HK$8.09 | HK$8.01 | HK$8.25 | HK$8.33 | 🔴 PREMIUM | 🟢 95 |
-| **4** | 🇺🇸 | `META` | $669.21 | $662.52 | $682.59 | $689.29 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇺🇸 | `ETSY` | $81.05 | $80.24 | $82.67 | $83.48 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `9618.HK` | HK$113.20 | HK$112.07 | HK$115.46 | HK$116.60 | ⚪ NEUTRAL | 🟡 55 |
+| **2** | 🇭🇰 | `1398.HK` | HK$6.83 | HK$6.76 | HK$6.97 | HK$7.03 | ⚪ NEUTRAL | 🟡 55 |
+| **3** | 🇭🇰 | `0695.HK` | HK$8.09 | HK$8.01 | HK$8.25 | HK$8.33 | ⚪ NEUTRAL | 🟢 65 |
+| **4** | 🇺🇸 | `XLE` | $56.90 | $56.33 | $58.03 | $58.60 | 🔴 PREMIUM | 🟢 60 |
+| **5** | 🇺🇸 | `CVX` | $182.07 | $180.25 | $185.71 | $187.53 | 🔴 PREMIUM | 🟢 85 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -111,5 +117,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 19:44 HK Time on 2026-07-13
+🕐 Report generated at 03:04 HK Time on 2026-07-14
 
