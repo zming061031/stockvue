@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-15 | ⏰ 04:44 HK Time**
+**📅 2026-07-15 | ⏰ 06:38 HK Time**
 
 ---
 
@@ -18,16 +18,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `2600.HK` | **CHALCO** | HK$8.23 | 🟢 +9.59% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `9866.HK` | **NIO-SW** | HK$40.64 | 🟢 +8.66% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 4 | 7 | ⚠️ WATCH |
-| **3** | `1336.HK` | **NCI** | HK$46.42 | 🟢 +6.91% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `3759.HK` | **PHARMARON** | HK$23.60 | 🟢 +6.31% | ⚪ NEUTRAL | 🟢 80 | **75%** | **80%** | ✅ BEARISH | 2 | 6 | ✅ BUY |
+| **1** | `2600.HK` | **CHALCO** | HK$8.23 | 🟢 +9.59% | 🔵 DISCOUNT | 🟢 90 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `9866.HK` | **NIO-SW** | HK$40.64 | 🟢 +8.66% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 8 | ✅ BUY |
+| **3** | `1336.HK` | **NCI** | HK$46.42 | 🟢 +6.91% | 🔵 DISCOUNT | 🟢 65 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **4** | `3759.HK` | **PHARMARON** | HK$23.60 | 🟢 +6.31% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 6 | ✅ BUY |
 | **5** | `0668.HK` | **ANKER** | HK$102.00 | 🟢 +6.03% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `0695.HK` | **DONGWU CEMENT** | HK$8.48 | 🟢 +4.82% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **7** | `1919.HK` | **COSCO SHIP HOLD** | HK$14.67 | 🟢 +4.26% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 4 | 5 | ⚠️ WATCH |
-| **8** | `9868.HK` | **XPENG-W** | HK$52.35 | 🟢 +3.05% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 5 | 4 | ⚠️ WATCH |
-| **9** | `1028.HK` | **C.BANNER** | HK$0.81 | 🟡 +2.53% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 5 | 2 | ⚠️ WATCH |
-| **10** | `2328.HK` | **PICC P&C** | HK$14.26 | 🟡 +2.15% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 3 | 1 | ✅ BUY |
+| **6** | `0695.HK` | **DONGWU CEMENT** | HK$8.48 | 🟢 +4.82% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **7** | `1919.HK` | **COSCO SHIP HOLD** | HK$14.67 | 🟢 +4.26% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
+| **8** | `9868.HK` | **XPENG-W** | HK$52.35 | 🟢 +3.05% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 4 | ✅ BUY |
+| **9** | `1028.HK` | **C.BANNER** | HK$0.81 | 🟡 +2.53% | 🔵 DISCOUNT | 🟢 70 | **55%** | **60%** | — | 5 | 2 | ✅ BUY |
+| **10** | `2328.HK` | **PICC P&C** | HK$14.26 | 🟡 +2.15% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 1 | ✅ BUY |
 
 ---
 
@@ -107,10 +107,10 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `2600.HK` | HK$8.23 | HK$8.15 | HK$8.39 | HK$8.48 | ⚪ NEUTRAL | 🔴 15 |
-| **2** | 🇭🇰 | `9866.HK` | HK$40.64 | HK$40.23 | HK$41.45 | HK$41.86 | ⚪ NEUTRAL | 🟡 55 |
-| **3** | 🇭🇰 | `1336.HK` | HK$46.42 | HK$45.96 | HK$47.35 | HK$47.81 | ⚪ NEUTRAL | 🔴 15 |
-| **4** | 🇭🇰 | `3759.HK` | HK$23.60 | HK$23.36 | HK$24.07 | HK$24.31 | ⚪ NEUTRAL | 🟢 80 |
+| **1** | 🇭🇰 | `2600.HK` | HK$8.23 | HK$8.15 | HK$8.39 | HK$8.48 | 🔵 DISCOUNT | 🟢 90 |
+| **2** | 🇭🇰 | `9866.HK` | HK$40.64 | HK$40.23 | HK$41.45 | HK$41.86 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇭🇰 | `1336.HK` | HK$46.42 | HK$45.96 | HK$47.35 | HK$47.81 | 🔵 DISCOUNT | 🟢 65 |
+| **4** | 🇭🇰 | `3759.HK` | HK$23.60 | HK$23.36 | HK$24.07 | HK$24.31 | 🔴 PREMIUM | 🟢 100 |
 | **5** | 🇭🇰 | `0668.HK` | HK$102.00 | HK$100.98 | HK$104.04 | HK$105.06 | ⚪ NEUTRAL | 🔴 0 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 04:44 HK Time on 2026-07-15
+🕐 Report generated at 06:38 HK Time on 2026-07-15
 
