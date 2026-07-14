@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-15 | ⏰ 02:49 HK Time**
+**📅 2026-07-15 | ⏰ 04:44 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | BULLISH 🟢 | SH/SZ Trend |
 
 ---
@@ -35,16 +35,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `CRWD` | **CrowdStrike Holdings, Inc.** | $208.55 | 🟢 +10.98% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `GS` | **Goldman Sachs Group, Inc. (The)** | $1129.23 | 🟢 +7.97% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 5 | ✅ BUY |
-| **3** | `PLTR` | **Palantir Technologies Inc.** | $135.60 | 🟢 +4.28% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 7 | ✅ BUY |
-| **4** | `NVDA` | **NVIDIA Corporation** | $212.06 | 🟢 +4.19% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 4 | ✅ BUY |
-| **5** | `SNOW` | **Snowflake Inc.** | $277.85 | 🟢 +3.37% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `AMD` | **Advanced Micro Devices, Inc.** | $551.47 | 🟢 +3.2% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 4 | ✅ BUY |
-| **7** | `NET` | **Cloudflare, Inc.** | $277.44 | 🟡 +2.93% | 🔴 PREMIUM | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **8** | `DDOG` | **Datadog, Inc.** | $266.75 | 🟡 +2.5% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `AVGO` | **Broadcom Inc.** | $393.62 | 🟡 +2.49% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 6 | 2 | ✅ BUY |
-| **10** | `SOFI` | **SoFi Technologies, Inc.** | $18.57 | 🟡 +2.43% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
+| **1** | `CRWD` | **CrowdStrike Holdings, Inc.** | $210.73 | 🟢 +12.14% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `GS` | **Goldman Sachs Group, Inc. (The)** | $1140.00 | 🟢 +9.0% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 5 | ✅ BUY |
+| **3** | `NET` | **Cloudflare, Inc.** | $281.75 | 🟢 +4.53% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **4** | `NVDA` | **NVIDIA Corporation** | $211.80 | 🟢 +4.06% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 4 | ✅ BUY |
+| **5** | `DDOG` | **Datadog, Inc.** | $270.73 | 🟢 +4.03% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `U` | **Unity Software Inc.** | $31.75 | 🟢 +3.49% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
+| **7** | `HOOD` | **Robinhood Markets, Inc.** | $113.45 | 🟢 +3.27% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 7 | ✅ BUY |
+| **8** | `ETSY` | **Etsy, Inc.** | $83.06 | 🟢 +3.14% | 🔴 PREMIUM | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `PLTR` | **Palantir Technologies Inc.** | $133.72 | 🟡 +2.83% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 4 | 7 | ✅ BUY |
+| **10** | `SNOW` | **Snowflake Inc.** | $275.94 | 🟡 +2.71% | 🔴 PREMIUM | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
 
 ---
 
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:49 HK Time on 2026-07-15
+🕐 Report generated at 04:44 HK Time on 2026-07-15
 
