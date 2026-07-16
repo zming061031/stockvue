@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-17 | ⏰ 02:46 HK Time**
+**📅 2026-07-17 | ⏰ 04:33 HK Time**
 
 ---
 
@@ -35,16 +35,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `DOCU` | **DocuSign, Inc.** | $53.51 | 🟢 +4.59% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `BILI` | **Bilibili Inc.** | $18.96 | 🟢 +3.75% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `MRK` | **Merck & Company, Inc.** | $128.21 | 🟢 +3.72% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
-| **4** | `ABBV` | **AbbVie Inc.** | $252.54 | 🟢 +3.45% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
-| **5** | `PEP` | **Pepsico, Inc.** | $139.43 | 🟡 +2.98% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 6 | 5 | ✅ BUY |
-| **6** | `COST` | **Costco Wholesale Corporation** | $942.94 | 🟡 +2.88% | 🔵 DISCOUNT | 🟢 75 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **7** | `SHOP` | **Shopify Inc.** | $127.08 | 🟡 +2.86% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `KO` | **Coca-Cola Company (The)** | $84.77 | 🟡 +2.81% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
-| **9** | `MA` | **Mastercard Incorporated** | $548.92 | 🟡 +2.56% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 1 | ✅ BUY |
-| **10** | `MSFT` | **Microsoft Corporation** | $404.31 | 🟡 +2.19% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 8 | ✅ BUY |
+| **1** | `DOCU` | **DocuSign, Inc.** | $53.38 | 🟢 +4.34% | 🔴 PREMIUM | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `ABBV` | **AbbVie Inc.** | $254.39 | 🟢 +4.21% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
+| **3** | `BILI` | **Bilibili Inc.** | $19.00 | 🟢 +3.94% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **4** | `MRK` | **Merck & Company, Inc.** | $127.63 | 🟢 +3.25% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
+| **5** | `COST` | **Costco Wholesale Corporation** | $945.57 | 🟢 +3.17% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 6 | ✅ BUY |
+| **6** | `MA` | **Mastercard Incorporated** | $551.54 | 🟢 +3.05% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 1 | ✅ BUY |
+| **7** | `KO` | **Coca-Cola Company (The)** | $84.92 | 🟢 +3.0% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 8 | ✅ BUY |
+| **8** | `PEP` | **Pepsico, Inc.** | $139.43 | 🟡 +2.98% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 6 | 5 | ✅ BUY |
+| **9** | `V` | **Visa Inc.** | $365.14 | 🟡 +2.82% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 1 | ✅ BUY |
+| **10** | `PG` | **Procter & Gamble Company (The)** | $151.50 | 🟡 +2.33% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 7 | ✅ BUY |
 
 ---
 
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:46 HK Time on 2026-07-17
+🕐 Report generated at 04:33 HK Time on 2026-07-17
 
