@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-17 | ⏰ 09:08 HK Time**
+**📅 2026-07-17 | ⏰ 12:49 HK Time**
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
-| 🇭🇰 Hong Kong | BULLISH 🟢 | HSI Trend |
+| 🇭🇰 Hong Kong | BEARISH 🔴 | HSI Trend |
 | 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | BEARISH 🔴 | SH/SZ Trend |
 
@@ -16,18 +16,7 @@
 
 ## 🇭🇰 Hong Kong Market
 
-| | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
-|:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `1797.HK` | **EAST BUY** | HK$24.32 | 🟢 +14.29% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **2** | `1028.HK` | **C.BANNER** | HK$0.87 | 🟢 +11.54% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 3 | ✅ BUY |
-| **3** | `9868.HK` | **XPENG-W** | HK$56.55 | 🟢 +7.61% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **4** | `6969.HK` | **SMOORE INTL** | HK$8.15 | 🟢 +7.52% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **5** | `2018.HK` | **AAC TECH** | HK$41.04 | 🟢 +6.54% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
-| **6** | `1810.HK` | **XIAOMI-W** | HK$27.50 | 🟢 +6.34% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 2 | 6 | ✅ BUY |
-| **7** | `9688.HK` | **ZAI LAB** | HK$16.23 | 🟢 +5.05% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `3690.HK` | **MEITUAN-W** | HK$87.20 | 🟢 +4.56% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 5 | 7 | ✅ BUY |
-| **9** | `6618.HK` | **JD HEALTH** | HK$39.20 | 🟢 +4.48% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **10** | `6993.HK` | **BLUE MOON GROUP** | HK$3.10 | 🟢 +4.03% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 2 | ✅ BUY |
+*No Hong Kong stocks met our screening criteria today.*
 
 ---
 
@@ -36,7 +25,7 @@
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `DOCU` | **DocuSign, Inc.** | $53.38 | 🟢 +4.34% | 🔴 PREMIUM | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `ABBV` | **AbbVie Inc.** | $254.39 | 🟢 +4.21% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
+| **2** | `ABBV` | **AbbVie Inc.** | $254.39 | 🟢 +4.21% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
 | **3** | `BILI` | **Bilibili Inc.** | $19.00 | 🟢 +3.94% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
 | **4** | `MRK` | **Merck & Company, Inc.** | $127.63 | 🟢 +3.25% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
 | **5** | `COST` | **Costco Wholesale Corporation** | $945.57 | 🟢 +3.17% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 6 | ✅ BUY |
@@ -45,6 +34,21 @@
 | **8** | `PEP` | **Pepsico, Inc.** | $139.43 | 🟡 +2.98% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 6 | 5 | ✅ BUY |
 | **9** | `V` | **Visa Inc.** | $365.14 | 🟡 +2.82% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 1 | ✅ BUY |
 | **10** | `PG` | **Procter & Gamble Company (The)** | $151.50 | 🟡 +2.33% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 7 | ✅ BUY |
+
+---
+
+| | Code | Name | Price | Change | Turnover | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
+|:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | `sz002396` | **星网锐捷** | ¥30.10 | 🟢 +5.58% | 21.6% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 3 | 4 | ✅ BUY |
+| **2** | `sh688146` | **中船特气** | ¥267.28 | 🟢 +4.82% | 7.5% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
+| **3** | `sz300085` | **银之杰** | ¥33.51 | 🟢 +6.42% | 10.4% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 4 | ✅ BUY |
+| **4** | `sh688549` | **中巨芯** | ¥27.25 | 🟢 +10.73% | 13.3% | 🔵 DISCOUNT | 🟢 90 | **75%** | **80%** | — | 5 | 6 | ✅ BUY |
+| **5** | `sz002141` | **贤丰控股** | ¥6.44 | 🟢 +8.97% | 28.4% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 2 | 1 | ✅ BUY |
+| **6** | `sz001896` | **豫能控股** | ¥14.43 | 🟢 +6.89% | 7.9% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 5 | 3 | ✅ BUY |
+| **7** | `sh603823` | **百合花** | ¥74.18 | 🟢 +6.49% | 5.4% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 3 | 1 | ✅ BUY |
+| **8** | `sh688432` | **有研硅** | ¥38.99 | 🟢 +5.49% | 3.3% | 🔵 DISCOUNT | 🟢 80 | **75%** | **80%** | — | 5 | 4 | ✅ BUY |
+| **9** | `sz301583` | **托伦斯** | ¥150.00 | 🟢 +7.14% | 35.0% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `sz000676` | **智度股份** | ¥6.55 | 🟢 +5.3% | 17.4% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 4 | ✅ BUY |
 
 ---
 
@@ -92,11 +96,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `1797.HK` | HK$24.32 | HK$24.08 | HK$24.81 | HK$25.05 | 🔴 PREMIUM | 🟢 60 |
-| **2** | 🇭🇰 | `1028.HK` | HK$0.87 | HK$0.86 | HK$0.89 | HK$0.90 | 🔵 DISCOUNT | 🟢 100 |
-| **3** | 🇭🇰 | `9868.HK` | HK$56.55 | HK$55.98 | HK$57.68 | HK$58.25 | 🔴 PREMIUM | 🟢 60 |
-| **4** | 🇭🇰 | `6969.HK` | HK$8.15 | HK$8.07 | HK$8.31 | HK$8.39 | 🔴 PREMIUM | 🟢 60 |
-| **5** | 🇭🇰 | `2018.HK` | HK$41.04 | HK$40.63 | HK$41.86 | HK$42.27 | 🔵 DISCOUNT | 🟢 100 |
+| **1** | 🇺🇸 | `DOCU` | $53.38 | $52.85 | $54.45 | $54.98 | 🔴 PREMIUM | 🟡 50 |
+| **2** | 🇺🇸 | `ABBV` | $254.39 | $251.85 | $259.48 | $262.02 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇺🇸 | `BILI` | $19.00 | $18.81 | $19.38 | $19.57 | 🔴 PREMIUM | 🟢 60 |
+| **4** | 🇺🇸 | `MRK` | $127.63 | $126.35 | $130.18 | $131.46 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇺🇸 | `COST` | $945.57 | $936.11 | $964.48 | $973.94 | 🔵 DISCOUNT | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -109,5 +113,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 09:08 HK Time on 2026-07-17
+🕐 Report generated at 12:49 HK Time on 2026-07-17
 
