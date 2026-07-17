@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-17 | ⏰ 15:38 HK Time**
+**📅 2026-07-17 | ⏰ 17:32 HK Time**
 
 ---
 
@@ -18,7 +18,8 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `3798.HK` | **HOMELAND ITL** | HK$1.14 | 🟢 +3.64% | 🔵 DISCOUNT | 🟢 95 | **65%** | **70%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
+| **1** | `3798.HK` | **HOMELAND ITL** | HK$1.27 | 🟢 +15.45% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
+| **2** | `9955.HK` | **CLOUDR** | HK$0.53 | 🟢 +3.92% | 🔵 DISCOUNT | 🟢 80 | **65%** | **70%** | — | 0 | 2 | ✅ BUY |
 
 ---
 
@@ -98,11 +99,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `3798.HK` | HK$1.14 | HK$1.13 | HK$1.16 | HK$1.17 | 🔵 DISCOUNT | 🟢 95 |
-| **2** | 🇺🇸 | `DOCU` | $53.38 | $52.85 | $54.45 | $54.98 | 🔴 PREMIUM | 🟡 50 |
-| **3** | 🇺🇸 | `ABBV` | $254.39 | $251.85 | $259.48 | $262.02 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇺🇸 | `BILI` | $19.00 | $18.81 | $19.38 | $19.57 | 🔴 PREMIUM | 🟢 60 |
-| **5** | 🇺🇸 | `MRK` | $127.63 | $126.35 | $130.18 | $131.46 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `3798.HK` | HK$1.27 | HK$1.26 | HK$1.30 | HK$1.31 | 🔵 DISCOUNT | 🟢 100 |
+| **2** | 🇭🇰 | `9955.HK` | HK$0.53 | HK$0.52 | HK$0.54 | HK$0.55 | 🔵 DISCOUNT | 🟢 80 |
+| **3** | 🇺🇸 | `DOCU` | $53.38 | $52.85 | $54.45 | $54.98 | 🔴 PREMIUM | 🟡 50 |
+| **4** | 🇺🇸 | `ABBV` | $254.39 | $251.85 | $259.48 | $262.02 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇺🇸 | `BILI` | $19.00 | $18.81 | $19.38 | $19.57 | 🔴 PREMIUM | 🟢 60 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -115,5 +116,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 15:38 HK Time on 2026-07-17
+🕐 Report generated at 17:32 HK Time on 2026-07-17
 
