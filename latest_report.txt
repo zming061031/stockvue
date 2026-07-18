@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-18 | ⏰ 05:29 HK Time**
+**📅 2026-07-18 | ⏰ 07:33 HK Time**
 
 ---
 
@@ -18,8 +18,8 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `3798.HK` | **HOMELAND ITL** | HK$1.27 | 🟢 +15.45% | ⚪ NEUTRAL | 🟡 40 | **75%** | **80%** | — | 2 | 3 | ⚠️ WATCH |
-| **2** | `9955.HK` | **CLOUDR** | HK$0.53 | 🟢 +3.92% | ⚪ NEUTRAL | 🔴 20 | **65%** | **70%** | — | 0 | 2 | ⚠️ WATCH |
+| **1** | `3798.HK` | **HOMELAND ITL** | HK$1.27 | 🟢 +15.45% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
+| **2** | `9955.HK` | **CLOUDR** | HK$0.53 | 🟢 +3.92% | 🔵 DISCOUNT | 🟢 80 | **65%** | **70%** | — | 0 | 2 | ✅ BUY |
 
 ---
 
@@ -88,8 +88,8 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `3798.HK` | HK$1.27 | HK$1.26 | HK$1.30 | HK$1.31 | ⚪ NEUTRAL | 🟡 40 |
-| **2** | 🇭🇰 | `9955.HK` | HK$0.53 | HK$0.52 | HK$0.54 | HK$0.55 | ⚪ NEUTRAL | 🔴 20 |
+| **1** | 🇭🇰 | `3798.HK` | HK$1.27 | HK$1.26 | HK$1.30 | HK$1.31 | 🔵 DISCOUNT | 🟢 100 |
+| **2** | 🇭🇰 | `9955.HK` | HK$0.53 | HK$0.52 | HK$0.54 | HK$0.55 | 🔵 DISCOUNT | 🟢 80 |
 | **3** | 🇨🇳 | `sz002396` | ¥29.95 | ¥29.35 | ¥31.15 | ¥31.75 | 🔴 PREMIUM | 🟢 90 |
 | **4** | 🇨🇳 | `sz002432` | ¥79.20 | ¥77.62 | ¥82.37 | ¥83.95 | 🔴 PREMIUM | 🟢 100 |
 | **5** | 🇨🇳 | `sh688549` | ¥25.65 | ¥25.14 | ¥26.68 | ¥27.19 | 🔵 DISCOUNT | 🟢 100 |
@@ -105,5 +105,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 05:29 HK Time on 2026-07-18
+🕐 Report generated at 07:33 HK Time on 2026-07-18
 
