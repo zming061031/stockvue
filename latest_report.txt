@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-21 | ⏰ 01:08 HK Time**
+**📅 2026-07-21 | ⏰ 03:18 HK Time**
 
 ---
 
@@ -35,16 +35,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `RBLX` | **Roblox Corporation** | $54.94 | 🟢 +6.3% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `BABA` | **Alibaba Group Holding Limited** | $121.06 | 🟢 +5.3% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `U` | **Unity Software Inc.** | $30.32 | 🟢 +4.57% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 3 | 2 | ✅ BUY |
-| **4** | `TCEHY` | **Tencent Holding Ltd.** | $61.82 | 🟢 +4.5% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **5** | `BIDU` | **Baidu, Inc.** | $111.50 | 🟢 +3.97% | 🔴 PREMIUM | 🟡 40 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `JD` | **JD.com, Inc.** | $30.68 | 🟢 +3.6% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **7** | `BILI` | **Bilibili Inc.** | $18.66 | 🟢 +3.46% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `COIN` | **Coinbase Global, Inc.** | $161.90 | 🟢 +3.04% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
-| **9** | `PDD` | **PDD Holdings Inc.** | $86.52 | 🟡 +2.83% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **10** | `AVGO` | **Broadcom Inc.** | $381.19 | 🟡 +2.8% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 5 | 3 | ✅ BUY |
+| **1** | `BABA` | **Alibaba Group Holding Limited** | $120.38 | 🟢 +4.7% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `RBLX` | **Roblox Corporation** | $53.84 | 🟢 +4.18% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 5 | 3 | ✅ BUY |
+| **3** | `TCEHY` | **Tencent Holding Ltd.** | $61.60 | 🟢 +4.12% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `U` | **Unity Software Inc.** | $30.09 | 🟢 +3.78% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 3 | 2 | ✅ BUY |
+| **5** | `JD` | **JD.com, Inc.** | $30.59 | 🟢 +3.26% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `BILI` | **Bilibili Inc.** | $18.50 | 🟡 +2.58% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `BIDU` | **Baidu, Inc.** | $109.92 | 🟡 +2.5% | 🔵 DISCOUNT | 🟡 50 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `AMD` | **Advanced Micro Devices, Inc.** | $508.05 | 🟡 +2.48% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
+| **9** | `PLTR` | **Palantir Technologies Inc.** | $135.64 | 🟡 +2.46% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 6 | ✅ BUY |
+| **10** | `NTES` | **NetEase, Inc.** | $134.38 | 🟡 +2.35% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 01:08 HK Time on 2026-07-21
+🕐 Report generated at 03:18 HK Time on 2026-07-21
 
