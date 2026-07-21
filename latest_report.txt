@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-22 | ⏰ 02:00 HK Time**
+**📅 2026-07-22 | ⏰ 04:07 HK Time**
 
 ---
 
@@ -32,16 +32,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `COIN` | **Coinbase Global, Inc.** | $178.29 | 🟢 +11.14% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 4 | ✅ BUY |
-| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $542.50 | 🟢 +7.73% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 5 | 2 | ✅ BUY |
-| **3** | `HOOD` | **Robinhood Markets, Inc.** | $106.49 | 🟢 +7.26% | 🔴 PREMIUM | 🟢 70 | **75%** | **80%** | — | 5 | 8 | ✅ BUY |
-| **4** | `SMCI` | **Super Micro Computer, Inc.** | $25.32 | 🟢 +6.29% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 7 | 7 | ✅ BUY |
-| **5** | `ARKK` | **ARK Innovation ETF** | $77.73 | 🟢 +3.71% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **6** | `UNH` | **UnitedHealth Group Incorporated** | $434.48 | 🟢 +3.07% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 5 | 4 | ✅ BUY |
-| **7** | `XLK` | **State Street Technology Select ** | $180.63 | 🟡 +2.8% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **8** | `TSLA` | **Tesla, Inc.** | $379.57 | 🟡 +2.7% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 3 | 2 | ✅ BUY |
-| **9** | `GS` | **Goldman Sachs Group, Inc. (The)** | $1082.58 | 🟡 +2.61% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 4 | 4 | ✅ BUY |
-| **10** | `VGT` | **Vanguard Information Tech ETF** | $115.92 | 🟡 +2.38% | 🔵 DISCOUNT | 🟢 75 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **1** | `COIN` | **Coinbase Global, Inc.** | $175.85 | 🟢 +9.61% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $544.43 | 🟢 +8.11% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 5 | 2 | ✅ BUY |
+| **3** | `HOOD` | **Robinhood Markets, Inc.** | $106.36 | 🟢 +7.13% | 🔴 PREMIUM | 🔴 30 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `SMCI` | **Super Micro Computer, Inc.** | $25.50 | 🟢 +7.01% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **5** | `SOFI` | **SoFi Technologies, Inc.** | $17.64 | 🟢 +3.7% | 🔵 DISCOUNT | 🟢 65 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **6** | `UNH` | **UnitedHealth Group Incorporated** | $436.35 | 🟢 +3.51% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 5 | 4 | ✅ BUY |
+| **7** | `GS` | **Goldman Sachs Group, Inc. (The)** | $1085.80 | 🟡 +2.92% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 4 | 4 | ✅ BUY |
+| **8** | `XLK` | **State Street Technology Select ** | $180.71 | 🟡 +2.85% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **9** | `TSLA` | **Tesla, Inc.** | $378.93 | 🟡 +2.53% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 3 | 2 | ✅ BUY |
+| **10** | `LLY` | **Eli Lilly and Company** | $1175.14 | 🟡 +2.46% | 🔴 PREMIUM | 🟢 95 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
 
 ---
 
@@ -121,5 +121,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:00 HK Time on 2026-07-22
+🕐 Report generated at 04:07 HK Time on 2026-07-22
 
