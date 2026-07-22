@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-22 | ⏰ 16:01 HK Time**
+**📅 2026-07-22 | ⏰ 18:45 HK Time**
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
-| 🇭🇰 Hong Kong | BEARISH 🔴 | HSI Trend |
+| 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
 | 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
@@ -18,8 +18,9 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0695.HK` | **DONGWU CEMENT** | HK$8.80 | 🟢 +7.98% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
-| **2** | `0992.HK` | **LENOVO GROUP** | HK$24.08 | 🟢 +3.61% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
+| **1** | `0695.HK` | **DONGWU CEMENT** | HK$8.78 | 🟢 +7.73% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
+| **2** | `0992.HK` | **LENOVO GROUP** | HK$24.10 | 🟢 +3.7% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
+| **3** | `2600.HK` | **CHALCO** | HK$8.12 | 🟡 +2.4% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 8 | ✅ BUY |
 
 ---
 
@@ -99,11 +100,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0695.HK` | HK$8.80 | HK$8.71 | HK$8.98 | HK$9.06 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇭🇰 | `0992.HK` | HK$24.08 | HK$23.84 | HK$24.56 | HK$24.80 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇺🇸 | `COIN` | $175.85 | $174.09 | $179.37 | $181.13 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇺🇸 | `AMD` | $544.43 | $538.99 | $555.32 | $560.76 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇺🇸 | `HOOD` | $106.36 | $105.30 | $108.49 | $109.55 | 🔴 PREMIUM | 🔴 30 |
+| **1** | 🇭🇰 | `0695.HK` | HK$8.78 | HK$8.69 | HK$8.96 | HK$9.04 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇭🇰 | `0992.HK` | HK$24.10 | HK$23.86 | HK$24.58 | HK$24.82 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇭🇰 | `2600.HK` | HK$8.12 | HK$8.04 | HK$8.28 | HK$8.36 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇺🇸 | `COIN` | $175.85 | $174.09 | $179.37 | $181.13 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇺🇸 | `AMD` | $544.43 | $538.99 | $555.32 | $560.76 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -116,5 +117,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 16:01 HK Time on 2026-07-22
+🕐 Report generated at 18:45 HK Time on 2026-07-22
 
