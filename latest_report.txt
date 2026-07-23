@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-24 | ⏰ 02:51 HK Time**
+**📅 2026-07-24 | ⏰ 04:42 HK Time**
 
 ---
 
@@ -35,8 +35,9 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `TMO` | **Thermo Fisher Scientific Inc** | $573.58 | 🟢 +8.95% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 5 | 4 | ✅ BUY |
-| **2** | `MRK` | **Merck & Company, Inc.** | $130.08 | 🟡 +2.05% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 1 | ✅ BUY |
+| **1** | `TMO` | **Thermo Fisher Scientific Inc** | $572.32 | 🟢 +8.71% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 5 | 4 | ✅ BUY |
+| **2** | `MRK` | **Merck & Company, Inc.** | $130.48 | 🟡 +2.36% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 1 | ✅ BUY |
+| **3** | `SMCI` | **Super Micro Computer, Inc.** | $31.20 | 🟡 +2.09% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 6 | 7 | ✅ BUY |
 
 ---
 
@@ -116,5 +117,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:51 HK Time on 2026-07-24
+🕐 Report generated at 04:42 HK Time on 2026-07-24
 
