@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-24 | ⏰ 09:03 HK Time**
+**📅 2026-07-24 | ⏰ 12:56 HK Time**
 
 ---
 
@@ -8,26 +8,15 @@
 
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
-| 🇭🇰 Hong Kong | BULLISH 🟢 | HSI Trend |
+| 🇭🇰 Hong Kong | BEARISH 🔴 | HSI Trend |
 | 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
-| 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
+| 🇨🇳 A-Share (China) | BEARISH 🔴 | SH/SZ Trend |
 
 ---
 
 ## 🇭🇰 Hong Kong Market
 
-| | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
-|:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0695.HK` | **DONGWU CEMENT** | HK$9.40 | 🟢 +7.06% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **2** | `2600.HK` | **CHALCO** | HK$8.63 | 🟢 +6.28% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **3** | `1928.HK` | **SANDS CHINA LTD** | HK$13.86 | 🟢 +5.0% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **4** | `3690.HK` | **MEITUAN-W** | HK$87.30 | 🟢 +4.36% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 8 | ✅ BUY |
-| **5** | `6818.HK` | **CEB BANK** | HK$3.16 | 🟡 +2.93% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `1398.HK` | **ICBC** | HK$7.17 | 🟡 +2.43% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 1 | 4 | ✅ BUY |
-| **7** | `3988.HK` | **BANK OF CHINA** | HK$5.31 | 🟡 +2.31% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 5 | 2 | ✅ BUY |
-| **8** | `1288.HK` | **ABC** | HK$5.85 | 🟡 +2.27% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
-| **9** | `0992.HK` | **LENOVO GROUP** | HK$24.62 | 🟡 +2.16% | 🔴 PREMIUM | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **10** | `2382.HK` | **SUNNY OPTICAL** | HK$59.50 | 🟡 +2.15% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 7 | ✅ BUY |
+*No Hong Kong stocks met our screening criteria today.*
 
 ---
 
@@ -38,6 +27,21 @@
 | **1** | `TMO` | **Thermo Fisher Scientific Inc** | $572.32 | 🟢 +8.71% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 5 | 4 | ✅ BUY |
 | **2** | `MRK` | **Merck & Company, Inc.** | $130.48 | 🟡 +2.36% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 1 | ✅ BUY |
 | **3** | `SMCI` | **Super Micro Computer, Inc.** | $31.20 | 🟡 +2.09% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 6 | 7 | ✅ BUY |
+
+---
+
+| | Code | Name | Price | Change | Turnover | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
+|:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | `sz002156` | **通富微电** | ¥74.35 | 🟢 +6.49% | 11.2% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 3 | ✅ BUY |
+| **2** | `sh688146` | **中船特气** | ¥242.18 | 🟢 +12.64% | 11.2% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
+| **3** | `sz002414` | **高德红外** | ¥14.54 | 🟢 +5.67% | 4.6% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 5 | 2 | ✅ BUY |
+| **4** | `sh688630` | **芯碁微装** | ¥405.04 | 🟢 +5.48% | 3.9% | ⚪ N/A | 🟡 40 | **75%** | **80%** | — | 3 | 1 | ⚠️ WATCH |
+| **5** | `sh688099` | **晶晨股份** | ¥99.00 | 🟢 +7.54% | 4.7% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 3 | ✅ BUY |
+| **6** | `sz301583` | **托伦斯** | ¥164.60 | 🟢 +13.52% | 37.9% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `sh600722` | **金牛化工** | ¥11.60 | 🟢 +6.42% | 19.8% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
+| **8** | `sh601678` | **滨化股份** | ¥6.84 | 🟢 +9.97% | 10.8% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 4 | ✅ BUY |
+| **9** | `sz300444` | **双杰电气** | ¥10.04 | 🟢 +5.24% | 20.9% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `sz002326` | **永太科技** | ¥18.36 | 🟢 +6.93% | 7.5% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 3 | 2 | ✅ BUY |
 
 ---
 
@@ -85,11 +89,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0695.HK` | HK$9.40 | HK$9.31 | HK$9.59 | HK$9.68 | 🔴 PREMIUM | 🟢 60 |
-| **2** | 🇭🇰 | `2600.HK` | HK$8.63 | HK$8.54 | HK$8.80 | HK$8.89 | 🔴 PREMIUM | 🟢 60 |
-| **3** | 🇭🇰 | `1928.HK` | HK$13.86 | HK$13.72 | HK$14.14 | HK$14.28 | 🔴 PREMIUM | 🟢 60 |
-| **4** | 🇭🇰 | `3690.HK` | HK$87.30 | HK$86.43 | HK$89.05 | HK$89.92 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇭🇰 | `6818.HK` | HK$3.16 | HK$3.13 | HK$3.22 | HK$3.25 | 🔴 PREMIUM | 🟡 45 |
+| **1** | 🇺🇸 | `TMO` | $572.32 | $566.60 | $583.77 | $589.49 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇺🇸 | `MRK` | $130.48 | $129.18 | $133.09 | $134.39 | 🔴 PREMIUM | 🟢 85 |
+| **3** | 🇺🇸 | `SMCI` | $31.20 | $30.89 | $31.82 | $32.14 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇨🇳 | `sz002156` | ¥74.35 | ¥72.86 | ¥77.32 | ¥78.81 | 🔵 DISCOUNT | 🟢 100 |
+| **5** | 🇨🇳 | `sh688146` | ¥242.18 | ¥237.34 | ¥251.87 | ¥256.71 | 🔵 DISCOUNT | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -102,5 +106,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 09:03 HK Time on 2026-07-24
+🕐 Report generated at 12:56 HK Time on 2026-07-24
 
