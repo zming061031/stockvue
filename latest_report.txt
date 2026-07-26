@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-26 | ⏰ 23:48 HK Time**
+**📅 2026-07-27 | ⏰ 01:42 HK Time**
 
 ---
 
@@ -20,6 +20,7 @@
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `9955.HK` | **CLOUDR** | HK$0.53 | 🟢 +3.92% | 🔵 DISCOUNT | 🟢 95 | **65%** | **70%** | — | 0 | 2 | ✅ BUY |
 | **2** | `3798.HK` | **HOMELAND ITL** | HK$1.30 | 🟢 +3.17% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
+| **3** | `2130.HK` | **CN LOGISTICS** | HK$3.20 | 🟡 +2.24% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 2 | 2 | ✅ BUY |
 
 ---
 
@@ -97,9 +98,9 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | 🇭🇰 | `9955.HK` | HK$0.53 | HK$0.52 | HK$0.54 | HK$0.55 | 🔵 DISCOUNT | 🟢 95 |
 | **2** | 🇭🇰 | `3798.HK` | HK$1.30 | HK$1.29 | HK$1.33 | HK$1.34 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇺🇸 | `DOCU` | $50.44 | $49.94 | $51.45 | $51.95 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇺🇸 | `PATH` | $10.84 | $10.73 | $11.06 | $11.17 | 🔵 DISCOUNT | 🟢 90 |
-| **5** | 🇺🇸 | `ZM` | $87.99 | $87.11 | $89.75 | $90.63 | 🔴 PREMIUM | 🟢 95 |
+| **3** | 🇭🇰 | `2130.HK` | HK$3.20 | HK$3.17 | HK$3.26 | HK$3.30 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇺🇸 | `DOCU` | $50.44 | $49.94 | $51.45 | $51.95 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇺🇸 | `PATH` | $10.84 | $10.73 | $11.06 | $11.17 | 🔵 DISCOUNT | 🟢 90 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -112,5 +113,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 23:48 HK Time on 2026-07-26
+🕐 Report generated at 01:42 HK Time on 2026-07-27
 
