@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-28 | ⏰ 19:03 HK Time**
+**📅 2026-07-28 | ⏰ 21:18 HK Time**
 
 ---
 
@@ -41,10 +41,10 @@
 | **4** | `U` | **Unity Software Inc.** | $30.44 | 🟢 +6.36% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **5** | `COIN` | **Coinbase Global, Inc.** | $167.49 | 🟢 +5.81% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 6 | 4 | ✅ BUY |
 | **6** | `DOCU` | **DocuSign, Inc.** | $52.91 | 🟢 +4.9% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **7** | `ABNB` | **Airbnb, Inc.** | $146.86 | 🟢 +4.08% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **7** | `ABNB` | **Airbnb, Inc.** | $146.86 | 🟢 +4.08% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
 | **8** | `BILI` | **Bilibili Inc.** | $17.85 | 🟢 +4.02% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **9** | `ETSY` | **Etsy, Inc.** | $83.84 | 🟢 +3.99% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **10** | `ZM` | **Zoom Communications, Inc.** | $91.22 | 🟢 +3.67% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `ETSY` | **Etsy, Inc.** | $83.84 | 🟢 +3.99% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `ZM` | **Zoom Communications, Inc.** | $91.22 | 🟢 +3.67% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 19:03 HK Time on 2026-07-28
+🕐 Report generated at 21:18 HK Time on 2026-07-28
 
