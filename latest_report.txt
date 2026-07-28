@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-28 | ⏰ 16:06 HK Time**
+**📅 2026-07-28 | ⏰ 19:03 HK Time**
 
 ---
 
@@ -18,14 +18,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `2328.HK` | **PICC P&C** | HK$16.26 | 🟢 +8.18% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
-| **2** | `9999.HK` | **NTES** | HK$199.10 | 🟢 +4.24% | 🔴 PREMIUM | 🟢 70 | **65%** | **70%** | — | 4 | 7 | ✅ BUY |
+| **1** | `2328.HK` | **PICC P&C** | HK$16.22 | 🟢 +7.92% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
+| **2** | `9999.HK` | **NTES** | HK$199.60 | 🟢 +4.5% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 7 | ✅ BUY |
 | **3** | `9618.HK` | **JD-SW** | HK$124.10 | 🟢 +4.11% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 3 | 1 | ✅ BUY |
 | **4** | `3798.HK` | **HOMELAND ITL** | HK$1.35 | 🟢 +3.85% | ⚪ N/A | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
-| **5** | `1876.HK` | **BUD APAC** | HK$6.78 | 🟡 +2.88% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 6 | 1 | ✅ BUY |
+| **5** | `1876.HK` | **BUD APAC** | HK$6.79 | 🟢 +3.03% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 6 | 1 | ✅ BUY |
 | **6** | `1288.HK` | **ABC** | HK$6.20 | 🟡 +2.82% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
-| **7** | `2319.HK` | **MENGNIU DAIRY** | HK$18.67 | 🟡 +2.58% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
-| **8** | `1919.HK` | **COSCO SHIP HOLD** | HK$15.79 | 🟡 +2.13% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 2 | 5 | ✅ BUY |
+| **7** | `2319.HK` | **MENGNIU DAIRY** | HK$18.68 | 🟡 +2.64% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
+| **8** | `1919.HK` | **COSCO SHIP HOLD** | HK$15.80 | 🟡 +2.2% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 2 | 6 | ✅ BUY |
+| **9** | `9866.HK` | **NIO-SW** | HK$36.98 | 🟡 +2.1% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 8 | ✅ BUY |
+| **10** | `1810.HK` | **XIAOMI-W** | HK$29.26 | 🟡 +2.02% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 3 | 6 | ✅ BUY |
 
 ---
 
@@ -39,10 +41,10 @@
 | **4** | `U` | **Unity Software Inc.** | $30.44 | 🟢 +6.36% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **5** | `COIN` | **Coinbase Global, Inc.** | $167.49 | 🟢 +5.81% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 6 | 4 | ✅ BUY |
 | **6** | `DOCU` | **DocuSign, Inc.** | $52.91 | 🟢 +4.9% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **7** | `ABNB` | **Airbnb, Inc.** | $146.86 | 🟢 +4.08% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `ABNB` | **Airbnb, Inc.** | $146.86 | 🟢 +4.08% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
 | **8** | `BILI` | **Bilibili Inc.** | $17.85 | 🟢 +4.02% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
 | **9** | `ETSY` | **Etsy, Inc.** | $83.84 | 🟢 +3.99% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **10** | `ZM` | **Zoom Communications, Inc.** | $91.22 | 🟢 +3.67% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `ZM` | **Zoom Communications, Inc.** | $91.22 | 🟢 +3.67% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -105,11 +107,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `2328.HK` | HK$16.26 | HK$16.10 | HK$16.59 | HK$16.75 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇭🇰 | `9999.HK` | HK$199.10 | HK$197.11 | HK$203.08 | HK$205.07 | 🔴 PREMIUM | 🟢 70 |
+| **1** | 🇭🇰 | `2328.HK` | HK$16.22 | HK$16.06 | HK$16.54 | HK$16.71 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇭🇰 | `9999.HK` | HK$199.60 | HK$197.60 | HK$203.59 | HK$205.59 | 🔴 PREMIUM | 🟢 85 |
 | **3** | 🇭🇰 | `9618.HK` | HK$124.10 | HK$122.86 | HK$126.58 | HK$127.82 | 🔴 PREMIUM | 🟢 90 |
 | **4** | 🇭🇰 | `3798.HK` | HK$1.35 | HK$1.34 | HK$1.38 | HK$1.39 | ⚪ NEUTRAL | 🟢 65 |
-| **5** | 🇭🇰 | `1876.HK` | HK$6.78 | HK$6.71 | HK$6.92 | HK$6.98 | 🔴 PREMIUM | 🟢 85 |
+| **5** | 🇭🇰 | `1876.HK` | HK$6.79 | HK$6.72 | HK$6.93 | HK$6.99 | 🔴 PREMIUM | 🟢 85 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -122,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 16:06 HK Time on 2026-07-28
+🕐 Report generated at 19:03 HK Time on 2026-07-28
 
