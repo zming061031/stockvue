@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-28 | ⏰ 21:18 HK Time**
+**📅 2026-07-28 | ⏰ 23:56 HK Time**
 
 ---
 
@@ -35,16 +35,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SHOP` | **Shopify Inc.** | $126.88 | 🟢 +11.54% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **2** | `PATH` | **UiPath, Inc.** | $11.62 | 🟢 +7.2% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `PLTR` | **Palantir Technologies Inc.** | $131.53 | 🟢 +7.0% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
-| **4** | `U` | **Unity Software Inc.** | $30.44 | 🟢 +6.36% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **5** | `COIN` | **Coinbase Global, Inc.** | $167.49 | 🟢 +5.81% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 6 | 4 | ✅ BUY |
-| **6** | `DOCU` | **DocuSign, Inc.** | $52.91 | 🟢 +4.9% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **7** | `ABNB` | **Airbnb, Inc.** | $146.86 | 🟢 +4.08% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `BILI` | **Bilibili Inc.** | $17.85 | 🟢 +4.02% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **9** | `ETSY` | **Etsy, Inc.** | $83.84 | 🟢 +3.99% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **10** | `ZM` | **Zoom Communications, Inc.** | $91.22 | 🟢 +3.67% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `KO` | **Coca-Cola Company (The)** | $88.79 | 🟢 +5.6% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `BA` | **Boeing Company (The)** | $221.20 | 🟢 +4.59% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
+| **3** | `DOCU` | **DocuSign, Inc.** | $55.34 | 🟢 +4.58% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `NFLX` | **Netflix, Inc.** | $72.97 | 🟢 +3.64% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
+| **5** | `SHOP` | **Shopify Inc.** | $131.43 | 🟢 +3.59% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `NTES` | **NetEase, Inc.** | $127.80 | 🟢 +3.26% | 🔴 PREMIUM | 🔴 30 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `TMO` | **Thermo Fisher Scientific Inc** | $577.65 | 🟢 +3.24% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `ABBV` | **AbbVie Inc.** | $264.90 | 🟢 +3.11% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 6 | 7 | ✅ BUY |
+| **9** | `ABNB` | **Airbnb, Inc.** | $151.22 | 🟡 +2.97% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `PATH` | **UiPath, Inc.** | $11.93 | 🟡 +2.67% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 21:18 HK Time on 2026-07-28
+🕐 Report generated at 23:56 HK Time on 2026-07-28
 
