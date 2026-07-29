@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-29 | ⏰ 19:09 HK Time**
+**📅 2026-07-29 | ⏰ 23:36 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | BULLISH 🟢 | HSI Trend |
-| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
+| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -35,16 +35,15 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `DOCU` | **DocuSign, Inc.** | $55.97 | 🟢 +5.78% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `KO` | **Coca-Cola Company (The)** | $88.27 | 🟢 +5.0% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 5 | 9 | ⚠️ WATCH |
-| **3** | `PATH` | **UiPath, Inc.** | $12.19 | 🟢 +4.91% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `BA` | **Boeing Company (The)** | $221.56 | 🟢 +4.76% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 6 | 5 | ⚠️ WATCH |
-| **5** | `U` | **Unity Software Inc.** | $31.83 | 🟢 +4.57% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `ABNB` | **Airbnb, Inc.** | $153.11 | 🟢 +4.26% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **7** | `ETSY` | **Etsy, Inc.** | $86.47 | 🟢 +3.14% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `TMO` | **Thermo Fisher Scientific Inc** | $576.41 | 🟢 +3.02% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `NTES` | **NetEase, Inc.** | $127.35 | 🟡 +2.89% | ⚪ N/A | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **10** | `NFLX` | **Netflix, Inc.** | $72.39 | 🟡 +2.83% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 3 | 3 | ⚠️ WATCH |
+| **1** | `SNOW` | **Snowflake Inc.** | $282.92 | 🟢 +4.65% | ⚪ N/A | 🟡 40 | **65%** | **70%** | — | 2 | 5 | ⚠️ WATCH |
+| **2** | `DOCU` | **DocuSign, Inc.** | $57.85 | 🟢 +3.36% | ⚪ N/A | 🟡 40 | **65%** | **70%** | — | 5 | 4 | ⚠️ WATCH |
+| **3** | `BILI` | **Bilibili Inc.** | $18.59 | 🟡 +2.93% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 4 | 7 | ⚠️ WATCH |
+| **4** | `DDOG` | **Datadog, Inc.** | $258.19 | 🟡 +2.91% | ⚪ N/A | 🟡 45 | **55%** | **60%** | ✅ BEARISH | 3 | 0 | ⚠️ WATCH |
+| **5** | `TCEHY` | **Tencent Holding Ltd.** | $59.34 | 🟡 +2.75% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 6 | 4 | ⚠️ WATCH |
+| **6** | `CVX` | **Chevron Corporation** | $192.44 | 🟡 +2.59% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 4 | 4 | ⚠️ WATCH |
+| **7** | `PDD` | **PDD Holdings Inc.** | $87.86 | 🟡 +2.51% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 3 | 5 | ⚠️ WATCH |
+| **8** | `XLE` | **State Street Energy Select Sect** | $58.91 | 🟡 +2.34% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 4 | 7 | ⚠️ WATCH |
+| **9** | `KO` | **Coca-Cola Company (The)** | $90.26 | 🟡 +2.25% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 5 | 8 | ⚠️ WATCH |
 
 ---
 
@@ -124,5 +123,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 19:09 HK Time on 2026-07-29
+🕐 Report generated at 23:36 HK Time on 2026-07-29
 
