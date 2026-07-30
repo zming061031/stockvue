@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-31 | ⏰ 01:10 HK Time**
+**📅 2026-07-31 | ⏰ 03:00 HK Time**
 
 ---
 
@@ -30,16 +30,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `MSFT` | **Microsoft Corporation** | $455.82 | 🟢 +16.72% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 3 | 8 | ✅ BUY |
-| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $485.97 | 🟢 +13.13% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 5 | 1 | ✅ BUY |
-| **3** | `SMCI` | **Super Micro Computer, Inc.** | $27.81 | 🟢 +8.21% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `SOFI` | **SoFi Technologies, Inc.** | $16.15 | 🟢 +6.04% | 🔵 DISCOUNT | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **5** | `AMZN` | **Amazon.com, Inc.** | $238.41 | 🟢 +5.19% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
-| **6** | `XLK` | **State Street Technology Select ** | $175.22 | 🟢 +5.19% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **7** | `NET` | **Cloudflare, Inc.** | $283.10 | 🟢 +4.7% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `VGT` | **Vanguard Information Tech ETF** | $113.26 | 🟢 +4.68% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **9** | `GS` | **Goldman Sachs Group, Inc. (The)** | $1022.23 | 🟢 +4.23% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
-| **10** | `SNOW` | **Snowflake Inc.** | $294.63 | 🟢 +4.15% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `MSFT` | **Microsoft Corporation** | $455.67 | 🟢 +16.68% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 3 | 8 | ✅ BUY |
+| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $486.64 | 🟢 +13.29% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 5 | 1 | ✅ BUY |
+| **3** | `SMCI` | **Super Micro Computer, Inc.** | $27.66 | 🟢 +7.65% | 🔵 DISCOUNT | 🟢 65 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **4** | `SOFI` | **SoFi Technologies, Inc.** | $16.26 | 🟢 +6.76% | 🔵 DISCOUNT | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **5** | `XLK` | **State Street Technology Select ** | $175.24 | 🟢 +5.21% | 🔵 DISCOUNT | 🟢 75 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **6** | `AMZN` | **Amazon.com, Inc.** | $237.71 | 🟢 +4.88% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
+| **7** | `NET` | **Cloudflare, Inc.** | $283.50 | 🟢 +4.85% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `VGT` | **Vanguard Information Tech ETF** | $113.33 | 🟢 +4.74% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **9** | `GS` | **Goldman Sachs Group, Inc. (The)** | $1026.32 | 🟢 +4.65% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
+| **10** | `AVGO` | **Broadcom Inc.** | $386.06 | 🟢 +4.25% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 6 | 2 | ✅ BUY |
 
 ---
 
@@ -119,5 +119,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 01:10 HK Time on 2026-07-31
+🕐 Report generated at 03:00 HK Time on 2026-07-31
 
