@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-31 | ⏰ 04:47 HK Time**
+**📅 2026-07-31 | ⏰ 06:44 HK Time**
 
 ---
 
@@ -19,10 +19,10 @@
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `0668.HK` | **ANKER** | HK$118.30 | 🟢 +10.25% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `6969.HK` | **SMOORE INTL** | HK$9.41 | 🟢 +6.21% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 3 | 5 | ⚠️ WATCH |
-| **3** | `1288.HK` | **ABC** | HK$6.51 | 🟢 +3.01% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
-| **4** | `6818.HK` | **CEB BANK** | HK$3.27 | 🟡 +2.83% | ⚪ NEUTRAL | 🟢 80 | **55%** | **60%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
-| **5** | `1398.HK` | **ICBC** | HK$7.64 | 🟡 +2.14% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 1 | 3 | ⚠️ WATCH |
+| **2** | `6969.HK` | **SMOORE INTL** | HK$9.41 | 🟢 +6.21% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 3 | 5 | ✅ BUY |
+| **3** | `1288.HK` | **ABC** | HK$6.51 | 🟢 +3.01% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
+| **4** | `6818.HK` | **CEB BANK** | HK$3.27 | 🟡 +2.83% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
+| **5** | `1398.HK` | **ICBC** | HK$7.64 | 🟡 +2.14% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 1 | 3 | ✅ BUY |
 
 ---
 
@@ -103,10 +103,10 @@
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | 🇭🇰 | `0668.HK` | HK$118.30 | HK$117.12 | HK$120.67 | HK$121.85 | ⚪ NEUTRAL | 🔴 0 |
-| **2** | 🇭🇰 | `6969.HK` | HK$9.41 | HK$9.32 | HK$9.60 | HK$9.69 | ⚪ NEUTRAL | 🟡 55 |
-| **3** | 🇭🇰 | `1288.HK` | HK$6.51 | HK$6.44 | HK$6.64 | HK$6.71 | ⚪ NEUTRAL | 🟢 80 |
-| **4** | 🇭🇰 | `6818.HK` | HK$3.27 | HK$3.24 | HK$3.34 | HK$3.37 | ⚪ NEUTRAL | 🟢 80 |
-| **5** | 🇭🇰 | `1398.HK` | HK$7.64 | HK$7.56 | HK$7.79 | HK$7.87 | ⚪ NEUTRAL | 🟡 55 |
+| **2** | 🇭🇰 | `6969.HK` | HK$9.41 | HK$9.32 | HK$9.60 | HK$9.69 | 🔴 PREMIUM | 🟢 90 |
+| **3** | 🇭🇰 | `1288.HK` | HK$6.51 | HK$6.44 | HK$6.64 | HK$6.71 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇭🇰 | `6818.HK` | HK$3.27 | HK$3.24 | HK$3.34 | HK$3.37 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇭🇰 | `1398.HK` | HK$7.64 | HK$7.56 | HK$7.79 | HK$7.87 | 🔴 PREMIUM | 🟢 90 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -119,5 +119,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 04:47 HK Time on 2026-07-31
+🕐 Report generated at 06:44 HK Time on 2026-07-31
 
