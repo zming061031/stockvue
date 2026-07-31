@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-07-31 | ⏰ 16:23 HK Time**
+**📅 2026-07-31 | ⏰ 19:13 HK Time**
 
 ---
 
@@ -18,10 +18,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0992.HK` | **LENOVO GROUP** | HK$23.88 | 🟢 +9.84% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 4 | ✅ BUY |
-| **2** | `9988.HK` | **BABA-W** | HK$117.30 | 🟢 +4.92% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 4 | 6 | ✅ BUY |
-| **3** | `9866.HK` | **NIO-SW** | HK$38.64 | 🟢 +3.04% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 5 | 8 | ✅ BUY |
-| **4** | `0005.HK` | **HSBC HOLDINGS** | HK$168.80 | 🟡 +2.61% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
+| **1** | `0992.HK` | **LENOVO GROUP** | HK$23.86 | 🟢 +9.75% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 4 | ✅ BUY |
+| **2** | `9988.HK` | **BABA-W** | HK$117.00 | 🟢 +4.65% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 4 | 6 | ✅ BUY |
+| **3** | `9866.HK` | **NIO-SW** | HK$38.82 | 🟢 +3.52% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 5 | 8 | ✅ BUY |
+| **4** | `0005.HK` | **HSBC HOLDINGS** | HK$168.20 | 🟡 +2.25% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
 
 ---
 
@@ -101,10 +101,10 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0992.HK` | HK$23.88 | HK$23.64 | HK$24.36 | HK$24.60 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇭🇰 | `9988.HK` | HK$117.30 | HK$116.13 | HK$119.65 | HK$120.82 | 🔴 PREMIUM | 🟢 90 |
-| **3** | 🇭🇰 | `9866.HK` | HK$38.64 | HK$38.25 | HK$39.41 | HK$39.80 | 🔴 PREMIUM | 🟢 85 |
-| **4** | 🇭🇰 | `0005.HK` | HK$168.80 | HK$167.11 | HK$172.18 | HK$173.86 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `0992.HK` | HK$23.86 | HK$23.62 | HK$24.34 | HK$24.58 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇭🇰 | `9988.HK` | HK$117.00 | HK$115.83 | HK$119.34 | HK$120.51 | 🔴 PREMIUM | 🟢 90 |
+| **3** | 🇭🇰 | `9866.HK` | HK$38.82 | HK$38.43 | HK$39.60 | HK$39.98 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇭🇰 | `0005.HK` | HK$168.20 | HK$166.52 | HK$171.56 | HK$173.25 | 🔴 PREMIUM | 🟢 100 |
 | **5** | 🇺🇸 | `MSFT` | $451.10 | $446.59 | $460.12 | $464.63 | 🔴 PREMIUM | 🟢 90 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
@@ -118,5 +118,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 16:23 HK Time on 2026-07-31
+🕐 Report generated at 19:13 HK Time on 2026-07-31
 
