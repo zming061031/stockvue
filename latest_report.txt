@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-01 | ⏰ 09:13 HK Time**
+**📅 2026-08-01 | ⏰ 13:03 HK Time**
 
 ---
 
@@ -37,7 +37,7 @@
 | **6** | `XLY` | **State Street Consumer Discretio** | $116.09 | 🟢 +3.29% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
 | **7** | `META` | **Meta Platforms, Inc.** | $556.71 | 🟢 +3.28% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 6 | 7 | ✅ BUY |
 | **8** | `PATH` | **UiPath, Inc.** | $12.76 | 🟢 +3.15% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
-| **9** | `CRWD` | **CrowdStrike Holdings, Inc.** | $190.86 | 🟢 +3.05% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 2 | 4 | ✅ BUY |
+| **9** | `CRWD` | **CrowdStrike Holdings, Inc.** | $190.86 | 🟢 +3.05% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 2 | 4 | ✅ BUY |
 | **10** | `MSFT` | **Microsoft Corporation** | $464.72 | 🟢 +3.02% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 3 | 8 | ✅ BUY |
 
 ---
@@ -118,5 +118,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 09:13 HK Time on 2026-08-01
+🕐 Report generated at 13:03 HK Time on 2026-08-01
 
