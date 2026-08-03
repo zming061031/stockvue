@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-03 | ⏰ 20:47 HK Time**
+**📅 2026-08-04 | ⏰ 00:08 HK Time**
 
 ---
 
@@ -18,12 +18,12 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `9988.HK` | **BABA-W** | HK$125.20 | 🟢 +7.01% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 4 | 6 | ✅ BUY |
-| **2** | `1028.HK` | **C.BANNER** | HK$0.80 | 🟢 +6.0% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 2 | ✅ BUY |
-| **3** | `2018.HK` | **AAC TECH** | HK$40.28 | 🟢 +4.51% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 5 | ✅ BUY |
-| **4** | `1797.HK` | **EAST BUY** | HK$22.28 | 🟢 +3.92% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
-| **5** | `0992.HK` | **LENOVO GROUP** | HK$24.74 | 🟢 +3.69% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 4 | ✅ BUY |
-| **6** | `0700.HK` | **TENCENT** | HK$490.40 | 🟢 +3.2% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
+| **1** | `9988.HK` | **BABA-W** | HK$125.20 | 🟢 +7.01% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 4 | 6 | ⚠️ WATCH |
+| **2** | `1028.HK` | **C.BANNER** | HK$0.80 | 🟢 +6.0% | ⚪ NEUTRAL | 🟡 40 | **75%** | **80%** | — | 4 | 2 | ⚠️ WATCH |
+| **3** | `2018.HK` | **AAC TECH** | HK$40.28 | 🟢 +4.51% | ⚪ NEUTRAL | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 2 | 4 | ✅ BUY |
+| **4** | `1797.HK` | **EAST BUY** | HK$22.28 | 🟢 +3.92% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
+| **5** | `0992.HK` | **LENOVO GROUP** | HK$24.74 | 🟢 +3.69% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 3 | 4 | ⚠️ WATCH |
+| **6** | `0700.HK` | **TENCENT** | HK$490.40 | 🟢 +3.2% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 3 | 3 | ⚠️ WATCH |
 
 ---
 
@@ -31,16 +31,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `AMZN` | **Amazon.com, Inc.** | $271.58 | 🟢 +15.32% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 4 | 5 | ✅ BUY |
-| **2** | `GOOGL` | **Alphabet Inc.** | $356.13 | 🟢 +6.73% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 6 | 7 | ✅ BUY |
-| **3** | `BABA` | **Alibaba Group Holding Limited** | $122.25 | 🟢 +5.1% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `ZM` | **Zoom Communications, Inc.** | $96.07 | 🟢 +4.06% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 5 | 2 | ✅ BUY |
-| **5** | `BIDU` | **Baidu, Inc.** | $111.11 | 🟢 +3.38% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **6** | `XLY` | **State Street Consumer Discretio** | $116.09 | 🟢 +3.29% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **7** | `META` | **Meta Platforms, Inc.** | $556.71 | 🟢 +3.28% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 6 | 7 | ✅ BUY |
-| **8** | `PATH` | **UiPath, Inc.** | $12.76 | 🟢 +3.15% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
-| **9** | `CRWD` | **CrowdStrike Holdings, Inc.** | $190.86 | 🟢 +3.05% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 2 | 4 | ✅ BUY |
-| **10** | `MSFT` | **Microsoft Corporation** | $464.72 | 🟢 +3.02% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 3 | 8 | ✅ BUY |
+| **1** | `SOFI` | **SoFi Technologies, Inc.** | $17.51 | 🟢 +7.37% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
+| **2** | `SNOW` | **Snowflake Inc.** | $314.28 | 🟢 +7.16% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `META` | **Meta Platforms, Inc.** | $592.92 | 🟢 +6.5% | 🔵 DISCOUNT | 🟢 90 | **75%** | **80%** | — | 7 | 7 | ✅ BUY |
+| **4** | `HOOD` | **Robinhood Markets, Inc.** | $91.26 | 🟢 +5.43% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
+| **5** | `RBLX` | **Roblox Corporation** | $37.52 | 🟢 +5.39% | 🔵 DISCOUNT | 🔴 30 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `GOOGL` | **Alphabet Inc.** | $374.93 | 🟢 +5.28% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
+| **7** | `BABA` | **Alibaba Group Holding Limited** | $128.53 | 🟢 +5.14% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `U` | **Unity Software Inc.** | $33.33 | 🟢 +5.09% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `AMZN` | **Amazon.com, Inc.** | $284.75 | 🟢 +4.85% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
+| **10** | `MSFT` | **Microsoft Corporation** | $487.16 | 🟢 +4.83% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 3 | 8 | ✅ BUY |
 
 ---
 
@@ -103,11 +103,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `9988.HK` | HK$125.20 | HK$123.95 | HK$127.70 | HK$128.96 | 🔴 PREMIUM | 🟢 90 |
-| **2** | 🇭🇰 | `1028.HK` | HK$0.80 | HK$0.79 | HK$0.81 | HK$0.82 | 🔵 DISCOUNT | 🟢 100 |
-| **3** | 🇭🇰 | `2018.HK` | HK$40.28 | HK$39.88 | HK$41.09 | HK$41.49 | 🔵 DISCOUNT | 🟢 100 |
-| **4** | 🇭🇰 | `1797.HK` | HK$22.28 | HK$22.06 | HK$22.73 | HK$22.95 | 🔵 DISCOUNT | 🟢 100 |
-| **5** | 🇭🇰 | `0992.HK` | HK$24.74 | HK$24.49 | HK$25.23 | HK$25.48 | 🔴 PREMIUM | 🟢 85 |
+| **1** | 🇭🇰 | `9988.HK` | HK$125.20 | HK$123.95 | HK$127.70 | HK$128.96 | ⚪ NEUTRAL | 🟡 55 |
+| **2** | 🇭🇰 | `1028.HK` | HK$0.80 | HK$0.79 | HK$0.81 | HK$0.82 | ⚪ NEUTRAL | 🟡 40 |
+| **3** | 🇭🇰 | `2018.HK` | HK$40.28 | HK$39.88 | HK$41.09 | HK$41.49 | ⚪ NEUTRAL | 🟢 65 |
+| **4** | 🇭🇰 | `1797.HK` | HK$22.28 | HK$22.06 | HK$22.73 | HK$22.95 | ⚪ NEUTRAL | 🟢 80 |
+| **5** | 🇭🇰 | `0992.HK` | HK$24.74 | HK$24.49 | HK$25.23 | HK$25.48 | ⚪ NEUTRAL | 🟡 40 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -120,5 +120,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 20:47 HK Time on 2026-08-03
+🕐 Report generated at 00:08 HK Time on 2026-08-04
 
