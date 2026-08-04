@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-04 | ⏰ 18:19 HK Time**
+**📅 2026-08-04 | ⏰ 20:29 HK Time**
 
 ---
 
@@ -28,31 +28,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SOFI` | **SoFi Technologies, Inc.** | $18.03 | 🟢 +10.55% | ⚪ NEUTRAL | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `BA` | **Boeing Company (The)** | $233.49 | 🟢 +8.03% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 4 | 3 | ⚠️ WATCH |
-| **3** | `CRWD` | **CrowdStrike Holdings, Inc.** | $202.54 | 🟢 +6.12% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `META` | **Meta Platforms, Inc.** | $590.24 | 🟢 +6.02% | ⚪ NEUTRAL | 🟡 40 | **75%** | **80%** | — | 6 | 7 | ⚠️ WATCH |
-| **5** | `U` | **Unity Software Inc.** | $33.38 | 🟢 +5.27% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `MSFT` | **Microsoft Corporation** | $487.65 | 🟢 +4.93% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 3 | 8 | ⚠️ WATCH |
-| **7** | `GOOGL` | **Alphabet Inc.** | $373.51 | 🟢 +4.88% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 5 | 7 | ⚠️ WATCH |
-| **8** | `SNOW` | **Snowflake Inc.** | $307.53 | 🟢 +4.86% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `AMZN` | **Amazon.com, Inc.** | $284.02 | 🟢 +4.58% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 4 | 5 | ⚠️ WATCH |
-| **10** | `HOOD` | **Robinhood Markets, Inc.** | $90.34 | 🟢 +4.37% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-
----
-
-| | Code | Name | Price | Change | Turnover | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
-|:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `sz300308` | **中际旭创** | ¥1021.99 | 🟢 +13.24% | 4.6% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 5 | 5 | ✅ BUY |
-| **2** | `sz300502` | **新易盛** | ¥448.00 | 🟢 +13.68% | 5.5% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 8 | ✅ BUY |
-| **3** | `sz300394` | **天孚通信** | ¥212.00 | 🟢 +17.45% | 7.2% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **4** | `sh688498` | **源杰科技** | ¥1315.00 | 🟢 +14.65% | 5.8% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 5 | ✅ BUY |
-| **5** | `sz300857` | **协创数据** | ¥241.00 | 🟢 +17.68% | 7.7% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 1 | ✅ BUY |
-| **6** | `sz001232` | **N嘉立创** | ¥208.01 | 🟢 +146.28% | 75.2% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **7** | `sz300209` | **行云科技** | ¥33.64 | 🟢 +20.01% | 23.1% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 6 | 3 | ✅ BUY |
-| **8** | `sh688048` | **长光华芯** | ¥266.17 | 🟢 +12.64% | 11.3% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
-| **9** | `sh688313` | **仕佳光子** | ¥113.70 | 🟢 +17.5% | 9.4% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
-| **10** | `sz301171` | **易点天下** | ¥37.60 | 🟢 +16.27% | 25.8% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 6 | ✅ BUY |
+| **1** | `SOFI` | **SoFi Technologies, Inc.** | $18.03 | 🟢 +10.55% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `BA` | **Boeing Company (The)** | $233.49 | 🟢 +8.03% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 3 | ✅ BUY |
+| **3** | `CRWD` | **CrowdStrike Holdings, Inc.** | $202.54 | 🟢 +6.12% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **4** | `META` | **Meta Platforms, Inc.** | $590.24 | 🟢 +6.02% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 7 | 7 | ✅ BUY |
+| **5** | `U` | **Unity Software Inc.** | $33.38 | 🟢 +5.27% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **6** | `MSFT` | **Microsoft Corporation** | $487.65 | 🟢 +4.93% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 3 | 8 | ✅ BUY |
+| **7** | `GOOGL` | **Alphabet Inc.** | $373.51 | 🟢 +4.88% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 5 | 7 | ✅ BUY |
+| **8** | `SNOW` | **Snowflake Inc.** | $307.53 | 🟢 +4.86% | 🔴 PREMIUM | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `AMZN` | **Amazon.com, Inc.** | $284.02 | 🟢 +4.58% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
+| **10** | `HOOD` | **Robinhood Markets, Inc.** | $90.34 | 🟢 +4.37% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
 
 ---
 
@@ -103,8 +88,8 @@
 | **1** | 🇭🇰 | `3759.HK` | HK$24.40 | HK$24.16 | HK$24.89 | HK$25.13 | 🔴 PREMIUM | 🟢 100 |
 | **2** | 🇭🇰 | `6060.HK` | HK$11.43 | HK$11.32 | HK$11.66 | HK$11.77 | 🔴 PREMIUM | 🟢 90 |
 | **3** | 🇭🇰 | `2382.HK` | HK$57.80 | HK$57.22 | HK$58.96 | HK$59.53 | 🔴 PREMIUM | 🟢 95 |
-| **4** | 🇺🇸 | `SOFI` | $18.03 | $17.85 | $18.39 | $18.57 | ⚪ NEUTRAL | 🔴 0 |
-| **5** | 🇺🇸 | `BA` | $233.49 | $231.16 | $238.16 | $240.49 | ⚪ NEUTRAL | 🟡 55 |
+| **4** | 🇺🇸 | `SOFI` | $18.03 | $17.85 | $18.39 | $18.57 | 🔴 PREMIUM | 🟡 45 |
+| **5** | 🇺🇸 | `BA` | $233.49 | $231.16 | $238.16 | $240.49 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -117,5 +102,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 18:19 HK Time on 2026-08-04
+🕐 Report generated at 20:29 HK Time on 2026-08-04
 
