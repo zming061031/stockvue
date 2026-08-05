@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-05 | ⏰ 16:09 HK Time**
+**📅 2026-08-05 | ⏰ 19:07 HK Time**
 
 ---
 
@@ -18,13 +18,15 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0669.HK` | **TECHTRONIC IND** | HK$143.60 | 🟢 +7.97% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
-| **2** | `0992.HK` | **LENOVO GROUP** | HK$26.32 | 🟢 +6.03% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 4 | ✅ BUY |
-| **3** | `0695.HK` | **DONGWU CEMENT** | HK$8.64 | 🟢 +4.73% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 2 | ✅ BUY |
-| **4** | `1028.HK` | **C.BANNER** | HK$0.84 | 🟢 +3.7% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
-| **5** | `2382.HK` | **SUNNY OPTICAL** | HK$59.50 | 🟡 +2.94% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
-| **6** | `2600.HK` | **CHALCO** | HK$8.62 | 🟡 +2.8% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 9 | ✅ BUY |
-| **7** | `6993.HK` | **BLUE MOON GROUP** | HK$3.29 | 🟡 +2.17% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
+| **1** | `0669.HK` | **TECHTRONIC IND** | HK$143.80 | 🟢 +8.12% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
+| **2** | `0992.HK` | **LENOVO GROUP** | HK$26.28 | 🟢 +5.87% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 4 | ✅ BUY |
+| **3** | `0695.HK` | **DONGWU CEMENT** | HK$8.65 | 🟢 +4.85% | 🔵 DISCOUNT | 🟢 80 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **4** | `2600.HK` | **CHALCO** | HK$8.64 | 🟢 +3.04% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 9 | ✅ BUY |
+| **5** | `2382.HK` | **SUNNY OPTICAL** | HK$59.45 | 🟡 +2.85% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
+| **6** | `6993.HK` | **BLUE MOON GROUP** | HK$3.30 | 🟡 +2.48% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
+| **7** | `1028.HK` | **C.BANNER** | HK$0.83 | 🟡 +2.47% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 4 | 2 | ✅ BUY |
+| **8** | `1336.HK` | **NCI** | HK$49.06 | 🟡 +2.25% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
+| **9** | `2018.HK` | **AAC TECH** | HK$41.94 | 🟡 +2.14% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 5 | ✅ BUY |
 
 ---
 
@@ -104,11 +106,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0669.HK` | HK$143.60 | HK$142.16 | HK$146.47 | HK$147.91 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇭🇰 | `0992.HK` | HK$26.32 | HK$26.06 | HK$26.85 | HK$27.11 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇭🇰 | `0695.HK` | HK$8.64 | HK$8.55 | HK$8.81 | HK$8.90 | 🔵 DISCOUNT | 🟢 100 |
-| **4** | 🇭🇰 | `1028.HK` | HK$0.84 | HK$0.83 | HK$0.86 | HK$0.87 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇭🇰 | `2382.HK` | HK$59.50 | HK$58.91 | HK$60.69 | HK$61.28 | 🔴 PREMIUM | 🟢 85 |
+| **1** | 🇭🇰 | `0669.HK` | HK$143.80 | HK$142.36 | HK$146.68 | HK$148.11 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇭🇰 | `0992.HK` | HK$26.28 | HK$26.02 | HK$26.81 | HK$27.07 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇭🇰 | `0695.HK` | HK$8.65 | HK$8.56 | HK$8.82 | HK$8.91 | 🔵 DISCOUNT | 🟢 80 |
+| **4** | 🇭🇰 | `2600.HK` | HK$8.64 | HK$8.56 | HK$8.82 | HK$8.90 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇭🇰 | `2382.HK` | HK$59.45 | HK$58.86 | HK$60.64 | HK$61.23 | 🔴 PREMIUM | 🟢 85 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -121,5 +123,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 16:09 HK Time on 2026-08-05
+🕐 Report generated at 19:07 HK Time on 2026-08-05
 
