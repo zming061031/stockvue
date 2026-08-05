@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-06 | ⏰ 02:12 HK Time**
+**📅 2026-08-06 | ⏰ 04:15 HK Time**
 
 ---
 
@@ -34,11 +34,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SHOP` | **Shopify Inc.** | $146.88 | 🟢 +19.12% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **2** | `LLY` | **Eli Lilly and Company** | $1164.02 | 🟢 +4.33% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 2 | ✅ BUY |
-| **3** | `NVDA` | **NVIDIA Corporation** | $220.89 | 🟢 +4.22% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 4 | ✅ BUY |
-| **4** | `GS` | **Goldman Sachs Group, Inc. (The)** | $1075.72 | 🟡 +2.16% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
-| **5** | `TMO` | **Thermo Fisher Scientific Inc** | $576.59 | 🟡 +2.1% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 3 | ✅ BUY |
+| **1** | `SHOP` | **Shopify Inc.** | $144.24 | 🟢 +16.98% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
+| **2** | `LLY` | **Eli Lilly and Company** | $1169.86 | 🟢 +4.86% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 2 | ✅ BUY |
+| **3** | `NVDA` | **NVIDIA Corporation** | $219.22 | 🟢 +3.43% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 4 | ✅ BUY |
+| **4** | `TMO` | **Thermo Fisher Scientific Inc** | $577.83 | 🟡 +2.32% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 3 | ✅ BUY |
 
 ---
 
@@ -118,5 +117,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:12 HK Time on 2026-08-06
+🕐 Report generated at 04:15 HK Time on 2026-08-06
 
