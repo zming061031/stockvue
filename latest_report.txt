@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-08 | ⏰ 02:30 HK Time**
+**📅 2026-08-08 | ⏰ 03:39 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
+| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -34,16 +34,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `ABNB` | **Airbnb, Inc.** | $174.93 | 🟢 +15.36% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `PLTR` | **Palantir Technologies Inc.** | $170.82 | 🟢 +9.56% | 🔴 PREMIUM | 🟢 75 | **75%** | **80%** | — | 2 | 7 | ✅ BUY |
-| **3** | `PATH` | **UiPath, Inc.** | $14.94 | 🟢 +6.71% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `DOCU` | **DocuSign, Inc.** | $60.27 | 🟢 +5.91% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **5** | `SMCI` | **Super Micro Computer, Inc.** | $31.07 | 🟢 +5.75% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 5 | 6 | ✅ BUY |
-| **6** | `COIN` | **Coinbase Global, Inc.** | $152.71 | 🟢 +5.02% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 5 | 4 | ✅ BUY |
-| **7** | `NET` | **Cloudflare, Inc.** | $297.32 | 🟢 +4.53% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **8** | `ETSY` | **Etsy, Inc.** | $85.82 | 🟢 +4.33% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `ARKK` | **ARK Innovation ETF** | $78.86 | 🟢 +4.13% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **10** | `U` | **Unity Software Inc.** | $42.22 | 🟢 +3.44% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 2 | 2 | ✅ BUY |
+| **1** | `ABNB` | **Airbnb, Inc.** | $176.98 | 🟢 +16.71% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `PLTR` | **Palantir Technologies Inc.** | $171.25 | 🟢 +9.83% | 🔴 PREMIUM | 🟢 75 | **75%** | **80%** | — | 2 | 7 | ✅ BUY |
+| **3** | `PATH` | **UiPath, Inc.** | $14.97 | 🟢 +6.96% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `DOCU` | **DocuSign, Inc.** | $60.12 | 🟢 +5.66% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **5** | `SMCI` | **Super Micro Computer, Inc.** | $30.94 | 🟢 +5.34% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 5 | 6 | ✅ BUY |
+| **6** | `COIN` | **Coinbase Global, Inc.** | $152.73 | 🟢 +5.04% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 5 | 4 | ✅ BUY |
+| **7** | `ETSY` | **Etsy, Inc.** | $86.29 | 🟢 +4.9% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `U` | **Unity Software Inc.** | $42.79 | 🟢 +4.85% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 2 | 2 | ✅ BUY |
+| **9** | `NET` | **Cloudflare, Inc.** | $297.69 | 🟢 +4.66% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **10** | `ARKK` | **ARK Innovation ETF** | $79.17 | 🟢 +4.54% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
 
 ---
 
@@ -56,7 +56,7 @@
 | **5** | `sz001232` | **C嘉立创** | ¥198.29 | 🟢 +12.15% | 54.8% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **6** | `sz300759` | **康龙化成** | ¥45.28 | 🟢 +14.34% | 7.4% | 🔴 PREMIUM | 🟢 70 | **75%** | **80%** | — | 2 | 0 | ✅ BUY |
 | **7** | `sz300489` | **光智科技** | ¥240.00 | 🟢 +18.81% | 13.9% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
-| **8** | `sz300903` | **科翔股份** | ¥72.33 | 🟢 +12.45% | 17.4% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `sz300903` | **科翔股份** | ¥72.33 | 🟢 +12.45% | 17.4% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
 | **9** | `sh688235` | **百济神州** | ¥299.33 | 🟢 +11.28% | 10.7% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **10** | `sh688519` | **南亚新材** | ¥302.55 | 🟢 +16.53% | 4.8% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 8 | ✅ BUY |
 
@@ -123,5 +123,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:30 HK Time on 2026-08-08
+🕐 Report generated at 03:39 HK Time on 2026-08-08
 
