@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-11 | ⏰ 04:22 HK Time**
+**📅 2026-08-11 | ⏰ 05:26 HK Time**
 
 ---
 
@@ -18,16 +18,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `6969.HK` | **SMOORE INTL** | HK$8.89 | 🟢 +3.98% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `1797.HK` | **EAST BUY** | HK$22.00 | 🟢 +3.48% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 4 | 1 | ⚠️ WATCH |
-| **3** | `9922.HK` | **JIUMAOJIU** | HK$1.19 | 🟢 +3.48% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 2 | 4 | ⚠️ WATCH |
-| **4** | `0992.HK` | **LENOVO GROUP** | HK$29.00 | 🟢 +3.2% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **5** | `9866.HK` | **NIO-SW** | HK$37.96 | 🟡 +2.98% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 4 | 9 | ⚠️ WATCH |
-| **6** | `6618.HK` | **JD HEALTH** | HK$40.08 | 🟡 +2.93% | ⚪ NEUTRAL | 🔴 15 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **7** | `9988.HK` | **BABA-W** | HK$126.70 | 🟡 +2.34% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **8** | `9688.HK` | **ZAI LAB** | HK$17.60 | 🟡 +2.33% | ⚪ NEUTRAL | 🟢 80 | **55%** | **60%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
-| **9** | `9618.HK` | **JD-SW** | HK$130.40 | 🟡 +2.27% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 3 | 1 | ✅ BUY |
-| **10** | `1810.HK` | **XIAOMI-W** | HK$27.62 | 🟡 +2.07% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
+| **1** | `6969.HK` | **SMOORE INTL** | HK$8.89 | 🟢 +3.98% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `1797.HK` | **EAST BUY** | HK$22.00 | 🟢 +3.48% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 4 | 1 | ✅ BUY |
+| **3** | `9922.HK` | **JIUMAOJIU** | HK$1.19 | 🟢 +3.48% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 2 | 5 | ✅ BUY |
+| **4** | `0992.HK` | **LENOVO GROUP** | HK$29.00 | 🟢 +3.2% | 🔴 PREMIUM | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **5** | `9866.HK` | **NIO-SW** | HK$37.96 | 🟡 +2.98% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 10 | ✅ BUY |
+| **6** | `6618.HK` | **JD HEALTH** | HK$40.08 | 🟡 +2.93% | 🔴 PREMIUM | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **7** | `9988.HK` | **BABA-W** | HK$126.70 | 🟡 +2.34% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
+| **8** | `9688.HK` | **ZAI LAB** | HK$17.60 | 🟡 +2.33% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
+| **9** | `9618.HK` | **JD-SW** | HK$130.40 | 🟡 +2.27% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
+| **10** | `1810.HK` | **XIAOMI-W** | HK$27.62 | 🟡 +2.07% | 🔴 PREMIUM | 🟢 95 | **55%** | **60%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
 
 ---
 
@@ -37,8 +37,8 @@
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `DDOG` | **Datadog, Inc.** | $260.78 | 🟢 +11.48% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 1 | ✅ BUY |
 | **2** | `CRWD` | **CrowdStrike Holdings, Inc.** | $225.16 | 🟢 +5.01% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 2 | 4 | ✅ BUY |
-| **3** | `XLE` | **State Street Energy Select Sect** | $60.19 | 🟢 +4.68% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **4** | `CVX` | **Chevron Corporation** | $194.91 | 🟢 +4.48% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **3** | `XLE` | **State Street Energy Select Sect** | $60.18 | 🟢 +4.66% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **4** | `CVX` | **Chevron Corporation** | $194.91 | 🟢 +4.48% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
 | **5** | `LLY` | **Eli Lilly and Company** | $1231.94 | 🟢 +3.9% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
 | **6** | `ABNB` | **Airbnb, Inc.** | $184.70 | 🟢 +3.72% | 🔴 PREMIUM | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
 | **7** | `PATH` | **UiPath, Inc.** | $15.59 | 🟢 +3.59% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
@@ -107,11 +107,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `6969.HK` | HK$8.89 | HK$8.80 | HK$9.07 | HK$9.16 | ⚪ NEUTRAL | 🔴 0 |
-| **2** | 🇭🇰 | `1797.HK` | HK$22.00 | HK$21.78 | HK$22.44 | HK$22.66 | ⚪ NEUTRAL | 🟡 55 |
-| **3** | 🇭🇰 | `9922.HK` | HK$1.19 | HK$1.18 | HK$1.21 | HK$1.23 | ⚪ NEUTRAL | 🟡 55 |
-| **4** | 🇭🇰 | `0992.HK` | HK$29.00 | HK$28.71 | HK$29.58 | HK$29.87 | ⚪ NEUTRAL | 🔴 15 |
-| **5** | 🇭🇰 | `9866.HK` | HK$37.96 | HK$37.58 | HK$38.72 | HK$39.10 | ⚪ NEUTRAL | 🟡 40 |
+| **1** | 🇭🇰 | `6969.HK` | HK$8.89 | HK$8.80 | HK$9.07 | HK$9.16 | 🔴 PREMIUM | 🟡 45 |
+| **2** | 🇭🇰 | `1797.HK` | HK$22.00 | HK$21.78 | HK$22.44 | HK$22.66 | 🔵 DISCOUNT | 🟢 100 |
+| **3** | 🇭🇰 | `9922.HK` | HK$1.19 | HK$1.18 | HK$1.21 | HK$1.23 | 🔵 DISCOUNT | 🟢 100 |
+| **4** | 🇭🇰 | `0992.HK` | HK$29.00 | HK$28.71 | HK$29.58 | HK$29.87 | 🔴 PREMIUM | 🟡 50 |
+| **5** | 🇭🇰 | `9866.HK` | HK$37.96 | HK$37.58 | HK$38.72 | HK$39.10 | 🔵 DISCOUNT | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 04:22 HK Time on 2026-08-11
+🕐 Report generated at 05:26 HK Time on 2026-08-11
 
