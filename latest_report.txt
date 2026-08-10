@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-11 | ⏰ 02:32 HK Time**
+**📅 2026-08-11 | ⏰ 03:40 HK Time**
 
 ---
 
@@ -35,16 +35,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `DDOG` | **Datadog, Inc.** | $256.44 | 🟢 +9.62% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 1 | ✅ BUY |
-| **2** | `CRWD` | **CrowdStrike Holdings, Inc.** | $224.59 | 🟢 +4.74% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 2 | 4 | ✅ BUY |
-| **3** | `XLE` | **State Street Energy Select Sect** | $60.09 | 🟢 +4.5% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `CVX` | **Chevron Corporation** | $194.66 | 🟢 +4.34% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
-| **5** | `ABNB` | **Airbnb, Inc.** | $185.58 | 🟢 +4.22% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `LLY` | **Eli Lilly and Company** | $1221.23 | 🟢 +3.0% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
-| **7** | `BABA` | **Alibaba Group Holding Limited** | $131.70 | 🟡 +2.56% | 🔴 PREMIUM | 🔴 35 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `SHOP` | **Shopify Inc.** | $155.09 | 🟡 +2.32% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **9** | `ZM` | **Zoom Communications, Inc.** | $106.92 | 🟡 +2.32% | 🔴 PREMIUM | 🔴 35 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **10** | `PLTR` | **Palantir Technologies Inc.** | $175.76 | 🟡 +2.18% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 2 | 7 | ✅ BUY |
+| **1** | `DDOG` | **Datadog, Inc.** | $258.67 | 🟢 +10.57% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 1 | ✅ BUY |
+| **2** | `CRWD` | **CrowdStrike Holdings, Inc.** | $225.61 | 🟢 +5.23% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 2 | 4 | ✅ BUY |
+| **3** | `XLE` | **State Street Energy Select Sect** | $60.09 | 🟢 +4.51% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `CVX` | **Chevron Corporation** | $194.43 | 🟢 +4.22% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **5** | `ABNB` | **Airbnb, Inc.** | $184.77 | 🟢 +3.76% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `LLY` | **Eli Lilly and Company** | $1226.28 | 🟢 +3.4% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
+| **7** | `PATH` | **UiPath, Inc.** | $15.51 | 🟢 +3.02% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `NET` | **Cloudflare, Inc.** | $309.27 | 🟢 +3.0% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
+| **9** | `BABA` | **Alibaba Group Holding Limited** | $132.12 | 🟡 +2.9% | 🔴 PREMIUM | 🔴 35 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `SHOP` | **Shopify Inc.** | $155.33 | 🟡 +2.48% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
 
 ---
 
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:32 HK Time on 2026-08-11
+🕐 Report generated at 03:40 HK Time on 2026-08-11
 
