@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-10 | ⏰ 20:30 HK Time**
+**📅 2026-08-10 | ⏰ 22:05 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | BULLISH 🟢 | HSI Trend |
-| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -35,16 +35,14 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `ABNB` | **Airbnb, Inc.** | $178.07 | 🟢 +17.43% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `PLTR` | **Palantir Technologies Inc.** | $172.01 | 🟢 +10.32% | 🔴 PREMIUM | 🟢 75 | **75%** | **80%** | — | 2 | 7 | ✅ BUY |
-| **3** | `PATH` | **UiPath, Inc.** | $15.05 | 🟢 +7.5% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `SMCI` | **Super Micro Computer, Inc.** | $31.13 | 🟢 +5.96% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 5 | 6 | ✅ BUY |
-| **5** | `DOCU` | **DocuSign, Inc.** | $60.26 | 🟢 +5.91% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `COIN` | **Coinbase Global, Inc.** | $153.60 | 🟢 +5.63% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 5 | 4 | ✅ BUY |
-| **7** | `NET` | **Cloudflare, Inc.** | $300.27 | 🟢 +5.57% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **8** | `U` | **Unity Software Inc.** | $43.00 | 🟢 +5.37% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `ARKK` | **ARK Innovation ETF** | $79.43 | 🟢 +4.89% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **10** | `RBLX` | **Roblox Corporation** | $37.79 | 🟢 +4.86% | 🔵 DISCOUNT | 🟡 40 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `DDOG` | **Datadog, Inc.** | $247.93 | 🟢 +5.98% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 1 | ✅ BUY |
+| **2** | `SMCI` | **Super Micro Computer, Inc.** | $32.92 | 🟢 +5.77% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 5 | 6 | ✅ BUY |
+| **3** | `CRWD` | **CrowdStrike Holdings, Inc.** | $225.82 | 🟢 +5.32% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 2 | 4 | ✅ BUY |
+| **4** | `CVX` | **Chevron Corporation** | $192.50 | 🟢 +3.18% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **5** | `XLE` | **State Street Energy Select Sect** | $59.24 | 🟢 +3.03% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `RBLX` | **Roblox Corporation** | $38.90 | 🟡 +2.94% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **7** | `SNOW` | **Snowflake Inc.** | $339.87 | 🟡 +2.84% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 2 | 4 | ✅ BUY |
+| **8** | `PLTR` | **Palantir Technologies Inc.** | $175.83 | 🟡 +2.2% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 2 | 7 | ✅ BUY |
 
 ---
 
@@ -124,5 +122,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 20:30 HK Time on 2026-08-10
+🕐 Report generated at 22:05 HK Time on 2026-08-10
 
