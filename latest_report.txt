@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-13 | ⏰ 03:45 HK Time**
+**📅 2026-08-13 | ⏰ 05:26 HK Time**
 
 ---
 
@@ -19,8 +19,8 @@
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `0668.HK` | **ANKER** | HK$117.70 | 🟢 +7.0% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `9688.HK` | **ZAI LAB** | HK$19.67 | 🟢 +6.15% | ⚪ NEUTRAL | 🟢 80 | **75%** | **80%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
-| **3** | `2600.HK` | **CHALCO** | HK$8.78 | 🟡 +2.69% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 3 | 9 | ⚠️ WATCH |
+| **2** | `9688.HK` | **ZAI LAB** | HK$19.67 | 🟢 +6.15% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
+| **3** | `2600.HK` | **CHALCO** | HK$8.78 | 🟡 +2.69% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 3 | 9 | ✅ BUY |
 
 ---
 
@@ -28,9 +28,8 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SMCI` | **Super Micro Computer, Inc.** | $37.87 | 🟢 +19.84% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
-| **2** | `MRK` | **Merck & Company, Inc.** | $133.65 | 🟡 +2.48% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 1 | ✅ BUY |
-| **3** | `NVDA` | **NVIDIA Corporation** | $222.25 | 🟡 +2.18% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 3 | ✅ BUY |
+| **1** | `SMCI` | **Super Micro Computer, Inc.** | $37.61 | 🟢 +19.02% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
+| **2** | `NVDA` | **NVIDIA Corporation** | $224.09 | 🟢 +3.03% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
 
 ---
 
@@ -94,10 +93,10 @@
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | 🇭🇰 | `0668.HK` | HK$117.70 | HK$116.52 | HK$120.05 | HK$121.23 | ⚪ NEUTRAL | 🔴 0 |
-| **2** | 🇭🇰 | `9688.HK` | HK$19.67 | HK$19.47 | HK$20.06 | HK$20.26 | ⚪ NEUTRAL | 🟢 80 |
-| **3** | 🇭🇰 | `2600.HK` | HK$8.78 | HK$8.69 | HK$8.96 | HK$9.04 | ⚪ NEUTRAL | 🟡 55 |
-| **4** | 🇺🇸 | `SMCI` | $37.87 | $37.49 | $38.63 | $39.01 | 🔴 PREMIUM | 🟢 90 |
-| **5** | 🇺🇸 | `MRK` | $133.65 | $132.31 | $136.32 | $137.66 | 🔴 PREMIUM | 🟢 85 |
+| **2** | 🇭🇰 | `9688.HK` | HK$19.67 | HK$19.47 | HK$20.06 | HK$20.26 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇭🇰 | `2600.HK` | HK$8.78 | HK$8.69 | HK$8.96 | HK$9.04 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇺🇸 | `SMCI` | $37.61 | $37.23 | $38.36 | $38.74 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇺🇸 | `NVDA` | $224.09 | $221.85 | $228.57 | $230.81 | 🔴 PREMIUM | 🟢 85 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -110,5 +109,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 03:45 HK Time on 2026-08-13
+🕐 Report generated at 05:26 HK Time on 2026-08-13
 
