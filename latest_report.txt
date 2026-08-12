@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-13 | ⏰ 01:38 HK Time**
+**📅 2026-08-13 | ⏰ 02:34 HK Time**
 
 ---
 
@@ -28,9 +28,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SMCI` | **Super Micro Computer, Inc.** | $37.37 | 🟢 +18.24% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
-| **2** | `NVDA` | **NVIDIA Corporation** | $224.07 | 🟢 +3.02% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
-| **3** | `AMD` | **Advanced Micro Devices, Inc.** | $487.40 | 🟡 +2.76% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 2 | ✅ BUY |
+| **1** | `SMCI` | **Super Micro Computer, Inc.** | $37.75 | 🟢 +19.42% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
+| **2** | `NVDA` | **NVIDIA Corporation** | $224.43 | 🟢 +3.18% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
+| **3** | `AMD` | **Advanced Micro Devices, Inc.** | $486.49 | 🟡 +2.57% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 2 | ✅ BUY |
+| **4** | `MRK` | **Merck & Company, Inc.** | $133.60 | 🟡 +2.44% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 1 | ✅ BUY |
 
 ---
 
@@ -96,8 +97,8 @@
 | **1** | 🇭🇰 | `0668.HK` | HK$117.70 | HK$116.52 | HK$120.05 | HK$121.23 | ⚪ NEUTRAL | 🔴 0 |
 | **2** | 🇭🇰 | `9688.HK` | HK$19.67 | HK$19.47 | HK$20.06 | HK$20.26 | ⚪ NEUTRAL | 🟢 80 |
 | **3** | 🇭🇰 | `2600.HK` | HK$8.78 | HK$8.69 | HK$8.96 | HK$9.04 | ⚪ NEUTRAL | 🟡 55 |
-| **4** | 🇺🇸 | `SMCI` | $37.37 | $36.99 | $38.11 | $38.49 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇺🇸 | `NVDA` | $224.07 | $221.83 | $228.56 | $230.80 | 🔴 PREMIUM | 🟢 85 |
+| **4** | 🇺🇸 | `SMCI` | $37.75 | $37.37 | $38.51 | $38.88 | 🔴 PREMIUM | 🟢 90 |
+| **5** | 🇺🇸 | `NVDA` | $224.43 | $222.18 | $228.91 | $231.16 | 🔴 PREMIUM | 🟢 85 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -110,5 +111,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 01:38 HK Time on 2026-08-13
+🕐 Report generated at 02:34 HK Time on 2026-08-13
 
