@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-14 | ⏰ 01:37 HK Time**
+**📅 2026-08-14 | ⏰ 02:34 HK Time**
 
 ---
 
@@ -31,16 +31,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SMCI` | **Super Micro Computer, Inc.** | $40.08 | 🟢 +6.55% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
-| **2** | `NET` | **Cloudflare, Inc.** | $330.29 | 🟢 +6.05% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `HOOD` | **Robinhood Markets, Inc.** | $98.92 | 🟢 +4.23% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
-| **4** | `NFLX` | **Netflix, Inc.** | $77.08 | 🟢 +3.87% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
-| **5** | `DDOG` | **Datadog, Inc.** | $250.12 | 🟢 +3.82% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 1 | ✅ BUY |
-| **6** | `PLTR` | **Palantir Technologies Inc.** | $176.25 | 🟢 +3.04% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
-| **7** | `RBLX` | **Roblox Corporation** | $36.60 | 🟢 +3.0% | 🔵 DISCOUNT | 🔴 30 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `SHOP` | **Shopify Inc.** | $154.49 | 🟡 +2.71% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 6 | 5 | ✅ BUY |
-| **9** | `TSLA` | **Tesla, Inc.** | $336.10 | 🟡 +2.62% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 3 | ✅ BUY |
-| **10** | `AMD` | **Advanced Micro Devices, Inc.** | $494.45 | 🟡 +2.39% | 🔴 PREMIUM | 🟢 95 | **55%** | **60%** | — | 3 | 2 | ✅ BUY |
+| **1** | `NET` | **Cloudflare, Inc.** | $329.76 | 🟢 +5.88% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `SMCI` | **Super Micro Computer, Inc.** | $39.57 | 🟢 +5.2% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
+| **3** | `RBLX` | **Roblox Corporation** | $37.23 | 🟢 +4.76% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **4** | `NFLX` | **Netflix, Inc.** | $77.12 | 🟢 +3.94% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
+| **5** | `SHOP` | **Shopify Inc.** | $156.33 | 🟢 +3.94% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 6 | ✅ BUY |
+| **6** | `HOOD` | **Robinhood Markets, Inc.** | $98.47 | 🟢 +3.76% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
+| **7** | `DDOG` | **Datadog, Inc.** | $249.39 | 🟢 +3.52% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 1 | ✅ BUY |
+| **8** | `PLTR` | **Palantir Technologies Inc.** | $176.72 | 🟢 +3.32% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
+| **9** | `TSLA` | **Tesla, Inc.** | $338.29 | 🟢 +3.29% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **10** | `SOFI` | **SoFi Technologies, Inc.** | $18.37 | 🟡 +2.4% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 4 | ✅ BUY |
 
 ---
 
@@ -120,5 +120,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 01:37 HK Time on 2026-08-14
+🕐 Report generated at 02:34 HK Time on 2026-08-14
 
