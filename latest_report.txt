@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-14 | ⏰ 05:29 HK Time**
+**📅 2026-08-14 | ⏰ 06:24 HK Time**
 
 ---
 
@@ -18,12 +18,12 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0992.HK` | **LENOVO GROUP** | HK$34.90 | 🟢 +20.18% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 3 | 4 | ⚠️ WATCH |
-| **2** | `1028.HK` | **C.BANNER** | HK$0.91 | 🟢 +10.98% | ⚪ NEUTRAL | 🟢 65 | **75%** | **80%** | — | 4 | 2 | ✅ BUY |
-| **3** | `3759.HK` | **PHARMARON** | HK$30.40 | 🟢 +4.83% | ⚪ NEUTRAL | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
-| **4** | `9688.HK` | **ZAI LAB** | HK$20.60 | 🟢 +4.73% | ⚪ NEUTRAL | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
-| **5** | `6185.HK` | **CANSINOBIO** | HK$25.44 | 🟢 +3.16% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 1 | 7 | ⚠️ WATCH |
-| **6** | `9955.HK` | **CLOUDR** | HK$0.49 | 🟡 +2.08% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 1 | 1 | ⚠️ WATCH |
+| **1** | `0992.HK` | **LENOVO GROUP** | HK$34.90 | 🟢 +20.18% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 3 | 4 | ✅ BUY |
+| **2** | `1028.HK` | **C.BANNER** | HK$0.91 | 🟢 +10.98% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 2 | ✅ BUY |
+| **3** | `3759.HK` | **PHARMARON** | HK$30.40 | 🟢 +4.83% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
+| **4** | `9688.HK` | **ZAI LAB** | HK$20.60 | 🟢 +4.73% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
+| **5** | `6185.HK` | **CANSINOBIO** | HK$25.44 | 🟢 +3.16% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 1 | 7 | ✅ BUY |
+| **6** | `9955.HK` | **CLOUDR** | HK$0.49 | 🟡 +2.08% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 1 | 1 | ✅ BUY |
 
 ---
 
@@ -31,7 +31,7 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `DOCU` | **DocuSign, Inc.** | $64.09 | 🟢 +10.31% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `DOCU` | **DocuSign, Inc.** | $64.09 | 🟢 +10.31% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **2** | `PATH` | **UiPath, Inc.** | $16.68 | 🟢 +9.31% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **3** | `RBLX` | **Roblox Corporation** | $37.95 | 🟢 +6.78% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
 | **4** | `NET` | **Cloudflare, Inc.** | $330.83 | 🟢 +6.22% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
@@ -40,7 +40,7 @@
 | **7** | `HOOD` | **Robinhood Markets, Inc.** | $99.37 | 🟢 +4.7% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
 | **8** | `DDOG` | **Datadog, Inc.** | $252.24 | 🟢 +4.7% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
 | **9** | `PLTR` | **Palantir Technologies Inc.** | $179.01 | 🟢 +4.66% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 2 | 8 | ✅ BUY |
-| **10** | `ZM` | **Zoom Communications, Inc.** | $109.84 | 🟢 +4.48% | 🔴 PREMIUM | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `ZM` | **Zoom Communications, Inc.** | $109.84 | 🟢 +4.48% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -103,11 +103,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0992.HK` | HK$34.90 | HK$34.55 | HK$35.60 | HK$35.95 | ⚪ NEUTRAL | 🟡 55 |
-| **2** | 🇭🇰 | `1028.HK` | HK$0.91 | HK$0.90 | HK$0.93 | HK$0.94 | ⚪ NEUTRAL | 🟢 65 |
-| **3** | 🇭🇰 | `3759.HK` | HK$30.40 | HK$30.10 | HK$31.01 | HK$31.31 | ⚪ NEUTRAL | 🟢 65 |
-| **4** | 🇭🇰 | `9688.HK` | HK$20.60 | HK$20.39 | HK$21.01 | HK$21.22 | ⚪ NEUTRAL | 🟢 65 |
-| **5** | 🇭🇰 | `6185.HK` | HK$25.44 | HK$25.19 | HK$25.95 | HK$26.20 | ⚪ NEUTRAL | 🟡 55 |
+| **1** | 🇭🇰 | `0992.HK` | HK$34.90 | HK$34.55 | HK$35.60 | HK$35.95 | 🔴 PREMIUM | 🟢 90 |
+| **2** | 🇭🇰 | `1028.HK` | HK$0.91 | HK$0.90 | HK$0.93 | HK$0.94 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇭🇰 | `3759.HK` | HK$30.40 | HK$30.10 | HK$31.01 | HK$31.31 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇭🇰 | `9688.HK` | HK$20.60 | HK$20.39 | HK$21.01 | HK$21.22 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇭🇰 | `6185.HK` | HK$25.44 | HK$25.19 | HK$25.95 | HK$26.20 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -120,5 +120,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 05:29 HK Time on 2026-08-14
+🕐 Report generated at 06:24 HK Time on 2026-08-14
 
