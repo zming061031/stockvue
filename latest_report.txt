@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-13 | ⏰ 22:08 HK Time**
+**📅 2026-08-13 | ⏰ 23:37 HK Time**
 
 ---
 
@@ -31,15 +31,12 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SMCI` | **Super Micro Computer, Inc.** | $40.08 | 🟢 +6.57% | 🔴 PREMIUM | 🟢 75 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
-| **2** | `HOOD` | **Robinhood Markets, Inc.** | $100.10 | 🟢 +5.46% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 3 | 7 | ✅ BUY |
-| **3** | `NFLX` | **Netflix, Inc.** | $77.00 | 🟢 +3.79% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
-| **4** | `NET` | **Cloudflare, Inc.** | $322.29 | 🟢 +3.48% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **5** | `PLTR` | **Palantir Technologies Inc.** | $176.36 | 🟢 +3.11% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
-| **6** | `DDOG` | **Datadog, Inc.** | $247.29 | 🟡 +2.65% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **7** | `AMD` | **Advanced Micro Devices, Inc.** | $493.59 | 🟡 +2.21% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 2 | ✅ BUY |
-| **8** | `SHOP` | **Shopify Inc.** | $153.46 | 🟡 +2.03% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `RBLX` | **Roblox Corporation** | $36.25 | 🟡 +2.0% | 🔵 DISCOUNT | 🔴 30 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `SMCI` | **Super Micro Computer, Inc.** | $41.31 | 🟢 +9.84% | 🔴 PREMIUM | 🟢 75 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
+| **2** | `NET` | **Cloudflare, Inc.** | $325.65 | 🟢 +4.56% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
+| **3** | `HOOD` | **Robinhood Markets, Inc.** | $98.37 | 🟢 +3.69% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
+| **4** | `NFLX` | **Netflix, Inc.** | $76.91 | 🟢 +3.64% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **5** | `DDOG` | **Datadog, Inc.** | $247.33 | 🟡 +2.66% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 1 | ✅ BUY |
+| **6** | `PLTR` | **Palantir Technologies Inc.** | $174.79 | 🟡 +2.19% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 3 | 7 | ✅ BUY |
 
 ---
 
@@ -119,5 +116,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 22:08 HK Time on 2026-08-13
+🕐 Report generated at 23:37 HK Time on 2026-08-13
 
