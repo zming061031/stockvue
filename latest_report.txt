@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-15 | ⏰ 00:32 HK Time**
+**📅 2026-08-15 | ⏰ 01:38 HK Time**
 
 ---
 
@@ -27,8 +27,7 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `AMD` | **Advanced Micro Devices, Inc.** | $500.42 | 🟢 +3.6% | 🔴 PREMIUM | 🟢 95 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
-| **2** | `RBLX` | **Roblox Corporation** | $38.74 | 🟡 +2.08% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 6 | 3 | ✅ BUY |
+| **1** | `AMD` | **Advanced Micro Devices, Inc.** | $503.01 | 🟢 +4.14% | 🔴 PREMIUM | 🟢 95 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
 
 ---
 
@@ -93,9 +92,9 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | 🇭🇰 | `1028.HK` | HK$1.09 | HK$1.08 | HK$1.11 | HK$1.12 | ⚪ NEUTRAL | 🟡 55 |
 | **2** | 🇭🇰 | `2018.HK` | HK$42.90 | HK$42.47 | HK$43.76 | HK$44.19 | ⚪ NEUTRAL | 🟡 55 |
-| **3** | 🇺🇸 | `AMD` | $500.42 | $495.42 | $510.43 | $515.43 | 🔴 PREMIUM | 🟢 95 |
-| **4** | 🇺🇸 | `RBLX` | $38.74 | $38.35 | $39.51 | $39.90 | 🔵 DISCOUNT | 🟢 100 |
-| **5** | 🇨🇳 | `sh600487` | ¥62.98 | ¥61.72 | ¥65.50 | ¥66.76 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇺🇸 | `AMD` | $503.01 | $497.98 | $513.08 | $518.11 | 🔴 PREMIUM | 🟢 95 |
+| **4** | 🇨🇳 | `sh600487` | ¥62.98 | ¥61.72 | ¥65.50 | ¥66.76 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇨🇳 | `sh603629` | ¥137.50 | ¥134.75 | ¥143.00 | ¥145.75 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -108,5 +107,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 00:32 HK Time on 2026-08-15
+🕐 Report generated at 01:38 HK Time on 2026-08-15
 
