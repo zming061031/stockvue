@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-15 | ⏰ 22:58 HK Time**
+**📅 2026-08-15 | ⏰ 23:56 HK Time**
 
 ---
 
@@ -28,7 +28,7 @@
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `AMD` | **Advanced Micro Devices, Inc.** | $514.39 | 🟢 +6.5% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 3 | ✅ BUY |
-| **2** | `TCEHY` | **Tencent Holding Ltd.** | $56.50 | 🟡 +2.23% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 5 | 4 | ✅ BUY |
+| **2** | `TCEHY` | **Tencent Holding Ltd.** | $56.50 | 🟡 +2.23% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 5 | 5 | ✅ BUY |
 | **3** | `BILI` | **Bilibili Inc.** | $17.44 | 🟡 +2.17% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 4 | 4 | ✅ BUY |
 | **4** | `NTES` | **NetEase, Inc.** | $125.12 | 🟡 +2.01% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 6 | ✅ BUY |
 
@@ -110,5 +110,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 22:58 HK Time on 2026-08-15
+🕐 Report generated at 23:56 HK Time on 2026-08-15
 
