@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-18 | ⏰ 02:02 HK Time**
+**📅 2026-08-18 | ⏰ 03:12 HK Time**
 
 ---
 
@@ -33,7 +33,9 @@
 
 ## 🇺🇸 US Market
 
-*No US stocks met our screening criteria today.*
+| | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
+|:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | `PDD` | **PDD Holdings Inc.** | $86.53 | 🟡 +2.05% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
 
 ---
 
@@ -113,5 +115,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:02 HK Time on 2026-08-18
+🕐 Report generated at 03:12 HK Time on 2026-08-18
 
