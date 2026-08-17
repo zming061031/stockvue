@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-18 | ⏰ 05:02 HK Time**
+**📅 2026-08-18 | ⏰ 05:57 HK Time**
 
 ---
 
@@ -18,16 +18,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `6969.HK` | **SMOORE INTL** | HK$9.27 | 🟢 +8.05% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `1919.HK` | **COSCO SHIP HOLD** | HK$16.44 | 🟢 +6.13% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `9955.HK` | **CLOUDR** | HK$0.52 | 🟢 +5.05% | ⚪ NEUTRAL | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `2600.HK` | **CHALCO** | HK$8.56 | 🟢 +4.58% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **5** | `0695.HK` | **DONGWU CEMENT** | HK$8.77 | 🟢 +3.91% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `9866.HK` | **NIO-SW** | HK$36.12 | 🟡 +2.67% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 4 | 10 | ⚠️ WATCH |
-| **7** | `3759.HK` | **PHARMARON** | HK$30.48 | 🟡 +2.56% | ⚪ NEUTRAL | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `9618.HK` | **JD-SW** | HK$113.00 | 🟡 +2.54% | ⚪ NEUTRAL | 🟢 80 | **55%** | **60%** | ✅ BEARISH | 2 | 1 | ✅ BUY |
-| **9** | `1928.HK` | **SANDS CHINA LTD** | HK$14.51 | 🟡 +2.47% | ⚪ NEUTRAL | 🔴 15 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **10** | `1797.HK` | **EAST BUY** | HK$21.68 | 🟡 +2.46% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 3 | 1 | ⚠️ WATCH |
+| **1** | `6969.HK` | **SMOORE INTL** | HK$9.27 | 🟢 +8.05% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `1919.HK` | **COSCO SHIP HOLD** | HK$16.44 | 🟢 +6.13% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `9955.HK` | **CLOUDR** | HK$0.52 | 🟢 +5.05% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `2600.HK` | **CHALCO** | HK$8.56 | 🟢 +4.58% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **5** | `0695.HK` | **DONGWU CEMENT** | HK$8.77 | 🟢 +3.91% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `9866.HK` | **NIO-SW** | HK$36.12 | 🟡 +2.67% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 11 | ✅ BUY |
+| **7** | `3759.HK` | **PHARMARON** | HK$30.48 | 🟡 +2.56% | 🔴 PREMIUM | 🔴 35 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `9618.HK` | **JD-SW** | HK$113.00 | 🟡 +2.54% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 1 | ✅ BUY |
+| **9** | `1928.HK` | **SANDS CHINA LTD** | HK$14.51 | 🟡 +2.47% | 🔴 PREMIUM | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **10** | `1797.HK` | **EAST BUY** | HK$21.68 | 🟡 +2.46% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 3 | 1 | ✅ BUY |
 
 ---
 
@@ -98,11 +98,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `6969.HK` | HK$9.27 | HK$9.17 | HK$9.45 | HK$9.54 | ⚪ NEUTRAL | 🔴 15 |
-| **2** | 🇭🇰 | `1919.HK` | HK$16.44 | HK$16.28 | HK$16.77 | HK$16.93 | ⚪ NEUTRAL | 🔴 15 |
-| **3** | 🇭🇰 | `9955.HK` | HK$0.52 | HK$0.51 | HK$0.53 | HK$0.54 | ⚪ NEUTRAL | 🔴 0 |
-| **4** | 🇭🇰 | `2600.HK` | HK$8.56 | HK$8.47 | HK$8.73 | HK$8.82 | ⚪ NEUTRAL | 🔴 0 |
-| **5** | 🇭🇰 | `0695.HK` | HK$8.77 | HK$8.68 | HK$8.95 | HK$9.03 | ⚪ NEUTRAL | 🔴 0 |
+| **1** | 🇭🇰 | `6969.HK` | HK$9.27 | HK$9.17 | HK$9.45 | HK$9.54 | 🔴 PREMIUM | 🟢 60 |
+| **2** | 🇭🇰 | `1919.HK` | HK$16.44 | HK$16.28 | HK$16.77 | HK$16.93 | 🔴 PREMIUM | 🟡 50 |
+| **3** | 🇭🇰 | `9955.HK` | HK$0.52 | HK$0.51 | HK$0.53 | HK$0.54 | 🔴 PREMIUM | 🟡 45 |
+| **4** | 🇭🇰 | `2600.HK` | HK$8.56 | HK$8.47 | HK$8.73 | HK$8.82 | 🔴 PREMIUM | 🟡 45 |
+| **5** | 🇭🇰 | `0695.HK` | HK$8.77 | HK$8.68 | HK$8.95 | HK$9.03 | 🔴 PREMIUM | 🟡 45 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -115,5 +115,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 05:02 HK Time on 2026-08-18
+🕐 Report generated at 05:57 HK Time on 2026-08-18
 
