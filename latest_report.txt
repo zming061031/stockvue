@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-18 | ⏰ 23:09 HK Time**
+**📅 2026-08-19 | ⏰ 00:04 HK Time**
 
 ---
 
@@ -18,10 +18,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `3759.HK` | **PHARMARON** | HK$32.30 | 🟢 +5.97% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
-| **2** | `1028.HK` | **C.BANNER** | HK$1.11 | 🟢 +3.74% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
-| **3** | `9988.HK` | **BABA-W** | HK$126.70 | 🟢 +3.68% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 6 | 4 | ✅ BUY |
-| **4** | `1288.HK` | **ABC** | HK$6.09 | 🟢 +3.22% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 1 | ✅ BUY |
+| **1** | `3759.HK` | **PHARMARON** | HK$32.30 | 🟢 +5.97% | ⚪ NEUTRAL | 🟢 80 | **75%** | **80%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
+| **2** | `1028.HK` | **C.BANNER** | HK$1.11 | 🟢 +3.74% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 4 | 2 | ⚠️ WATCH |
+| **3** | `9988.HK` | **BABA-W** | HK$126.70 | 🟢 +3.68% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 5 | 4 | ✅ BUY |
+| **4** | `1288.HK` | **ABC** | HK$6.09 | 🟢 +3.22% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 3 | 1 | ⚠️ WATCH |
 
 ---
 
@@ -29,15 +29,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `NFLX` | **Netflix, Inc.** | $78.93 | 🟢 +3.83% | ⚪ N/A | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
-| **2** | `ETSY` | **Etsy, Inc.** | $81.27 | 🟢 +3.64% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `ABNB` | **Airbnb, Inc.** | $185.25 | 🟢 +3.32% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `JNJ` | **Johnson & Johnson** | $270.68 | 🟢 +3.17% | ⚪ N/A | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
-| **5** | `ABBV` | **AbbVie Inc.** | $256.77 | 🟡 +2.57% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 5 | 8 | ⚠️ WATCH |
-| **6** | `LLY` | **Eli Lilly and Company** | $1213.41 | 🟡 +2.56% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 4 | 2 | ⚠️ WATCH |
-| **7** | `DOCU` | **DocuSign, Inc.** | $61.19 | 🟡 +2.28% | ⚪ N/A | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `KO` | **Coca-Cola Company (The)** | $88.89 | 🟡 +2.2% | ⚪ N/A | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **9** | `MA` | **Mastercard Incorporated** | $574.36 | 🟡 +2.15% | ⚪ N/A | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
+| **1** | `NFLX` | **Netflix, Inc.** | $78.70 | 🟢 +3.53% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
+| **2** | `ETSY` | **Etsy, Inc.** | $81.17 | 🟢 +3.53% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **3** | `ABNB` | **Airbnb, Inc.** | $185.47 | 🟢 +3.45% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
+| **4** | `JNJ` | **Johnson & Johnson** | $270.76 | 🟢 +3.2% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
+| **5** | `U` | **Unity Software Inc.** | $46.80 | 🟡 +2.97% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 3 | 3 | ✅ BUY |
+| **6** | `ABBV` | **AbbVie Inc.** | $257.40 | 🟡 +2.82% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 8 | ✅ BUY |
+| **7** | `LLY` | **Eli Lilly and Company** | $1216.51 | 🟡 +2.82% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 3 | ✅ BUY |
+| **8** | `DOCU` | **DocuSign, Inc.** | $61.39 | 🟡 +2.62% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 6 | 6 | ✅ BUY |
+| **9** | `MA` | **Mastercard Incorporated** | $574.39 | 🟡 +2.16% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 3 | ✅ BUY |
+| **10** | `KO` | **Coca-Cola Company (The)** | $88.72 | 🟡 +2.0% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 6 | ✅ BUY |
 
 ---
 
@@ -100,11 +101,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `3759.HK` | HK$32.30 | HK$31.98 | HK$32.95 | HK$33.27 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇭🇰 | `1028.HK` | HK$1.11 | HK$1.10 | HK$1.13 | HK$1.14 | 🔴 PREMIUM | 🟢 75 |
-| **3** | 🇭🇰 | `9988.HK` | HK$126.70 | HK$125.43 | HK$129.23 | HK$130.50 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇭🇰 | `1288.HK` | HK$6.09 | HK$6.03 | HK$6.21 | HK$6.27 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇺🇸 | `NFLX` | $78.93 | $78.14 | $80.51 | $81.30 | ⚪ NEUTRAL | 🟢 65 |
+| **1** | 🇭🇰 | `3759.HK` | HK$32.30 | HK$31.98 | HK$32.95 | HK$33.27 | ⚪ NEUTRAL | 🟢 80 |
+| **2** | 🇭🇰 | `1028.HK` | HK$1.11 | HK$1.10 | HK$1.13 | HK$1.14 | ⚪ NEUTRAL | 🟡 40 |
+| **3** | 🇭🇰 | `9988.HK` | HK$126.70 | HK$125.43 | HK$129.23 | HK$130.50 | ⚪ NEUTRAL | 🟢 80 |
+| **4** | 🇭🇰 | `1288.HK` | HK$6.09 | HK$6.03 | HK$6.21 | HK$6.27 | ⚪ NEUTRAL | 🟡 55 |
+| **5** | 🇺🇸 | `NFLX` | $78.70 | $77.91 | $80.27 | $81.06 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -117,5 +118,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 23:09 HK Time on 2026-08-18
+🕐 Report generated at 00:04 HK Time on 2026-08-19
 
