@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-18 | ⏰ 16:08 HK Time**
+**📅 2026-08-18 | ⏰ 17:10 HK Time**
 
 ---
 
@@ -18,9 +18,9 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `3759.HK` | **PHARMARON** | HK$32.26 | 🟢 +5.84% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
-| **2** | `9988.HK` | **BABA-W** | HK$127.60 | 🟢 +4.34% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 6 | 4 | ✅ BUY |
-| **3** | `1028.HK` | **C.BANNER** | HK$1.11 | 🟢 +4.21% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
+| **1** | `3759.HK` | **PHARMARON** | HK$32.30 | 🟢 +5.97% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
+| **2** | `1028.HK` | **C.BANNER** | HK$1.11 | 🟢 +3.74% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
+| **3** | `9988.HK` | **BABA-W** | HK$126.70 | 🟢 +3.68% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 6 | 4 | ✅ BUY |
 | **4** | `1288.HK` | **ABC** | HK$6.09 | 🟢 +3.22% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 1 | ✅ BUY |
 
 ---
@@ -92,9 +92,9 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `3759.HK` | HK$32.26 | HK$31.94 | HK$32.91 | HK$33.23 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇭🇰 | `9988.HK` | HK$127.60 | HK$126.32 | HK$130.15 | HK$131.43 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇭🇰 | `1028.HK` | HK$1.11 | HK$1.10 | HK$1.14 | HK$1.15 | 🔴 PREMIUM | 🟢 75 |
+| **1** | 🇭🇰 | `3759.HK` | HK$32.30 | HK$31.98 | HK$32.95 | HK$33.27 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇭🇰 | `1028.HK` | HK$1.11 | HK$1.10 | HK$1.13 | HK$1.14 | 🔴 PREMIUM | 🟢 75 |
+| **3** | 🇭🇰 | `9988.HK` | HK$126.70 | HK$125.43 | HK$129.23 | HK$130.50 | 🔴 PREMIUM | 🟢 100 |
 | **4** | 🇭🇰 | `1288.HK` | HK$6.09 | HK$6.03 | HK$6.21 | HK$6.27 | 🔴 PREMIUM | 🟢 100 |
 | **5** | 🇺🇸 | `PDD` | $86.94 | $86.07 | $88.68 | $89.55 | ⚪ NEUTRAL | 🟢 80 |
 
@@ -109,5 +109,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 16:08 HK Time on 2026-08-18
+🕐 Report generated at 17:10 HK Time on 2026-08-18
 
