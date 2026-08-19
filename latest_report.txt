@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-20 | ⏰ 01:02 HK Time**
+**📅 2026-08-20 | ⏰ 03:08 HK Time**
 
 ---
 
@@ -32,16 +32,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `COIN` | **Coinbase Global, Inc.** | $164.47 | 🟢 +12.47% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 6 | ✅ BUY |
-| **2** | `MRK` | **Merck & Company, Inc.** | $150.21 | 🟢 +11.13% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 1 | ✅ BUY |
-| **3** | `HOOD` | **Robinhood Markets, Inc.** | $98.38 | 🟢 +7.49% | 🔴 PREMIUM | 🟢 70 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **4** | `RBLX` | **Roblox Corporation** | $39.62 | 🟢 +5.18% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **5** | `SOFI` | **SoFi Technologies, Inc.** | $18.57 | 🟢 +5.12% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `IBB` | **iShares Biotechnology ETF** | $213.53 | 🟢 +4.9% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **7** | `ARKK` | **ARK Innovation ETF** | $82.77 | 🟢 +4.57% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **8** | `XBI` | **State Street SPDR S&P Biotech E** | $166.52 | 🟢 +4.0% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **9** | `TMO` | **Thermo Fisher Scientific Inc** | $610.69 | 🟢 +3.68% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
-| **10** | `LLY` | **Eli Lilly and Company** | $1268.75 | 🟢 +3.51% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 3 | ✅ BUY |
+| **1** | `MRK` | **Merck & Company, Inc.** | $152.92 | 🟢 +13.13% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 1 | ✅ BUY |
+| **2** | `COIN` | **Coinbase Global, Inc.** | $160.00 | 🟢 +9.42% | 🔵 DISCOUNT | 🟢 80 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **3** | `IBB` | **iShares Biotechnology ETF** | $215.50 | 🟢 +5.87% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `XBI` | **State Street SPDR S&P Biotech E** | $168.16 | 🟢 +5.03% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **5** | `LLY` | **Eli Lilly and Company** | $1284.86 | 🟢 +4.82% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 3 | ✅ BUY |
+| **6** | `ARKK` | **ARK Innovation ETF** | $82.97 | 🟢 +4.82% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `HOOD` | **Robinhood Markets, Inc.** | $95.78 | 🟢 +4.64% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **8** | `TMO` | **Thermo Fisher Scientific Inc** | $615.46 | 🟢 +4.49% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **9** | `SOFI` | **SoFi Technologies, Inc.** | $18.41 | 🟢 +4.22% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `DOCU` | **DocuSign, Inc.** | $62.27 | 🟢 +3.76% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -121,5 +121,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 01:02 HK Time on 2026-08-20
+🕐 Report generated at 03:08 HK Time on 2026-08-20
 
