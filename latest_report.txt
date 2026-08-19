@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-19 | ⏰ 19:58 HK Time**
+**📅 2026-08-19 | ⏰ 21:30 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | BEARISH 🔴 | SH/SZ Trend |
 
 ---
@@ -32,15 +32,14 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `LLY` | **Eli Lilly and Company** | $1225.73 | 🟢 +3.6% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 3 | ✅ BUY |
-| **2** | `ABBV` | **AbbVie Inc.** | $258.92 | 🟢 +3.43% | ⚪ N/A | 🟡 40 | **65%** | **70%** | — | 5 | 8 | ⚠️ WATCH |
-| **3** | `JNJ` | **Johnson & Johnson** | $271.11 | 🟢 +3.33% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
-| **4** | `U` | **Unity Software Inc.** | $46.74 | 🟡 +2.84% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 3 | 3 | ✅ BUY |
-| **5** | `BABA` | **Alibaba Group Holding Limited** | $128.15 | 🟡 +2.76% | 🔴 PREMIUM | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **6** | `NFLX` | **Netflix, Inc.** | $77.77 | 🟡 +2.3% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
-| **7** | `ABNB` | **Airbnb, Inc.** | $183.25 | 🟡 +2.21% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
-| **8** | `MA` | **Mastercard Incorporated** | $574.31 | 🟡 +2.14% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 3 | ✅ BUY |
-| **9** | `KO` | **Coca-Cola Company (The)** | $88.82 | 🟡 +2.12% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 6 | ✅ BUY |
+| **1** | `MRK` | **Merck & Company, Inc.** | $148.34 | 🟢 +9.91% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 1 | ✅ BUY |
+| **2** | `IBB` | **iShares Biotechnology ETF** | $211.11 | 🟢 +3.71% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `XBI` | **State Street SPDR S&P Biotech E** | $165.79 | 🟢 +3.55% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `BABA` | **Alibaba Group Holding Limited** | $128.15 | 🟡 +2.76% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 7 | 3 | ⚠️ WATCH |
+| **5** | `HD` | **Home Depot, Inc. (The)** | $346.85 | 🟡 +2.47% | 🔴 PREMIUM | 🟢 95 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
+| **6** | `LLY` | **Eli Lilly and Company** | $1252.46 | 🟡 +2.39% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 3 | ✅ BUY |
+| **7** | `ARKK` | **ARK Innovation ETF** | $80.99 | 🟡 +2.32% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 5 | 4 | ✅ BUY |
+| **8** | `HOOD` | **Robinhood Markets, Inc.** | $93.33 | 🟡 +2.3% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 7 | ✅ BUY |
 
 ---
 
@@ -120,5 +119,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 19:58 HK Time on 2026-08-19
+🕐 Report generated at 21:30 HK Time on 2026-08-19
 
