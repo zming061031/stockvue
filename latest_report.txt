@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-20 | ⏰ 17:11 HK Time**
+**📅 2026-08-20 | ⏰ 18:07 HK Time**
 
 ---
 
@@ -37,9 +37,9 @@
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `MRK` | **Merck & Company, Inc.** | $152.20 | 🟢 +12.6% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 1 | ✅ BUY |
 | **2** | `COIN` | **Coinbase Global, Inc.** | $160.20 | 🟢 +9.55% | 🔵 DISCOUNT | 🟢 80 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **3** | `IBB` | **iShares Biotechnology ETF** | $216.96 | 🟢 +6.58% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `IBB` | **iShares Biotechnology ETF** | $216.96 | 🟢 +6.58% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **4** | `XBI` | **State Street SPDR S&P Biotech E** | $169.55 | 🟢 +5.9% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **5** | `ARKK` | **ARK Innovation ETF** | $83.31 | 🟢 +5.26% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **5** | `ARKK` | **ARK Innovation ETF** | $83.31 | 🟢 +5.26% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **6** | `HOOD` | **Robinhood Markets, Inc.** | $95.77 | 🟢 +4.63% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
 | **7** | `LLY` | **Eli Lilly and Company** | $1280.34 | 🟢 +4.46% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 3 | ✅ BUY |
 | **8** | `SOFI` | **SoFi Technologies, Inc.** | $18.42 | 🟢 +4.3% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 17:11 HK Time on 2026-08-20
+🕐 Report generated at 18:07 HK Time on 2026-08-20
 
