@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-21 | ⏰ 23:11 HK Time**
+**📅 2026-08-22 | ⏰ 00:06 HK Time**
 
 ---
 
@@ -18,16 +18,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `2728.HK` | **JINTAI ENERGY H** | HK$0.02 | 🟢 +6.25% | 🔵 DISCOUNT | 🟢 90 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **2** | `1919.HK` | **COSCO SHIP HOLD** | HK$17.95 | 🟢 +5.4% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `2382.HK` | **SUNNY OPTICAL** | HK$61.75 | 🟢 +5.11% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
-| **4** | `6060.HK` | **ZA ONLINE** | HK$10.52 | 🟢 +4.99% | 🔵 DISCOUNT | 🟢 75 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **5** | `1810.HK` | **XIAOMI-W** | HK$29.02 | 🟢 +4.54% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
-| **6** | `9999.HK` | **NTES** | HK$202.00 | 🟢 +4.45% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
-| **7** | `2600.HK` | **CHALCO** | HK$8.40 | 🟢 +3.96% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **8** | `1336.HK` | **NCI** | HK$47.84 | 🟢 +3.64% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **9** | `2328.HK` | **PICC P&C** | HK$16.09 | 🟢 +3.61% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 2 | 4 | ✅ BUY |
-| **10** | `1797.HK` | **EAST BUY** | HK$20.22 | 🟢 +3.32% | 🔵 DISCOUNT | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `2728.HK` | **JINTAI ENERGY H** | HK$0.02 | 🟢 +6.25% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `1919.HK` | **COSCO SHIP HOLD** | HK$17.95 | 🟢 +5.4% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `2382.HK` | **SUNNY OPTICAL** | HK$61.75 | 🟢 +5.11% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 5 | 6 | ⚠️ WATCH |
+| **4** | `6060.HK` | **ZA ONLINE** | HK$10.52 | 🟢 +4.99% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **5** | `1810.HK` | **XIAOMI-W** | HK$29.02 | 🟢 +4.54% | ⚪ NEUTRAL | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
+| **6** | `9999.HK` | **NTES** | HK$202.00 | 🟢 +4.45% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 2 | 4 | ✅ BUY |
+| **7** | `2600.HK` | **CHALCO** | HK$8.40 | 🟢 +3.96% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `1336.HK` | **NCI** | HK$47.84 | 🟢 +3.64% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `2328.HK` | **PICC P&C** | HK$16.09 | 🟢 +3.61% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 2 | 4 | ⚠️ WATCH |
+| **10** | `1797.HK` | **EAST BUY** | HK$20.22 | 🟢 +3.32% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -35,16 +35,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `HOOD` | **Robinhood Markets, Inc.** | $106.78 | 🟢 +12.29% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
-| **2** | `COIN` | **Coinbase Global, Inc.** | $189.75 | 🟢 +10.1% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 3 | 6 | ✅ BUY |
-| **3** | `NTES` | **NetEase, Inc.** | $128.82 | 🟢 +7.52% | 🔴 PREMIUM | 🟡 55 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `SOFI` | **SoFi Technologies, Inc.** | $18.99 | 🟢 +5.97% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
-| **5** | `TSLA` | **Tesla, Inc.** | $362.59 | 🟢 +5.11% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 5 | ✅ BUY |
-| **6** | `BILI` | **Bilibili Inc.** | $17.20 | 🟢 +3.21% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **7** | `ARKK` | **ARK Innovation ETF** | $85.94 | 🟢 +3.2% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `MRK` | **Merck & Company, Inc.** | $153.70 | 🟢 +3.16% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 1 | ✅ BUY |
-| **9** | `TCEHY` | **Tencent Holding Ltd.** | $58.14 | 🟡 +2.18% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **10** | `BIDU` | **Baidu, Inc.** | $93.95 | 🟡 +2.15% | 🔵 DISCOUNT | 🔴 30 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `HOOD` | **Robinhood Markets, Inc.** | $107.26 | 🟢 +12.79% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
+| **2** | `COIN` | **Coinbase Global, Inc.** | $188.34 | 🟢 +9.27% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 6 | ✅ BUY |
+| **3** | `NTES` | **NetEase, Inc.** | $129.08 | 🟢 +7.72% | 🔴 PREMIUM | 🟡 55 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `SOFI` | **SoFi Technologies, Inc.** | $19.07 | 🟢 +6.45% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
+| **5** | `TSLA` | **Tesla, Inc.** | $361.79 | 🟢 +4.83% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
+| **6** | `PLTR` | **Palantir Technologies Inc.** | $181.33 | 🟢 +4.23% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 6 | ✅ BUY |
+| **7** | `NET` | **Cloudflare, Inc.** | $289.46 | 🟢 +3.78% | 🔵 DISCOUNT | 🟡 40 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `ARKK` | **ARK Innovation ETF** | $86.12 | 🟢 +3.42% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `BILI` | **Bilibili Inc.** | $17.18 | 🟢 +3.15% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **10** | `PATH` | **UiPath, Inc.** | $16.36 | 🟡 +2.73% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -107,11 +107,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `2728.HK` | HK$0.02 | HK$0.02 | HK$0.02 | HK$0.02 | 🔵 DISCOUNT | 🟢 90 |
-| **2** | 🇭🇰 | `1919.HK` | HK$17.95 | HK$17.77 | HK$18.31 | HK$18.49 | 🔴 PREMIUM | 🟡 50 |
-| **3** | 🇭🇰 | `2382.HK` | HK$61.75 | HK$61.13 | HK$62.98 | HK$63.60 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇭🇰 | `6060.HK` | HK$10.52 | HK$10.41 | HK$10.73 | HK$10.84 | 🔵 DISCOUNT | 🟢 75 |
-| **5** | 🇭🇰 | `1810.HK` | HK$29.02 | HK$28.73 | HK$29.60 | HK$29.89 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `2728.HK` | HK$0.02 | HK$0.02 | HK$0.02 | HK$0.02 | ⚪ NEUTRAL | 🔴 15 |
+| **2** | 🇭🇰 | `1919.HK` | HK$17.95 | HK$17.77 | HK$18.31 | HK$18.49 | ⚪ NEUTRAL | 🔴 15 |
+| **3** | 🇭🇰 | `2382.HK` | HK$61.75 | HK$61.13 | HK$62.98 | HK$63.60 | ⚪ NEUTRAL | 🟡 55 |
+| **4** | 🇭🇰 | `6060.HK` | HK$10.52 | HK$10.41 | HK$10.73 | HK$10.84 | ⚪ NEUTRAL | 🔴 15 |
+| **5** | 🇭🇰 | `1810.HK` | HK$29.02 | HK$28.73 | HK$29.60 | HK$29.89 | ⚪ NEUTRAL | 🟢 65 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 23:11 HK Time on 2026-08-21
+🕐 Report generated at 00:06 HK Time on 2026-08-22
 
