@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-22 | ⏰ 00:06 HK Time**
+**📅 2026-08-22 | ⏰ 01:08 HK Time**
 
 ---
 
@@ -35,16 +35,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `HOOD` | **Robinhood Markets, Inc.** | $107.26 | 🟢 +12.79% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
-| **2** | `COIN` | **Coinbase Global, Inc.** | $188.34 | 🟢 +9.27% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 6 | ✅ BUY |
-| **3** | `NTES` | **NetEase, Inc.** | $129.08 | 🟢 +7.72% | 🔴 PREMIUM | 🟡 55 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `SOFI` | **SoFi Technologies, Inc.** | $19.07 | 🟢 +6.45% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
-| **5** | `TSLA` | **Tesla, Inc.** | $361.79 | 🟢 +4.83% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
-| **6** | `PLTR` | **Palantir Technologies Inc.** | $181.33 | 🟢 +4.23% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 6 | ✅ BUY |
-| **7** | `NET` | **Cloudflare, Inc.** | $289.46 | 🟢 +3.78% | 🔵 DISCOUNT | 🟡 40 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `ARKK` | **ARK Innovation ETF** | $86.12 | 🟢 +3.42% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `BILI` | **Bilibili Inc.** | $17.18 | 🟢 +3.15% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **10** | `PATH` | **UiPath, Inc.** | $16.36 | 🟡 +2.73% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `HOOD` | **Robinhood Markets, Inc.** | $107.86 | 🟢 +13.42% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
+| **2** | `COIN` | **Coinbase Global, Inc.** | $187.27 | 🟢 +8.66% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 6 | ✅ BUY |
+| **3** | `NTES` | **NetEase, Inc.** | $128.68 | 🟢 +7.4% | 🔴 PREMIUM | 🟡 55 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `SOFI` | **SoFi Technologies, Inc.** | $18.95 | 🟢 +5.78% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
+| **5** | `TSLA` | **Tesla, Inc.** | $364.48 | 🟢 +5.61% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 5 | ✅ BUY |
+| **6** | `NET` | **Cloudflare, Inc.** | $290.02 | 🟢 +3.99% | 🔵 DISCOUNT | 🟡 40 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `PLTR` | **Palantir Technologies Inc.** | $180.65 | 🟢 +3.85% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `ARKK` | **ARK Innovation ETF** | $86.26 | 🟢 +3.59% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `PATH` | **UiPath, Inc.** | $16.39 | 🟡 +2.98% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `BILI` | **Bilibili Inc.** | $17.16 | 🟡 +2.97% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
 
 ---
 
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 00:06 HK Time on 2026-08-22
+🕐 Report generated at 01:08 HK Time on 2026-08-22
 
