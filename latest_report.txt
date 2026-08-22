@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-22 | ⏰ 11:26 HK Time**
+**📅 2026-08-22 | ⏰ 13:07 HK Time**
 
 ---
 
@@ -40,7 +40,7 @@
 | **3** | `NTES` | **NetEase, Inc.** | $128.17 | 🟢 +6.98% | 🔴 PREMIUM | 🟢 70 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
 | **4** | `SOFI` | **SoFi Technologies, Inc.** | $18.91 | 🟢 +5.52% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
 | **5** | `TSLA` | **Tesla, Inc.** | $362.86 | 🟢 +5.14% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 5 | ✅ BUY |
-| **6** | `NET` | **Cloudflare, Inc.** | $293.14 | 🟢 +5.1% | 🔵 DISCOUNT | 🟡 40 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `NET` | **Cloudflare, Inc.** | $293.14 | 🟢 +5.1% | 🔵 DISCOUNT | 🟡 55 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **7** | `GS` | **Goldman Sachs Group, Inc. (The)** | $1039.28 | 🟢 +3.73% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
 | **8** | `SNOW` | **Snowflake Inc.** | $332.78 | 🟢 +3.58% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 5 | ✅ BUY |
 | **9** | `ARKK` | **ARK Innovation ETF** | $86.21 | 🟢 +3.53% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 11:26 HK Time on 2026-08-22
+🕐 Report generated at 13:07 HK Time on 2026-08-22
 
