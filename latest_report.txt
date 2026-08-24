@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-25 | ⏰ 03:17 HK Time**
+**📅 2026-08-25 | ⏰ 04:01 HK Time**
 
 ---
 
@@ -30,11 +30,11 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `ETSY` | **Etsy, Inc.** | $85.64 | 🟢 +5.69% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 2 | 3 | ✅ BUY |
-| **2** | `MA` | **Mastercard Incorporated** | $598.23 | 🟢 +3.03% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
-| **3** | `V` | **Visa Inc.** | $381.82 | 🟡 +2.91% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 3 | 3 | ✅ BUY |
-| **4** | `COST` | **Costco Wholesale Corporation** | $969.45 | 🟡 +2.29% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
-| **5** | `UNH` | **UnitedHealth Group Incorporated** | $398.10 | 🟡 +2.05% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 5 | 6 | ✅ BUY |
+| **1** | `ETSY` | **Etsy, Inc.** | $87.03 | 🟢 +7.41% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 2 | 3 | ✅ BUY |
+| **2** | `MA` | **Mastercard Incorporated** | $599.80 | 🟢 +3.3% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
+| **3** | `V` | **Visa Inc.** | $382.44 | 🟢 +3.07% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
+| **4** | `COST` | **Costco Wholesale Corporation** | $971.40 | 🟡 +2.5% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
+| **5** | `UNH` | **UnitedHealth Group Incorporated** | $398.77 | 🟡 +2.22% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 5 | 6 | ✅ BUY |
 
 ---
 
@@ -114,5 +114,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 03:17 HK Time on 2026-08-25
+🕐 Report generated at 04:01 HK Time on 2026-08-25
 
