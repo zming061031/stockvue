@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-24 | ⏰ 11:36 HK Time**
+**📅 2026-08-24 | ⏰ 12:27 HK Time**
 
 ---
 
@@ -18,9 +18,9 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `1797.HK` | **EAST BUY** | HK$21.32 | 🟢 +5.44% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 3 | 2 | ✅ BUY |
-| **2** | `6969.HK` | **SMOORE INTL** | HK$10.30 | 🟢 +3.62% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 2 | 6 | ✅ BUY |
-| **3** | `3798.HK` | **HOMELAND ITL** | HK$1.16 | 🟡 +2.65% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 5 | 3 | ✅ BUY |
+| **1** | `1797.HK` | **EAST BUY** | HK$21.04 | 🟢 +4.06% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 2 | ✅ BUY |
+| **2** | `3798.HK` | **HOMELAND ITL** | HK$1.16 | 🟡 +2.65% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 5 | 3 | ✅ BUY |
+| **3** | `6969.HK` | **SMOORE INTL** | HK$10.20 | 🟡 +2.62% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 2 | 6 | ✅ BUY |
 
 ---
 
@@ -100,9 +100,9 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `1797.HK` | HK$21.32 | HK$21.11 | HK$21.75 | HK$21.96 | 🔵 DISCOUNT | 🟢 100 |
-| **2** | 🇭🇰 | `6969.HK` | HK$10.30 | HK$10.20 | HK$10.51 | HK$10.61 | 🔴 PREMIUM | 🟢 75 |
-| **3** | 🇭🇰 | `3798.HK` | HK$1.16 | HK$1.15 | HK$1.18 | HK$1.19 | 🔵 DISCOUNT | 🟢 100 |
+| **1** | 🇭🇰 | `1797.HK` | HK$21.04 | HK$20.83 | HK$21.46 | HK$21.67 | 🔵 DISCOUNT | 🟢 100 |
+| **2** | 🇭🇰 | `3798.HK` | HK$1.16 | HK$1.15 | HK$1.18 | HK$1.19 | 🔵 DISCOUNT | 🟢 100 |
+| **3** | 🇭🇰 | `6969.HK` | HK$10.20 | HK$10.10 | HK$10.40 | HK$10.51 | 🔴 PREMIUM | 🟢 75 |
 | **4** | 🇺🇸 | `HOOD` | $108.13 | $107.05 | $110.29 | $111.37 | 🔴 PREMIUM | 🟢 100 |
 | **5** | 🇺🇸 | `COIN` | $186.49 | $184.63 | $190.22 | $192.08 | 🔴 PREMIUM | 🟢 100 |
 
@@ -117,5 +117,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 11:36 HK Time on 2026-08-24
+🕐 Report generated at 12:27 HK Time on 2026-08-24
 
