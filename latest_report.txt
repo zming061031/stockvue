@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-26 | ⏰ 03:15 HK Time**
+**📅 2026-08-26 | ⏰ 04:02 HK Time**
 
 ---
 
@@ -34,16 +34,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SMCI` | **Super Micro Computer, Inc.** | $38.34 | 🟢 +9.0% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
-| **2** | `HOOD` | **Robinhood Markets, Inc.** | $112.00 | 🟢 +8.09% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
-| **3** | `COIN` | **Coinbase Global, Inc.** | $188.94 | 🟢 +5.27% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 3 | 6 | ✅ BUY |
-| **4** | `AMD` | **Advanced Micro Devices, Inc.** | $480.50 | 🟢 +5.2% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 3 | 5 | ✅ BUY |
-| **5** | `NTES` | **NetEase, Inc.** | $128.68 | 🟢 +4.64% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `SOFI` | **SoFi Technologies, Inc.** | $18.91 | 🟢 +3.67% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
-| **7** | `MRK` | **Merck & Company, Inc.** | $156.05 | 🟢 +3.58% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 1 | ✅ BUY |
-| **8** | `ARKK` | **ARK Innovation ETF** | $86.49 | 🟢 +3.06% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `NFLX` | **Netflix, Inc.** | $82.28 | 🟡 +2.84% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 6 | ✅ BUY |
-| **10** | `XBI` | **State Street SPDR S&P Biotech E** | $168.69 | 🟡 +2.75% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `SMCI` | **Super Micro Computer, Inc.** | $38.46 | 🟢 +9.35% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
+| **2** | `HOOD` | **Robinhood Markets, Inc.** | $112.09 | 🟢 +8.17% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
+| **3** | `AMD` | **Advanced Micro Devices, Inc.** | $479.18 | 🟢 +4.91% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 5 | ✅ BUY |
+| **4** | `NTES` | **NetEase, Inc.** | $128.80 | 🟢 +4.75% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **5** | `COIN` | **Coinbase Global, Inc.** | $187.16 | 🟢 +4.28% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 6 | ✅ BUY |
+| **6** | `SOFI` | **SoFi Technologies, Inc.** | $19.00 | 🟢 +4.17% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **7** | `MRK` | **Merck & Company, Inc.** | $156.44 | 🟢 +3.84% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 1 | ✅ BUY |
+| **8** | `XBI` | **State Street SPDR S&P Biotech E** | $169.10 | 🟢 +3.0% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `ARKK` | **ARK Innovation ETF** | $86.43 | 🟡 +2.99% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `NFLX` | **Netflix, Inc.** | $82.23 | 🟡 +2.77% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 6 | ✅ BUY |
 
 ---
 
@@ -123,5 +123,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 03:15 HK Time on 2026-08-26
+🕐 Report generated at 04:02 HK Time on 2026-08-26
 
