@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-27 | ⏰ 00:07 HK Time**
+**📅 2026-08-27 | ⏰ 02:23 HK Time**
 
 ---
 
@@ -35,8 +35,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `DDOG` | **Datadog, Inc.** | $229.41 | 🟡 +2.88% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
-| **2** | `NET` | **Cloudflare, Inc.** | $283.53 | 🟡 +2.14% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
+| **1** | `NET` | **Cloudflare, Inc.** | $286.81 | 🟢 +3.32% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
+| **2** | `CRWD` | **CrowdStrike Holdings, Inc.** | $189.92 | 🟡 +2.45% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 4 | ✅ BUY |
+| **3** | `PLTR` | **Palantir Technologies Inc.** | $176.95 | 🟡 +2.44% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
+| **4** | `DDOG` | **Datadog, Inc.** | $228.29 | 🟡 +2.38% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
 
 ---
 
@@ -116,5 +118,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 00:07 HK Time on 2026-08-27
+🕐 Report generated at 02:23 HK Time on 2026-08-27
 
