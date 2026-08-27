@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-27 | ⏰ 20:03 HK Time**
+**📅 2026-08-28 | ⏰ 06:36 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
+| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -33,10 +33,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `PLTR` | **Palantir Technologies Inc.** | $177.50 | 🟡 +2.76% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
-| **2** | `NET` | **Cloudflare, Inc.** | $284.89 | 🟡 +2.63% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
-| **3** | `DDOG` | **Datadog, Inc.** | $227.67 | 🟡 +2.1% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
-| **4** | `CRWD` | **CrowdStrike Holdings, Inc.** | $189.18 | 🟡 +2.05% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 4 | ✅ BUY |
+| **1** | `CRWD` | **CrowdStrike Holdings, Inc.** | $227.96 | 🟢 +20.5% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `PATH` | **UiPath, Inc.** | $18.33 | 🟢 +9.37% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `NVDA` | **NVIDIA Corporation** | $227.98 | 🟢 +8.74% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 3 | ✅ BUY |
+| **4** | `NET` | **Cloudflare, Inc.** | $308.23 | 🟢 +8.19% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **5** | `DOCU` | **DocuSign, Inc.** | $63.80 | 🟢 +7.53% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **6** | `ZM` | **Zoom Communications, Inc.** | $100.27 | 🟢 +6.86% | 🔴 PREMIUM | 🔴 20 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `DDOG` | **Datadog, Inc.** | $242.93 | 🟢 +6.7% | 🔵 DISCOUNT | 🟢 65 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **8** | `COIN` | **Coinbase Global, Inc.** | $190.72 | 🟢 +4.92% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 6 | ✅ BUY |
+| **9** | `PLTR` | **Palantir Technologies Inc.** | $185.93 | 🟢 +4.75% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
+| **10** | `AVGO` | **Broadcom Inc.** | $371.54 | 🟢 +4.49% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 7 | ✅ BUY |
 
 ---
 
@@ -116,5 +122,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 20:03 HK Time on 2026-08-27
+🕐 Report generated at 06:36 HK Time on 2026-08-28
 
