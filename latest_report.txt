@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-08-31 | ⏰ 23:26 HK Time**
+**📅 2026-09-01 | ⏰ 05:06 HK Time**
 
 ---
 
@@ -18,13 +18,13 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `2018.HK` | **AAC TECH** | HK$44.50 | 🟢 +8.54% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 5 | ✅ BUY |
-| **2** | `2382.HK` | **SUNNY OPTICAL** | HK$71.10 | 🟢 +7.4% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 5 | 6 | ✅ BUY |
-| **3** | `2328.HK` | **PICC P&C** | HK$17.04 | 🟢 +6.63% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 2 | 4 | ✅ BUY |
-| **4** | `3988.HK` | **BANK OF CHINA** | HK$5.90 | 🟢 +5.73% | 🔴 PREMIUM | 🟢 80 | **75%** | **80%** | — | 1 | 0 | ✅ BUY |
-| **5** | `3798.HK` | **HOMELAND ITL** | HK$1.20 | 🟢 +4.35% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 5 | 2 | ✅ BUY |
-| **6** | `9961.HK` | **TRIP.COM-S** | HK$359.20 | 🟡 +2.98% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
-| **7** | `9955.HK` | **CLOUDR** | HK$0.51 | 🟡 +2.0% | 🔴 PREMIUM | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **1** | `2018.HK` | **AAC TECH** | HK$44.50 | 🟢 +8.54% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 5 | 4 | ⚠️ WATCH |
+| **2** | `2382.HK` | **SUNNY OPTICAL** | HK$71.10 | 🟢 +7.4% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 5 | 6 | ⚠️ WATCH |
+| **3** | `2328.HK` | **PICC P&C** | HK$17.04 | 🟢 +6.63% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 2 | 3 | ⚠️ WATCH |
+| **4** | `3988.HK` | **BANK OF CHINA** | HK$5.90 | 🟢 +5.73% | ⚪ NEUTRAL | 🟡 45 | **75%** | **80%** | — | 2 | 0 | ⚠️ WATCH |
+| **5** | `3798.HK` | **HOMELAND ITL** | HK$1.20 | 🟢 +4.35% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 5 | 2 | ⚠️ WATCH |
+| **6** | `9961.HK` | **TRIP.COM-S** | HK$359.20 | 🟡 +2.98% | ⚪ NEUTRAL | 🟢 80 | **55%** | **60%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
+| **7** | `9955.HK` | **CLOUDR** | HK$0.51 | 🟡 +2.0% | ⚪ NEUTRAL | 🔴 15 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -32,9 +32,14 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `RBLX` | **Roblox Corporation** | $40.64 | 🟢 +5.48% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 3 | ✅ BUY |
-| **2** | `TSLA` | **Tesla, Inc.** | $363.55 | 🟢 +4.25% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
-| **3** | `CRWD` | **CrowdStrike Holdings, Inc.** | $226.35 | 🟢 +3.64% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
+| **1** | `RBLX` | **Roblox Corporation** | $41.29 | 🟢 +7.16% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 3 | ✅ BUY |
+| **2** | `CRWD` | **CrowdStrike Holdings, Inc.** | $231.00 | 🟢 +5.77% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
+| **3** | `TSLA` | **Tesla, Inc.** | $367.95 | 🟢 +5.51% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
+| **4** | `COIN` | **Coinbase Global, Inc.** | $188.12 | 🟢 +5.31% | ⚪ N/A | 🟡 40 | **75%** | **80%** | — | 4 | 6 | ⚠️ WATCH |
+| **5** | `DOCU` | **DocuSign, Inc.** | $66.27 | 🟢 +3.55% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 8 | ✅ BUY |
+| **6** | `PATH` | **UiPath, Inc.** | $18.67 | 🟡 +2.87% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
+| **7** | `CVX` | **Chevron Corporation** | $206.14 | 🟡 +2.12% | ⚪ N/A | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
+| **8** | `XLE` | **State Street Energy Select Sect** | $63.96 | 🟡 +2.04% | ⚪ N/A | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
 
 ---
 
@@ -97,11 +102,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `2018.HK` | HK$44.50 | HK$44.05 | HK$45.39 | HK$45.84 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇭🇰 | `2382.HK` | HK$71.10 | HK$70.39 | HK$72.52 | HK$73.23 | 🔴 PREMIUM | 🟢 90 |
-| **3** | 🇭🇰 | `2328.HK` | HK$17.04 | HK$16.87 | HK$17.38 | HK$17.55 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇭🇰 | `3988.HK` | HK$5.90 | HK$5.84 | HK$6.02 | HK$6.08 | 🔴 PREMIUM | 🟢 80 |
-| **5** | 🇭🇰 | `3798.HK` | HK$1.20 | HK$1.19 | HK$1.22 | HK$1.24 | 🔵 DISCOUNT | 🟢 100 |
+| **1** | 🇭🇰 | `2018.HK` | HK$44.50 | HK$44.05 | HK$45.39 | HK$45.84 | ⚪ NEUTRAL | 🟡 55 |
+| **2** | 🇭🇰 | `2382.HK` | HK$71.10 | HK$70.39 | HK$72.52 | HK$73.23 | ⚪ NEUTRAL | 🟡 55 |
+| **3** | 🇭🇰 | `2328.HK` | HK$17.04 | HK$16.87 | HK$17.38 | HK$17.55 | ⚪ NEUTRAL | 🟡 55 |
+| **4** | 🇭🇰 | `3988.HK` | HK$5.90 | HK$5.84 | HK$6.02 | HK$6.08 | ⚪ NEUTRAL | 🟡 45 |
+| **5** | 🇭🇰 | `3798.HK` | HK$1.20 | HK$1.19 | HK$1.22 | HK$1.24 | ⚪ NEUTRAL | 🟡 55 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -114,5 +119,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 23:26 HK Time on 2026-08-31
+🕐 Report generated at 05:06 HK Time on 2026-09-01
 
