@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-02 | ⏰ 01:29 HK Time**
+**📅 2026-09-02 | ⏰ 04:11 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
+| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -29,7 +29,9 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `AAPL` | **Apple Inc.** | $324.71 | 🟡 +2.48% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
+| **1** | `AAPL` | **Apple Inc.** | $325.13 | 🟡 +2.61% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
+| **2** | `CVX` | **Chevron Corporation** | $211.05 | 🟡 +2.38% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
+| **3** | `JNJ` | **Johnson & Johnson** | $271.38 | 🟡 +2.08% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
 
 ---
 
@@ -96,7 +98,7 @@
 | **2** | 🇭🇰 | `0668.HK` | HK$126.30 | HK$125.04 | HK$128.83 | HK$130.09 | ⚪ NEUTRAL | 🔴 0 |
 | **3** | 🇭🇰 | `1336.HK` | HK$48.26 | HK$47.78 | HK$49.23 | HK$49.71 | ⚪ NEUTRAL | 🟢 80 |
 | **4** | 🇭🇰 | `1288.HK` | HK$6.51 | HK$6.44 | HK$6.64 | HK$6.71 | ⚪ NEUTRAL | 🟡 55 |
-| **5** | 🇺🇸 | `AAPL` | $324.71 | $321.47 | $331.21 | $334.46 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇺🇸 | `AAPL` | $325.13 | $321.88 | $331.63 | $334.88 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -109,5 +111,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 01:29 HK Time on 2026-09-02
+🕐 Report generated at 04:11 HK Time on 2026-09-02
 
