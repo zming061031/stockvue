@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-02 | ⏰ 19:43 HK Time**
+**📅 2026-09-03 | ⏰ 00:53 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | BEARISH 🔴 | SH/SZ Trend |
 
 ---
@@ -19,8 +19,8 @@
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `0668.HK` | **ANKER** | HK$134.80 | 🟢 +6.73% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `9688.HK` | **ZAI LAB** | HK$20.50 | 🟢 +5.45% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
-| **3** | `3690.HK` | **MEITUAN-W** | HK$78.75 | 🟡 +2.74% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
+| **2** | `9688.HK` | **ZAI LAB** | HK$20.50 | 🟢 +5.45% | ⚪ NEUTRAL | 🟢 80 | **75%** | **80%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
+| **3** | `3690.HK` | **MEITUAN-W** | HK$78.75 | 🟡 +2.74% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
 
 ---
 
@@ -28,9 +28,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `AAPL` | **Apple Inc.** | $325.13 | 🟡 +2.61% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
-| **2** | `CVX` | **Chevron Corporation** | $211.05 | 🟡 +2.38% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
-| **3** | `JNJ` | **Johnson & Johnson** | $271.19 | 🟡 +2.01% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
+| **1** | `SOFI` | **SoFi Technologies, Inc.** | $17.84 | 🟢 +4.61% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **2** | `NVDA` | **NVIDIA Corporation** | $225.75 | 🟢 +3.82% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 6 | 4 | ✅ BUY |
+| **3** | `META` | **Meta Platforms, Inc.** | $595.53 | 🟡 +2.94% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 5 | ✅ BUY |
+| **4** | `HOOD` | **Robinhood Markets, Inc.** | $105.63 | 🟡 +2.05% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 8 | ✅ BUY |
 
 ---
 
@@ -94,10 +95,10 @@
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | 🇭🇰 | `0668.HK` | HK$134.80 | HK$133.45 | HK$137.50 | HK$138.84 | ⚪ NEUTRAL | 🔴 0 |
-| **2** | 🇭🇰 | `9688.HK` | HK$20.50 | HK$20.30 | HK$20.91 | HK$21.11 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇭🇰 | `3690.HK` | HK$78.75 | HK$77.96 | HK$80.33 | HK$81.11 | 🔵 DISCOUNT | 🟢 100 |
-| **4** | 🇺🇸 | `AAPL` | $325.13 | $321.88 | $331.63 | $334.88 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇺🇸 | `CVX` | $211.05 | $208.94 | $215.27 | $217.38 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇭🇰 | `9688.HK` | HK$20.50 | HK$20.30 | HK$20.91 | HK$21.11 | ⚪ NEUTRAL | 🟢 80 |
+| **3** | 🇭🇰 | `3690.HK` | HK$78.75 | HK$77.96 | HK$80.33 | HK$81.11 | ⚪ NEUTRAL | 🟢 65 |
+| **4** | 🇺🇸 | `SOFI` | $17.84 | $17.66 | $18.19 | $18.37 | 🔴 PREMIUM | 🟢 60 |
+| **5** | 🇺🇸 | `NVDA` | $225.75 | $223.49 | $230.27 | $232.52 | 🔴 PREMIUM | 🟢 85 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -110,5 +111,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 19:43 HK Time on 2026-09-02
+🕐 Report generated at 00:53 HK Time on 2026-09-03
 
