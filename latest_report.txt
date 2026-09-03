@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-03 | ⏰ 23:14 HK Time**
+**📅 2026-09-04 | ⏰ 02:54 HK Time**
 
 ---
 
@@ -18,14 +18,14 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `2728.HK` | **JINTAI ENERGY H** | HK$0.02 | 🟢 +6.25% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 0 | 1 | ✅ BUY |
+| **1** | `2728.HK` | **JINTAI ENERGY H** | HK$0.02 | 🟢 +6.25% | ⚪ NEUTRAL | 🟡 45 | **75%** | **80%** | — | 0 | 1 | ⚠️ WATCH |
 | **2** | `3798.HK` | **HOMELAND ITL** | HK$1.21 | 🟢 +4.31% | ⚪ N/A | 🟡 40 | **65%** | **70%** | — | 5 | 2 | ⚠️ WATCH |
-| **3** | `3759.HK` | **PHARMARON** | HK$29.60 | 🟢 +3.71% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
-| **4** | `1336.HK` | **NCI** | HK$49.16 | 🟢 +3.54% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **5** | `6185.HK` | **CANSINOBIO** | HK$29.40 | 🟢 +3.01% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 1 | 8 | ✅ BUY |
-| **6** | `2600.HK` | **CHALCO** | HK$8.76 | 🟡 +2.82% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 7 | ✅ BUY |
-| **7** | `1797.HK` | **EAST BUY** | HK$26.18 | 🟡 +2.75% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 1 | ✅ BUY |
-| **8** | `9688.HK` | **ZAI LAB** | HK$21.06 | 🟡 +2.73% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 4 | 3 | ✅ BUY |
+| **3** | `3759.HK` | **PHARMARON** | HK$29.60 | 🟢 +3.71% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
+| **4** | `1336.HK` | **NCI** | HK$49.16 | 🟢 +3.54% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
+| **5** | `6185.HK` | **CANSINOBIO** | HK$29.40 | 🟢 +3.01% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 1 | 8 | ⚠️ WATCH |
+| **6** | `2600.HK` | **CHALCO** | HK$8.76 | 🟡 +2.82% | ⚪ NEUTRAL | 🟢 80 | **55%** | **60%** | ✅ BEARISH | 5 | 7 | ✅ BUY |
+| **7** | `1797.HK` | **EAST BUY** | HK$26.18 | 🟡 +2.75% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 4 | 1 | ⚠️ WATCH |
+| **8** | `9688.HK` | **ZAI LAB** | HK$21.06 | 🟡 +2.73% | ⚪ NEUTRAL | 🟢 80 | **55%** | **60%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
 | **9** | `0668.HK` | **ANKER** | HK$138.00 | 🟡 +2.37% | ⚪ N/A | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
@@ -34,16 +34,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SNOW` | **Snowflake Inc.** | $371.84 | 🟢 +21.58% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `HOOD` | **Robinhood Markets, Inc.** | $122.67 | 🟢 +14.66% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 4 | 8 | ✅ BUY |
-| **3** | `COIN` | **Coinbase Global, Inc.** | $190.24 | 🟢 +8.73% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 8 | ✅ BUY |
-| **4** | `PLTR` | **Palantir Technologies Inc.** | $182.43 | 🟢 +7.66% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
-| **5** | `TSLA` | **Tesla, Inc.** | $380.62 | 🟢 +6.61% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 5 | ✅ BUY |
-| **6** | `CRWD` | **CrowdStrike Holdings, Inc.** | $213.06 | 🟢 +4.74% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **7** | `META` | **Meta Platforms, Inc.** | $614.70 | 🟢 +3.68% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 5 | 5 | ✅ BUY |
-| **8** | `NET` | **Cloudflare, Inc.** | $282.04 | 🟢 +3.41% | 🔵 DISCOUNT | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `ARKK` | **ARK Innovation ETF** | $86.13 | 🟢 +3.29% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **10** | `MSFT` | **Microsoft Corporation** | $512.10 | 🟢 +3.07% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
+| **1** | `SNOW` | **Snowflake Inc.** | $363.39 | 🟢 +18.82% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `HOOD` | **Robinhood Markets, Inc.** | $123.22 | 🟢 +15.17% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 4 | 8 | ✅ BUY |
+| **3** | `COIN` | **Coinbase Global, Inc.** | $191.67 | 🟢 +9.55% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 8 | ✅ BUY |
+| **4** | `PLTR` | **Palantir Technologies Inc.** | $183.01 | 🟢 +8.0% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **5** | `TSLA` | **Tesla, Inc.** | $381.35 | 🟢 +6.82% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 5 | ✅ BUY |
+| **6** | `CRWD` | **CrowdStrike Holdings, Inc.** | $213.84 | 🟢 +5.12% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `NET` | **Cloudflare, Inc.** | $286.11 | 🟢 +4.9% | 🔵 DISCOUNT | 🟡 40 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `SOFI` | **SoFi Technologies, Inc.** | $18.68 | 🟢 +4.68% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **9** | `ARKK` | **ARK Innovation ETF** | $87.08 | 🟢 +4.43% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **10** | `META` | **Meta Platforms, Inc.** | $613.82 | 🟢 +3.54% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 5 | 5 | ✅ BUY |
 
 ---
 
@@ -106,11 +106,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `2728.HK` | HK$0.02 | HK$0.02 | HK$0.02 | HK$0.02 | 🔴 PREMIUM | 🟢 90 |
+| **1** | 🇭🇰 | `2728.HK` | HK$0.02 | HK$0.02 | HK$0.02 | HK$0.02 | ⚪ NEUTRAL | 🟡 45 |
 | **2** | 🇭🇰 | `3798.HK` | HK$1.21 | HK$1.20 | HK$1.23 | HK$1.25 | ⚪ NEUTRAL | 🟡 40 |
-| **3** | 🇭🇰 | `3759.HK` | HK$29.60 | HK$29.30 | HK$30.19 | HK$30.49 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇭🇰 | `1336.HK` | HK$49.16 | HK$48.67 | HK$50.14 | HK$50.63 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇭🇰 | `6185.HK` | HK$29.40 | HK$29.11 | HK$29.99 | HK$30.28 | 🔴 PREMIUM | 🟢 75 |
+| **3** | 🇭🇰 | `3759.HK` | HK$29.60 | HK$29.30 | HK$30.19 | HK$30.49 | ⚪ NEUTRAL | 🟢 80 |
+| **4** | 🇭🇰 | `1336.HK` | HK$49.16 | HK$48.67 | HK$50.14 | HK$50.63 | ⚪ NEUTRAL | 🟢 80 |
+| **5** | 🇭🇰 | `6185.HK` | HK$29.40 | HK$29.11 | HK$29.99 | HK$30.28 | ⚪ NEUTRAL | 🟡 40 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -123,5 +123,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 23:14 HK Time on 2026-09-03
+🕐 Report generated at 02:54 HK Time on 2026-09-04
 
