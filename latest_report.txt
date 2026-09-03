@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-03 | ⏰ 19:45 HK Time**
+**📅 2026-09-03 | ⏰ 23:14 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
+| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -34,11 +34,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SOFI` | **SoFi Technologies, Inc.** | $17.84 | 🟢 +4.63% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
-| **2** | `HOOD` | **Robinhood Markets, Inc.** | $106.99 | 🟢 +3.36% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 8 | ✅ BUY |
-| **3** | `NVDA` | **NVIDIA Corporation** | $224.41 | 🟢 +3.21% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 6 | 4 | ✅ BUY |
-| **4** | `META` | **Meta Platforms, Inc.** | $592.85 | 🟡 +2.47% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 5 | 5 | ✅ BUY |
-| **5** | `NFLX` | **Netflix, Inc.** | $82.73 | 🟡 +2.38% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 6 | ✅ BUY |
+| **1** | `SNOW` | **Snowflake Inc.** | $371.84 | 🟢 +21.58% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `HOOD` | **Robinhood Markets, Inc.** | $122.67 | 🟢 +14.66% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 4 | 8 | ✅ BUY |
+| **3** | `COIN` | **Coinbase Global, Inc.** | $190.24 | 🟢 +8.73% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 8 | ✅ BUY |
+| **4** | `PLTR` | **Palantir Technologies Inc.** | $182.43 | 🟢 +7.66% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
+| **5** | `TSLA` | **Tesla, Inc.** | $380.62 | 🟢 +6.61% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 4 | 5 | ✅ BUY |
+| **6** | `CRWD` | **CrowdStrike Holdings, Inc.** | $213.06 | 🟢 +4.74% | 🔴 PREMIUM | 🔴 35 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `META` | **Meta Platforms, Inc.** | $614.70 | 🟢 +3.68% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 5 | 5 | ✅ BUY |
+| **8** | `NET` | **Cloudflare, Inc.** | $282.04 | 🟢 +3.41% | 🔵 DISCOUNT | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `ARKK` | **ARK Innovation ETF** | $86.13 | 🟢 +3.29% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `MSFT` | **Microsoft Corporation** | $512.10 | 🟢 +3.07% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
 
 ---
 
@@ -118,5 +123,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 19:45 HK Time on 2026-09-03
+🕐 Report generated at 23:14 HK Time on 2026-09-03
 
