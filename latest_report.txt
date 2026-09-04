@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-04 | ⏰ 17:57 HK Time**
+**📅 2026-09-04 | ⏰ 22:35 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | BULLISH 🟢 | HSI Trend |
-| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -35,16 +35,13 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `HOOD` | **Robinhood Markets, Inc.** | $124.72 | 🟢 +16.57% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `SNOW` | **Snowflake Inc.** | $356.47 | 🟢 +16.55% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **3** | `COIN` | **Coinbase Global, Inc.** | $192.70 | 🟢 +10.14% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 8 | ✅ BUY |
-| **4** | `PLTR` | **Palantir Technologies Inc.** | $182.53 | 🟢 +7.71% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **5** | `CRWD` | **CrowdStrike Holdings, Inc.** | $214.97 | 🟢 +5.68% | 🔴 PREMIUM | 🔴 35 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `TSLA` | **Tesla, Inc.** | $376.37 | 🟢 +5.42% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 5 | ✅ BUY |
-| **7** | `ARKK` | **ARK Innovation ETF** | $87.14 | 🟢 +4.5% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **8** | `NET` | **Cloudflare, Inc.** | $284.51 | 🟢 +4.32% | 🔵 DISCOUNT | 🟡 40 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `SOFI` | **SoFi Technologies, Inc.** | $18.51 | 🟢 +3.76% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **10** | `GS` | **Goldman Sachs Group, Inc. (The)** | $1037.93 | 🟢 +3.34% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 4 | ✅ BUY |
+| **1** | `SMCI` | **Super Micro Computer, Inc.** | $39.34 | 🟢 +3.88% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 8 | ✅ BUY |
+| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $468.37 | 🟡 +2.68% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 7 | ✅ BUY |
+| **3** | `ZM` | **Zoom Communications, Inc.** | $100.74 | 🟡 +2.65% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 5 | 6 | ✅ BUY |
+| **4** | `BIDU` | **Baidu, Inc.** | $97.92 | 🟡 +2.44% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 4 | ✅ BUY |
+| **5** | `NTES` | **NetEase, Inc.** | $119.70 | 🟡 +2.26% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 5 | ✅ BUY |
+| **6** | `NVDA` | **NVIDIA Corporation** | $233.31 | 🟡 +2.13% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 6 | 4 | ✅ BUY |
+| **7** | `RBLX` | **Roblox Corporation** | $42.39 | 🟡 +2.12% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 2 | ✅ BUY |
 
 ---
 
@@ -124,5 +121,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 17:57 HK Time on 2026-09-04
+🕐 Report generated at 22:35 HK Time on 2026-09-04
 
