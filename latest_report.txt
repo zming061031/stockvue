@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-09 | ⏰ 03:00 HK Time**
+**📅 2026-09-09 | ⏰ 06:03 HK Time**
 
 ---
 
@@ -30,13 +30,12 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `BILI` | **Bilibili Inc.** | $16.25 | 🟢 +6.7% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 7 | 5 | ✅ BUY |
-| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $506.78 | 🟢 +6.12% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 7 | ✅ BUY |
-| **3** | `TSLA` | **Tesla, Inc.** | $367.06 | 🟢 +3.66% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
-| **4** | `AVGO` | **Broadcom Inc.** | $369.00 | 🟢 +3.1% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 4 | 7 | ✅ BUY |
-| **5** | `RBLX` | **Roblox Corporation** | $44.55 | 🟡 +2.86% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 4 | 2 | ✅ BUY |
-| **6** | `NET` | **Cloudflare, Inc.** | $286.21 | 🟡 +2.62% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
-| **7** | `SMCI` | **Super Micro Computer, Inc.** | $40.42 | 🟡 +2.11% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 8 | ✅ BUY |
+| **1** | `BILI` | **Bilibili Inc.** | $16.20 | 🟢 +6.37% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 7 | 5 | ✅ BUY |
+| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $505.74 | 🟢 +5.9% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 7 | ✅ BUY |
+| **3** | `TSLA` | **Tesla, Inc.** | $368.16 | 🟢 +3.98% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
+| **4** | `RBLX` | **Roblox Corporation** | $44.82 | 🟢 +3.49% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
+| **5** | `AVGO` | **Broadcom Inc.** | $368.56 | 🟡 +2.98% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 7 | ✅ BUY |
+| **6** | `U` | **Unity Software Inc.** | $42.75 | 🟡 +2.62% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 3 | ✅ BUY |
 
 ---
 
@@ -116,5 +115,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 03:00 HK Time on 2026-09-09
+🕐 Report generated at 06:03 HK Time on 2026-09-09
 
