@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-11 | ⏰ 19:49 HK Time**
+**📅 2026-09-12 | ⏰ 00:48 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
+| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -18,7 +18,7 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `6038.HK` | **G & M HLDGS** | HK$0.39 | 🟢 +5.41% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
+| **1** | `6038.HK` | **G & M HLDGS** | HK$0.39 | 🟢 +5.41% | ⚪ NEUTRAL | 🟢 80 | **75%** | **80%** | ✅ BEARISH | 3 | 1 | ✅ BUY |
 
 ---
 
@@ -26,9 +26,15 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `AAPL` | **Apple Inc.** | $326.57 | 🟢 +3.56% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **2** | `PATH` | **UiPath, Inc.** | $13.87 | 🟡 +2.21% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
-| **3** | `DOCU` | **DocuSign, Inc.** | $65.80 | 🟡 +2.09% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 6 | 7 | ✅ BUY |
+| **1** | `SMCI` | **Super Micro Computer, Inc.** | $39.13 | 🟢 +4.7% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 7 | ✅ BUY |
+| **2** | `SHOP` | **Shopify Inc.** | $131.56 | 🟢 +3.92% | 🔵 DISCOUNT | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `U` | **Unity Software Inc.** | $43.60 | 🟢 +3.64% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 2 | 3 | ✅ BUY |
+| **4** | `COIN` | **Coinbase Global, Inc.** | $177.90 | 🟢 +3.26% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 5 | 7 | ✅ BUY |
+| **5** | `BA` | **Boeing Company (The)** | $210.38 | 🟡 +2.73% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 2 | ✅ BUY |
+| **6** | `GOOGL` | **Alphabet Inc.** | $340.61 | 🟡 +2.41% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 5 | 4 | ✅ BUY |
+| **7** | `AAPL` | **Apple Inc.** | $334.22 | 🟡 +2.34% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
+| **8** | `RBLX` | **Roblox Corporation** | $45.91 | 🟡 +2.3% | 🔴 PREMIUM | 🔴 35 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `ETSY` | **Etsy, Inc.** | $73.03 | 🟡 +2.01% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
 
 ---
 
@@ -37,7 +43,7 @@
 | **1** | `sz000636` | **风华高科** | ¥55.99 | 🟢 +10.0% | 16.2% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 5 | 3 | ✅ BUY |
 | **2** | `sz300408` | **三环集团** | ¥124.36 | 🟢 +5.66% | 4.1% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **3** | `sz002636` | **金安国纪** | ¥82.46 | 🟢 +7.86% | 15.5% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `sh601869` | **长飞光纤** | ¥473.99 | 🟢 +8.78% | 4.6% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 6 | 6 | ✅ BUY |
+| **4** | `sh601869` | **长飞光纤** | ¥473.99 | 🟢 +8.78% | 4.6% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **5** | `sh688801` | **N燧原** | ¥397.00 | 🟢 +179.22% | 76.0% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **6** | `sz002297` | **博云新材** | ¥23.53 | 🟢 +7.44% | 33.2% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **7** | `sh688143` | **长盈通** | ¥195.00 | 🟢 +15.49% | 16.9% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 4 | ✅ BUY |
@@ -91,11 +97,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `6038.HK` | HK$0.39 | HK$0.39 | HK$0.40 | HK$0.40 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇺🇸 | `AAPL` | $326.57 | $323.30 | $333.10 | $336.37 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇺🇸 | `PATH` | $13.87 | $13.73 | $14.15 | $14.29 | 🔵 DISCOUNT | 🟢 100 |
-| **4** | 🇺🇸 | `DOCU` | $65.80 | $65.14 | $67.12 | $67.77 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇨🇳 | `sz000636` | ¥55.99 | ¥54.87 | ¥58.23 | ¥59.35 | 🔵 DISCOUNT | 🟢 100 |
+| **1** | 🇭🇰 | `6038.HK` | HK$0.39 | HK$0.39 | HK$0.40 | HK$0.40 | ⚪ NEUTRAL | 🟢 80 |
+| **2** | 🇺🇸 | `SMCI` | $39.13 | $38.74 | $39.92 | $40.31 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇺🇸 | `SHOP` | $131.56 | $130.24 | $134.19 | $135.51 | 🔵 DISCOUNT | 🟡 50 |
+| **4** | 🇺🇸 | `U` | $43.60 | $43.16 | $44.47 | $44.91 | 🔵 DISCOUNT | 🟢 90 |
+| **5** | 🇺🇸 | `COIN` | $177.90 | $176.12 | $181.45 | $183.23 | 🔴 PREMIUM | 🟢 85 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -108,5 +114,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 19:49 HK Time on 2026-09-11
+🕐 Report generated at 00:48 HK Time on 2026-09-12
 
