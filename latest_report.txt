@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-16 | ⏰ 20:05 HK Time**
+**📅 2026-09-17 | ⏰ 01:18 HK Time**
 
 ---
 
@@ -18,11 +18,11 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0992.HK` | **LENOVO GROUP** | HK$33.80 | 🟢 +8.33% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 2 | 4 | ✅ BUY |
-| **2** | `9961.HK` | **TRIP.COM-S** | HK$323.20 | 🟢 +3.86% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 4 | 1 | ✅ BUY |
-| **3** | `0695.HK` | **DONGWU CEMENT** | HK$8.00 | 🟡 +2.56% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
-| **4** | `1919.HK` | **COSCO SHIP HOLD** | HK$16.68 | 🟡 +2.27% | 🔴 PREMIUM | 🟢 70 | **55%** | **60%** | — | 1 | 5 | ✅ BUY |
-| **5** | `2382.HK` | **SUNNY OPTICAL** | HK$68.50 | 🟡 +2.01% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 6 | ✅ BUY |
+| **1** | `0992.HK` | **LENOVO GROUP** | HK$33.80 | 🟢 +8.33% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 2 | 3 | ⚠️ WATCH |
+| **2** | `9961.HK` | **TRIP.COM-S** | HK$323.20 | 🟢 +3.86% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 3 | 1 | ✅ BUY |
+| **3** | `0695.HK` | **DONGWU CEMENT** | HK$8.00 | 🟡 +2.56% | ⚪ NEUTRAL | 🟢 80 | **55%** | **60%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
+| **4** | `1919.HK` | **COSCO SHIP HOLD** | HK$16.68 | 🟡 +2.27% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 1 | 5 | ⚠️ WATCH |
+| **5** | `2382.HK` | **SUNNY OPTICAL** | HK$68.50 | 🟡 +2.01% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 5 | 6 | ✅ BUY |
 
 ---
 
@@ -30,12 +30,9 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `TMO` | **Thermo Fisher Scientific Inc** | $641.39 | 🟢 +4.61% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 2 | ✅ BUY |
-| **2** | `CRWD` | **CrowdStrike Holdings, Inc.** | $242.49 | 🟢 +3.02% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
-| **3** | `DOCU` | **DocuSign, Inc.** | $71.85 | 🟢 +3.0% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 7 | ✅ BUY |
-| **4** | `CVX` | **Chevron Corporation** | $217.77 | 🟡 +2.64% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
-| **5** | `AMD` | **Advanced Micro Devices, Inc.** | $504.20 | 🟡 +2.19% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 3 | 7 | ✅ BUY |
-| **6** | `XLE` | **State Street Energy Select Sect** | $65.93 | 🟡 +2.17% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 6 | ✅ BUY |
+| **1** | `AMD` | **Advanced Micro Devices, Inc.** | $523.50 | 🟢 +3.83% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
+| **2** | `SMCI` | **Super Micro Computer, Inc.** | $36.94 | 🟢 +3.65% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
+| **3** | `SNOW` | **Snowflake Inc.** | $332.97 | 🟢 +3.09% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
 
 ---
 
@@ -98,11 +95,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0992.HK` | HK$33.80 | HK$33.46 | HK$34.48 | HK$34.81 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇭🇰 | `9961.HK` | HK$323.20 | HK$319.97 | HK$329.66 | HK$332.90 | 🔵 DISCOUNT | 🟢 100 |
-| **3** | 🇭🇰 | `0695.HK` | HK$8.00 | HK$7.92 | HK$8.16 | HK$8.24 | 🔵 DISCOUNT | 🟢 100 |
-| **4** | 🇭🇰 | `1919.HK` | HK$16.68 | HK$16.51 | HK$17.01 | HK$17.18 | 🔴 PREMIUM | 🟢 70 |
-| **5** | 🇭🇰 | `2382.HK` | HK$68.50 | HK$67.81 | HK$69.87 | HK$70.56 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `0992.HK` | HK$33.80 | HK$33.46 | HK$34.48 | HK$34.81 | ⚪ NEUTRAL | 🟡 55 |
+| **2** | 🇭🇰 | `9961.HK` | HK$323.20 | HK$319.97 | HK$329.66 | HK$332.90 | ⚪ NEUTRAL | 🟢 80 |
+| **3** | 🇭🇰 | `0695.HK` | HK$8.00 | HK$7.92 | HK$8.16 | HK$8.24 | ⚪ NEUTRAL | 🟢 80 |
+| **4** | 🇭🇰 | `1919.HK` | HK$16.68 | HK$16.51 | HK$17.01 | HK$17.18 | ⚪ NEUTRAL | 🟡 40 |
+| **5** | 🇭🇰 | `2382.HK` | HK$68.50 | HK$67.81 | HK$69.87 | HK$70.56 | ⚪ NEUTRAL | 🟢 65 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -115,5 +112,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 20:05 HK Time on 2026-09-16
+🕐 Report generated at 01:18 HK Time on 2026-09-17
 
