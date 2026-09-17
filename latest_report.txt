@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-18 | ⏰ 01:18 HK Time**
+**📅 2026-09-18 | ⏰ 04:35 HK Time**
 
 ---
 
@@ -18,10 +18,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `6969.HK` | **SMOORE INTL** | HK$9.78 | 🟢 +5.05% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 2 | 5 | ⚠️ WATCH |
-| **2** | `1028.HK` | **C.BANNER** | HK$0.90 | 🟢 +4.07% | ⚪ NEUTRAL | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 2 | 1 | ✅ BUY |
-| **3** | `6185.HK` | **CANSINOBIO** | HK$25.94 | 🟡 +2.37% | ⚪ NEUTRAL | 🟢 80 | **55%** | **60%** | ✅ BEARISH | 2 | 6 | ✅ BUY |
-| **4** | `9955.HK` | **CLOUDR** | HK$0.51 | 🟡 +2.0% | ⚪ NEUTRAL | 🔴 20 | **55%** | **60%** | — | 0 | 1 | ⚠️ WATCH |
+| **1** | `6969.HK` | **SMOORE INTL** | HK$9.78 | 🟢 +5.05% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 2 | 5 | ✅ BUY |
+| **2** | `1028.HK` | **C.BANNER** | HK$0.90 | 🟢 +4.07% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 1 | ✅ BUY |
+| **3** | `6185.HK` | **CANSINOBIO** | HK$25.94 | 🟡 +2.37% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 6 | ✅ BUY |
+| **4** | `9955.HK` | **CLOUDR** | HK$0.51 | 🟡 +2.0% | 🔴 PREMIUM | 🟢 65 | **55%** | **60%** | — | 0 | 1 | ✅ BUY |
 
 ---
 
@@ -29,16 +29,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SMCI` | **Super Micro Computer, Inc.** | $40.73 | 🟢 +10.54% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 7 | ✅ BUY |
-| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $548.36 | 🟢 +7.0% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 3 | 7 | ✅ BUY |
-| **3** | `ARKK` | **ARK Innovation ETF** | $86.84 | 🟢 +4.4% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `COIN` | **Coinbase Global, Inc.** | $171.68 | 🟢 +4.36% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 6 | 8 | ✅ BUY |
-| **5** | `AVGO` | **Broadcom Inc.** | $349.03 | 🟡 +2.8% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 8 | ✅ BUY |
-| **6** | `HOOD` | **Robinhood Markets, Inc.** | $107.30 | 🟡 +2.76% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 7 | ✅ BUY |
-| **7** | `DDOG` | **Datadog, Inc.** | $236.92 | 🟡 +2.66% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `TSLA` | **Tesla, Inc.** | $367.56 | 🟡 +2.65% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 5 | ✅ BUY |
-| **9** | `CRWD` | **CrowdStrike Holdings, Inc.** | $247.00 | 🟡 +2.34% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **10** | `NVDA` | **NVIDIA Corporation** | $218.87 | 🟡 +2.32% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 7 | 4 | ✅ BUY |
+| **1** | `SMCI` | **Super Micro Computer, Inc.** | $40.35 | 🟢 +9.5% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $545.09 | 🟢 +6.36% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 7 | ✅ BUY |
+| **3** | `COIN` | **Coinbase Global, Inc.** | $173.97 | 🟢 +5.75% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 6 | 8 | ✅ BUY |
+| **4** | `HOOD` | **Robinhood Markets, Inc.** | $109.81 | 🟢 +5.16% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | ✅ BEARISH | 4 | 7 | ✅ BUY |
+| **5** | `ARKK` | **ARK Innovation ETF** | $86.92 | 🟢 +4.5% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **6** | `NET` | **Cloudflare, Inc.** | $333.94 | 🟡 +2.86% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `XBI` | **State Street SPDR S&P Biotech E** | $158.25 | 🟡 +2.64% | 🔵 DISCOUNT | 🟢 65 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **8** | `NVDA` | **NVIDIA Corporation** | $219.34 | 🟡 +2.54% | 🔴 PREMIUM | 🟢 95 | **55%** | **60%** | — | 7 | 4 | ✅ BUY |
+| **9** | `IBB` | **iShares Biotechnology ETF** | $207.07 | 🟡 +2.31% | 🔵 DISCOUNT | 🟡 50 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `AVGO` | **Broadcom Inc.** | $347.30 | 🟡 +2.29% | 🔵 DISCOUNT | 🟢 80 | **55%** | **60%** | — | 4 | 7 | ✅ BUY |
 
 ---
 
@@ -101,11 +101,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `6969.HK` | HK$9.78 | HK$9.68 | HK$9.98 | HK$10.07 | ⚪ NEUTRAL | 🟡 55 |
-| **2** | 🇭🇰 | `1028.HK` | HK$0.90 | HK$0.89 | HK$0.91 | HK$0.92 | ⚪ NEUTRAL | 🟢 65 |
-| **3** | 🇭🇰 | `6185.HK` | HK$25.94 | HK$25.68 | HK$26.46 | HK$26.72 | ⚪ NEUTRAL | 🟢 80 |
-| **4** | 🇭🇰 | `9955.HK` | HK$0.51 | HK$0.50 | HK$0.52 | HK$0.53 | ⚪ NEUTRAL | 🔴 20 |
-| **5** | 🇺🇸 | `SMCI` | $40.73 | $40.33 | $41.55 | $41.96 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `6969.HK` | HK$9.78 | HK$9.68 | HK$9.98 | HK$10.07 | 🔵 DISCOUNT | 🟢 100 |
+| **2** | 🇭🇰 | `1028.HK` | HK$0.90 | HK$0.89 | HK$0.91 | HK$0.92 | 🔵 DISCOUNT | 🟢 100 |
+| **3** | 🇭🇰 | `6185.HK` | HK$25.94 | HK$25.68 | HK$26.46 | HK$26.72 | 🔵 DISCOUNT | 🟢 100 |
+| **4** | 🇭🇰 | `9955.HK` | HK$0.51 | HK$0.50 | HK$0.52 | HK$0.53 | 🔴 PREMIUM | 🟢 65 |
+| **5** | 🇺🇸 | `SMCI` | $40.35 | $39.95 | $41.16 | $41.56 | 🔴 PREMIUM | 🟢 60 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -118,5 +118,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 01:18 HK Time on 2026-09-18
+🕐 Report generated at 04:35 HK Time on 2026-09-18
 
