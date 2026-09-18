@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-18 | ⏰ 09:26 HK Time**
+**📅 2026-09-18 | ⏰ 14:37 HK Time**
 
 ---
 
@@ -18,11 +18,14 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `1028.HK` | **C.BANNER** | HK$0.90 | 🟢 +4.07% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 1 | ✅ BUY |
-| **2** | `1398.HK` | **ICBC** | HK$7.80 | 🟢 +3.72% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
-| **3** | `6185.HK` | **CANSINOBIO** | HK$26.80 | 🟢 +3.29% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 6 | ✅ BUY |
-| **4** | `1928.HK` | **SANDS CHINA LTD** | HK$12.58 | 🟢 +3.11% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
-| **5** | `9955.HK` | **CLOUDR** | HK$0.51 | 🟡 +2.0% | 🔴 PREMIUM | 🟢 65 | **55%** | **60%** | — | 0 | 1 | ✅ BUY |
+| **1** | `0992.HK` | **LENOVO GROUP** | HK$37.42 | 🟢 +9.03% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 2 | 4 | ✅ BUY |
+| **2** | `9688.HK` | **ZAI LAB** | HK$20.68 | 🟢 +4.97% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 2 | ✅ BUY |
+| **3** | `9988.HK` | **BABA-W** | HK$110.20 | 🟢 +4.85% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 6 | 6 | ✅ BUY |
+| **4** | `9866.HK` | **NIO-SW** | HK$29.18 | 🟢 +4.21% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 7 | 7 | ✅ BUY |
+| **5** | `6618.HK` | **JD HEALTH** | HK$35.94 | 🟢 +3.57% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **6** | `6185.HK` | **CANSINOBIO** | HK$26.64 | 🟡 +2.7% | 🔵 DISCOUNT | 🟢 65 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **7** | `0005.HK` | **HSBC HOLDINGS** | HK$163.20 | 🟡 +2.13% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
+| **8** | `2611.HK` | **GTHT** | HK$15.34 | 🟡 +2.13% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
 
 ---
 
@@ -30,16 +33,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SMCI` | **Super Micro Computer, Inc.** | $40.35 | 🟢 +9.5% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $545.09 | 🟢 +6.36% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 3 | 7 | ⚠️ WATCH |
-| **3** | `COIN` | **Coinbase Global, Inc.** | $173.97 | 🟢 +5.75% | ⚪ NEUTRAL | 🟡 40 | **75%** | **80%** | — | 6 | 8 | ⚠️ WATCH |
-| **4** | `HOOD` | **Robinhood Markets, Inc.** | $109.81 | 🟢 +5.16% | ⚪ NEUTRAL | 🟢 65 | **75%** | **80%** | ✅ BEARISH | 4 | 7 | ✅ BUY |
-| **5** | `ARKK` | **ARK Innovation ETF** | $86.92 | 🟢 +4.5% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `NET` | **Cloudflare, Inc.** | $333.94 | 🟡 +2.86% | ⚪ NEUTRAL | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **7** | `XBI` | **State Street SPDR S&P Biotech E** | $158.25 | 🟡 +2.64% | ⚪ NEUTRAL | 🔴 15 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `NVDA` | **NVIDIA Corporation** | $219.34 | 🟡 +2.54% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 7 | 4 | ⚠️ WATCH |
-| **9** | `IBB` | **iShares Biotechnology ETF** | $207.07 | 🟡 +2.31% | ⚪ NEUTRAL | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **10** | `AVGO` | **Broadcom Inc.** | $347.30 | 🟡 +2.29% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 4 | 7 | ⚠️ WATCH |
+| **1** | `SMCI` | **Super Micro Computer, Inc.** | $40.35 | 🟢 +9.5% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $545.09 | 🟢 +6.36% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 7 | ✅ BUY |
+| **3** | `COIN` | **Coinbase Global, Inc.** | $173.97 | 🟢 +5.75% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 6 | 8 | ✅ BUY |
+| **4** | `HOOD` | **Robinhood Markets, Inc.** | $109.81 | 🟢 +5.16% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | ✅ BEARISH | 4 | 7 | ✅ BUY |
+| **5** | `ARKK` | **ARK Innovation ETF** | $86.92 | 🟢 +4.5% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **6** | `NET` | **Cloudflare, Inc.** | $333.94 | 🟡 +2.86% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `XBI` | **State Street SPDR S&P Biotech E** | $158.25 | 🟡 +2.64% | 🔵 DISCOUNT | 🟢 65 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **8** | `NVDA` | **NVIDIA Corporation** | $219.34 | 🟡 +2.54% | 🔴 PREMIUM | 🟢 95 | **55%** | **60%** | — | 7 | 4 | ✅ BUY |
+| **9** | `IBB` | **iShares Biotechnology ETF** | $207.07 | 🟡 +2.31% | 🔵 DISCOUNT | 🟡 50 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `AVGO` | **Broadcom Inc.** | $347.30 | 🟡 +2.29% | 🔵 DISCOUNT | 🟢 80 | **55%** | **60%** | — | 4 | 7 | ✅ BUY |
 
 ---
 
@@ -87,11 +90,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `1028.HK` | HK$0.90 | HK$0.89 | HK$0.91 | HK$0.92 | 🔵 DISCOUNT | 🟢 100 |
-| **2** | 🇭🇰 | `1398.HK` | HK$7.80 | HK$7.72 | HK$7.96 | HK$8.03 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇭🇰 | `6185.HK` | HK$26.80 | HK$26.53 | HK$27.34 | HK$27.60 | 🔵 DISCOUNT | 🟢 100 |
-| **4** | 🇭🇰 | `1928.HK` | HK$12.58 | HK$12.45 | HK$12.83 | HK$12.96 | 🔵 DISCOUNT | 🟢 100 |
-| **5** | 🇭🇰 | `9955.HK` | HK$0.51 | HK$0.50 | HK$0.52 | HK$0.53 | 🔴 PREMIUM | 🟢 65 |
+| **1** | 🇭🇰 | `0992.HK` | HK$37.42 | HK$37.05 | HK$38.17 | HK$38.54 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇭🇰 | `9688.HK` | HK$20.68 | HK$20.47 | HK$21.09 | HK$21.30 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇭🇰 | `9988.HK` | HK$110.20 | HK$109.10 | HK$112.40 | HK$113.51 | 🔵 DISCOUNT | 🟢 100 |
+| **4** | 🇭🇰 | `9866.HK` | HK$29.18 | HK$28.89 | HK$29.76 | HK$30.06 | 🔵 DISCOUNT | 🟢 100 |
+| **5** | 🇭🇰 | `6618.HK` | HK$35.94 | HK$35.58 | HK$36.66 | HK$37.02 | 🔵 DISCOUNT | 🟢 60 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -104,5 +107,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 09:26 HK Time on 2026-09-18
+🕐 Report generated at 14:37 HK Time on 2026-09-18
 
