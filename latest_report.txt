@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-19 | ⏰ 03:59 HK Time**
+**📅 2026-09-19 | ⏰ 06:50 HK Time**
 
 ---
 
@@ -35,12 +35,12 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `COIN` | **Coinbase Global, Inc.** | $194.35 | 🟢 +11.72% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 6 | 8 | ✅ BUY |
-| **2** | `HOOD` | **Robinhood Markets, Inc.** | $119.89 | 🟢 +9.17% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 8 | ✅ BUY |
-| **3** | `BABA` | **Alibaba Group Holding Limited** | $113.22 | 🟢 +4.31% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 8 | 7 | ✅ BUY |
-| **4** | `BILI` | **Bilibili Inc.** | $14.90 | 🟢 +3.51% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
-| **5** | `AVGO` | **Broadcom Inc.** | $357.67 | 🟡 +2.99% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 7 | ✅ BUY |
-| **6** | `AMD` | **Advanced Micro Devices, Inc.** | $559.39 | 🟡 +2.61% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 7 | ✅ BUY |
+| **1** | `COIN` | **Coinbase Global, Inc.** | $194.25 | 🟢 +11.66% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 6 | 8 | ✅ BUY |
+| **2** | `HOOD` | **Robinhood Markets, Inc.** | $119.82 | 🟢 +9.12% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 8 | ✅ BUY |
+| **3** | `BABA` | **Alibaba Group Holding Limited** | $113.24 | 🟢 +4.33% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 8 | 7 | ✅ BUY |
+| **4** | `BILI` | **Bilibili Inc.** | $14.90 | 🟢 +3.47% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
+| **5** | `AVGO` | **Broadcom Inc.** | $357.61 | 🟡 +2.97% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 7 | ✅ BUY |
+| **6** | `AMD` | **Advanced Micro Devices, Inc.** | $559.82 | 🟡 +2.7% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 3 | 7 | ✅ BUY |
 
 ---
 
@@ -120,5 +120,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 03:59 HK Time on 2026-09-19
+🕐 Report generated at 06:50 HK Time on 2026-09-19
 
