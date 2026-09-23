@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-24 | ⏰ 01:29 HK Time**
+**📅 2026-09-24 | ⏰ 04:43 HK Time**
 
 ---
 
@@ -18,7 +18,7 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `6185.HK` | **CANSINOBIO** | HK$31.82 | 🟢 +8.23% | ⚪ NEUTRAL | 🟢 80 | **75%** | **80%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
+| **1** | `6185.HK` | **CANSINOBIO** | HK$31.82 | 🟢 +8.23% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
 
 ---
 
@@ -26,11 +26,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `CRWD` | **CrowdStrike Holdings, Inc.** | $260.95 | 🟢 +4.35% | ⚪ N/A | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
-| **2** | `PLTR` | **Palantir Technologies Inc.** | $190.92 | 🟢 +3.21% | ⚪ N/A | 🟡 40 | **65%** | **70%** | — | 2 | 5 | ⚠️ WATCH |
-| **3** | `DOCU` | **DocuSign, Inc.** | $68.72 | 🟡 +2.94% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 5 | 7 | ⚠️ WATCH |
-| **4** | `ZM` | **Zoom Communications, Inc.** | $93.02 | 🟡 +2.28% | ⚪ N/A | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 2 | 6 | ✅ BUY |
-| **5** | `DDOG` | **Datadog, Inc.** | $252.43 | 🟡 +2.0% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 5 | 5 | ⚠️ WATCH |
+| **1** | `CRWD` | **CrowdStrike Holdings, Inc.** | $262.49 | 🟢 +4.97% | ⚪ N/A | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
+| **2** | `DOCU` | **DocuSign, Inc.** | $69.49 | 🟢 +4.09% | ⚪ N/A | 🟡 40 | **65%** | **70%** | — | 5 | 7 | ⚠️ WATCH |
+| **3** | `PLTR` | **Palantir Technologies Inc.** | $191.79 | 🟢 +3.68% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 2 | 5 | ✅ BUY |
+| **4** | `U` | **Unity Software Inc.** | $44.10 | 🟡 +2.3% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 3 | 4 | ⚠️ WATCH |
 
 ---
 
@@ -93,11 +92,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `6185.HK` | HK$31.82 | HK$31.50 | HK$32.46 | HK$32.77 | ⚪ NEUTRAL | 🟢 80 |
-| **2** | 🇺🇸 | `CRWD` | $260.95 | $258.34 | $266.17 | $268.78 | ⚪ NEUTRAL | 🟢 65 |
-| **3** | 🇺🇸 | `PLTR` | $190.92 | $189.01 | $194.74 | $196.65 | ⚪ NEUTRAL | 🟡 40 |
-| **4** | 🇺🇸 | `DOCU` | $68.72 | $68.03 | $70.09 | $70.78 | ⚪ NEUTRAL | 🟡 40 |
-| **5** | 🇺🇸 | `ZM` | $93.02 | $92.09 | $94.88 | $95.81 | ⚪ NEUTRAL | 🟢 65 |
+| **1** | 🇭🇰 | `6185.HK` | HK$31.82 | HK$31.50 | HK$32.46 | HK$32.77 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇺🇸 | `CRWD` | $262.49 | $259.87 | $267.74 | $270.36 | ⚪ NEUTRAL | 🟢 65 |
+| **3** | 🇺🇸 | `DOCU` | $69.49 | $68.80 | $70.88 | $71.57 | ⚪ NEUTRAL | 🟡 40 |
+| **4** | 🇺🇸 | `PLTR` | $191.79 | $189.87 | $195.63 | $197.54 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇺🇸 | `U` | $44.10 | $43.66 | $44.98 | $45.42 | ⚪ NEUTRAL | 🟡 40 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -110,5 +109,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 01:29 HK Time on 2026-09-24
+🕐 Report generated at 04:43 HK Time on 2026-09-24
 
