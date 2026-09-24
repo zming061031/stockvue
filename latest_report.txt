@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-24 | ⏰ 20:56 HK Time**
+**📅 2026-09-25 | ⏰ 01:59 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | BEARISH 🔴 | SH/SZ Trend |
 
 ---
@@ -18,9 +18,9 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `3798.HK` | **HOMELAND ITL** | HK$1.34 | 🟢 +9.84% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 1 | ✅ BUY |
+| **1** | `3798.HK` | **HOMELAND ITL** | HK$1.34 | 🟢 +9.84% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 4 | 1 | ⚠️ WATCH |
 | **2** | `0668.HK` | **ANKER** | HK$119.30 | 🟢 +3.38% | ⚪ N/A | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `2018.HK` | **AAC TECH** | HK$40.34 | 🟡 +2.18% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 4 | ✅ BUY |
+| **3** | `2018.HK` | **AAC TECH** | HK$40.34 | 🟡 +2.18% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 4 | 4 | ⚠️ WATCH |
 
 ---
 
@@ -28,10 +28,9 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `CRWD` | **CrowdStrike Holdings, Inc.** | $262.49 | 🟢 +4.97% | ⚪ N/A | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 3 | 3 | ✅ BUY |
-| **2** | `DOCU` | **DocuSign, Inc.** | $69.49 | 🟢 +4.09% | ⚪ N/A | 🟡 40 | **65%** | **70%** | — | 5 | 7 | ⚠️ WATCH |
-| **3** | `PLTR` | **Palantir Technologies Inc.** | $191.79 | 🟢 +3.68% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 2 | 5 | ✅ BUY |
-| **4** | `U` | **Unity Software Inc.** | $44.10 | 🟡 +2.3% | ⚪ N/A | 🟡 40 | **55%** | **60%** | — | 3 | 4 | ⚠️ WATCH |
+| **1** | `META` | **Meta Platforms, Inc.** | $770.19 | 🟢 +3.51% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 1 | 4 | ✅ BUY |
+| **2** | `LLY` | **Eli Lilly and Company** | $1187.48 | 🟢 +3.17% | ⚪ N/A | 🟡 40 | **65%** | **70%** | — | 5 | 1 | ⚠️ WATCH |
+| **3** | `NET` | **Cloudflare, Inc.** | $363.06 | 🟢 +3.05% | ⚪ N/A | 🟡 40 | **65%** | **70%** | — | 1 | 4 | ⚠️ WATCH |
 
 ---
 
@@ -94,11 +93,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `3798.HK` | HK$1.34 | HK$1.33 | HK$1.37 | HK$1.38 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `3798.HK` | HK$1.34 | HK$1.33 | HK$1.37 | HK$1.38 | ⚪ NEUTRAL | 🟡 55 |
 | **2** | 🇭🇰 | `0668.HK` | HK$119.30 | HK$118.11 | HK$121.69 | HK$122.88 | ⚪ NEUTRAL | 🔴 0 |
-| **3** | 🇭🇰 | `2018.HK` | HK$40.34 | HK$39.94 | HK$41.15 | HK$41.55 | 🔵 DISCOUNT | 🟢 100 |
-| **4** | 🇺🇸 | `CRWD` | $262.49 | $259.87 | $267.74 | $270.36 | ⚪ NEUTRAL | 🟢 65 |
-| **5** | 🇺🇸 | `DOCU` | $69.49 | $68.80 | $70.88 | $71.57 | ⚪ NEUTRAL | 🟡 40 |
+| **3** | 🇭🇰 | `2018.HK` | HK$40.34 | HK$39.94 | HK$41.15 | HK$41.55 | ⚪ NEUTRAL | 🟡 55 |
+| **4** | 🇺🇸 | `META` | $770.19 | $762.49 | $785.59 | $793.30 | 🔴 PREMIUM | 🟢 75 |
+| **5** | 🇺🇸 | `LLY` | $1187.48 | $1175.61 | $1211.23 | $1223.11 | ⚪ NEUTRAL | 🟡 40 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -111,5 +110,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 20:56 HK Time on 2026-09-24
+🕐 Report generated at 01:59 HK Time on 2026-09-25
 
