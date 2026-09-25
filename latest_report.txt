@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-25 | ⏰ 14:36 HK Time**
+**📅 2026-09-25 | ⏰ 20:11 HK Time**
 
 ---
 
@@ -18,9 +18,9 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0695.HK` | **DONGWU CEMENT** | HK$7.70 | 🟢 +3.15% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 1 | 3 | ✅ BUY |
-| **2** | `6185.HK` | **CANSINOBIO** | HK$30.66 | 🟡 +2.75% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
-| **3** | `0992.HK` | **LENOVO GROUP** | HK$36.90 | 🟡 +2.44% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 3 | ✅ BUY |
+| **1** | `9955.HK` | **CLOUDR** | HK$0.47 | 🟢 +3.26% | 🔵 DISCOUNT | 🟢 80 | **65%** | **70%** | — | 0 | 2 | ✅ BUY |
+| **2** | `0992.HK` | **LENOVO GROUP** | HK$37.16 | 🟢 +3.16% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
+| **3** | `0695.HK` | **DONGWU CEMENT** | HK$7.67 | 🟡 +2.68% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 1 | 3 | ✅ BUY |
 
 ---
 
@@ -95,9 +95,9 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0695.HK` | HK$7.70 | HK$7.62 | HK$7.85 | HK$7.93 | 🔵 DISCOUNT | 🟢 100 |
-| **2** | 🇭🇰 | `6185.HK` | HK$30.66 | HK$30.35 | HK$31.27 | HK$31.58 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇭🇰 | `0992.HK` | HK$36.90 | HK$36.53 | HK$37.64 | HK$38.01 | 🔴 PREMIUM | 🟢 85 |
+| **1** | 🇭🇰 | `9955.HK` | HK$0.47 | HK$0.47 | HK$0.48 | HK$0.49 | 🔵 DISCOUNT | 🟢 80 |
+| **2** | 🇭🇰 | `0992.HK` | HK$37.16 | HK$36.79 | HK$37.90 | HK$38.27 | 🔴 PREMIUM | 🟢 85 |
+| **3** | 🇭🇰 | `0695.HK` | HK$7.67 | HK$7.59 | HK$7.82 | HK$7.89 | 🔵 DISCOUNT | 🟢 100 |
 | **4** | 🇺🇸 | `META` | $777.59 | $769.81 | $793.14 | $800.92 | 🔴 PREMIUM | 🟢 90 |
 | **5** | 🇺🇸 | `LLY` | $1181.89 | $1170.07 | $1205.53 | $1217.35 | ⚪ NEUTRAL | 🟡 40 |
 
@@ -112,5 +112,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 14:36 HK Time on 2026-09-25
+🕐 Report generated at 20:11 HK Time on 2026-09-25
 
