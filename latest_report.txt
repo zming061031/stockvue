@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-09-29 | ⏰ 22:23 HK Time**
+**📅 2026-09-30 | ⏰ 03:39 HK Time**
 
 ---
 
@@ -32,10 +32,8 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SHOP` | **Shopify Inc.** | $148.37 | 🟢 +3.03% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 7 | 6 | ✅ BUY |
-| **2** | `AVGO` | **Broadcom Inc.** | $359.55 | 🟡 +2.85% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 7 | ✅ BUY |
-| **3** | `BA` | **Boeing Company (The)** | $189.48 | 🟡 +2.76% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 5 | 2 | ✅ BUY |
-| **4** | `NFLX` | **Netflix, Inc.** | $70.98 | 🟡 +2.54% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 6 | 6 | ✅ BUY |
+| **1** | `SHOP` | **Shopify Inc.** | $147.87 | 🟡 +2.68% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 7 | 6 | ✅ BUY |
+| **2** | `META` | **Meta Platforms, Inc.** | $734.66 | 🟡 +2.66% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 4 | ✅ BUY |
 
 ---
 
@@ -115,5 +113,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 22:23 HK Time on 2026-09-29
+🕐 Report generated at 03:39 HK Time on 2026-09-30
 
