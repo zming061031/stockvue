@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-01 | ⏰ 23:42 HK Time**
+**📅 2026-10-02 | ⏰ 04:31 HK Time**
 
 ---
 
@@ -30,9 +30,12 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `U` | **Unity Software Inc.** | $42.70 | 🟢 +4.33% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 2 | 5 | ✅ BUY |
-| **2** | `PATH` | **UiPath, Inc.** | $13.19 | 🟡 +2.73% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
-| **3** | `DOCU` | **DocuSign, Inc.** | $68.77 | 🟡 +2.41% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 4 | 7 | ✅ BUY |
+| **1** | `U` | **Unity Software Inc.** | $43.61 | 🟢 +6.55% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 2 | 5 | ✅ BUY |
+| **2** | `DOCU` | **DocuSign, Inc.** | $69.74 | 🟢 +3.86% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 7 | ✅ BUY |
+| **3** | `PATH` | **UiPath, Inc.** | $13.32 | 🟢 +3.74% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
+| **4** | `BA` | **Boeing Company (The)** | $192.28 | 🟢 +3.35% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 6 | 2 | ✅ BUY |
+| **5** | `ZM` | **Zoom Communications, Inc.** | $93.80 | 🟢 +3.34% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
+| **6** | `SMCI` | **Super Micro Computer, Inc.** | $41.92 | 🟡 +2.07% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 7 | ✅ BUY |
 
 ---
 
@@ -112,5 +115,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 23:42 HK Time on 2026-10-01
+🕐 Report generated at 04:31 HK Time on 2026-10-02
 
