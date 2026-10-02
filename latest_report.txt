@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-03 | ⏰ 02:43 HK Time**
+**📅 2026-10-03 | ⏰ 06:35 HK Time**
 
 ---
 
@@ -26,11 +26,11 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `TSLA` | **Tesla, Inc.** | $370.77 | 🟢 +4.71% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 6 | 5 | ✅ BUY |
-| **2** | `SMCI` | **Super Micro Computer, Inc.** | $43.68 | 🟢 +4.2% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 8 | ✅ BUY |
-| **3** | `AVGO` | **Broadcom Inc.** | $355.63 | 🟢 +3.49% | 🔴 PREMIUM | 🟢 95 | **65%** | **70%** | — | 3 | 6 | ✅ BUY |
-| **4** | `AMD` | **Advanced Micro Devices, Inc.** | $631.83 | 🟡 +2.61% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
-| **5** | `RBLX` | **Roblox Corporation** | $44.10 | 🟡 +2.55% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
+| **1** | `TSLA` | **Tesla, Inc.** | $370.59 | 🟢 +4.65% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 6 | 5 | ✅ BUY |
+| **2** | `SMCI` | **Super Micro Computer, Inc.** | $43.69 | 🟢 +4.22% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 8 | ✅ BUY |
+| **3** | `AVGO` | **Broadcom Inc.** | $355.14 | 🟢 +3.35% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 6 | ✅ BUY |
+| **4** | `AMD` | **Advanced Micro Devices, Inc.** | $633.91 | 🟡 +2.95% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
+| **5** | `RBLX` | **Roblox Corporation** | $44.12 | 🟡 +2.6% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
 
 ---
 
@@ -94,10 +94,10 @@
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | 🇭🇰 | `3798.HK` | HK$1.42 | HK$1.41 | HK$1.45 | HK$1.46 | 🔴 PREMIUM | 🟢 90 |
-| **2** | 🇺🇸 | `TSLA` | $370.77 | $367.07 | $378.19 | $381.90 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇺🇸 | `SMCI` | $43.68 | $43.24 | $44.55 | $44.99 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇺🇸 | `AVGO` | $355.63 | $352.07 | $362.74 | $366.30 | 🔴 PREMIUM | 🟢 95 |
-| **5** | 🇺🇸 | `AMD` | $631.83 | $625.51 | $644.47 | $650.78 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇺🇸 | `TSLA` | $370.59 | $366.88 | $378.00 | $381.71 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇺🇸 | `SMCI` | $43.69 | $43.25 | $44.56 | $45.00 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇺🇸 | `AVGO` | $355.14 | $351.59 | $362.24 | $365.79 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇺🇸 | `AMD` | $633.91 | $627.57 | $646.59 | $652.93 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -110,5 +110,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:43 HK Time on 2026-10-03
+🕐 Report generated at 06:35 HK Time on 2026-10-03
 
