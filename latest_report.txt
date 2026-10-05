@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-05 | ⏰ 15:41 HK Time**
+**📅 2026-10-06 | ⏰ 00:26 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -18,10 +18,11 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `1028.HK` | **C.BANNER** | HK$0.87 | 🟢 +5.45% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 3 | 1 | ✅ BUY |
-| **2** | `0992.HK` | **LENOVO GROUP** | HK$35.88 | 🟢 +4.55% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 2 | 4 | ✅ BUY |
-| **3** | `6185.HK` | **CANSINOBIO** | HK$35.90 | 🟢 +3.64% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **4** | `9955.HK` | **CLOUDR** | HK$0.48 | 🟢 +3.19% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 0 | 2 | ✅ BUY |
+| **1** | `1028.HK` | **C.BANNER** | HK$0.87 | 🟢 +5.45% | ⚪ NEUTRAL | 🟡 40 | **75%** | **80%** | — | 3 | 1 | ⚠️ WATCH |
+| **2** | `9955.HK` | **CLOUDR** | HK$0.49 | 🟢 +5.32% | ⚪ NEUTRAL | 🟡 45 | **75%** | **80%** | — | 0 | 2 | ⚠️ WATCH |
+| **3** | `0992.HK` | **LENOVO GROUP** | HK$35.92 | 🟢 +4.66% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 2 | 3 | ⚠️ WATCH |
+| **4** | `6185.HK` | **CANSINOBIO** | HK$35.60 | 🟡 +2.77% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
+| **5** | `3759.HK` | **PHARMARON** | HK$31.62 | 🟡 +2.66% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 1 | 3 | ⚠️ WATCH |
 
 ---
 
@@ -29,11 +30,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `TSLA` | **Tesla, Inc.** | $370.59 | 🟢 +4.65% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 6 | 5 | ✅ BUY |
-| **2** | `SMCI` | **Super Micro Computer, Inc.** | $43.69 | 🟢 +4.22% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 8 | ✅ BUY |
-| **3** | `AVGO` | **Broadcom Inc.** | $355.14 | 🟢 +3.35% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 6 | ✅ BUY |
-| **4** | `AMD` | **Advanced Micro Devices, Inc.** | $633.91 | 🟡 +2.95% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
-| **5** | `RBLX` | **Roblox Corporation** | $44.12 | 🟡 +2.6% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
+| **1** | `U` | **Unity Software Inc.** | $45.90 | 🟢 +5.25% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 2 | 4 | ✅ BUY |
+| **2** | `NET` | **Cloudflare, Inc.** | $362.89 | 🟢 +3.96% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 2 | 7 | ✅ BUY |
+| **3** | `SHOP` | **Shopify Inc.** | $157.35 | 🟢 +3.94% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
+| **4** | `BABA` | **Alibaba Group Holding Limited** | $109.68 | 🟢 +3.62% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **5** | `PDD` | **PDD Holdings Inc.** | $77.24 | 🟡 +2.47% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **6** | `TCEHY` | **Tencent Holding Ltd.** | $54.35 | 🟡 +2.33% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **7** | `BIDU` | **Baidu, Inc.** | $86.25 | 🟡 +2.29% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **8** | `META` | **Meta Platforms, Inc.** | $744.70 | 🟡 +2.28% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
+| **9** | `ARKK` | **ARK Innovation ETF** | $91.82 | 🟡 +2.22% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `TSLA` | **Tesla, Inc.** | $378.36 | 🟡 +2.1% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 6 | 5 | ✅ BUY |
 
 ---
 
@@ -96,11 +102,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `1028.HK` | HK$0.87 | HK$0.86 | HK$0.89 | HK$0.90 | 🔵 DISCOUNT | 🟢 100 |
-| **2** | 🇭🇰 | `0992.HK` | HK$35.88 | HK$35.52 | HK$36.60 | HK$36.96 | 🔴 PREMIUM | 🟢 85 |
-| **3** | 🇭🇰 | `6185.HK` | HK$35.90 | HK$35.54 | HK$36.62 | HK$36.98 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇭🇰 | `9955.HK` | HK$0.48 | HK$0.48 | HK$0.49 | HK$0.50 | 🔵 DISCOUNT | 🟢 100 |
-| **5** | 🇺🇸 | `TSLA` | $370.59 | $366.88 | $378.00 | $381.71 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `1028.HK` | HK$0.87 | HK$0.86 | HK$0.89 | HK$0.90 | ⚪ NEUTRAL | 🟡 40 |
+| **2** | 🇭🇰 | `9955.HK` | HK$0.49 | HK$0.49 | HK$0.50 | HK$0.51 | ⚪ NEUTRAL | 🟡 45 |
+| **3** | 🇭🇰 | `0992.HK` | HK$35.92 | HK$35.56 | HK$36.64 | HK$37.00 | ⚪ NEUTRAL | 🟡 40 |
+| **4** | 🇭🇰 | `6185.HK` | HK$35.60 | HK$35.24 | HK$36.31 | HK$36.67 | ⚪ NEUTRAL | 🟢 65 |
+| **5** | 🇭🇰 | `3759.HK` | HK$31.62 | HK$31.30 | HK$32.25 | HK$32.57 | ⚪ NEUTRAL | 🟡 40 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -113,5 +119,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 15:41 HK Time on 2026-10-05
+🕐 Report generated at 00:26 HK Time on 2026-10-06
 
