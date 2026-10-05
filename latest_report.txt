@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-05 | ⏰ 09:16 HK Time**
+**📅 2026-10-05 | ⏰ 15:41 HK Time**
 
 ---
 
@@ -18,9 +18,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0669.HK` | **TECHTRONIC IND** | HK$148.00 | 🟢 +15.0% | 🔴 PREMIUM | 🟢 75 | **75%** | **80%** | — | 4 | 4 | ✅ BUY |
-| **2** | `0992.HK` | **LENOVO GROUP** | HK$35.30 | 🟡 +2.86% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 2 | 3 | ✅ BUY |
-| **3** | `3798.HK` | **HOMELAND ITL** | HK$1.42 | 🟡 +2.53% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 4 | 1 | ✅ BUY |
+| **1** | `1028.HK` | **C.BANNER** | HK$0.87 | 🟢 +5.45% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 3 | 1 | ✅ BUY |
+| **2** | `0992.HK` | **LENOVO GROUP** | HK$35.88 | 🟢 +4.55% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 2 | 4 | ✅ BUY |
+| **3** | `6185.HK` | **CANSINOBIO** | HK$35.90 | 🟢 +3.64% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
+| **4** | `9955.HK` | **CLOUDR** | HK$0.48 | 🟢 +3.19% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 0 | 2 | ✅ BUY |
 
 ---
 
@@ -95,11 +96,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0669.HK` | HK$148.00 | HK$146.52 | HK$150.96 | HK$152.44 | 🔴 PREMIUM | 🟢 75 |
-| **2** | 🇭🇰 | `0992.HK` | HK$35.30 | HK$34.95 | HK$36.01 | HK$36.36 | 🔴 PREMIUM | 🟢 85 |
-| **3** | 🇭🇰 | `3798.HK` | HK$1.42 | HK$1.41 | HK$1.45 | HK$1.46 | 🔴 PREMIUM | 🟢 90 |
-| **4** | 🇺🇸 | `TSLA` | $370.59 | $366.88 | $378.00 | $381.71 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇺🇸 | `SMCI` | $43.69 | $43.25 | $44.56 | $45.00 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `1028.HK` | HK$0.87 | HK$0.86 | HK$0.89 | HK$0.90 | 🔵 DISCOUNT | 🟢 100 |
+| **2** | 🇭🇰 | `0992.HK` | HK$35.88 | HK$35.52 | HK$36.60 | HK$36.96 | 🔴 PREMIUM | 🟢 85 |
+| **3** | 🇭🇰 | `6185.HK` | HK$35.90 | HK$35.54 | HK$36.62 | HK$36.98 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇭🇰 | `9955.HK` | HK$0.48 | HK$0.48 | HK$0.49 | HK$0.50 | 🔵 DISCOUNT | 🟢 100 |
+| **5** | 🇺🇸 | `TSLA` | $370.59 | $366.88 | $378.00 | $381.71 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -112,5 +113,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 09:16 HK Time on 2026-10-05
+🕐 Report generated at 15:41 HK Time on 2026-10-05
 
