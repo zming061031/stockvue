@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-06 | ⏰ 00:26 HK Time**
+**📅 2026-10-06 | ⏰ 06:57 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
+| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -18,11 +18,11 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `1028.HK` | **C.BANNER** | HK$0.87 | 🟢 +5.45% | ⚪ NEUTRAL | 🟡 40 | **75%** | **80%** | — | 3 | 1 | ⚠️ WATCH |
-| **2** | `9955.HK` | **CLOUDR** | HK$0.49 | 🟢 +5.32% | ⚪ NEUTRAL | 🟡 45 | **75%** | **80%** | — | 0 | 2 | ⚠️ WATCH |
-| **3** | `0992.HK` | **LENOVO GROUP** | HK$35.92 | 🟢 +4.66% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 2 | 3 | ⚠️ WATCH |
-| **4** | `6185.HK` | **CANSINOBIO** | HK$35.60 | 🟡 +2.77% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 3 | 5 | ✅ BUY |
-| **5** | `3759.HK` | **PHARMARON** | HK$31.62 | 🟡 +2.66% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 1 | 3 | ⚠️ WATCH |
+| **1** | `1028.HK` | **C.BANNER** | HK$0.87 | 🟢 +5.45% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 3 | 1 | ✅ BUY |
+| **2** | `9955.HK` | **CLOUDR** | HK$0.49 | 🟢 +5.32% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 0 | 2 | ✅ BUY |
+| **3** | `0992.HK` | **LENOVO GROUP** | HK$35.92 | 🟢 +4.66% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 2 | 4 | ✅ BUY |
+| **4** | `6185.HK` | **CANSINOBIO** | HK$35.60 | 🟡 +2.77% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
+| **5** | `3759.HK` | **PHARMARON** | HK$31.62 | 🟡 +2.66% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 2 | 3 | ✅ BUY |
 
 ---
 
@@ -30,16 +30,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `U` | **Unity Software Inc.** | $45.90 | 🟢 +5.25% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 2 | 4 | ✅ BUY |
-| **2** | `NET` | **Cloudflare, Inc.** | $362.89 | 🟢 +3.96% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 2 | 7 | ✅ BUY |
-| **3** | `SHOP` | **Shopify Inc.** | $157.35 | 🟢 +3.94% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
-| **4** | `BABA` | **Alibaba Group Holding Limited** | $109.68 | 🟢 +3.62% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **5** | `PDD` | **PDD Holdings Inc.** | $77.24 | 🟡 +2.47% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **6** | `TCEHY` | **Tencent Holding Ltd.** | $54.35 | 🟡 +2.33% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **7** | `BIDU` | **Baidu, Inc.** | $86.25 | 🟡 +2.29% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **8** | `META` | **Meta Platforms, Inc.** | $744.70 | 🟡 +2.28% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
-| **9** | `ARKK` | **ARK Innovation ETF** | $91.82 | 🟡 +2.22% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **10** | `TSLA` | **Tesla, Inc.** | $378.36 | 🟡 +2.1% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 6 | 5 | ✅ BUY |
+| **1** | `SHOP` | **Shopify Inc.** | $160.11 | 🟢 +5.76% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `U` | **Unity Software Inc.** | $45.68 | 🟢 +4.75% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 2 | 4 | ✅ BUY |
+| **3** | `BABA` | **Alibaba Group Holding Limited** | $110.80 | 🟢 +4.68% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **4** | `TMO` | **Thermo Fisher Scientific Inc** | $676.76 | 🟢 +3.35% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 2 | ✅ BUY |
+| **5** | `PDD` | **PDD Holdings Inc.** | $77.90 | 🟢 +3.34% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **6** | `ARKK` | **ARK Innovation ETF** | $92.78 | 🟢 +3.28% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **7** | `TCEHY` | **Tencent Holding Ltd.** | $54.84 | 🟢 +3.26% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **8** | `BIDU` | **Baidu, Inc.** | $86.99 | 🟢 +3.17% | 🔵 DISCOUNT | 🟢 75 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **9** | `NET` | **Cloudflare, Inc.** | $359.49 | 🟡 +2.99% | 🔴 PREMIUM | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **10** | `COIN` | **Coinbase Global, Inc.** | $188.22 | 🟡 +2.85% | 🔴 PREMIUM | 🟢 95 | **55%** | **60%** | — | 5 | 8 | ✅ BUY |
 
 ---
 
@@ -102,11 +102,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `1028.HK` | HK$0.87 | HK$0.86 | HK$0.89 | HK$0.90 | ⚪ NEUTRAL | 🟡 40 |
-| **2** | 🇭🇰 | `9955.HK` | HK$0.49 | HK$0.49 | HK$0.50 | HK$0.51 | ⚪ NEUTRAL | 🟡 45 |
-| **3** | 🇭🇰 | `0992.HK` | HK$35.92 | HK$35.56 | HK$36.64 | HK$37.00 | ⚪ NEUTRAL | 🟡 40 |
-| **4** | 🇭🇰 | `6185.HK` | HK$35.60 | HK$35.24 | HK$36.31 | HK$36.67 | ⚪ NEUTRAL | 🟢 65 |
-| **5** | 🇭🇰 | `3759.HK` | HK$31.62 | HK$31.30 | HK$32.25 | HK$32.57 | ⚪ NEUTRAL | 🟡 40 |
+| **1** | 🇭🇰 | `1028.HK` | HK$0.87 | HK$0.86 | HK$0.89 | HK$0.90 | 🔵 DISCOUNT | 🟢 100 |
+| **2** | 🇭🇰 | `9955.HK` | HK$0.49 | HK$0.49 | HK$0.50 | HK$0.51 | 🔴 PREMIUM | 🟢 90 |
+| **3** | 🇭🇰 | `0992.HK` | HK$35.92 | HK$35.56 | HK$36.64 | HK$37.00 | 🔴 PREMIUM | 🟢 85 |
+| **4** | 🇭🇰 | `6185.HK` | HK$35.60 | HK$35.24 | HK$36.31 | HK$36.67 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇭🇰 | `3759.HK` | HK$31.62 | HK$31.30 | HK$32.25 | HK$32.57 | 🔴 PREMIUM | 🟢 85 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -119,5 +119,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 00:26 HK Time on 2026-10-06
+🕐 Report generated at 06:57 HK Time on 2026-10-06
 
