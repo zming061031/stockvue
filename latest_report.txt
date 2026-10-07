@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-07 | ⏰ 17:14 HK Time**
+**📅 2026-10-08 | ⏰ 00:56 HK Time**
 
 ---
 
@@ -18,10 +18,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `9922.HK` | **JIUMAOJIU** | HK$0.99 | 🟢 +3.13% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 1 | 4 | ✅ BUY |
-| **2** | `6993.HK` | **BLUE MOON GROUP** | HK$2.44 | 🟡 +2.95% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **3** | `1028.HK` | **C.BANNER** | HK$0.84 | 🟡 +2.44% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 1 | ✅ BUY |
-| **4** | `9868.HK` | **XPENG-W** | HK$38.00 | 🟡 +2.15% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 6 | ✅ BUY |
+| **1** | `9922.HK` | **JIUMAOJIU** | HK$0.99 | 🟢 +3.13% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 1 | 3 | ⚠️ WATCH |
+| **2** | `6993.HK` | **BLUE MOON GROUP** | HK$2.44 | 🟡 +2.95% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 3 | 5 | ⚠️ WATCH |
+| **3** | `1028.HK` | **C.BANNER** | HK$0.84 | 🟡 +2.44% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 3 | 1 | ⚠️ WATCH |
+| **4** | `9868.HK` | **XPENG-W** | HK$38.00 | 🟡 +2.15% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 2 | 6 | ⚠️ WATCH |
 
 ---
 
@@ -29,11 +29,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `AVGO` | **Broadcom Inc.** | $375.81 | 🟢 +3.67% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 6 | ✅ BUY |
-| **2** | `AMD` | **Advanced Micro Devices, Inc.** | $649.42 | 🟡 +2.8% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 8 | ✅ BUY |
-| **3** | `SHOP` | **Shopify Inc.** | $164.44 | 🟡 +2.7% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 6 | 5 | ✅ BUY |
-| **4** | `CRWD` | **CrowdStrike Holdings, Inc.** | $278.86 | 🟡 +2.27% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 5 | 4 | ✅ BUY |
-| **5** | `RBLX` | **Roblox Corporation** | $45.56 | 🟡 +2.2% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
+| **1** | `LLY` | **Eli Lilly and Company** | $1196.97 | 🟢 +3.41% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 1 | ✅ BUY |
+| **2** | `ABBV` | **AbbVie Inc.** | $273.70 | 🟡 +2.63% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 1 | ✅ BUY |
+| **3** | `JNJ` | **Johnson & Johnson** | $260.22 | 🟡 +2.13% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 2 | ✅ BUY |
+| **4** | `SMCI` | **Super Micro Computer, Inc.** | $44.35 | 🟡 +2.05% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 9 | ✅ BUY |
 
 ---
 
@@ -96,11 +95,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `9922.HK` | HK$0.99 | HK$0.98 | HK$1.01 | HK$1.02 | 🔵 DISCOUNT | 🟢 100 |
-| **2** | 🇭🇰 | `6993.HK` | HK$2.44 | HK$2.42 | HK$2.49 | HK$2.51 | 🔵 DISCOUNT | 🟢 100 |
-| **3** | 🇭🇰 | `1028.HK` | HK$0.84 | HK$0.83 | HK$0.86 | HK$0.87 | 🔵 DISCOUNT | 🟢 100 |
-| **4** | 🇭🇰 | `9868.HK` | HK$38.00 | HK$37.62 | HK$38.76 | HK$39.14 | 🔵 DISCOUNT | 🟢 100 |
-| **5** | 🇺🇸 | `AVGO` | $375.81 | $372.05 | $383.33 | $387.08 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `9922.HK` | HK$0.99 | HK$0.98 | HK$1.01 | HK$1.02 | ⚪ NEUTRAL | 🟡 40 |
+| **2** | 🇭🇰 | `6993.HK` | HK$2.44 | HK$2.42 | HK$2.49 | HK$2.51 | ⚪ NEUTRAL | 🟡 40 |
+| **3** | 🇭🇰 | `1028.HK` | HK$0.84 | HK$0.83 | HK$0.86 | HK$0.87 | ⚪ NEUTRAL | 🟡 55 |
+| **4** | 🇭🇰 | `9868.HK` | HK$38.00 | HK$37.62 | HK$38.76 | HK$39.14 | ⚪ NEUTRAL | 🟡 40 |
+| **5** | 🇺🇸 | `LLY` | $1196.97 | $1185.01 | $1220.91 | $1232.88 | 🔴 PREMIUM | 🟢 85 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -113,5 +112,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 17:14 HK Time on 2026-10-07
+🕐 Report generated at 00:56 HK Time on 2026-10-08
 
