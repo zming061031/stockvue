@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-07 | ⏰ 09:49 HK Time**
+**📅 2026-10-07 | ⏰ 17:14 HK Time**
 
 ---
 
@@ -16,7 +16,12 @@
 
 ## 🇭🇰 Hong Kong Market
 
-*No Hong Kong stocks met our screening criteria today.*
+| | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
+|:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | `9922.HK` | **JIUMAOJIU** | HK$0.99 | 🟢 +3.13% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 1 | 4 | ✅ BUY |
+| **2** | `6993.HK` | **BLUE MOON GROUP** | HK$2.44 | 🟡 +2.95% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
+| **3** | `1028.HK` | **C.BANNER** | HK$0.84 | 🟡 +2.44% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 1 | ✅ BUY |
+| **4** | `9868.HK` | **XPENG-W** | HK$38.00 | 🟡 +2.15% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 6 | ✅ BUY |
 
 ---
 
@@ -91,11 +96,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇺🇸 | `AVGO` | $375.81 | $372.05 | $383.33 | $387.08 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇺🇸 | `AMD` | $649.42 | $642.93 | $662.41 | $668.90 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇺🇸 | `SHOP` | $164.44 | $162.80 | $167.73 | $169.37 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇺🇸 | `CRWD` | $278.86 | $276.07 | $284.44 | $287.23 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇺🇸 | `RBLX` | $45.56 | $45.10 | $46.47 | $46.93 | 🔵 DISCOUNT | 🟢 100 |
+| **1** | 🇭🇰 | `9922.HK` | HK$0.99 | HK$0.98 | HK$1.01 | HK$1.02 | 🔵 DISCOUNT | 🟢 100 |
+| **2** | 🇭🇰 | `6993.HK` | HK$2.44 | HK$2.42 | HK$2.49 | HK$2.51 | 🔵 DISCOUNT | 🟢 100 |
+| **3** | 🇭🇰 | `1028.HK` | HK$0.84 | HK$0.83 | HK$0.86 | HK$0.87 | 🔵 DISCOUNT | 🟢 100 |
+| **4** | 🇭🇰 | `9868.HK` | HK$38.00 | HK$37.62 | HK$38.76 | HK$39.14 | 🔵 DISCOUNT | 🟢 100 |
+| **5** | 🇺🇸 | `AVGO` | $375.81 | $372.05 | $383.33 | $387.08 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -108,5 +113,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 09:49 HK Time on 2026-10-07
+🕐 Report generated at 17:14 HK Time on 2026-10-07
 
