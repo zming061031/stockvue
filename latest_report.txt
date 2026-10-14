@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-14 | ⏰ 16:02 HK Time**
+**📅 2026-10-14 | ⏰ 22:04 HK Time**
 
 ---
 
@@ -18,16 +18,14 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `3690.HK` | **MEITUAN-W** | HK$76.80 | 🟢 +6.22% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 2 | ✅ BUY |
-| **2** | `1810.HK` | **XIAOMI-W** | HK$26.30 | 🟢 +5.11% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
-| **3** | `2319.HK` | **MENGNIU DAIRY** | HK$18.81 | 🟢 +3.52% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 1 | 4 | ✅ BUY |
-| **4** | `0669.HK` | **TECHTRONIC-100** | HK$129.80 | 🟢 +3.51% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
-| **5** | `9866.HK` | **NIO-SW** | HK$27.54 | 🟡 +2.99% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 7 | 7 | ✅ BUY |
-| **6** | `9988.HK` | **BABA-W** | HK$110.30 | 🟡 +2.89% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 6 | 3 | ✅ BUY |
+| **1** | `3690.HK` | **MEITUAN-W** | HK$77.10 | 🟢 +6.64% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 2 | ✅ BUY |
+| **2** | `1810.HK` | **XIAOMI-W** | HK$26.38 | 🟢 +5.35% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
+| **3** | `0669.HK` | **TECHTRONIC-100** | HK$130.10 | 🟢 +3.75% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 5 | ✅ BUY |
+| **4** | `2319.HK` | **MENGNIU DAIRY** | HK$18.82 | 🟢 +3.58% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 1 | 4 | ✅ BUY |
+| **5** | `9988.HK` | **BABA-W** | HK$110.50 | 🟢 +3.08% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 6 | 3 | ✅ BUY |
+| **6** | `9866.HK` | **NIO-SW** | HK$27.44 | 🟡 +2.62% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 7 | 7 | ✅ BUY |
 | **7** | `6618.HK` | **JD HEALTH** | HK$37.14 | 🟡 +2.54% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 5 | 3 | ✅ BUY |
-| **8** | `9955.HK` | **CLOUDR** | HK$0.44 | 🟡 +2.33% | 🔵 DISCOUNT | 🟢 70 | **55%** | **60%** | — | 0 | 2 | ✅ BUY |
-| **9** | `9922.HK` | **JIUMAOJIU** | HK$1.00 | 🟡 +2.04% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 2 | 6 | ✅ BUY |
-| **10** | `9868.HK` | **XPENG-W** | HK$38.60 | 🟡 +2.01% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 4 | ✅ BUY |
+| **8** | `9868.HK` | **XPENG-W** | HK$38.62 | 🟡 +2.06% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 4 | ✅ BUY |
 
 ---
 
@@ -35,8 +33,12 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `ETSY` | **Etsy, Inc.** | $79.28 | 🟢 +3.05% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 2 | 3 | ✅ BUY |
-| **2** | `META` | **Meta Platforms, Inc.** | $762.50 | 🟡 +2.63% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 6 | ✅ BUY |
+| **1** | `LLY` | **Eli Lilly and Company** | $1211.08 | 🟢 +3.82% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
+| **2** | `UNH` | **UnitedHealth Group Incorporated** | $391.17 | 🟢 +3.55% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **3** | `DOCU` | **DocuSign, Inc.** | $74.20 | 🟡 +2.62% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 8 | ✅ BUY |
+| **4** | `ETSY` | **Etsy, Inc.** | $81.30 | 🟡 +2.55% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 2 | 3 | ✅ BUY |
+| **5** | `ABBV` | **AbbVie Inc.** | $281.26 | 🟡 +2.51% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 1 | ✅ BUY |
+| **6** | `MRK` | **Merck & Company, Inc.** | $145.13 | 🟡 +2.22% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 2 | 2 | ✅ BUY |
 
 ---
 
@@ -99,11 +101,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `3690.HK` | HK$76.80 | HK$76.03 | HK$78.34 | HK$79.10 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇭🇰 | `1810.HK` | HK$26.30 | HK$26.04 | HK$26.83 | HK$27.09 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇭🇰 | `2319.HK` | HK$18.81 | HK$18.62 | HK$19.19 | HK$19.37 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇭🇰 | `0669.HK` | HK$129.80 | HK$128.50 | HK$132.40 | HK$133.69 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇭🇰 | `9866.HK` | HK$27.54 | HK$27.26 | HK$28.09 | HK$28.37 | 🔵 DISCOUNT | 🟢 100 |
+| **1** | 🇭🇰 | `3690.HK` | HK$77.10 | HK$76.33 | HK$78.64 | HK$79.41 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇭🇰 | `1810.HK` | HK$26.38 | HK$26.12 | HK$26.91 | HK$27.17 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇭🇰 | `0669.HK` | HK$130.10 | HK$128.80 | HK$132.70 | HK$134.00 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇭🇰 | `2319.HK` | HK$18.82 | HK$18.63 | HK$19.20 | HK$19.38 | 🔴 PREMIUM | 🟢 100 |
+| **5** | 🇭🇰 | `9988.HK` | HK$110.50 | HK$109.39 | HK$112.71 | HK$113.81 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -116,5 +118,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 16:02 HK Time on 2026-10-14
+🕐 Report generated at 22:04 HK Time on 2026-10-14
 
