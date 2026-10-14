@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-15 | ⏰ 02:54 HK Time**
+**📅 2026-10-15 | ⏰ 06:37 HK Time**
 
 ---
 
@@ -33,12 +33,15 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `UNH` | **UnitedHealth Group Incorporated** | $393.26 | 🟢 +4.1% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
-| **2** | `LLY` | **Eli Lilly and Company** | $1212.00 | 🟢 +3.9% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
-| **3** | `MRK` | **Merck & Company, Inc.** | $147.19 | 🟢 +3.67% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 2 | 3 | ✅ BUY |
-| **4** | `ABBV` | **AbbVie Inc.** | $284.03 | 🟢 +3.52% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
-| **5** | `DOCU` | **DocuSign, Inc.** | $74.57 | 🟢 +3.13% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `COST` | **Costco Wholesale Corporation** | $976.17 | 🟡 +2.26% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 4 | 4 | ✅ BUY |
+| **1** | `UNH` | **UnitedHealth Group Incorporated** | $395.62 | 🟢 +4.73% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **2** | `ETSY` | **Etsy, Inc.** | $82.93 | 🟢 +4.6% | 🔴 PREMIUM | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `DOCU` | **DocuSign, Inc.** | $75.23 | 🟢 +4.04% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **4** | `MRK` | **Merck & Company, Inc.** | $147.37 | 🟢 +3.8% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 2 | 3 | ✅ BUY |
+| **5** | `LLY` | **Eli Lilly and Company** | $1208.74 | 🟢 +3.62% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
+| **6** | `ABBV` | **AbbVie Inc.** | $283.48 | 🟢 +3.32% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 2 | ✅ BUY |
+| **7** | `COST` | **Costco Wholesale Corporation** | $982.00 | 🟡 +2.87% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 4 | 4 | ✅ BUY |
+| **8** | `PG` | **Procter & Gamble Company (The)** | $156.53 | 🟡 +2.28% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 4 | 4 | ✅ BUY |
+| **9** | `JNJ` | **Johnson & Johnson** | $253.91 | 🟡 +2.13% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
 
 ---
 
@@ -118,5 +121,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:54 HK Time on 2026-10-15
+🕐 Report generated at 06:37 HK Time on 2026-10-15
 
