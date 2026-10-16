@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-17 | ⏰ 00:56 HK Time**
+**📅 2026-10-17 | ⏰ 04:05 HK Time**
 
 ---
 
@@ -18,16 +18,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `2728.HK` | **JINTAI ENGY-NEW** | HK$0.39 | 🟢 +8.33% | ⚪ NEUTRAL | 🔴 25 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `0992.HK` | **LENOVO GROUP** | HK$28.06 | 🟢 +8.01% | ⚪ NEUTRAL | 🔴 15 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `1028.HK` | **C.BANNER** | HK$0.76 | 🟢 +6.29% | ⚪ NEUTRAL | 🟡 40 | **75%** | **80%** | — | 3 | 2 | ⚠️ WATCH |
-| **4** | `9955.HK` | **CLOUDR** | HK$0.45 | 🟢 +5.95% | ⚪ NEUTRAL | 🟡 40 | **75%** | **80%** | — | 1 | 2 | ⚠️ WATCH |
+| **1** | `2728.HK` | **JINTAI ENGY-NEW** | HK$0.39 | 🟢 +8.33% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **2** | `0992.HK` | **LENOVO GROUP** | HK$28.06 | 🟢 +8.01% | 🔵 DISCOUNT | 🟢 65 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **3** | `1028.HK` | **C.BANNER** | HK$0.76 | 🟢 +6.29% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 3 | 3 | ✅ BUY |
+| **4** | `9955.HK` | **CLOUDR** | HK$0.45 | 🟢 +5.95% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 1 | 2 | ✅ BUY |
 | **5** | `0668.HK` | **ANKER** | HK$105.90 | 🟢 +5.27% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `6969.HK` | **SMOORE INTL** | HK$8.43 | 🟢 +5.05% | ⚪ NEUTRAL | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **7** | `6623.HK` | **LUFAX** | HK$4.02 | 🟢 +4.42% | ⚪ NEUTRAL | 🔴 35 | **65%** | **70%** | — | 1 | 0 | ⚠️ WATCH |
-| **8** | `1797.HK` | **EAST BUY** | HK$28.70 | 🟢 +3.84% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
-| **9** | `9688.HK` | **ZAI LAB** | HK$18.60 | 🟢 +3.62% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 3 | 3 | ⚠️ WATCH |
-| **10** | `9866.HK` | **NIO-SW** | HK$27.40 | 🟢 +3.47% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 6 | 6 | ⚠️ WATCH |
+| **6** | `6969.HK` | **SMOORE INTL** | HK$8.43 | 🟢 +5.05% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **7** | `6623.HK` | **LUFAX** | HK$4.02 | 🟢 +4.42% | 🔵 DISCOUNT | 🟢 75 | **65%** | **70%** | — | 1 | 0 | ✅ BUY |
+| **8** | `1797.HK` | **EAST BUY** | HK$28.70 | 🟢 +3.84% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
+| **9** | `9688.HK` | **ZAI LAB** | HK$18.60 | 🟢 +3.62% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **10** | `9866.HK` | **NIO-SW** | HK$27.40 | 🟢 +3.47% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 6 | 6 | ✅ BUY |
 
 ---
 
@@ -35,7 +35,10 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `PEP` | **Pepsico, Inc.** | $131.14 | 🟡 +2.15% | 🔴 PREMIUM | 🟢 95 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
+| **1** | `CVX` | **Chevron Corporation** | $224.97 | 🟡 +2.58% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
+| **2** | `XLE` | **State Street Energy Select Sect** | $68.24 | 🟡 +2.52% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 4 | 2 | ✅ BUY |
+| **3** | `PEP` | **Pepsico, Inc.** | $131.49 | 🟡 +2.42% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
+| **4** | `KO` | **Coca-Cola Company (The)** | $93.86 | 🟡 +2.02% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 2 | 7 | ✅ BUY |
 
 ---
 
@@ -98,10 +101,10 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `2728.HK` | HK$0.39 | HK$0.39 | HK$0.40 | HK$0.40 | ⚪ NEUTRAL | 🔴 25 |
-| **2** | 🇭🇰 | `0992.HK` | HK$28.06 | HK$27.78 | HK$28.62 | HK$28.90 | ⚪ NEUTRAL | 🔴 15 |
-| **3** | 🇭🇰 | `1028.HK` | HK$0.76 | HK$0.75 | HK$0.78 | HK$0.78 | ⚪ NEUTRAL | 🟡 40 |
-| **4** | 🇭🇰 | `9955.HK` | HK$0.45 | HK$0.44 | HK$0.45 | HK$0.46 | ⚪ NEUTRAL | 🟡 40 |
+| **1** | 🇭🇰 | `2728.HK` | HK$0.39 | HK$0.39 | HK$0.40 | HK$0.40 | 🔵 DISCOUNT | 🟢 60 |
+| **2** | 🇭🇰 | `0992.HK` | HK$28.06 | HK$27.78 | HK$28.62 | HK$28.90 | 🔵 DISCOUNT | 🟢 65 |
+| **3** | 🇭🇰 | `1028.HK` | HK$0.76 | HK$0.75 | HK$0.78 | HK$0.78 | 🔵 DISCOUNT | 🟢 100 |
+| **4** | 🇭🇰 | `9955.HK` | HK$0.45 | HK$0.44 | HK$0.45 | HK$0.46 | 🔵 DISCOUNT | 🟢 100 |
 | **5** | 🇭🇰 | `0668.HK` | HK$105.90 | HK$104.84 | HK$108.02 | HK$109.08 | ⚪ NEUTRAL | 🔴 0 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
@@ -115,5 +118,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 00:56 HK Time on 2026-10-17
+🕐 Report generated at 04:05 HK Time on 2026-10-17
 
