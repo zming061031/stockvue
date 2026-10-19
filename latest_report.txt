@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-19 | ⏰ 19:14 HK Time**
+**📅 2026-10-20 | ⏰ 01:46 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
+| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -35,10 +35,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `CVX` | **Chevron Corporation** | $224.99 | 🟡 +2.59% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
-| **2** | `XLE` | **State Street Energy Select Sect** | $68.24 | 🟡 +2.52% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 4 | 2 | ✅ BUY |
-| **3** | `PEP` | **Pepsico, Inc.** | $131.49 | 🟡 +2.42% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
-| **4** | `KO` | **Coca-Cola Company (The)** | $93.90 | 🟡 +2.07% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 2 | 7 | ✅ BUY |
+| **1** | `DDOG` | **Datadog, Inc.** | $263.16 | 🟢 +6.5% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 4 | 6 | ✅ BUY |
+| **2** | `PLTR` | **Palantir Technologies Inc.** | $195.96 | 🟢 +5.34% | 🔴 PREMIUM | 🟢 75 | **75%** | **80%** | — | 3 | 3 | ✅ BUY |
+| **3** | `AMZN` | **Amazon.com, Inc.** | $262.39 | 🟢 +4.96% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 7 | 6 | ✅ BUY |
+| **4** | `TSLA` | **Tesla, Inc.** | $368.69 | 🟢 +3.94% | 🔴 PREMIUM | 🟢 95 | **65%** | **70%** | ✅ BEARISH | 5 | 5 | ✅ BUY |
+| **5** | `SNOW` | **Snowflake Inc.** | $316.90 | 🟢 +3.28% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
+| **6** | `ZM` | **Zoom Communications, Inc.** | $97.18 | 🟢 +3.17% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `XBI` | **State Street SPDR S&P Biotech E** | $147.81 | 🟡 +2.42% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **8** | `PATH` | **UiPath, Inc.** | $13.16 | 🟡 +2.38% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
+| **9** | `DOCU` | **DocuSign, Inc.** | $76.33 | 🟡 +2.25% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `RBLX` | **Roblox Corporation** | $50.60 | 🟡 +2.12% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
 
 ---
 
@@ -118,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 19:14 HK Time on 2026-10-19
+🕐 Report generated at 01:46 HK Time on 2026-10-20
 
