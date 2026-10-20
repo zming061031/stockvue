@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-20 | ⏰ 09:14 HK Time**
+**📅 2026-10-20 | ⏰ 14:36 HK Time**
 
 ---
 
@@ -8,9 +8,9 @@
 
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
-| 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
+| 🇭🇰 Hong Kong | BEARISH 🔴 | HSI Trend |
 | 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
-| 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
+| 🇨🇳 A-Share (China) | BEARISH 🔴 | SH/SZ Trend |
 
 ---
 
@@ -18,16 +18,11 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `2728.HK` | **JINTAI ENGY-NEW** | HK$0.39 | 🟢 +8.33% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **2** | `0992.HK` | **LENOVO GROUP** | HK$28.06 | 🟢 +8.01% | 🔵 DISCOUNT | 🟢 65 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **3** | `9955.HK` | **CLOUDR** | HK$0.45 | 🟢 +5.95% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 1 | 2 | ✅ BUY |
-| **4** | `1028.HK` | **C.BANNER** | HK$0.76 | 🟢 +5.59% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 3 | 3 | ✅ BUY |
-| **5** | `0668.HK` | **ANKER** | HK$105.90 | 🟢 +5.27% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `6969.HK` | **SMOORE INTL** | HK$8.43 | 🟢 +5.05% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **7** | `6623.HK` | **LUFAX** | HK$4.02 | 🟢 +4.42% | 🔵 DISCOUNT | 🟢 75 | **65%** | **70%** | — | 1 | 0 | ✅ BUY |
-| **8** | `6038.HK` | **G & M HLDGS** | HK$0.40 | 🟢 +3.9% | 🔵 DISCOUNT | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `1797.HK` | **EAST BUY** | HK$28.70 | 🟢 +3.84% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 2 | 3 | ✅ BUY |
-| **10** | `9688.HK` | **ZAI LAB** | HK$18.60 | 🟢 +3.62% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **1** | `2728.HK` | **JINTAI ENGY-NEW** | HK$0.39 | 🟢 +8.33% | ⚪ N/A | 🔴 20 | **75%** | **80%** | — | 1 | 0 | ⚠️ WATCH |
+| **2** | `2382.HK` | **SUNNY OPTICAL** | HK$60.20 | 🟢 +4.33% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
+| **3** | `6993.HK` | **BLUE MOON GROUP** | HK$2.58 | 🟢 +4.02% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
+| **4** | `3759.HK` | **PHARMARON** | HK$27.34 | 🟢 +3.56% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 3 | 4 | ✅ BUY |
+| **5** | `6618.HK` | **JD HEALTH** | HK$39.80 | 🟢 +3.22% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
 
 ---
 
@@ -35,16 +30,31 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `DDOG` | **Datadog, Inc.** | $260.36 | 🟢 +5.36% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 4 | 6 | ⚠️ WATCH |
-| **2** | `AMZN` | **Amazon.com, Inc.** | $262.45 | 🟢 +4.98% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 7 | 5 | ⚠️ WATCH |
-| **3** | `PLTR` | **Palantir Technologies Inc.** | $194.15 | 🟢 +4.36% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 3 | 3 | ⚠️ WATCH |
-| **4** | `TSLA` | **Tesla, Inc.** | $368.06 | 🟢 +3.76% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 5 | 4 | ✅ BUY |
-| **5** | `ZM` | **Zoom Communications, Inc.** | $97.59 | 🟢 +3.61% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `SNOW` | **Snowflake Inc.** | $315.35 | 🟡 +2.77% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
-| **7** | `DOCU` | **DocuSign, Inc.** | $76.66 | 🟡 +2.69% | ⚪ NEUTRAL | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `XBI` | **State Street SPDR S&P Biotech E** | $147.86 | 🟡 +2.45% | ⚪ NEUTRAL | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **9** | `RBLX` | **Roblox Corporation** | $50.75 | 🟡 +2.42% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
-| **10** | `PATH` | **UiPath, Inc.** | $13.12 | 🟡 +2.1% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 4 | 5 | ⚠️ WATCH |
+| **1** | `DDOG` | **Datadog, Inc.** | $260.36 | 🟢 +5.36% | 🔵 DISCOUNT | 🟢 95 | **75%** | **80%** | — | 4 | 6 | ✅ BUY |
+| **2** | `AMZN` | **Amazon.com, Inc.** | $262.45 | 🟢 +4.98% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 7 | 6 | ✅ BUY |
+| **3** | `PLTR` | **Palantir Technologies Inc.** | $194.15 | 🟢 +4.36% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
+| **4** | `TSLA` | **Tesla, Inc.** | $368.06 | 🟢 +3.76% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 5 | ✅ BUY |
+| **5** | `ZM` | **Zoom Communications, Inc.** | $97.59 | 🟢 +3.61% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `SNOW` | **Snowflake Inc.** | $315.35 | 🟡 +2.77% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
+| **7** | `DOCU` | **DocuSign, Inc.** | $76.66 | 🟡 +2.69% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `XBI` | **State Street SPDR S&P Biotech E** | $147.86 | 🟡 +2.45% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **9** | `RBLX` | **Roblox Corporation** | $50.75 | 🟡 +2.42% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
+| **10** | `PATH` | **UiPath, Inc.** | $13.12 | 🟡 +2.1% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
+
+---
+
+| | Code | Name | Price | Change | Turnover | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
+|:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | `sh603893` | **瑞芯微** | ¥188.34 | 🟢 +9.6% | 4.7% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 0 | ✅ BUY |
+| **2** | `sh688018` | **乐鑫科技** | ¥139.69 | 🟢 +16.0% | 7.2% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 1 | 4 | ✅ BUY |
+| **3** | `sh603236` | **移远通信** | ¥76.11 | 🟢 +10.0% | 7.1% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 2 | 4 | ✅ BUY |
+| **4** | `sz300115` | **长盈精密** | ¥24.67 | 🟢 +19.99% | 6.7% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 2 | 6 | ✅ BUY |
+| **5** | `sh688322` | **奥比中光** | ¥91.11 | 🟢 +16.42% | 7.4% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 7 | ✅ BUY |
+| **6** | `sh688795` | **摩尔线程** | ¥361.00 | 🟢 +10.48% | 10.5% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 2 | 2 | ✅ BUY |
+| **7** | `sh688507` | **索辰科技** | ¥162.86 | 🟢 +13.65% | 25.1% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 3 | 6 | ✅ BUY |
+| **8** | `sz301550` | **斯菱智驱** | ¥112.75 | 🟢 +12.0% | 8.2% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 5 | ✅ BUY |
+| **9** | `sz300244` | **迪安诊断** | ¥21.79 | 🟢 +19.99% | 17.5% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 1 | ✅ BUY |
+| **10** | `sz002929` | **润建股份** | ¥51.04 | 🟢 +10.0% | 14.9% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 1 | 4 | ✅ BUY |
 
 ---
 
@@ -92,11 +102,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `2728.HK` | HK$0.39 | HK$0.39 | HK$0.40 | HK$0.40 | 🔵 DISCOUNT | 🟢 60 |
-| **2** | 🇭🇰 | `0992.HK` | HK$28.06 | HK$27.78 | HK$28.62 | HK$28.90 | 🔵 DISCOUNT | 🟢 65 |
-| **3** | 🇭🇰 | `9955.HK` | HK$0.45 | HK$0.44 | HK$0.45 | HK$0.46 | 🔵 DISCOUNT | 🟢 100 |
-| **4** | 🇭🇰 | `1028.HK` | HK$0.76 | HK$0.75 | HK$0.77 | HK$0.78 | 🔵 DISCOUNT | 🟢 100 |
-| **5** | 🇭🇰 | `0668.HK` | HK$105.90 | HK$104.84 | HK$108.02 | HK$109.08 | ⚪ NEUTRAL | 🔴 0 |
+| **1** | 🇭🇰 | `2728.HK` | HK$0.39 | HK$0.39 | HK$0.40 | HK$0.40 | ⚪ NEUTRAL | 🔴 20 |
+| **2** | 🇭🇰 | `2382.HK` | HK$60.20 | HK$59.60 | HK$61.40 | HK$62.01 | 🔵 DISCOUNT | 🟢 100 |
+| **3** | 🇭🇰 | `6993.HK` | HK$2.58 | HK$2.56 | HK$2.64 | HK$2.66 | 🔵 DISCOUNT | 🟢 100 |
+| **4** | 🇭🇰 | `3759.HK` | HK$27.34 | HK$27.07 | HK$27.89 | HK$28.16 | 🔵 DISCOUNT | 🟢 90 |
+| **5** | 🇭🇰 | `6618.HK` | HK$39.80 | HK$39.40 | HK$40.60 | HK$40.99 | 🔴 PREMIUM | 🟢 75 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -109,5 +119,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 09:14 HK Time on 2026-10-20
+🕐 Report generated at 14:36 HK Time on 2026-10-20
 
