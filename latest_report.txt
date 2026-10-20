@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-20 | ⏰ 06:39 HK Time**
+**📅 2026-10-20 | ⏰ 09:14 HK Time**
 
 ---
 
@@ -35,31 +35,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `DDOG` | **Datadog, Inc.** | $260.36 | 🟢 +5.36% | 🔵 DISCOUNT | 🟢 95 | **75%** | **80%** | — | 4 | 6 | ✅ BUY |
-| **2** | `AMZN` | **Amazon.com, Inc.** | $262.45 | 🟢 +4.98% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 7 | 6 | ✅ BUY |
-| **3** | `PLTR` | **Palantir Technologies Inc.** | $194.15 | 🟢 +4.36% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
-| **4** | `TSLA` | **Tesla, Inc.** | $368.06 | 🟢 +3.76% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 5 | ✅ BUY |
-| **5** | `ZM` | **Zoom Communications, Inc.** | $97.59 | 🟢 +3.61% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `SNOW` | **Snowflake Inc.** | $315.35 | 🟡 +2.77% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
-| **7** | `DOCU` | **DocuSign, Inc.** | $76.66 | 🟡 +2.69% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `XBI` | **State Street SPDR S&P Biotech E** | $147.86 | 🟡 +2.45% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **9** | `RBLX` | **Roblox Corporation** | $50.75 | 🟡 +2.42% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
-| **10** | `PATH` | **UiPath, Inc.** | $13.12 | 🟡 +2.1% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
-
----
-
-| | Code | Name | Price | Change | Turnover | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
-|:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `sh600487` | **亨通光电** | ¥50.25 | 🟢 +10.0% | 8.2% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 4 | ✅ BUY |
-| **2** | `sh688836` | **宇树科技** | ¥495.92 | 🟢 +16.15% | 21.9% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 1 | 2 | ✅ BUY |
-| **3** | `sz301666` | **大普微** | ¥328.51 | 🟢 +20.0% | 21.8% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
-| **4** | `sz300852` | **四会富仕** | ¥76.94 | 🟢 +19.99% | 17.1% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 4 | ✅ BUY |
-| **5** | `sh605058` | **澳弘电子** | ¥72.41 | 🟢 +9.99% | 16.6% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 1 | 2 | ✅ BUY |
-| **6** | `sz300456` | **赛微电子** | ¥29.78 | 🟢 +7.98% | 8.4% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
-| **7** | `sz301550` | **斯菱智驱** | ¥100.67 | 🟢 +13.98% | 6.5% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 5 | ✅ BUY |
-| **8** | `sz002134` | **天津普林** | ¥23.87 | 🟢 +8.95% | 22.0% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 8 | ✅ BUY |
-| **9** | `sz300031` | **宝通科技** | ¥24.64 | 🟢 +9.32% | 13.6% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 2 | 4 | ✅ BUY |
-| **10** | `sz002085` | **万丰奥威** | ¥10.90 | 🟢 +9.99% | 4.8% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 4 | 1 | ✅ BUY |
+| **1** | `DDOG` | **Datadog, Inc.** | $260.36 | 🟢 +5.36% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 4 | 6 | ⚠️ WATCH |
+| **2** | `AMZN` | **Amazon.com, Inc.** | $262.45 | 🟢 +4.98% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 7 | 5 | ⚠️ WATCH |
+| **3** | `PLTR` | **Palantir Technologies Inc.** | $194.15 | 🟢 +4.36% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 3 | 3 | ⚠️ WATCH |
+| **4** | `TSLA` | **Tesla, Inc.** | $368.06 | 🟢 +3.76% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 5 | 4 | ✅ BUY |
+| **5** | `ZM` | **Zoom Communications, Inc.** | $97.59 | 🟢 +3.61% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `SNOW` | **Snowflake Inc.** | $315.35 | 🟡 +2.77% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
+| **7** | `DOCU` | **DocuSign, Inc.** | $76.66 | 🟡 +2.69% | ⚪ NEUTRAL | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `XBI` | **State Street SPDR S&P Biotech E** | $147.86 | 🟡 +2.45% | ⚪ NEUTRAL | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `RBLX` | **Roblox Corporation** | $50.75 | 🟡 +2.42% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
+| **10** | `PATH` | **UiPath, Inc.** | $13.12 | 🟡 +2.1% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 4 | 5 | ⚠️ WATCH |
 
 ---
 
@@ -124,5 +109,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 06:39 HK Time on 2026-10-20
+🕐 Report generated at 09:14 HK Time on 2026-10-20
 
