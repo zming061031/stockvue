@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-20 | ⏰ 20:07 HK Time**
+**📅 2026-10-21 | ⏰ 01:32 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | BEARISH 🔴 | HSI Trend |
-| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -19,10 +19,10 @@
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `2728.HK` | **JINTAI ENGY-NEW** | HK$0.39 | 🟢 +8.33% | ⚪ N/A | 🔴 20 | **75%** | **80%** | — | 1 | 0 | ⚠️ WATCH |
-| **2** | `2382.HK` | **SUNNY OPTICAL** | HK$60.30 | 🟢 +4.51% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
-| **3** | `6993.HK` | **BLUE MOON GROUP** | HK$2.59 | 🟢 +4.23% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **4** | `6618.HK` | **JD HEALTH** | HK$39.80 | 🟢 +3.22% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 4 | 2 | ✅ BUY |
-| **5** | `3759.HK` | **PHARMARON** | HK$27.12 | 🟡 +2.73% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 3 | 4 | ✅ BUY |
+| **2** | `2382.HK` | **SUNNY OPTICAL** | HK$60.30 | 🟢 +4.51% | ⚪ NEUTRAL | 🟢 80 | **65%** | **70%** | ✅ BEARISH | 2 | 6 | ✅ BUY |
+| **3** | `6993.HK` | **BLUE MOON GROUP** | HK$2.59 | 🟢 +4.23% | ⚪ NEUTRAL | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
+| **4** | `6618.HK` | **JD HEALTH** | HK$39.80 | 🟢 +3.22% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 4 | 2 | ⚠️ WATCH |
+| **5** | `3759.HK` | **PHARMARON** | HK$27.12 | 🟡 +2.73% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 3 | 4 | ⚠️ WATCH |
 
 ---
 
@@ -30,16 +30,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `DDOG` | **Datadog, Inc.** | $260.36 | 🟢 +5.36% | 🔵 DISCOUNT | 🟢 95 | **75%** | **80%** | — | 4 | 6 | ✅ BUY |
-| **2** | `AMZN` | **Amazon.com, Inc.** | $262.45 | 🟢 +4.98% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 7 | 6 | ✅ BUY |
-| **3** | `PLTR` | **Palantir Technologies Inc.** | $194.15 | 🟢 +4.36% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 3 | 3 | ✅ BUY |
-| **4** | `TSLA` | **Tesla, Inc.** | $368.06 | 🟢 +3.76% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 5 | 5 | ✅ BUY |
-| **5** | `ZM` | **Zoom Communications, Inc.** | $97.59 | 🟢 +3.61% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `SNOW` | **Snowflake Inc.** | $315.35 | 🟡 +2.77% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 4 | ✅ BUY |
-| **7** | `DOCU` | **DocuSign, Inc.** | $76.66 | 🟡 +2.69% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `XBI` | **State Street SPDR S&P Biotech E** | $147.86 | 🟡 +2.45% | 🔵 DISCOUNT | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
-| **9** | `RBLX` | **Roblox Corporation** | $50.75 | 🟡 +2.42% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
-| **10** | `PATH` | **UiPath, Inc.** | $13.12 | 🟡 +2.1% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
+| **1** | `DOCU` | **DocuSign, Inc.** | $80.19 | 🟢 +4.6% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `LLY` | **Eli Lilly and Company** | $1295.18 | 🟢 +4.42% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 4 | 3 | ✅ BUY |
+| **3** | `XBI` | **State Street SPDR S&P Biotech E** | $153.25 | 🟢 +3.64% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `UNH` | **UnitedHealth Group Incorporated** | $421.18 | 🟢 +3.51% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 4 | 6 | ✅ BUY |
+| **5** | `SOFI` | **SoFi Technologies, Inc.** | $14.79 | 🟢 +3.43% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 6 | 4 | ✅ BUY |
+| **6** | `RBLX` | **Roblox Corporation** | $52.34 | 🟢 +3.13% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `MRK` | **Merck & Company, Inc.** | $147.91 | 🟡 +2.98% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 3 | 4 | ✅ BUY |
+| **8** | `PATH` | **UiPath, Inc.** | $13.51 | 🟡 +2.93% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **9** | `IBB` | **iShares Biotechnology ETF** | $209.95 | 🟡 +2.89% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `ABBV` | **AbbVie Inc.** | $289.99 | 🟡 +2.59% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 3 | ✅ BUY |
 
 ---
 
@@ -103,10 +103,10 @@
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | 🇭🇰 | `2728.HK` | HK$0.39 | HK$0.39 | HK$0.40 | HK$0.40 | ⚪ NEUTRAL | 🔴 20 |
-| **2** | 🇭🇰 | `2382.HK` | HK$60.30 | HK$59.70 | HK$61.51 | HK$62.11 | 🔵 DISCOUNT | 🟢 100 |
-| **3** | 🇭🇰 | `6993.HK` | HK$2.59 | HK$2.56 | HK$2.64 | HK$2.67 | 🔵 DISCOUNT | 🟢 100 |
-| **4** | 🇭🇰 | `6618.HK` | HK$39.80 | HK$39.40 | HK$40.60 | HK$40.99 | 🔴 PREMIUM | 🟢 90 |
-| **5** | 🇭🇰 | `3759.HK` | HK$27.12 | HK$26.85 | HK$27.66 | HK$27.93 | 🔵 DISCOUNT | 🟢 90 |
+| **2** | 🇭🇰 | `2382.HK` | HK$60.30 | HK$59.70 | HK$61.51 | HK$62.11 | ⚪ NEUTRAL | 🟢 80 |
+| **3** | 🇭🇰 | `6993.HK` | HK$2.59 | HK$2.56 | HK$2.64 | HK$2.67 | ⚪ NEUTRAL | 🟢 65 |
+| **4** | 🇭🇰 | `6618.HK` | HK$39.80 | HK$39.40 | HK$40.60 | HK$40.99 | ⚪ NEUTRAL | 🟡 55 |
+| **5** | 🇭🇰 | `3759.HK` | HK$27.12 | HK$26.85 | HK$27.66 | HK$27.93 | ⚪ NEUTRAL | 🟡 40 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -119,5 +119,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 20:07 HK Time on 2026-10-20
+🕐 Report generated at 01:32 HK Time on 2026-10-21
 
