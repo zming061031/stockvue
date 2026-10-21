@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-22 | ⏰ 03:36 HK Time**
+**📅 2026-10-22 | ⏰ 06:44 HK Time**
 
 ---
 
@@ -31,16 +31,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `SMCI` | **Super Micro Computer, Inc.** | $35.59 | 🟢 +9.59% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 3 | 8 | ✅ BUY |
-| **2** | `DDOG` | **Datadog, Inc.** | $273.32 | 🟢 +6.59% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
-| **3** | `NET` | **Cloudflare, Inc.** | $308.83 | 🟢 +5.88% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **4** | `CRWD` | **CrowdStrike Holdings, Inc.** | $239.88 | 🟢 +5.5% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **5** | `PLTR` | **Palantir Technologies Inc.** | $201.38 | 🟢 +4.56% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 2 | ✅ BUY |
-| **6** | `COIN` | **Coinbase Global, Inc.** | $177.88 | 🟢 +4.11% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 6 | 9 | ✅ BUY |
-| **7** | `AMD` | **Advanced Micro Devices, Inc.** | $555.92 | 🟢 +3.96% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
-| **8** | `HOOD` | **Robinhood Markets, Inc.** | $102.00 | 🟢 +3.86% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 9 | ✅ BUY |
-| **9** | `TSLA` | **Tesla, Inc.** | $386.51 | 🟢 +3.43% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
-| **10** | `U` | **Unity Software Inc.** | $41.32 | 🟡 +2.89% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 7 | ✅ BUY |
+| **1** | `SMCI` | **Super Micro Computer, Inc.** | $35.57 | 🟢 +9.55% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 3 | 8 | ✅ BUY |
+| **2** | `DDOG` | **Datadog, Inc.** | $273.09 | 🟢 +6.5% | 🔴 PREMIUM | 🟢 85 | **75%** | **80%** | — | 5 | 7 | ✅ BUY |
+| **3** | `NET` | **Cloudflare, Inc.** | $307.22 | 🟢 +5.32% | 🔵 DISCOUNT | 🟢 75 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **4** | `CRWD` | **CrowdStrike Holdings, Inc.** | $239.34 | 🟢 +5.26% | 🔵 DISCOUNT | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **5** | `PLTR` | **Palantir Technologies Inc.** | $201.72 | 🟢 +4.74% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 2 | ✅ BUY |
+| **6** | `HOOD` | **Robinhood Markets, Inc.** | $101.93 | 🟢 +3.79% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 9 | ✅ BUY |
+| **7** | `COIN` | **Coinbase Global, Inc.** | $177.08 | 🟢 +3.65% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 6 | 9 | ✅ BUY |
+| **8** | `TSLA` | **Tesla, Inc.** | $386.47 | 🟢 +3.41% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 6 | 5 | ✅ BUY |
+| **9** | `AMD` | **Advanced Micro Devices, Inc.** | $552.72 | 🟢 +3.36% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
+| **10** | `U` | **Unity Software Inc.** | $41.21 | 🟡 +2.61% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 6 | ✅ BUY |
 
 ---
 
@@ -120,5 +120,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 03:36 HK Time on 2026-10-22
+🕐 Report generated at 06:44 HK Time on 2026-10-22
 
