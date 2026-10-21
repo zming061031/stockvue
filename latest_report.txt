@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-21 | ⏰ 04:52 HK Time**
+**📅 2026-10-21 | ⏰ 08:08 HK Time**
 
 ---
 
@@ -30,16 +30,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `DOCU` | **DocuSign, Inc.** | $80.28 | 🟢 +4.72% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **2** | `XBI` | **State Street SPDR S&P Biotech E** | $153.24 | 🟢 +3.64% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **3** | `LLY` | **Eli Lilly and Company** | $1283.66 | 🟢 +3.49% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 4 | 3 | ✅ BUY |
-| **4** | `MRK` | **Merck & Company, Inc.** | $148.30 | 🟢 +3.25% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 3 | 5 | ✅ BUY |
-| **5** | `IBB` | **iShares Biotechnology ETF** | $210.50 | 🟢 +3.16% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **6** | `RBLX` | **Roblox Corporation** | $52.35 | 🟢 +3.15% | 🔴 PREMIUM | 🟡 45 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **7** | `UNH` | **UnitedHealth Group Incorporated** | $419.26 | 🟢 +3.04% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 4 | 6 | ✅ BUY |
-| **8** | `SOFI` | **SoFi Technologies, Inc.** | $14.68 | 🟡 +2.66% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 6 | 4 | ✅ BUY |
-| **9** | `ETSY` | **Etsy, Inc.** | $87.41 | 🟡 +2.52% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **10** | `PATH` | **UiPath, Inc.** | $13.43 | 🟡 +2.36% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 4 | 5 | ✅ BUY |
+| **1** | `DOCU` | **DocuSign, Inc.** | $80.28 | 🟢 +4.72% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `XBI` | **State Street SPDR S&P Biotech E** | $153.24 | 🟢 +3.64% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `LLY` | **Eli Lilly and Company** | $1283.66 | 🟢 +3.49% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 5 | 2 | ⚠️ WATCH |
+| **4** | `MRK` | **Merck & Company, Inc.** | $148.30 | 🟢 +3.25% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 3 | 4 | ⚠️ WATCH |
+| **5** | `IBB` | **iShares Biotechnology ETF** | $210.50 | 🟢 +3.16% | ⚪ NEUTRAL | 🔴 15 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `RBLX` | **Roblox Corporation** | $52.35 | 🟢 +3.15% | ⚪ NEUTRAL | 🔴 0 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
+| **7** | `UNH` | **UnitedHealth Group Incorporated** | $419.26 | 🟢 +3.04% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 5 | 5 | ⚠️ WATCH |
+| **8** | `SOFI` | **SoFi Technologies, Inc.** | $14.68 | 🟡 +2.66% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 6 | 4 | ⚠️ WATCH |
+| **9** | `ETSY` | **Etsy, Inc.** | $87.41 | 🟡 +2.52% | ⚪ NEUTRAL | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **10** | `PATH` | **UiPath, Inc.** | $13.43 | 🟡 +2.36% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 4 | 5 | ⚠️ WATCH |
 
 ---
 
@@ -119,5 +119,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 04:52 HK Time on 2026-10-21
+🕐 Report generated at 08:08 HK Time on 2026-10-21
 
