@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-23 | ⏰ 21:50 HK Time**
+**📅 2026-10-24 | ⏰ 06:38 HK Time**
 
 ---
 
@@ -19,7 +19,7 @@
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `0668.HK` | **ANKER** | HK$108.00 | 🟢 +9.09% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `2728.HK` | **JINTAI ENERGY H** | HK$0.42 | 🟢 +7.69% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `2728.HK` | **JINTAI ENERGY H** | HK$0.42 | 🟢 +7.69% | 🔵 DISCOUNT | 🟢 75 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
 | **3** | `2600.HK` | **CHALCO** | HK$7.14 | 🟢 +6.97% | 🔵 DISCOUNT | 🟢 75 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
 | **4** | `1797.HK` | **EAST BUY** | HK$29.04 | 🟢 +5.52% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **5** | `6038.HK` | **G & M HLDGS** | HK$0.40 | 🟢 +5.33% | 🔵 DISCOUNT | 🟢 75 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
@@ -33,7 +33,14 @@
 
 ## 🇺🇸 US Market
 
-*No US stocks met our screening criteria today.*
+| | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
+|:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | `CRWD` | **CrowdStrike Holdings, Inc.** | $257.57 | 🟢 +8.25% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
+| **2** | `NET` | **Cloudflare, Inc.** | $325.73 | 🟢 +7.29% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
+| **3** | `DDOG` | **Datadog, Inc.** | $269.65 | 🟢 +4.62% | 🔴 PREMIUM | 🟢 70 | **65%** | **70%** | — | 5 | 7 | ✅ BUY |
+| **4** | `SNOW` | **Snowflake Inc.** | $325.43 | 🟢 +3.65% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **5** | `CVX` | **Chevron Corporation** | $233.21 | 🟡 +2.88% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
+| **6** | `XLE` | **State Street Energy Select Sect** | $69.33 | 🟡 +2.6% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 4 | 3 | ✅ BUY |
 
 ---
 
@@ -97,7 +104,7 @@
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | 🇭🇰 | `0668.HK` | HK$108.00 | HK$106.92 | HK$110.16 | HK$111.24 | ⚪ NEUTRAL | 🔴 0 |
-| **2** | 🇭🇰 | `2728.HK` | HK$0.42 | HK$0.42 | HK$0.43 | HK$0.43 | ⚪ NEUTRAL | 🔴 0 |
+| **2** | 🇭🇰 | `2728.HK` | HK$0.42 | HK$0.42 | HK$0.43 | HK$0.43 | 🔵 DISCOUNT | 🟢 75 |
 | **3** | 🇭🇰 | `2600.HK` | HK$7.14 | HK$7.07 | HK$7.28 | HK$7.35 | 🔵 DISCOUNT | 🟢 75 |
 | **4** | 🇭🇰 | `1797.HK` | HK$29.04 | HK$28.75 | HK$29.62 | HK$29.91 | 🔴 PREMIUM | 🟡 45 |
 | **5** | 🇭🇰 | `6038.HK` | HK$0.40 | HK$0.39 | HK$0.40 | HK$0.41 | 🔵 DISCOUNT | 🟢 75 |
@@ -113,5 +120,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 21:50 HK Time on 2026-10-23
+🕐 Report generated at 06:38 HK Time on 2026-10-24
 
