@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-23 | ⏰ 15:57 HK Time**
+**📅 2026-10-23 | ⏰ 21:50 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | NEUTRAL 🟡 | HSI Trend |
-| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | BULLISH 🟢 | SH/SZ Trend |
 
 ---
@@ -18,33 +18,22 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `0668.HK` | **ANKER** | HK$107.20 | 🟢 +8.28% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **1** | `0668.HK` | **ANKER** | HK$108.00 | 🟢 +9.09% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **2** | `2728.HK` | **JINTAI ENERGY H** | HK$0.42 | 🟢 +7.69% | ⚪ N/A | 🔴 0 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **3** | `2600.HK` | **CHALCO** | HK$7.16 | 🟢 +7.19% | 🔵 DISCOUNT | 🟢 75 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **4** | `1797.HK` | **EAST BUY** | HK$29.08 | 🟢 +5.67% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `2600.HK` | **CHALCO** | HK$7.14 | 🟢 +6.97% | 🔵 DISCOUNT | 🟢 75 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **4** | `1797.HK` | **EAST BUY** | HK$29.04 | 🟢 +5.52% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
 | **5** | `6038.HK` | **G & M HLDGS** | HK$0.40 | 🟢 +5.33% | 🔵 DISCOUNT | 🟢 75 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
-| **6** | `9868.HK` | **XPENG-W** | HK$37.08 | 🟢 +4.98% | 🔵 DISCOUNT | 🟢 75 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **7** | `2382.HK` | **SUNNY OPTICAL** | HK$62.90 | 🟢 +4.57% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
-| **8** | `1810.HK` | **XIAOMI-W** | HK$26.88 | 🟢 +4.19% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 7 | ✅ BUY |
-| **9** | `9866.HK` | **NIO-SW** | HK$26.32 | 🟢 +4.11% | 🔵 DISCOUNT | 🟢 65 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **10** | `3759.HK` | **PHARMARON** | HK$27.02 | 🟢 +3.68% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **6** | `9868.HK` | **XPENG-W** | HK$37.12 | 🟢 +5.1% | 🔵 DISCOUNT | 🟢 75 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **7** | `2382.HK` | **SUNNY OPTICAL** | HK$63.15 | 🟢 +4.99% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 3 | 7 | ✅ BUY |
+| **8** | `9866.HK` | **NIO-SW** | HK$26.32 | 🟢 +4.11% | 🔵 DISCOUNT | 🟢 65 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
+| **9** | `1810.HK` | **XIAOMI-W** | HK$26.80 | 🟢 +3.88% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 7 | ✅ BUY |
+| **10** | `6969.HK` | **SMOORE INTL** | HK$8.37 | 🟢 +3.78% | 🔵 DISCOUNT | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
 
 ---
 
 ## 🇺🇸 US Market
 
-| | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
-|:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `PG` | **Procter & Gamble Company (The)** | $165.59 | 🟢 +5.58% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **2** | `HD` | **Home Depot, Inc. (The)** | $327.73 | 🟢 +4.33% | 🔴 PREMIUM | 🟢 90 | **65%** | **70%** | — | 3 | 5 | ✅ BUY |
-| **3** | `ETSY` | **Etsy, Inc.** | $90.82 | 🟢 +4.12% | 🔴 PREMIUM | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **4** | `JNJ` | **Johnson & Johnson** | $267.61 | 🟢 +3.81% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
-| **5** | `DOCU` | **DocuSign, Inc.** | $84.41 | 🟢 +3.6% | 🔴 PREMIUM | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `NFLX` | **Netflix, Inc.** | $67.05 | 🟢 +3.09% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 7 | 6 | ✅ BUY |
-| **7** | `PEP` | **Pepsico, Inc.** | $138.83 | 🟢 +3.07% | 🔴 PREMIUM | 🟢 75 | **65%** | **70%** | — | 3 | 6 | ✅ BUY |
-| **8** | `KO` | **Coca-Cola Company (The)** | $95.34 | 🟡 +2.87% | 🔴 PREMIUM | 🟢 75 | **55%** | **60%** | — | 3 | 8 | ✅ BUY |
-| **9** | `LLY` | **Eli Lilly and Company** | $1306.69 | 🟡 +2.83% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 4 | 3 | ✅ BUY |
-| **10** | `RBLX` | **Roblox Corporation** | $53.96 | 🟡 +2.68% | 🔴 PREMIUM | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+*No US stocks met our screening criteria today.*
 
 ---
 
@@ -107,10 +96,10 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `0668.HK` | HK$107.20 | HK$106.13 | HK$109.34 | HK$110.42 | ⚪ NEUTRAL | 🔴 0 |
+| **1** | 🇭🇰 | `0668.HK` | HK$108.00 | HK$106.92 | HK$110.16 | HK$111.24 | ⚪ NEUTRAL | 🔴 0 |
 | **2** | 🇭🇰 | `2728.HK` | HK$0.42 | HK$0.42 | HK$0.43 | HK$0.43 | ⚪ NEUTRAL | 🔴 0 |
-| **3** | 🇭🇰 | `2600.HK` | HK$7.16 | HK$7.08 | HK$7.30 | HK$7.37 | 🔵 DISCOUNT | 🟢 75 |
-| **4** | 🇭🇰 | `1797.HK` | HK$29.08 | HK$28.79 | HK$29.66 | HK$29.95 | 🔴 PREMIUM | 🟡 45 |
+| **3** | 🇭🇰 | `2600.HK` | HK$7.14 | HK$7.07 | HK$7.28 | HK$7.35 | 🔵 DISCOUNT | 🟢 75 |
+| **4** | 🇭🇰 | `1797.HK` | HK$29.04 | HK$28.75 | HK$29.62 | HK$29.91 | 🔴 PREMIUM | 🟡 45 |
 | **5** | 🇭🇰 | `6038.HK` | HK$0.40 | HK$0.39 | HK$0.40 | HK$0.41 | 🔵 DISCOUNT | 🟢 75 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
@@ -124,5 +113,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 15:57 HK Time on 2026-10-23
+🕐 Report generated at 21:50 HK Time on 2026-10-23
 
