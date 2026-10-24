@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-24 | ⏰ 09:03 HK Time**
+**📅 2026-10-24 | ⏰ 14:28 HK Time**
 
 ---
 
@@ -35,12 +35,12 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `CRWD` | **CrowdStrike Holdings, Inc.** | $257.57 | 🟢 +8.25% | ⚪ NEUTRAL | 🟢 80 | **75%** | **80%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
-| **2** | `NET` | **Cloudflare, Inc.** | $325.73 | 🟢 +7.29% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 4 | 7 | ⚠️ WATCH |
-| **3** | `DDOG` | **Datadog, Inc.** | $269.65 | 🟢 +4.62% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 5 | 7 | ⚠️ WATCH |
-| **4** | `SNOW` | **Snowflake Inc.** | $325.43 | 🟢 +3.65% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 4 | 4 | ⚠️ WATCH |
-| **5** | `CVX` | **Chevron Corporation** | $233.21 | 🟡 +2.88% | ⚪ NEUTRAL | 🟢 80 | **55%** | **60%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
-| **6** | `XLE` | **State Street Energy Select Sect** | $69.33 | 🟡 +2.6% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 4 | 2 | ⚠️ WATCH |
+| **1** | `CRWD` | **CrowdStrike Holdings, Inc.** | $257.57 | 🟢 +8.25% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 4 | ✅ BUY |
+| **2** | `NET` | **Cloudflare, Inc.** | $325.73 | 🟢 +7.29% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 7 | ✅ BUY |
+| **3** | `DDOG` | **Datadog, Inc.** | $269.65 | 🟢 +4.62% | 🔴 PREMIUM | 🟢 70 | **65%** | **70%** | — | 5 | 7 | ✅ BUY |
+| **4** | `SNOW` | **Snowflake Inc.** | $325.43 | 🟢 +3.65% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | — | 4 | 4 | ✅ BUY |
+| **5** | `CVX` | **Chevron Corporation** | $233.21 | 🟡 +2.88% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 2 | ✅ BUY |
+| **6** | `XLE` | **State Street Energy Select Sect** | $69.33 | 🟡 +2.6% | 🔴 PREMIUM | 🟢 90 | **55%** | **60%** | — | 4 | 3 | ✅ BUY |
 
 ---
 
@@ -120,5 +120,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 09:03 HK Time on 2026-10-24
+🕐 Report generated at 14:28 HK Time on 2026-10-24
 
