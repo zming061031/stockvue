@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-27 | ⏰ 04:09 HK Time**
+**📅 2026-10-27 | ⏰ 08:06 HK Time**
 
 ---
 
@@ -32,15 +32,15 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `TSLA` | **Tesla, Inc.** | $391.62 | 🟢 +5.21% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 5 | 6 | ✅ BUY |
-| **2** | `DDOG` | **Datadog, Inc.** | $280.24 | 🟢 +3.93% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 5 | 8 | ✅ BUY |
-| **3** | `SNOW` | **Snowflake Inc.** | $334.93 | 🟡 +2.92% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 4 | 3 | ✅ BUY |
-| **4** | `AMD` | **Advanced Micro Devices, Inc.** | $531.28 | 🟡 +2.8% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 7 | ✅ BUY |
-| **5** | `RBLX` | **Roblox Corporation** | $54.37 | 🟡 +2.8% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `NVDA` | **NVIDIA Corporation** | $216.00 | 🟡 +2.39% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 4 | 4 | ✅ BUY |
-| **7** | `ZM` | **Zoom Communications, Inc.** | $98.04 | 🟡 +2.37% | 🔴 PREMIUM | 🟡 45 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
-| **8** | `AVGO` | **Broadcom Inc.** | $329.17 | 🟡 +2.33% | 🔵 DISCOUNT | 🟢 90 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
-| **9** | `GS` | **Goldman Sachs Group, Inc. (The)** | $893.23 | 🟡 +2.0% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 3 | 3 | ✅ BUY |
+| **1** | `TSLA` | **Tesla, Inc.** | $391.62 | 🟢 +5.21% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 5 | 5 | ⚠️ WATCH |
+| **2** | `DDOG` | **Datadog, Inc.** | $280.24 | 🟢 +3.93% | ⚪ NEUTRAL | 🟡 40 | **65%** | **70%** | — | 5 | 7 | ⚠️ WATCH |
+| **3** | `SNOW` | **Snowflake Inc.** | $334.95 | 🟡 +2.93% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 4 | 3 | ⚠️ WATCH |
+| **4** | `AMD` | **Advanced Micro Devices, Inc.** | $531.28 | 🟡 +2.8% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 3 | 7 | ⚠️ WATCH |
+| **5** | `RBLX` | **Roblox Corporation** | $54.37 | 🟡 +2.8% | ⚪ NEUTRAL | 🔴 15 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `NVDA` | **NVIDIA Corporation** | $216.00 | 🟡 +2.39% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 4 | 4 | ⚠️ WATCH |
+| **7** | `ZM` | **Zoom Communications, Inc.** | $98.04 | 🟡 +2.37% | ⚪ NEUTRAL | 🔴 0 | **55%** | **60%** | — | 0 | 0 | ⚠️ WATCH |
+| **8** | `AVGO` | **Broadcom Inc.** | $329.17 | 🟡 +2.33% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 5 | 7 | ⚠️ WATCH |
+| **9** | `GS` | **Goldman Sachs Group, Inc. (The)** | $893.28 | 🟡 +2.01% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 3 | 3 | ⚠️ WATCH |
 
 ---
 
@@ -120,5 +120,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 04:09 HK Time on 2026-10-27
+🕐 Report generated at 08:06 HK Time on 2026-10-27
 
