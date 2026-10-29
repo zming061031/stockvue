@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-10-29 | ⏰ 03:53 HK Time**
+**📅 2026-10-29 | ⏰ 08:24 HK Time**
 
 ---
 
@@ -30,11 +30,12 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `ETSY` | **Etsy, Inc.** | $93.72 | 🟢 +6.91% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 3 | 3 | ✅ BUY |
-| **2** | `SOFI` | **SoFi Technologies, Inc.** | $17.05 | 🟢 +3.99% | 🔴 PREMIUM | 🟢 85 | **65%** | **70%** | — | 5 | 5 | ✅ BUY |
-| **3** | `AMD` | **Advanced Micro Devices, Inc.** | $578.17 | 🟢 +3.2% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 7 | ✅ BUY |
-| **4** | `AVGO` | **Broadcom Inc.** | $351.57 | 🟡 +2.7% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 7 | ✅ BUY |
-| **5** | `ZM` | **Zoom Communications, Inc.** | $99.95 | 🟡 +2.62% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 3 | ✅ BUY |
+| **1** | `ETSY` | **Etsy, Inc.** | $92.35 | 🟢 +5.35% | ⚪ NEUTRAL | 🟡 55 | **75%** | **80%** | — | 3 | 3 | ⚠️ WATCH |
+| **2** | `SOFI` | **SoFi Technologies, Inc.** | $17.14 | 🟢 +4.51% | ⚪ NEUTRAL | 🟡 55 | **65%** | **70%** | — | 5 | 5 | ⚠️ WATCH |
+| **3** | `AMD` | **Advanced Micro Devices, Inc.** | $578.44 | 🟢 +3.24% | ⚪ NEUTRAL | 🟢 65 | **65%** | **70%** | ✅ BEARISH | 4 | 7 | ✅ BUY |
+| **4** | `ZM` | **Zoom Communications, Inc.** | $100.26 | 🟡 +2.94% | ⚪ NEUTRAL | 🟡 40 | **55%** | **60%** | — | 5 | 3 | ⚠️ WATCH |
+| **5** | `AVGO` | **Broadcom Inc.** | $351.81 | 🟡 +2.77% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 5 | 7 | ⚠️ WATCH |
+| **6** | `SMCI` | **Super Micro Computer, Inc.** | $35.81 | 🟡 +2.05% | ⚪ NEUTRAL | 🟢 65 | **55%** | **60%** | ✅ BEARISH | 4 | 9 | ✅ BUY |
 
 ---
 
@@ -114,5 +115,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 03:53 HK Time on 2026-10-29
+🕐 Report generated at 08:24 HK Time on 2026-10-29
 
