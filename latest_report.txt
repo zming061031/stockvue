@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-11-04 | ⏰ 19:33 HK Time**
+**📅 2026-11-05 | ⏰ 08:33 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | BULLISH 🟢 | HSI Trend |
-| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
+| 🇺🇸 US Markets | BULLISH 🟢 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | BULLISH 🟢 | SH/SZ Trend |
 
 ---
@@ -35,16 +35,16 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `RBLX` | **Roblox Corporation** | $45.45 | 🟢 +5.99% | 🔵 DISCOUNT | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
-| **2** | `COIN` | **Coinbase Global, Inc.** | $145.45 | 🟢 +5.53% | 🔵 DISCOUNT | 🟢 90 | **75%** | **80%** | — | 6 | 7 | ✅ BUY |
-| **3** | `U` | **Unity Software Inc.** | $40.48 | 🟢 +4.14% | 🔵 DISCOUNT | 🟢 65 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **4** | `AMD` | **Advanced Micro Devices, Inc.** | $483.90 | 🟢 +3.65% | 🔵 DISCOUNT | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **5** | `NET` | **Cloudflare, Inc.** | $273.62 | 🟢 +3.19% | 🔵 DISCOUNT | 🟡 50 | **65%** | **70%** | — | 0 | 0 | ⚠️ WATCH |
-| **6** | `SMCI` | **Super Micro Computer, Inc.** | $31.39 | 🟢 +3.12% | 🔵 DISCOUNT | 🟢 65 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
-| **7** | `AVGO` | **Broadcom Inc.** | $332.13 | 🟢 +3.07% | 🔵 DISCOUNT | 🟢 90 | **65%** | **70%** | — | 6 | 6 | ✅ BUY |
-| **8** | `MSFT` | **Microsoft Corporation** | $520.99 | 🟡 +2.74% | 🔵 DISCOUNT | 🟢 80 | **55%** | **60%** | — | 5 | 8 | ✅ BUY |
-| **9** | `META` | **Meta Platforms, Inc.** | $621.03 | 🟡 +2.36% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 2 | 6 | ✅ BUY |
-| **10** | `JD` | **JD.com, Inc.** | $26.91 | 🟡 +2.32% | 🔴 PREMIUM | 🟢 60 | **55%** | **60%** | — | 0 | 0 | ✅ BUY |
+| **1** | `RBLX` | **Roblox Corporation** | $49.31 | 🟢 +8.49% | 🔴 PREMIUM | 🔴 30 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **2** | `SHOP` | **Shopify Inc.** | $153.03 | 🟢 +7.34% | 🔵 DISCOUNT | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **3** | `ETSY` | **Etsy, Inc.** | $96.24 | 🟢 +7.1% | 🔴 PREMIUM | 🟡 45 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **4** | `MSFT` | **Microsoft Corporation** | $555.80 | 🟢 +6.68% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 6 | 9 | ✅ BUY |
+| **5** | `HD` | **Home Depot, Inc. (The)** | $355.44 | 🟢 +6.53% | 🔴 PREMIUM | 🟡 50 | **75%** | **80%** | — | 0 | 0 | ⚠️ WATCH |
+| **6** | `AMZN` | **Amazon.com, Inc.** | $266.03 | 🟢 +6.12% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 7 | 7 | ✅ BUY |
+| **7** | `ABNB` | **Airbnb, Inc.** | $176.37 | 🟢 +5.64% | 🔴 PREMIUM | 🟢 60 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **8** | `AAPL` | **Apple Inc.** | $349.51 | 🟢 +5.31% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 5 | 3 | ✅ BUY |
+| **9** | `BILI` | **Bilibili Inc.** | $13.88 | 🟢 +5.23% | 🔵 DISCOUNT | 🟢 90 | **75%** | **80%** | — | 0 | 0 | ✅ BUY |
+| **10** | `BABA` | **Alibaba Group Holding Limited** | $105.29 | 🟢 +4.91% | 🔴 PREMIUM | 🟢 60 | **65%** | **70%** | — | 0 | 0 | ✅ BUY |
 
 ---
 
@@ -124,5 +124,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 19:33 HK Time on 2026-11-04
+🕐 Report generated at 08:33 HK Time on 2026-11-05
 
