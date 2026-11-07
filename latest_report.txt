@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-11-07 | ⏰ 07:39 HK Time**
+**📅 2026-11-07 | ⏰ 11:24 HK Time**
 
 ---
 
@@ -38,7 +38,7 @@
 | **1** | `COHR` | **Coherent Corp** | $192.81 | 🟢 +13.58% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 3 | 9 | ✅ BUY |
 | **2** | `AMD` | **超威半导体** | $449.04 | 🟢 +11.04% | 🔵 DISCOUNT | 🟢 90 | **75%** | **80%** | — | 5 | 6 | ✅ BUY |
 | **3** | `NET` | **Cloudflare Inc-A** | $268.75 | 🟢 +9.91% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 3 | 6 | ✅ BUY |
-| **4** | `APP` | **Applovin Corp-A** | $391.22 | 🟢 +9.86% | 🔴 PREMIUM | 🟢 75 | **75%** | **80%** | — | 5 | 4 | ✅ BUY |
+| **4** | `APP` | **Applovin Corp-A** | $391.22 | 🟢 +9.86% | 🔴 PREMIUM | 🟢 90 | **75%** | **80%** | — | 5 | 4 | ✅ BUY |
 | **5** | `SPCX` | **SpaceX** | $134.27 | 🟢 +8.62% | 🔵 DISCOUNT | 🟢 90 | **75%** | **80%** | — | 4 | 5 | ✅ BUY |
 | **6** | `NBIS` | **Nebius Group NV-A** | $129.49 | 🟢 +7.58% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 2 | 5 | ✅ BUY |
 | **7** | `QCOM` | **高通** | $165.41 | 🟢 +5.52% | 🔵 DISCOUNT | 🟢 100 | **75%** | **80%** | — | 4 | 8 | ✅ BUY |
@@ -164,5 +164,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 07:39 HK Time on 2026-11-07
+🕐 Report generated at 11:24 HK Time on 2026-11-07
 
