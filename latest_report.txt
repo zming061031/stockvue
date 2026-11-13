@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-11-13 | ⏰ 17:58 HK Time**
+**📅 2026-11-14 | ⏰ 02:03 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | BEARISH 🔴 | HSI Trend |
-| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
+| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -18,7 +18,7 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `2382.HK` | **SUNNY OPTICAL** | HK$65.85 | 🟡 +2.41% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 3 | 8 | ✅ BUY |
+| **1** | `2382.HK` | **SUNNY OPTICAL** | HK$65.85 | 🟡 +2.41% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 3 | 8 | ⚠️ WATCH |
 
 ---
 
@@ -26,8 +26,8 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `AMD` | **Advanced Micro Devices, Inc.** | $585.30 | 🟢 +5.86% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 6 | 5 | ✅ BUY |
-| **2** | `AVGO` | **Broadcom Inc.** | $364.36 | 🟢 +5.54% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | — | 6 | 6 | ✅ BUY |
+| **1** | `U` | **Unity Software Inc.** | $51.45 | 🟡 +2.54% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
+| **2** | `ABNB` | **Airbnb, Inc.** | $185.68 | 🟡 +2.51% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
 
 ---
 
@@ -90,9 +90,9 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `2382.HK` | HK$65.85 | HK$65.19 | HK$67.17 | HK$67.83 | 🔴 PREMIUM | 🟢 100 |
-| **2** | 🇺🇸 | `AMD` | $585.30 | $579.45 | $597.01 | $602.86 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇺🇸 | `AVGO` | $364.36 | $360.72 | $371.65 | $375.29 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `2382.HK` | HK$65.85 | HK$65.19 | HK$67.17 | HK$67.83 | ⚪ NEUTRAL | 🟡 55 |
+| **2** | 🇺🇸 | `U` | $51.45 | $50.94 | $52.48 | $53.00 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇺🇸 | `ABNB` | $185.68 | $183.82 | $189.39 | $191.25 | 🔴 PREMIUM | 🟢 100 |
 | **4** | 🇨🇳 | `sh688629` | ¥84.63 | ¥82.94 | ¥88.02 | ¥89.71 | 🔴 PREMIUM | 🟢 100 |
 | **5** | 🇨🇳 | `sh600410` | ¥14.30 | ¥14.01 | ¥14.87 | ¥15.16 | 🔴 PREMIUM | 🟢 100 |
 
@@ -107,5 +107,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 17:58 HK Time on 2026-11-13
+🕐 Report generated at 02:03 HK Time on 2026-11-14
 
