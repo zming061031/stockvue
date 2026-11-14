@@ -1,6 +1,6 @@
 # 📈 StockVue — Daily Market Report
 
-**📅 2026-11-14 | ⏰ 02:03 HK Time**
+**📅 2026-11-14 | ⏰ 07:52 HK Time**
 
 ---
 
@@ -9,7 +9,7 @@
 | Market | Sentiment | Condition |
 |--------|-----------|----------|
 | 🇭🇰 Hong Kong | BEARISH 🔴 | HSI Trend |
-| 🇺🇸 US Markets | BEARISH 🔴 | NASDAQ Trend |
+| 🇺🇸 US Markets | NEUTRAL 🟡 | NASDAQ Trend |
 | 🇨🇳 A-Share (China) | NEUTRAL 🟡 | SH/SZ Trend |
 
 ---
@@ -18,7 +18,7 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `2382.HK` | **SUNNY OPTICAL** | HK$65.85 | 🟡 +2.41% | ⚪ NEUTRAL | 🟡 55 | **55%** | **60%** | — | 3 | 8 | ⚠️ WATCH |
+| **1** | `2382.HK` | **SUNNY OPTICAL** | HK$65.85 | 🟡 +2.41% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | — | 3 | 8 | ✅ BUY |
 
 ---
 
@@ -26,8 +26,11 @@
 
 | | Ticker | Name | Price | Change | Zone | Confluence | 1D Win | 5D Win | MSS | BOS | FVG | Signal |
 |:--- |:--- |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `U` | **Unity Software Inc.** | $51.45 | 🟡 +2.54% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 4 | 5 | ✅ BUY |
-| **2** | `ABNB` | **Airbnb, Inc.** | $185.68 | 🟡 +2.51% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
+| **1** | `U` | **Unity Software Inc.** | $52.81 | 🟢 +5.24% | 🔴 PREMIUM | 🟢 100 | **75%** | **80%** | ✅ BEARISH | 4 | 6 | ✅ BUY |
+| **2** | `ABNB` | **Airbnb, Inc.** | $186.78 | 🟢 +3.12% | 🔴 PREMIUM | 🟢 100 | **65%** | **70%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
+| **3** | `META` | **Meta Platforms, Inc.** | $641.69 | 🟡 +2.9% | 🔵 DISCOUNT | 🟢 100 | **55%** | **60%** | — | 6 | 8 | ✅ BUY |
+| **4** | `PEP` | **Pepsico, Inc.** | $145.44 | 🟡 +2.24% | 🔴 PREMIUM | 🟢 100 | **55%** | **60%** | ✅ BEARISH | 3 | 6 | ✅ BUY |
+| **5** | `ZM` | **Zoom Communications, Inc.** | $99.80 | 🟡 +2.15% | 🔴 PREMIUM | 🟢 85 | **55%** | **60%** | — | 5 | 2 | ✅ BUY |
 
 ---
 
@@ -90,11 +93,11 @@
 
 | # | Market | Ticker | Entry | Stop Loss | TP1 (2:1) | TP2 (3:1) | Zone | Conf |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | 🇭🇰 | `2382.HK` | HK$65.85 | HK$65.19 | HK$67.17 | HK$67.83 | ⚪ NEUTRAL | 🟡 55 |
-| **2** | 🇺🇸 | `U` | $51.45 | $50.94 | $52.48 | $53.00 | 🔴 PREMIUM | 🟢 100 |
-| **3** | 🇺🇸 | `ABNB` | $185.68 | $183.82 | $189.39 | $191.25 | 🔴 PREMIUM | 🟢 100 |
-| **4** | 🇨🇳 | `sh688629` | ¥84.63 | ¥82.94 | ¥88.02 | ¥89.71 | 🔴 PREMIUM | 🟢 100 |
-| **5** | 🇨🇳 | `sh600410` | ¥14.30 | ¥14.01 | ¥14.87 | ¥15.16 | 🔴 PREMIUM | 🟢 100 |
+| **1** | 🇭🇰 | `2382.HK` | HK$65.85 | HK$65.19 | HK$67.17 | HK$67.83 | 🔴 PREMIUM | 🟢 100 |
+| **2** | 🇺🇸 | `U` | $52.81 | $52.28 | $53.87 | $54.39 | 🔴 PREMIUM | 🟢 100 |
+| **3** | 🇺🇸 | `ABNB` | $186.78 | $184.91 | $190.52 | $192.38 | 🔴 PREMIUM | 🟢 100 |
+| **4** | 🇺🇸 | `META` | $641.69 | $635.27 | $654.52 | $660.94 | 🔵 DISCOUNT | 🟢 100 |
+| **5** | 🇺🇸 | `PEP` | $145.44 | $143.99 | $148.35 | $149.80 | 🔴 PREMIUM | 🟢 100 |
 
 *Trade recommendations based on ICT/SMC confluence scoring. Always confirm with your own analysis.*
 
@@ -107,5 +110,5 @@
 ---
 
 📊 **StockVue Daily Analysis** | Generated automatically by algorithm
-🕐 Report generated at 02:03 HK Time on 2026-11-14
+🕐 Report generated at 07:52 HK Time on 2026-11-14
 
